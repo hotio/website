@@ -10,7 +10,6 @@ As you might have guessed, these command are not suited for longterm use. For th
 
 All images can be pulled from Docker Hub with `docker pull hotio/...` and from GitHub Container Registry with `docker pull ghcr.io/hotio/...`.
 
-Images where you see a mention of `ENTRYPOINT` are ment to be used like any other cli app, except that they are containerized.
-
+Images where you see a mention of `ENTRYPOINT` are meant to be used like any other cli app, except that they are containerized.
 
 <sub><sup>Logo made possible by [Freepik](https://www.flaticon.com/authors/freepik) from [flaticon.com](https://www.flaticon.com).</sup></sub>
