@@ -1,9 +1,8 @@
 name: build-pages
 
 on:
-  push:
-    paths:
-    - 'source'
+  schedule:
+    - cron:  '*/5 * * * *'
 
 jobs:
   build:
@@ -26,12 +25,7 @@ jobs:
         done
         IFS=$OLD_IFS
 
-    - name: Build site
-      run: |
-        ./gen-menu.py
-        docker run --rm -v ${PWD}/source:/docs -v ${PWD}/docs:/output squidfunk/mkdocs-material build -c -d /output
-
     - name: Commit and push changes
       uses: stefanzweifel/git-auto-commit-action@v4.5.1
       with:
-        commit_message: Update GH Pages
+        commit_message: Update image pages
