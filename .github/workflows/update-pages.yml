@@ -25,6 +25,7 @@ jobs:
           curl -fsSL https://raw.githubusercontent.com/docker-hotio/${repo}/master/README.md > ${PWD}/source/docs/Images/${repo//docker-/}.md
         done
         IFS=$OLD_IFS
+        python3 ${PWD}/gen-menu.py
 
     - name: Commit and push changes
       uses: stefanzweifel/git-auto-commit-action@v4.5.1
