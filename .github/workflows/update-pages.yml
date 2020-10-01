@@ -1,11 +1,11 @@
-name: build-pages
+name: update-pages
 
 on:
   schedule:
     - cron:  '*/5 * * * *'
 
 jobs:
-  build:
+  update:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
