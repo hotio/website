@@ -9,24 +9,24 @@
         <meta name="description" content="Documentation to get the containers running">
       
       
-        <link rel="canonical" href="https://hotio.dev/">
+        <link rel="canonical" href="https://hotio.dev/Images/radarr/">
       
       
         <meta name="author" content="hotio">
       
-      <link rel="shortcut icon" href="img/favicon.ico">
+      <link rel="shortcut icon" href="../../img/favicon.ico">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.0.1">
     
     
       
-        <title>hotio.dev</title>
+        <title>radarr - hotio.dev</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.38780c08.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.38780c08.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.3f72e892.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.3f72e892.min.css">
         
       
     
@@ -41,7 +41,7 @@
     
     
     
-      <link rel="stylesheet" href="stylesheets/extra.css">
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
     
       
@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#introduction" class="md-skip">
+        <a href="#radarr" class="md-skip">
           Skip to content
         </a>
       
@@ -77,7 +77,7 @@
   <nav class="md-header-nav md-grid" aria-label="Header">
     <a href="https://hotio.dev" title="hotio.dev" class="md-header-nav__button md-logo" aria-label="hotio.dev">
       
-  <img src="img/logo.png" alt="logo">
+  <img src="../../img/logo.png" alt="logo">
 
     </a>
     <label class="md-header-nav__button md-icon" for="__drawer">
@@ -91,7 +91,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              Introduction
+              radarr
             
           </span>
         </div>
@@ -161,7 +161,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href="https://hotio.dev" title="hotio.dev" class="md-nav__button md-logo" aria-label="hotio.dev">
       
-  <img src="img/logo.png" alt="logo">
+  <img src="../../img/logo.png" alt="logo">
 
     </a>
     hotio.dev
@@ -186,20 +186,11 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-    <a href="." title="Introduction" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../.." title="Introduction" class="md-nav__link">
       Introduction
     </a>
-    
   </li>
 
     
@@ -207,10 +198,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
     
     <label class="md-nav__link" for="nav-2">
       Images
@@ -230,7 +223,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Images/hd-idle/" title="hd-idle" class="md-nav__link">
+    <a href="../hd-idle/" title="hd-idle" class="md-nav__link">
       hd-idle
     </a>
   </li>
@@ -240,11 +233,77 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="Images/radarr/" title="radarr" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        radarr
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" title="radarr" class="md-nav__link md-nav__link--active">
       radarr
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#starting-the-container" class="md-nav__link">
+    Starting the container
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tags" class="md-nav__link">
+    Tags
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuration-location" class="md-nav__link">
+    Configuration location
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#executing-your-own-scripts" class="md-nav__link">
+    Executing your own scripts
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#troubleshooting-a-problem" class="md-nav__link">
+    Troubleshooting a problem
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -270,6 +329,49 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#starting-the-container" class="md-nav__link">
+    Starting the container
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tags" class="md-nav__link">
+    Tags
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuration-location" class="md-nav__link">
+    Configuration location
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#executing-your-own-scripts" class="md-nav__link">
+    Executing your own scripts
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#troubleshooting-a-problem" class="md-nav__link">
+    Troubleshooting a problem
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -281,12 +383,68 @@
               
                 
                 
-                <h1 id="introduction">Introduction</h1>
-<p>Here you'll find all the documentation needed to get the containers running. All commands provided include the most basic to get the container running.</p>
-<p>Almost all the commands will start with <code>docker run -rm ...</code>, which is the same as <code>docker create</code>, followed by <code>docker start</code>. The argument <code>--rm</code> will make sure that when we exit the container, it'll get deleted.</p>
-<p>As you might have guessed, these command are not suited for longterm use. For that we suggest to maybe use <code>compose</code> or integrate the commands with <code>systemd</code>.</p>
-<p>All images can be pulled from Docker Hub with <code>docker pull hotio/...</code> and from GitHub Container Registry with <code>docker pull ghcr.io/hotio/...</code>.</p>
-<p>Images where you see a mention of <code>ENTRYPOINT</code> are ment to be used like any other cli app, except that they are containerized.</p>
+                <h1 id="radarr">radarr</h1>
+<p><img src="https://raw.githubusercontent.com/hotio/docker-radarr/master/img/radarr.png" alt="Logo" height="130" width="130"></p>
+<p><img alt="Base" src="https://img.shields.io/badge/base-ubuntu-orange" />
+<img alt="Base" src="https://img.shields.io/badge/base-alpine-blue" />
+<a href="https://github.com/hotio/docker-radarr"><img alt="GitHub" src="https://img.shields.io/badge/source-github-lightgrey" /></a>
+<a href="https://hub.docker.com/r/hotio/radarr"><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/hotio/radarr" /></a>
+<a href="https://github.com/users/hotio/packages/container/radarr/versions"><img alt="GitHub Registry" src="https://img.shields.io/badge/registry-ghcr.io-blue" /></a>
+<a href="https://discord.gg/3SnkuKp"><img alt="Discord" src="https://img.shields.io/discord/610068305893523457?color=738ad6&amp;label=discord&amp;logo=discord&amp;logoColor=white" /></a>
+<a href="https://github.com/Radarr/Radarr"><img alt="Upstream" src="https://img.shields.io/badge/upstream-project-yellow" /></a></p>
+<h2 id="starting-the-container">Starting the container</h2>
+<p>Just the basics to get the container running:</p>
+<pre><code class="shell">docker run --rm --name radarr -p 7878:7878 -v /&lt;host_folder_config&gt;:/config hotio/radarr
+</code></pre>
+
+<p>The environment variables below are all optional, the values you see are the defaults.</p>
+<pre><code class="shell">-e PUID=1000
+-e PGID=1000
+-e UMASK=002
+-e TZ=&quot;Etc/UTC&quot;
+-e ARGS=&quot;&quot;
+-e DEBUG=&quot;no&quot;
+</code></pre>
+
+<h2 id="tags">Tags</h2>
+<table>
+<thead>
+<tr>
+<th>Tag</th>
+<th>Upstream</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>release (latest)</td>
+<td>develop, becomes master</td>
+</tr>
+<tr>
+<td>testing</td>
+<td>develop</td>
+</tr>
+<tr>
+<td>nightly</td>
+<td>nightly</td>
+</tr>
+<tr>
+<td>musl</td>
+<td>nightly, runs on Alpine</td>
+</tr>
+</tbody>
+</table>
+<p>You can also find tags that reference a commit or version number.</p>
+<h2 id="configuration-location">Configuration location</h2>
+<p>Your radarr configuration inside the container is stored in <code>/config/app</code>, to migrate from another container, you'd probably have to move your files from <code>/config</code> to <code>/config/app</code>.</p>
+<h2 id="executing-your-own-scripts">Executing your own scripts</h2>
+<p>If you have a need to do additional stuff when the container starts or stops, you can mount your script with <code>-v /docker/host/my-script.sh:/etc/cont-init.d/99-my-script</code> to execute your script on container start or <code>-v /docker/host/my-script.sh:/etc/cont-finish.d/99-my-script</code> to execute it when the container stops. An example script can be seen below.</p>
+<pre><code class="shell">#!/usr/bin/with-contenv bash
+
+echo &quot;Hello, this is me, your script.&quot;
+</code></pre>
+
+<h2 id="troubleshooting-a-problem">Troubleshooting a problem</h2>
+<p>By default all output is redirected to <code>/dev/null</code>, so you won't see anything from the application when using <code>docker logs</code>. Most applications write everything to a log file too. If you do want to see this output with <code>docker logs</code>, you can use <code>-e DEBUG="yes"</code> to enable this.</p>
                 
               
               
@@ -305,20 +463,20 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-        
-          <a href="Images/hd-idle/" title="hd-idle" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../hd-idle/" title="hd-idle" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
-                  Next
+                  Previous
                 </span>
                 hd-idle
               </div>
             </div>
-            <div class="md-footer-nav__button md-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-            </div>
           </a>
+        
         
       </nav>
     </div>
@@ -365,15 +523,15 @@
       
     </div>
     
-      <script src="assets/javascripts/vendor.77e55a48.min.js"></script>
-      <script src="assets/javascripts/bundle.aa3f9871.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      <script src="../../assets/javascripts/vendor.77e55a48.min.js"></script>
+      <script src="../../assets/javascripts/bundle.aa3f9871.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
       
       <script>
         app = initialize({
-          base: ".",
+          base: "../..",
           features: ['navigation.instant'],
           search: Object.assign({
-            worker: "assets/javascripts/worker/search.4ac00218.min.js"
+            worker: "../../assets/javascripts/worker/search.4ac00218.min.js"
           }, typeof search !== "undefined" && search)
         })
       </script>
