@@ -20,8 +20,9 @@ jobs:
         repos=$(curl -u "${GITHUB_OWNER}:${GITHUB_TOKEN}" -fsSL -H "Accept: application/vnd.github.v3+json" https://api.github.com/orgs/docker-hotio/repos | jq -r '.[].name | select(contains("docker-")) | select(contains("github.io")|not)' | paste -s -d, -)
         OLD_IFS=$IFS
         IFS=,
+        mkdir -p ${PWD}/source/docs/Images
         for repo in ${repos}; do
-          curl -fsSL https://raw.githubusercontent.com/docker-hotio/${repo}/master/README.md > ./source/docs/Images/${repo//docker-/}.md
+          curl -fsSL https://raw.githubusercontent.com/docker-hotio/${repo}/master/README.md > ${PWD}/source/docs/Images/${repo//docker-/}.md
         done
         IFS=$OLD_IFS
 
