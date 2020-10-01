@@ -1,0 +1,37 @@
+name: build-pages
+
+on:
+  push:
+    paths:
+    - 'source'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        token: ${{ secrets.PERSONAL_TOKEN }}
+
+    - name: Fetch README
+      env:
+        GITHUB_OWNER: ${{ github.repository_owner }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        repos=$(curl -u "${GITHUB_OWNER}:${GITHUB_TOKEN}" -fsSL -H "Accept: application/vnd.github.v3+json" https://api.github.com/orgs/docker-hotio/repos | jq -r '.[].name | select(contains("docker-")) | select(contains("github.io")|not)' | paste -s -d, -)
+        OLD_IFS=$IFS
+        IFS=,
+        for repo in ${repos}; do
+          curl -fsSL https://raw.githubusercontent.com/docker-hotio/${repo}/master/README.md > ./source/docs/Images/${repo//docker-/}.md
+        done
+        IFS=$OLD_IFS
+
+    - name: Build site
+      run: |
+        ./gen-menu.py
+        docker run --rm -v ${PWD}/source:/docs -v ${PWD}/docs:/output squidfunk/mkdocs-material build -c -d /output
+
+    - name: Commit and push changes
+      uses: stefanzweifel/git-auto-commit-action@v4.5.1
+      with:
+        commit_message: Update GH Pages
