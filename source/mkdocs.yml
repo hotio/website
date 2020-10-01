@@ -2,8 +2,9 @@ copyright: Copyright &copy; 2020 hotio
 edit_uri: ''
 extra:
   social:
-  - {icon: fontawesome/brands/discord, link: 'https://hotio.dev/discord'}
-  - {icon: fontawesome/brands/github, link: 'https://github.com/docker-hotio'}
+  - {icon: fontawesome/brands/discord, name: Discord, link: 'https://hotio.dev/discord'}
+  - {icon: fontawesome/brands/docker, name: Docker, link: 'https://hub.docker.com/u/hotio'}
+  - {icon: fontawesome/brands/github, name: GitHub, link: 'https://github.com/docker-hotio'}
 extra_css: [stylesheets/extra.css]
 nav:
 - {Introduction: index.md}
