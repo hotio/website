@@ -7,6 +7,9 @@ extra:
 extra_css: [stylesheets/extra.css]
 nav:
 - {Introduction: index.md}
+- Images:
+  - {hd-idle: Images/hd-idle.md}
+  - {radarr: Images/radarr.md}
 plugins:
 - search
 - redirects:
