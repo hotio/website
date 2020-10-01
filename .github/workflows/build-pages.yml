@@ -17,6 +17,7 @@ jobs:
       run: |
         ./gen-menu.py
         docker run --rm -v ${PWD}/source:/docs -v ${PWD}/docs:/output squidfunk/mkdocs-material build -c -d /output
+        touch ${PWD}/docs/.nojekyll
 
     - name: Commit and push changes
       uses: stefanzweifel/git-auto-commit-action@v4.5.1
