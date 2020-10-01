@@ -15,7 +15,7 @@ jobs:
 
     - name: Build site
       run: |
-        ./gen-menu.py
+        python3 ${PWD}/gen-menu.py
         docker run --rm -v ${PWD}/source:/docs -v ${PWD}/docs:/output squidfunk/mkdocs-material build -c -d /output
         touch ${PWD}/docs/.nojekyll
         echo "hotio.dev" > ${PWD}/docs/CNAME
