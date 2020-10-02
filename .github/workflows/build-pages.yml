@@ -4,6 +4,8 @@ on:
   push:
     paths:
     - 'source/**'
+    branches:
+    - master
 
 jobs:
   build:

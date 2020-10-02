@@ -5,6 +5,8 @@ on:
     paths:
     - 'source/docs/containers/**'
     - '.github/workflows/push-readme.yml'
+    branches:
+    - master
 
 jobs:
   push:
