@@ -23,6 +23,7 @@ plugins:
       discord.md: 'https://discord.gg/3SnkuKp'
       docker.md: 'https://hub.docker.com/u/hotio'
       github.md: 'https://github.com/docker-hotio'
+      discord-notification.sh.md: 'https://raw.githubusercontent.com/docker-hotio/.github/master/discord-notification.sh'
 
 repo_name: hotio
 repo_url: https://github.com/docker-hotio
