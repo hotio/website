@@ -42,5 +42,35 @@ theme:
 nav:
 - Home: index.md
 - Containers:
+  - containers/apprise.md
+  - containers/autoscan.md
+  - containers/bazarr.md
+  - containers/borg.md
+  - containers/cloudflare-ddns.md
+  - containers/crop.md
   - containers/hd-idle.md
+  - containers/jackett.md
+  - containers/jellyfin.md
+  - containers/lidarr.md
+  - containers/mergerfs.md
+  - containers/mylar3.md
+  - containers/nzbget.md
+  - containers/nzbhydra2.md
+  - containers/ombi.md
+  - containers/plex.md
+  - containers/plexarr.md
   - containers/radarr.md
+  - containers/rar2fs.md
+  - containers/rclone.md
+  - containers/readarr.md
+  - containers/requestrr.md
+  - containers/restic.md
+  - containers/sabnzbd.md
+  - containers/scrutiny.md
+  - containers/sonarr.md
+  - containers/tautulli.md
+  - containers/trackarr.md
+  - containers/npackerr.md
+- Base Containers:
+  - containers/base.md
+  - containers/mono.md

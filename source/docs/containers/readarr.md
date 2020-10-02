@@ -1,21 +1,23 @@
-# radarr
+# readarr
 
-<img src="https://hotio.dev/img/radarr.png" alt="Logo" height="130" width="130">
+<img src="https://img.shields.io/badge/WARNING-Updates%20require%20a%20fresh%20database%20until%20further%20notice-orange" alt="WARNING"><br>
+<img src="https://img.shields.io/badge/WARNING-There's%20only%20a%20'nightly'%20tag%20for%20the%20moment-orange" alt="WARNING"><br>
+
+<img src="https://hotio.dev/img/readarr.png" alt="Logo" height="130" width="130">
 
 ![Base](https://img.shields.io/badge/base-ubuntu-orange)
-![Base](https://img.shields.io/badge/base-alpine-blue)
-[![GitHub](https://img.shields.io/badge/source-github-lightgrey)](https://github.com/hotio/docker-radarr)
-[![Docker Pulls](https://img.shields.io/docker/pulls/hotio/radarr)](https://hub.docker.com/r/hotio/radarr)
-[![GitHub Registry](https://img.shields.io/badge/registry-ghcr.io-blue)](https://github.com/users/hotio/packages/container/radarr/versions)
+[![GitHub](https://img.shields.io/badge/source-github-lightgrey)](https://github.com/hotio/docker-readarr)
+[![Docker Pulls](https://img.shields.io/docker/pulls/hotio/readarr)](https://hub.docker.com/r/hotio/readarr)
+[![GitHub Registry](https://img.shields.io/badge/registry-ghcr.io-blue)](https://github.com/users/hotio/packages/container/readarr/versions)
 [![Discord](https://img.shields.io/discord/610068305893523457?color=738ad6&label=discord&logo=discord&logoColor=white)](https://discord.gg/3SnkuKp)
-[![Upstream](https://img.shields.io/badge/upstream-project-yellow)](https://github.com/Radarr/Radarr)
+[![Upstream](https://img.shields.io/badge/upstream-project-yellow)](https://github.com/Readarr/Readarr)
 
 ## Starting the container
 
 Just the basics to get the container running:
 
 ```shell
-docker run --rm --name radarr -p 7878:7878 -v /<host_folder_config>:/config hotio/radarr
+docker run --rm --name readarr -p 8787:8787 -v /<host_folder_config>:/config hotio/readarr
 ```
 
 The environment variables below are all optional, the values you see are the defaults.
@@ -31,18 +33,17 @@ The environment variables below are all optional, the values you see are the def
 
 ## Tags
 
-| Tag              | Upstream                |
-| -----------------|-------------------------|
-| release (latest) | develop, becomes master |
-| testing          | develop                 |
-| nightly          | nightly                 |
-| musl             | nightly, runs on Alpine |
+| Tag              | Upstream          |
+| -----------------|-------------------|
+| release (latest) | not yet available |
+| testing          | not yet available |
+| nightly          | nightly           |
 
 You can also find tags that reference a commit or version number.
 
 ## Configuration location
 
-Your radarr configuration inside the container is stored in `/config/app`, to migrate from another container, you'd probably have to move your files from `/config` to `/config/app`.
+Your readarr configuration inside the container is stored in `/config/app`, to migrate from another container, you'd probably have to move your files from `/config` to `/config/app`.
 
 ## Executing your own scripts
 

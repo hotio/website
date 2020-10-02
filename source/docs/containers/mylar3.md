@@ -1,21 +1,20 @@
-# radarr
+# mylar3
 
-<img src="https://hotio.dev/img/radarr.png" alt="Logo" height="130" width="130">
+<img src="https://hotio.dev/img/mylar3.png" alt="Logo" height="130" width="130">
 
-![Base](https://img.shields.io/badge/base-ubuntu-orange)
 ![Base](https://img.shields.io/badge/base-alpine-blue)
-[![GitHub](https://img.shields.io/badge/source-github-lightgrey)](https://github.com/hotio/docker-radarr)
-[![Docker Pulls](https://img.shields.io/docker/pulls/hotio/radarr)](https://hub.docker.com/r/hotio/radarr)
-[![GitHub Registry](https://img.shields.io/badge/registry-ghcr.io-blue)](https://github.com/users/hotio/packages/container/radarr/versions)
+[![GitHub](https://img.shields.io/badge/source-github-lightgrey)](https://github.com/hotio/docker-mylar3)
+[![Docker Pulls](https://img.shields.io/docker/pulls/hotio/mylar3)](https://hub.docker.com/r/hotio/mylar3)
+[![GitHub Registry](https://img.shields.io/badge/registry-ghcr.io-blue)](https://github.com/users/hotio/packages/container/mylar3/versions)
 [![Discord](https://img.shields.io/discord/610068305893523457?color=738ad6&label=discord&logo=discord&logoColor=white)](https://discord.gg/3SnkuKp)
-[![Upstream](https://img.shields.io/badge/upstream-project-yellow)](https://github.com/Radarr/Radarr)
+[![Upstream](https://img.shields.io/badge/upstream-project-yellow)](https://github.com/mylar3/mylar3)
 
 ## Starting the container
 
 Just the basics to get the container running:
 
 ```shell
-docker run --rm --name radarr -p 7878:7878 -v /<host_folder_config>:/config hotio/radarr
+docker run --rm --name mylar3 -p 8090:8090 -v /<host_folder_config>:/config hotio/mylar3
 ```
 
 The environment variables below are all optional, the values you see are the defaults.
@@ -31,18 +30,16 @@ The environment variables below are all optional, the values you see are the def
 
 ## Tags
 
-| Tag              | Upstream                |
-| -----------------|-------------------------|
-| release (latest) | develop, becomes master |
-| testing          | develop                 |
-| nightly          | nightly                 |
-| musl             | nightly, runs on Alpine |
+| Tag              | Upstream                           |
+| -----------------|------------------------------------|
+| release (latest) | GitHub releases                    |
+| nightly          | Every commit to python3-dev branch |
 
 You can also find tags that reference a commit or version number.
 
 ## Configuration location
 
-Your radarr configuration inside the container is stored in `/config/app`, to migrate from another container, you'd probably have to move your files from `/config` to `/config/app`.
+Your mylar3 configuration inside the container is stored in `/config/app`, to migrate from another container, you'd probably have to move your files from `/config` to `/config/app`.
 
 ## Executing your own scripts
 
