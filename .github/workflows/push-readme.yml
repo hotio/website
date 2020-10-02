@@ -18,7 +18,7 @@ jobs:
         DOCKER_USER: ${{ secrets.DOCKER_USER }}
         DOCKER_PASS: ${{ secrets.DOCKER_PASS }}
       run: |
-        files=$(git diff --name-only HEAD HEAD~1 | paste -s -d, -)
+        files=$(git diff-tree -r --diff-filter=AM --no-commit-id --name-only ${GITHUB_SHA} | paste -s -d, -)
         OLD_IFS=$IFS
         IFS=,
         for file in ${files}; do
