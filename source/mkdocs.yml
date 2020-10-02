@@ -33,6 +33,8 @@ site_name: hotio.dev
 site_url: https://hotio.dev
 
 theme:
+  icon:
+    repo: fontawesome/brands/github
   favicon: img/favicon.ico
   features:
     - navigation.instant
