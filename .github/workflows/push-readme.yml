@@ -32,5 +32,5 @@ jobs:
 
           DOCKERHUB_API="https://hub.docker.com/v2"
           TOKEN=$(jq -nc --arg username "${DOCKER_USER}" --arg password "${DOCKER_PASS}" '{$username, $password}' | curl -sH "Content-Type: application/json"  -d @-  "${DOCKERHUB_API}/users/login" | jq -r 'select(.token != null) | .token')
-          jq -nc --arg full_description "$(cat "README.md")" --argjson description "\"Visit https://hotio.dev for all documentation.\"" '{"registry": "registry-1.docker.io", $full_description, $description} | del(.[] | nulls)' | curl -sL  -X PATCH  -d @-  -o /tmp/out -H "Content-Type: application/json" -H "Authorization: JWT ${TOKEN}" -w "%{http_code}" "${DOCKERHUB_API}/repositories/${DOCKER_USER}/${readme}/"
+          jq -nc --arg full_description "$(cat "README.md")" --argjson description "\"Visit https://hotio.dev for all documentation.\"" '{"registry": "registry-1.docker.io", $full_description, $description} | del(.[] | nulls)' | curl -fsSL -X PATCH -d @- -o /tmp/out -H "Content-Type: application/json" -H "Authorization: JWT ${TOKEN}" -w "%{http_code}" "${DOCKERHUB_API}/repositories/${DOCKER_USER}/${readme}/"
         done
