@@ -13,20 +13,21 @@
 
 Just the basics to get the container running:
 
-```shell
-docker run --rm --name mylar3 -p 8090:8090 -v /<host_folder_config>:/config hotio/mylar3
+```shell hl_lines="4 5 6 7 8 9"
+docker run --rm \
+    --name mylar3 \
+    -p 8090:8090 \
+    -e PUID=1000 \
+    -e PGID=1000 \
+    -e UMASK=002 \
+    -e TZ="Etc/UTC" \
+    -e ARGS="" \
+    -e DEBUG="no" \
+    -v /<host_folder_config>:/config \
+    hotio/mylar3
 ```
 
-The environment variables below are all optional, the values you see are the defaults.
-
-```shell
--e PUID=1000
--e PGID=1000
--e UMASK=002
--e TZ="Etc/UTC"
--e ARGS=""
--e DEBUG="no"
-```
+The [highlighted](https://hotio.dev/containers/mylar3) variables are all optional, the values you see are the defaults.
 
 ## Tags
 
