@@ -24,7 +24,7 @@ jobs:
           cp ${PWD}/source/docs/containers/${readme}.md ${PWD}/docker-${readme}/README.md
           cd docker-${readme}
           git add README.md
-          git commit -m "Synced README with hotio.dev"
+          git commit -m "Synced README with hotio.dev" || true
           git push
 
           DOCKERHUB_API="https://hub.docker.com/v2"
