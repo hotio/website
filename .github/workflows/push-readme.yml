@@ -11,8 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+
     - uses: jitterbit/get-changed-files@v1
       id: files
+
     - name: Push README
       env:
         GITHUB_OWNER: ${{ github.repository_owner }}
@@ -22,11 +24,13 @@ jobs:
       run: |
         git config --global user.email "github-action@users.noreply.github.com"
         git config --global user.name "GitHub Action"
+
         if [[ ${{ steps.files.outputs.added_modified }} == *push-readme.yml* ]]; then
           files="${GITHUB_WORKSPACE}/source/docs/containers/*"
         else
           files="${{ steps.files.outputs.added_modified }}"
         fi
+
         for file in ${files}; do
           cd ${GITHUB_WORKSPACE} || exit 1
           readme=$(basename ${file//.md/})
