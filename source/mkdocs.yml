@@ -41,6 +41,6 @@ theme:
 
 nav:
 - Home: index.md
-- Images:
-  - images/hd-idle.md
-  - images/radarr.md
+- Containers:
+  - containers/hd-idle.md
+  - containers/radarr.md

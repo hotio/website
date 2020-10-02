@@ -3,7 +3,7 @@ name: push-readme
 on:
   push:
     paths:
-    - 'source/docs/images/**'
+    - 'source/docs/containers/**'
 
 jobs:
   update:
@@ -24,7 +24,7 @@ jobs:
         for file in ${files}; do
           readme=$(basename ${file//.md/})
           git clone https://${GITHUB_TOKEN}@github.com/${GITHUB_OWNER}/docker-${readme}.git
-          cp ${PWD}/source/docs/images/${readme}.md ${PWD}/docker-${readme}/README.md
+          cp ${PWD}/source/docs/containers/${readme}.md ${PWD}/docker-${readme}/README.md
           cd docker-${readme}
           git add README.md
           git commit -m "Synced README with hotio.dev"
