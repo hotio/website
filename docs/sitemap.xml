@@ -3,5 +3,13 @@
      <loc>https://hotio.dev/</loc>
      <lastmod>2020-10-02</lastmod>
      <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://hotio.dev/containers/hd-idle/</loc>
+     <lastmod>2020-10-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://hotio.dev/containers/radarr/</loc>
+     <lastmod>2020-10-02</lastmod>
+     <changefreq>daily</changefreq>
     </url>
 </urlset>
