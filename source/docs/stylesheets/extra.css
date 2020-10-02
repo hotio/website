@@ -1,7 +1,8 @@
-:root {
+[data-md-color-scheme="hotio"] {
   --md-primary-fg-color:             #6c5d53;
   --md-primary-fg-color--light:      #ffdf8e;
   --md-primary-fg-color--dark:       #ffb64c;
   --md-accent-fg-color:              #ffb64c;
   --md-footer-bg-color:              #ffb64c;
+  --md-footer-fg-color:              #6c5d53;
 }

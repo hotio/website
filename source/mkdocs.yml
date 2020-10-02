@@ -38,6 +38,8 @@ theme:
   language: en
   logo: img/logo.png
   name: material
+  palette:
+    scheme: hotio
 
 markdown_extensions:
   - pymdownx.highlight
