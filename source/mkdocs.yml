@@ -39,6 +39,10 @@ theme:
   logo: img/logo.png
   name: material
 
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+
 nav:
 - Home: index.md
 - Containers:
