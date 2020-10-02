@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-
+    - uses: jitterbit/get-changed-files@v1
     - name: Push README
       env:
         GITHUB_OWNER: ${{ github.repository_owner }}
@@ -18,11 +18,7 @@ jobs:
         DOCKER_USER: ${{ secrets.DOCKER_USER }}
         DOCKER_PASS: ${{ secrets.DOCKER_PASS }}
       run: |
-        files=$(git diff-tree -r --diff-filter=AM --no-commit-id --name-only ${GITHUB_SHA} | paste -s -d, -)
-        echo "Modified files: ${files}"
-        OLD_IFS=$IFS
-        IFS=,
-        for file in ${files}; do
+        for file in ${{ steps.files.outputs.added_modified }}; do
           readme=$(basename ${file//.md/})
           git clone https://${GITHUB_TOKEN}@github.com/${GITHUB_OWNER}/docker-${readme}.git
           cp ${PWD}/source/docs/containers/${readme}.md ${PWD}/docker-${readme}/README.md
@@ -35,4 +31,3 @@ jobs:
           TOKEN=$(jq -nc --arg username "${DOCKER_USER}" --arg password "${DOCKER_PASS}" '{$username, $password}' | curl -sH "Content-Type: application/json"  -d @-  "${DOCKERHUB_API}/users/login" | jq -r 'select(.token != null) | .token')
           jq -nc --arg full_description "$(cat "README.md")" --argjson description "Visit https://hotio.dev for all documentation." '{"registry": "registry-1.docker.io", $full_description, $description} | del(.[] | nulls)' | curl -sL  -X PATCH  -d @-  -o /tmp/out -H "Content-Type: application/json" -H "Authorization: JWT ${TOKEN}" -w "%{http_code}" "${DOCKERHUB_API}/repositories/${DOCKER_USER}/${readme}/"
         done
-        IFS=$OLD_IFS
