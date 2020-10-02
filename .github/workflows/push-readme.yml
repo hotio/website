@@ -1,0 +1,37 @@
+name: push-readme
+
+on:
+  push:
+    paths:
+    - 'source/docs/images/**'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Push README
+      env:
+        GITHUB_OWNER: ${{ github.repository_owner }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        DOCKER_USER: ${{ secrets.DOCKER_USER }}
+        DOCKER_PASS: ${{ secrets.DOCKER_PASS }}
+      run: |
+        files=$(git diff --name-only HEAD HEAD~1 | paste -s -d, -)
+        OLD_IFS=$IFS
+        IFS=,
+        for file in ${files}; do
+          readme=$(basename ${file//.md/})
+          git clone https://${GITHUB_TOKEN}@github.com/${GITHUB_OWNER}/docker-${readme}.git
+          cp ${PWD}/source/docs/images/${readme}.md ${PWD}/docker-${readme}/README.md
+          cd docker-${readme}
+          git add README.md
+          git commit -m "Synced README with hotio.dev"
+          git push
+
+          DOCKERHUB_API="https://hub.docker.com/v2"
+          TOKEN=$(jq -nc --arg username "${DOCKER_USER}" --arg password "${DOCKER_PASS}" '{$username, $password}' | curl -sH "Content-Type: application/json"  -d @-  "${DOCKERHUB_API}/users/login" | jq -r 'select(.token != null) | .token')
+          jq -nc --arg full_description "$(cat "README.md")" --argjson description "Visit https://hotio.dev for all documentation." '{"registry": "registry-1.docker.io", $full_description, $description} | del(.[] | nulls)' | curl -sL  -X PATCH  -d @-  -o /tmp/out -H "Content-Type: application/json" -H "Authorization: JWT ${TOKEN}" -w "%{http_code}" "${DOCKERHUB_API}/repositories/${DOCKER_USER}/${readme}/"
+        done
+        IFS=$OLD_IFS
