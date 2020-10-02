@@ -1,5 +1,3 @@
-# Introduction
-
 <p align="center""><img src="/img/logo.png" alt="Logo" height="130" width="130"></p>
 
 Here you'll find all the documentation needed to get the containers running. All commands provided include the most basic to get the container running.
