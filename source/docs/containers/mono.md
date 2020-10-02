@@ -7,9 +7,9 @@
 
 ## Tags
 
-| Tag      | Description           |
-| ---------|-----------------------|
-| bionic   | Based on Ubuntu 18.04 |
-| focal    | Based on Ubuntu 20.04 |
+| Tag        | Description           |
+| -----------|-----------------------|
+| `bionic`   | Based on Ubuntu 18.04 |
+| `focal`    | Based on Ubuntu 20.04 |
 
 You can also find tags that reference a commit or version number.

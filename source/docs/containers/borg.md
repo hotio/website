@@ -21,9 +21,9 @@ The default `ENTRYPOINT` is `borg`.
 
 ## Tags
 
-| Tag              | Upstream            |
-| -----------------|---------------------|
-| release (latest) | GitHub releases     |
-| testing          | GitHub pre-releases |
+| Tag                | Upstream            |
+| -------------------|---------------------|
+| `release` (latest) | GitHub releases     |
+| `testing`          | GitHub pre-releases |
 
 You can also find tags that reference a commit or version number.

@@ -19,9 +19,9 @@ The default `ENTRYPOINT` is `crop`.
 
 ## Tags
 
-| Tag              | Description                    |
-| -----------------|--------------------------------|
-| release (latest) | GitHub releases                |
-| nightly          | Every commit to develop branch |
+| Tag                | Description                    |
+| -------------------|--------------------------------|
+| `release` (latest) | GitHub releases                |
+| `nightly`          | Every commit to develop branch |
 
 You can also find tags that reference a commit or version number.

@@ -21,8 +21,9 @@ plugins:
 - redirects:
     redirect_maps:
       discord.md: 'https://discord.gg/3SnkuKp'
-      docker.md: 'https://hub.docker.com/u/hotio'
+      dockerhub.md: 'https://hub.docker.com/u/hotio'
       github.md: 'https://github.com/docker-hotio'
+      ghcr.md: 'https://github.com/orgs/docker-hotio/packages?ecosystem=container&visibility=public'
 
 repo_name: hotio
 repo_url: https://github.com/docker-hotio

@@ -30,10 +30,10 @@ The environment variables below are all optional, the values you see are the def
 
 ## Tags
 
-| Tag              | Upstream                           |
-| -----------------|------------------------------------|
-| release (latest) | GitHub releases                    |
-| nightly          | Every commit to python3-dev branch |
+| Tag                | Upstream                           |
+| -------------------|------------------------------------|
+| `release` (latest) | GitHub releases                    |
+| `nightly`          | Every commit to python3-dev branch |
 
 You can also find tags that reference a commit or version number.
 

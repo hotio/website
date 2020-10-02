@@ -1,6 +1,12 @@
 <p align="center""><img src="/img/logo.png" alt="Logo" height="130" width="130"></p>
 
-Here you'll find all the documentation needed to get the containers running. All commands provided include the most basic to get the container running.
+Huh? What does `hotio` do?
+
+I build and maintain Docker images. When joining the [discord](discord) server you'll get access to the `#image-builds` channel and can keep an eye on when your favorite app has released a new update. All the updating of docker images is automated, giving you the fastest updates. We're not just building them and pushing them to you though...every app is tested and when they fail the test, pushing to the registries is cancelled.
+
+The images get pushed to [DockerHub](dockerhub) and [ghcr.io](ghcr).
+
+On this website you'll find all the documentation needed to get the containers running. All commands provided include the most basic to get the container running.
 
 Almost all the commands will start with `docker run -rm ...`, which is the same as `docker create`, followed by `docker start`. The argument `--rm` will make sure that when we exit the container, it'll get deleted.
 
