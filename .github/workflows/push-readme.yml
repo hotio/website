@@ -6,7 +6,7 @@ on:
     - 'source/docs/containers/**'
 
 jobs:
-  update:
+  push:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -19,6 +19,7 @@ jobs:
         DOCKER_PASS: ${{ secrets.DOCKER_PASS }}
       run: |
         files=$(git diff-tree -r --diff-filter=AM --no-commit-id --name-only ${GITHUB_SHA} | paste -s -d, -)
+        echo "Modified files: ${files}"
         OLD_IFS=$IFS
         IFS=,
         for file in ${files}; do
