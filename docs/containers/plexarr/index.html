@@ -738,19 +738,19 @@
 <a href="https://github.com/l3uddz/plexarr"><img alt="Upstream" src="https://img.shields.io/badge/upstream-project-yellow" /></a></p>
 <h2 id="starting-the-container">Starting the container</h2>
 <p>Just the basics to get the container running:</p>
-<pre><code class="shell">docker run --rm hotio/plexarr ...
-</code></pre>
+<div class="highlight"><pre><span></span><code>docker run --rm hotio/plexarr ...
+</code></pre></div>
 
 <p>The default <code>ENTRYPOINT</code> is <code>plexarr</code>.</p>
 <h2 id="getting-a-plex-token-for-use-in-your-configuration">Getting a Plex token for use in your configuration</h2>
 <p>Run the following command, but replace <code>&lt;plex_username&gt;</code> and <code>&lt;plex_password&gt;</code> with your actual username and password.</p>
-<pre><code class="shell">docker run --rm --entrypoint get-token hotio/plexarr &lt;plex_username&gt; &lt;plex_password&gt;
-</code></pre>
+<div class="highlight"><pre><span></span><code>docker run --rm --entrypoint get-token hotio/plexarr &lt;plex_username&gt; &lt;plex_password&gt;
+</code></pre></div>
 
 <p>You should see something like this, if all went well:</p>
-<pre><code class="shell">Trying to get a Plex token...
+<div class="highlight"><pre><span></span><code>Trying to get a Plex token...
 Your Plex token is: xxxxxxxxxxxxxxxxxxxx
-</code></pre>
+</code></pre></div>
 
 <h2 id="tags">Tags</h2>
 <table>
