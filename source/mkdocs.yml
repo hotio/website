@@ -74,7 +74,7 @@ nav:
   - containers/sonarr.md
   - containers/tautulli.md
   - containers/trackarr.md
-  - containers/npackerr.md
+  - containers/unpackerr.md
 - Base Containers:
   - containers/base.md
   - containers/mono.md
