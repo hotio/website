@@ -639,7 +639,10 @@
                 
                 <p align="center""><img src="/img/logo.png" alt="Logo" height="130" width="130"></p>
 
-<p>Here you'll find all the documentation needed to get the containers running. All commands provided include the most basic to get the container running.</p>
+<p>Huh? What does <code>hotio</code> do?</p>
+<p>I build and maintain Docker images. When joining the <a href="discord">discord</a> server you'll get access to the <code>#image-builds</code> channel and can keep an eye on when your favorite app has released a new update. All the updating of docker images is automated, giving you the fastest updates. We're not just building them and pushing them to you though...every app is tested and when they fail the test, pushing to the registries is cancelled.</p>
+<p>The images get pushed to <a href="dockerhub">DockerHub</a> and <a href="ghcr">ghcr.io</a>.</p>
+<p>On this website you'll find all the documentation needed to get the containers running. All commands provided include the most basic to get the container running.</p>
 <p>Almost all the commands will start with <code>docker run -rm ...</code>, which is the same as <code>docker create</code>, followed by <code>docker start</code>. The argument <code>--rm</code> will make sure that when we exit the container, it'll get deleted.</p>
 <p>As you might have guessed, these command are not suited for longterm use. For that we suggest to maybe use <code>compose</code> or integrate the commands with <code>systemd</code>.</p>
 <p>All images can be pulled from Docker Hub with <code>docker pull hotio/...</code> and from GitHub Container Registry with <code>docker pull ghcr.io/hotio/...</code>.</p>
