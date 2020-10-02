@@ -40,6 +40,7 @@ theme:
   name: material
   palette:
     scheme: hotio
+  custom_dir: overrides
 
 markdown_extensions:
   - pymdownx.highlight
