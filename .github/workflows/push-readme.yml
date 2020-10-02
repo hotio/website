@@ -17,7 +17,7 @@ jobs:
         GITHUB_OWNER: ${{ github.repository_owner }}
         GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
         DOCKER_USER: ${{ secrets.DOCKER_USER }}
-        DOCKER_PASS: ${{ secrets.DOCKER_PASS }}
+        DOCKER_PASS: ${{ secrets.DOCKER_TOKEN }}
       run: |
         git config --global user.email "github-action@users.noreply.github.com"
         git config --global user.name "GitHub Action"
@@ -27,10 +27,10 @@ jobs:
           cp ${PWD}/source/docs/containers/${readme}.md ${PWD}/docker-${readme}/README.md
           cd docker-${readme}
           git add README.md
-          git commit -m "Synced README with hotio.dev" || true
-          git push
-
+          if git commit -m "Synced README with hotio.dev"; then
+            git push
+          fi
           DOCKERHUB_API="https://hub.docker.com/v2"
           TOKEN=$(jq -nc --arg username "${DOCKER_USER}" --arg password "${DOCKER_PASS}" '{$username, $password}' | curl -sH "Content-Type: application/json"  -d @-  "${DOCKERHUB_API}/users/login" | jq -r 'select(.token != null) | .token')
-          jq -nc --arg full_description "$(cat "README.md")" --argjson description "\"Visit https://hotio.dev for all documentation.\"" '{"registry": "registry-1.docker.io", $full_description, $description} | del(.[] | nulls)' | curl -fsSL -X PATCH -d @- -o /tmp/out -H "Content-Type: application/json" -H "Authorization: JWT ${TOKEN}" -w "%{http_code}" "${DOCKERHUB_API}/repositories/${DOCKER_USER}/${readme}/"
+          jq -nc --arg full_description "$(cat "README.md")" --argjson description "\"Visit https://hotio.dev for all documentation.\"" '{"registry": "registry-1.docker.io", $full_description, $description} | del(.[] | nulls)' | curl -fsSL -X PATCH -d @- -H "Content-Type: application/json" -H "Authorization: JWT ${TOKEN}" "${DOCKERHUB_API}/repositories/${DOCKER_USER}/${readme}/"
         done
