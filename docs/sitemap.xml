@@ -4,11 +4,123 @@
      <lastmod>2020-10-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
+     <loc>https://hotio.dev/containers/apprise/</loc>
+     <lastmod>2020-10-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://hotio.dev/containers/autoscan/</loc>
+     <lastmod>2020-10-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://hotio.dev/containers/bazarr/</loc>
+     <lastmod>2020-10-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://hotio.dev/containers/borg/</loc>
+     <lastmod>2020-10-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://hotio.dev/containers/cloudflare-ddns/</loc>
+     <lastmod>2020-10-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://hotio.dev/containers/crop/</loc>
+     <lastmod>2020-10-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
      <loc>https://hotio.dev/containers/hd-idle/</loc>
      <lastmod>2020-10-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
+     <loc>https://hotio.dev/containers/jackett/</loc>
+     <lastmod>2020-10-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://hotio.dev/containers/jellyfin/</loc>
+     <lastmod>2020-10-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://hotio.dev/containers/lidarr/</loc>
+     <lastmod>2020-10-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://hotio.dev/containers/mergerfs/</loc>
+     <lastmod>2020-10-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://hotio.dev/containers/mylar3/</loc>
+     <lastmod>2020-10-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://hotio.dev/containers/nzbget/</loc>
+     <lastmod>2020-10-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://hotio.dev/containers/nzbhydra2/</loc>
+     <lastmod>2020-10-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://hotio.dev/containers/ombi/</loc>
+     <lastmod>2020-10-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://hotio.dev/containers/plex/</loc>
+     <lastmod>2020-10-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://hotio.dev/containers/plexarr/</loc>
+     <lastmod>2020-10-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
      <loc>https://hotio.dev/containers/radarr/</loc>
+     <lastmod>2020-10-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://hotio.dev/containers/rar2fs/</loc>
+     <lastmod>2020-10-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://hotio.dev/containers/rclone/</loc>
+     <lastmod>2020-10-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://hotio.dev/containers/readarr/</loc>
+     <lastmod>2020-10-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://hotio.dev/containers/requestrr/</loc>
+     <lastmod>2020-10-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://hotio.dev/containers/restic/</loc>
+     <lastmod>2020-10-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://hotio.dev/containers/sabnzbd/</loc>
+     <lastmod>2020-10-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://hotio.dev/containers/scrutiny/</loc>
+     <lastmod>2020-10-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://hotio.dev/containers/sonarr/</loc>
+     <lastmod>2020-10-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://hotio.dev/containers/tautulli/</loc>
+     <lastmod>2020-10-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://hotio.dev/containers/trackarr/</loc>
+     <lastmod>2020-10-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://hotio.dev/containers/base/</loc>
+     <lastmod>2020-10-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://hotio.dev/containers/mono/</loc>
      <lastmod>2020-10-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
