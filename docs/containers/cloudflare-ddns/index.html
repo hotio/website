@@ -838,32 +838,30 @@
 <a href="https://discord.gg/3SnkuKp"><img alt="Discord" src="https://img.shields.io/discord/610068305893523457?color=738ad6&amp;label=discord&amp;logo=discord&amp;logoColor=white" /></a></p>
 <h2 id="starting-the-container">Starting the container</h2>
 <p>Just the basics to get the container running:</p>
-<div class="highlight"><pre><span></span><code>docker run --rm --name cloudflare-ddns -v /&lt;host_folder_config&gt;:/config hotio/cloudflare-ddns
+<div class="highlight"><pre><span></span><code>docker run --rm <span class="se">\</span>
+    --name cloudflare-ddns <span class="se">\</span>
+<span class="hll">    -e <span class="nv">PUID</span><span class="o">=</span><span class="m">1000</span> <span class="se">\</span>
+</span><span class="hll">    -e <span class="nv">PGID</span><span class="o">=</span><span class="m">1000</span> <span class="se">\</span>
+</span><span class="hll">    -e <span class="nv">UMASK</span><span class="o">=</span><span class="m">002</span> <span class="se">\</span>
+</span><span class="hll">    -e <span class="nv">TZ</span><span class="o">=</span><span class="s2">&quot;Etc/UTC&quot;</span> <span class="se">\</span>
+</span><span class="hll">    -e <span class="nv">ARGS</span><span class="o">=</span><span class="s2">&quot;&quot;</span> <span class="se">\</span>
+</span><span class="hll">    -e <span class="nv">INTERVAL</span><span class="o">=</span><span class="m">300</span> <span class="se">\</span>
+</span><span class="hll">    -e <span class="nv">DETECTION_MODE</span><span class="o">=</span><span class="s2">&quot;dig-whoami.cloudflare&quot;</span> <span class="se">\</span>
+</span><span class="hll">    -e <span class="nv">LOG_LEVEL</span><span class="o">=</span><span class="m">3</span> <span class="se">\</span>
+</span><span class="hll">    -e <span class="nv">APPRISE</span><span class="o">=</span><span class="s2">&quot;&quot;</span> <span class="se">\</span>
+</span>    -e <span class="nv">CF_USER</span><span class="o">=</span><span class="s2">&quot;your.cf.email@example.com&quot;</span> <span class="se">\</span>
+    -e <span class="nv">CF_APIKEY</span><span class="o">=</span><span class="s2">&quot;your.global.apikey&quot;</span> <span class="se">\</span>
+    -e <span class="nv">CF_APITOKEN</span><span class="o">=</span><span class="s2">&quot;&quot;</span> <span class="se">\</span>
+    -e <span class="nv">CF_APITOKEN_ZONE</span><span class="o">=</span><span class="s2">&quot;&quot;</span> <span class="se">\</span>
+    -e <span class="nv">CF_HOSTS</span><span class="o">=</span><span class="s2">&quot;test.example.com;test.foobar.com;test2.foobar.com&quot;</span> <span class="se">\</span>
+    -e <span class="nv">CF_ZONES</span><span class="o">=</span><span class="s2">&quot;example.com;foobar.com;foobar.com&quot;</span> <span class="se">\</span>
+    -e <span class="nv">CF_RECORDTYPES</span><span class="o">=</span><span class="s2">&quot;A;A;AAAA&quot;</span> <span class="se">\</span>
+    -v /&lt;host_folder_config&gt;:/config <span class="se">\</span>
+    hotio/cloudflare-ddns
 </code></pre></div>
 
-<p>The environment variables below are all optional, the values you see are the defaults.</p>
-<div class="highlight"><pre><span></span><code>-e <span class="nv">PUID</span><span class="o">=</span><span class="m">1000</span>
--e <span class="nv">PGID</span><span class="o">=</span><span class="m">1000</span>
--e <span class="nv">UMASK</span><span class="o">=</span><span class="m">002</span>
--e <span class="nv">TZ</span><span class="o">=</span><span class="s2">&quot;Etc/UTC&quot;</span>
--e <span class="nv">ARGS</span><span class="o">=</span><span class="s2">&quot;&quot;</span>
--e <span class="nv">INTERVAL</span><span class="o">=</span><span class="m">300</span>
--e <span class="nv">DETECTION_MODE</span><span class="o">=</span><span class="s2">&quot;dig-whoami.cloudflare&quot;</span>
--e <span class="nv">LOG_LEVEL</span><span class="o">=</span><span class="m">3</span>
--e <span class="nv">APPRISE</span><span class="o">=</span><span class="s2">&quot;&quot;</span>
-</code></pre></div>
-
+<p>The <a href="https://hotio.dev/containers/cloudflare-ddns">highlighted</a> variables are all optional, the values you see are the defaults.</p>
 <p>Possible values for <code>DETECTION_MODE</code> are <code>dig-google.com</code>, <code>dig-opendns.com</code>, <code>dig-whoami.cloudflare</code>, <code>curl-icanhazip.com</code>, <code>curl-wtfismyip.com</code>, <code>curl-showmyip.ca</code>, <code>curl-da.gd</code>, <code>curl-seeip.org</code> and <code>curl-ifconfig.co</code>. If you want to get the local ip from a network interface, use something like <code>local:eth0</code> as <code>DETECTION_MODE</code>.</p>
-<p>The following environment variables are used to configure the domains you would like to update.</p>
-<div class="highlight"><pre><span></span><code>-e <span class="nv">CF_USER</span><span class="o">=</span><span class="s2">&quot;your.cf.email@example.com&quot;</span>
--e <span class="nv">CF_APIKEY</span><span class="o">=</span><span class="s2">&quot;your.global.apikey&quot;</span>
--e <span class="nv">CF_APITOKEN</span><span class="o">=</span><span class="s2">&quot;&quot;</span>
--e <span class="nv">CF_APITOKEN_ZONE</span><span class="o">=</span><span class="s2">&quot;&quot;</span>
--e <span class="nv">CF_HOSTS</span><span class="o">=</span><span class="s2">&quot;test.example.com;test.foobar.com;test2.foobar.com&quot;</span>
--e <span class="nv">CF_ZONES</span><span class="o">=</span><span class="s2">&quot;example.com;foobar.com;foobar.com&quot;</span>
--e <span class="nv">CF_RECORDTYPES</span><span class="o">=</span><span class="s2">&quot;A;A;AAAA&quot;</span>
-</code></pre></div>
-
 <p>Notice that we give 3 values each time for <code>CF_HOSTS</code>, <code>CF_ZONES</code> and <code>CF_RECORDTYPES</code>. In our example, the domain <code>test.foobar.com</code> belonging to the zone <code>foobar.com</code> will have its A record updated with an ipv4 ip. If you use <code>CF_APITOKEN</code>, you can leave <code>CF_USER</code> and <code>CF_APIKEY</code> empty.</p>
 <blockquote>
 <p>IMPORTANT: All the domain names in <code>CF_HOSTS</code> should have properly configured DNS records on Cloudflare, they will not be created.</p>
@@ -878,7 +876,7 @@
 </thead>
 <tbody>
 <tr>
-<td>release (latest)</td>
+<td><code>release</code> (latest)</td>
 <td>The main branch</td>
 </tr>
 </tbody>
