@@ -753,8 +753,8 @@
 <a href="https://github.com/rclone/rclone"><img alt="Upstream" src="https://img.shields.io/badge/upstream-project-yellow" /></a></p>
 <h2 id="starting-the-container">Starting the container</h2>
 <p>Just the basics to get the container running:</p>
-<pre><code class="shell">docker run --rm hotio/rclone ...
-</code></pre>
+<div class="highlight"><pre><span></span><code>docker run --rm hotio/rclone ...
+</code></pre></div>
 
 <p>The default <code>ENTRYPOINT</code> is <code>rclone</code>.</p>
 <h2 id="tags">Tags</h2>
@@ -781,8 +781,8 @@
 <p>By setting the <code>bind-propagation</code> to <code>shared</code> on the volume <code>mountpoint</code>, like this <code>-v /data/mountpoint:/mountpoint:shared</code>, you are able to access the mount from the host. If you want to use this mount in another container, the best solution is to create a volume on the parent folder of that mount with <code>bind-propagation</code> set to <code>slave</code>. For example, <code>-v /data:/data:slave</code> (<code>/data</code> on the host, would contain the previously created volume <code>mountpoint</code>). Doing it like this will ensure that when the container creating the mount restarts, the other containers using that mount will recover and keep working.</p>
 <h2 id="extra-docker-privileges">Extra docker privileges</h2>
 <p>In most cases you will need some or all of the following flags added to your command to get the required docker privileges when using <code>rclone mount</code>.</p>
-<pre><code class="shell">--security-opt apparmor:unconfined --cap-add SYS_ADMIN --device /dev/fuse
-</code></pre>
+<div class="highlight"><pre><span></span><code>--security-opt apparmor:unconfined --cap-add SYS_ADMIN --device /dev/fuse
+</code></pre></div>
                 
               
               

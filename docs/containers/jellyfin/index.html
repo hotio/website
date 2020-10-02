@@ -781,17 +781,17 @@
 <a href="https://github.com/jellyfin/jellyfin"><img alt="Upstream" src="https://img.shields.io/badge/upstream-project-yellow" /></a></p>
 <h2 id="starting-the-container">Starting the container</h2>
 <p>Just the basics to get the container running:</p>
-<pre><code class="shell">docker run --rm --name jellyfin -p 8096:8096 -v /&lt;host_folder_config&gt;:/config hotio/jellyfin
-</code></pre>
+<div class="highlight"><pre><span></span><code>docker run --rm --name jellyfin -p <span class="m">8096</span>:8096 -v /&lt;host_folder_config&gt;:/config hotio/jellyfin
+</code></pre></div>
 
 <p>The environment variables below are all optional, the values you see are the defaults.</p>
-<pre><code class="shell">-e PUID=1000
--e PGID=1000
--e UMASK=002
--e TZ=&quot;Etc/UTC&quot;
--e ARGS=&quot;&quot;
--e DEBUG=&quot;no&quot;
-</code></pre>
+<div class="highlight"><pre><span></span><code>-e <span class="nv">PUID</span><span class="o">=</span><span class="m">1000</span>
+-e <span class="nv">PGID</span><span class="o">=</span><span class="m">1000</span>
+-e <span class="nv">UMASK</span><span class="o">=</span><span class="m">002</span>
+-e <span class="nv">TZ</span><span class="o">=</span><span class="s2">&quot;Etc/UTC&quot;</span>
+-e <span class="nv">ARGS</span><span class="o">=</span><span class="s2">&quot;&quot;</span>
+-e <span class="nv">DEBUG</span><span class="o">=</span><span class="s2">&quot;no&quot;</span>
+</code></pre></div>
 
 <h2 id="tags">Tags</h2>
 <table>
@@ -815,21 +815,21 @@
 <p>You can also find tags that reference a commit or version number.</p>
 <h2 id="configuration-location">Configuration location</h2>
 <p>Your jellyfin configuration inside the container is stored in <code>/config/app</code>, to migrate from another container, you'd probably have to move your files from <code>/config</code> to <code>/config/app</code>. The following jellyfin path locations are used by default.</p>
-<pre><code class="shell">JELLYFIN_CONFIG_DIR=&quot;/config/app&quot;
-JELLYFIN_DATA_DIR=&quot;/config/app/data&quot;
-JELLYFIN_LOG_DIR=&quot;/config/app/log&quot;
-JELLYFIN_CACHE_DIR=&quot;/config/app/cache&quot;
-</code></pre>
+<div class="highlight"><pre><span></span><code><span class="nv">JELLYFIN_CONFIG_DIR</span><span class="o">=</span><span class="s2">&quot;/config/app&quot;</span>
+<span class="nv">JELLYFIN_DATA_DIR</span><span class="o">=</span><span class="s2">&quot;/config/app/data&quot;</span>
+<span class="nv">JELLYFIN_LOG_DIR</span><span class="o">=</span><span class="s2">&quot;/config/app/log&quot;</span>
+<span class="nv">JELLYFIN_CACHE_DIR</span><span class="o">=</span><span class="s2">&quot;/config/app/cache&quot;</span>
+</code></pre></div>
 
 <p>You can override these locations by setting them to a different value with a docker environment variable.</p>
 <h2 id="hardware-support">Hardware support</h2>
 <p>To make your hardware devices available inside the container use the following argument <code>--device=/dev/dri:/dev/dri</code> for Intel QuickSync and <code>--device=/dev/dvb:/dev/dvb</code> for a tuner. NVIDIA users should go visit the <a href="https://github.com/NVIDIA/nvidia-docker">NVIDIA github</a> page for instructions. For Raspberry Pi OpenMAX you'll need to use <code>--device=/dev/vchiq:/dev/vchiq -v /opt/vc/lib:/opt/vc/lib</code>, V4L2 will need <code>--device=/dev/video10:/dev/video10 --device=/dev/video11:/dev/video11 --device=/dev/video12:/dev/video12</code> and MMAL needs <code>--device=/dev/vcsm:/dev/vcsm</code> or <code>--device=/dev/vc-mem:/dev/vc-mem</code>.</p>
 <h2 id="executing-your-own-scripts">Executing your own scripts</h2>
 <p>If you have a need to do additional stuff when the container starts or stops, you can mount your script with <code>-v /docker/host/my-script.sh:/etc/cont-init.d/99-my-script</code> to execute your script on container start or <code>-v /docker/host/my-script.sh:/etc/cont-finish.d/99-my-script</code> to execute it when the container stops. An example script can be seen below.</p>
-<pre><code class="shell">#!/usr/bin/with-contenv bash
+<div class="highlight"><pre><span></span><code><span class="ch">#!/usr/bin/with-contenv bash</span>
 
-echo &quot;Hello, this is me, your script.&quot;
-</code></pre>
+<span class="nb">echo</span> <span class="s2">&quot;Hello, this is me, your script.&quot;</span>
+</code></pre></div>
 
 <h2 id="troubleshooting-a-problem">Troubleshooting a problem</h2>
 <p>By default all output is redirected to <code>/dev/null</code>, so you won't see anything from the application when using <code>docker logs</code>. Most applications write everything to a log file too. If you do want to see this output with <code>docker logs</code>, you can use <code>-e DEBUG="yes"</code> to enable this.</p>

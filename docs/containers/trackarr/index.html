@@ -767,17 +767,17 @@
 <a href="https://gitlab.com/cloudb0x/trackarr"><img alt="Upstream" src="https://img.shields.io/badge/upstream-project-yellow" /></a></p>
 <h2 id="starting-the-container">Starting the container</h2>
 <p>Just the basics to get the container running:</p>
-<pre><code class="shell">docker run --rm --name trackarr -p 7337:7337 -v /&lt;host_folder_config&gt;:/config hotio/trackarr
-</code></pre>
+<div class="highlight"><pre><span></span><code>docker run --rm --name trackarr -p <span class="m">7337</span>:7337 -v /&lt;host_folder_config&gt;:/config hotio/trackarr
+</code></pre></div>
 
 <p>The environment variables below are all optional, the values you see are the defaults.</p>
-<pre><code class="shell">-e PUID=1000
--e PGID=1000
--e UMASK=002
--e TZ=&quot;Etc/UTC&quot;
--e ARGS=&quot;&quot;
--e DEBUG=&quot;no&quot;
-</code></pre>
+<div class="highlight"><pre><span></span><code>-e <span class="nv">PUID</span><span class="o">=</span><span class="m">1000</span>
+-e <span class="nv">PGID</span><span class="o">=</span><span class="m">1000</span>
+-e <span class="nv">UMASK</span><span class="o">=</span><span class="m">002</span>
+-e <span class="nv">TZ</span><span class="o">=</span><span class="s2">&quot;Etc/UTC&quot;</span>
+-e <span class="nv">ARGS</span><span class="o">=</span><span class="s2">&quot;&quot;</span>
+-e <span class="nv">DEBUG</span><span class="o">=</span><span class="s2">&quot;no&quot;</span>
+</code></pre></div>
 
 <h2 id="tags">Tags</h2>
 <table>
@@ -803,10 +803,10 @@
 <p>Your trackarr configuration inside the container is stored in <code>/config/app</code>, to migrate from another container, you'd probably have to move your files from <code>/config</code> to <code>/config/app</code>.</p>
 <h2 id="executing-your-own-scripts">Executing your own scripts</h2>
 <p>If you have a need to do additional stuff when the container starts or stops, you can mount your script with <code>-v /docker/host/my-script.sh:/etc/cont-init.d/99-my-script</code> to execute your script on container start or <code>-v /docker/host/my-script.sh:/etc/cont-finish.d/99-my-script</code> to execute it when the container stops. An example script can be seen below.</p>
-<pre><code class="shell">#!/usr/bin/with-contenv bash
+<div class="highlight"><pre><span></span><code><span class="ch">#!/usr/bin/with-contenv bash</span>
 
-echo &quot;Hello, this is me, your script.&quot;
-</code></pre>
+<span class="nb">echo</span> <span class="s2">&quot;Hello, this is me, your script.&quot;</span>
+</code></pre></div>
 
 <h2 id="troubleshooting-a-problem">Troubleshooting a problem</h2>
 <p>By default all output is redirected to <code>/dev/null</code>, so you won't see anything from the application when using <code>docker logs</code>. Most applications write everything to a log file too. If you do want to see this output with <code>docker logs</code>, you can use <code>-e DEBUG="yes"</code> to enable this.</p>

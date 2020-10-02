@@ -836,31 +836,31 @@
 <a href="https://discord.gg/3SnkuKp"><img alt="Discord" src="https://img.shields.io/discord/610068305893523457?color=738ad6&amp;label=discord&amp;logo=discord&amp;logoColor=white" /></a></p>
 <h2 id="starting-the-container">Starting the container</h2>
 <p>Just the basics to get the container running:</p>
-<pre><code class="shell">docker run --rm --name cloudflare-ddns -v /&lt;host_folder_config&gt;:/config hotio/cloudflare-ddns
-</code></pre>
+<div class="highlight"><pre><span></span><code>docker run --rm --name cloudflare-ddns -v /&lt;host_folder_config&gt;:/config hotio/cloudflare-ddns
+</code></pre></div>
 
 <p>The environment variables below are all optional, the values you see are the defaults.</p>
-<pre><code class="shell">-e PUID=1000
--e PGID=1000
--e UMASK=002
--e TZ=&quot;Etc/UTC&quot;
--e ARGS=&quot;&quot;
--e INTERVAL=300
--e DETECTION_MODE=&quot;dig-whoami.cloudflare&quot;
--e LOG_LEVEL=3
--e APPRISE=&quot;&quot;
-</code></pre>
+<div class="highlight"><pre><span></span><code>-e <span class="nv">PUID</span><span class="o">=</span><span class="m">1000</span>
+-e <span class="nv">PGID</span><span class="o">=</span><span class="m">1000</span>
+-e <span class="nv">UMASK</span><span class="o">=</span><span class="m">002</span>
+-e <span class="nv">TZ</span><span class="o">=</span><span class="s2">&quot;Etc/UTC&quot;</span>
+-e <span class="nv">ARGS</span><span class="o">=</span><span class="s2">&quot;&quot;</span>
+-e <span class="nv">INTERVAL</span><span class="o">=</span><span class="m">300</span>
+-e <span class="nv">DETECTION_MODE</span><span class="o">=</span><span class="s2">&quot;dig-whoami.cloudflare&quot;</span>
+-e <span class="nv">LOG_LEVEL</span><span class="o">=</span><span class="m">3</span>
+-e <span class="nv">APPRISE</span><span class="o">=</span><span class="s2">&quot;&quot;</span>
+</code></pre></div>
 
 <p>Possible values for <code>DETECTION_MODE</code> are <code>dig-google.com</code>, <code>dig-opendns.com</code>, <code>dig-whoami.cloudflare</code>, <code>curl-icanhazip.com</code>, <code>curl-wtfismyip.com</code>, <code>curl-showmyip.ca</code>, <code>curl-da.gd</code>, <code>curl-seeip.org</code> and <code>curl-ifconfig.co</code>. If you want to get the local ip from a network interface, use something like <code>local:eth0</code> as <code>DETECTION_MODE</code>.</p>
 <p>The following environment variables are used to configure the domains you would like to update.</p>
-<pre><code class="shell">-e CF_USER=&quot;your.cf.email@example.com&quot;
--e CF_APIKEY=&quot;your.global.apikey&quot;
--e CF_APITOKEN=&quot;&quot;
--e CF_APITOKEN_ZONE=&quot;&quot;
--e CF_HOSTS=&quot;test.example.com;test.foobar.com;test2.foobar.com&quot;
--e CF_ZONES=&quot;example.com;foobar.com;foobar.com&quot;
--e CF_RECORDTYPES=&quot;A;A;AAAA&quot;
-</code></pre>
+<div class="highlight"><pre><span></span><code>-e <span class="nv">CF_USER</span><span class="o">=</span><span class="s2">&quot;your.cf.email@example.com&quot;</span>
+-e <span class="nv">CF_APIKEY</span><span class="o">=</span><span class="s2">&quot;your.global.apikey&quot;</span>
+-e <span class="nv">CF_APITOKEN</span><span class="o">=</span><span class="s2">&quot;&quot;</span>
+-e <span class="nv">CF_APITOKEN_ZONE</span><span class="o">=</span><span class="s2">&quot;&quot;</span>
+-e <span class="nv">CF_HOSTS</span><span class="o">=</span><span class="s2">&quot;test.example.com;test.foobar.com;test2.foobar.com&quot;</span>
+-e <span class="nv">CF_ZONES</span><span class="o">=</span><span class="s2">&quot;example.com;foobar.com;foobar.com&quot;</span>
+-e <span class="nv">CF_RECORDTYPES</span><span class="o">=</span><span class="s2">&quot;A;A;AAAA&quot;</span>
+</code></pre></div>
 
 <p>Notice that we give 3 values each time for <code>CF_HOSTS</code>, <code>CF_ZONES</code> and <code>CF_RECORDTYPES</code>. In our example, the domain <code>test.foobar.com</code> belonging to the zone <code>foobar.com</code> will have its A record updated with an ipv4 ip. If you use <code>CF_APITOKEN</code>, you can leave <code>CF_USER</code> and <code>CF_APIKEY</code> empty.</p>
 <blockquote>
@@ -884,11 +884,11 @@
 <p>You can also find tags that reference a commit or version number.</p>
 <h2 id="zone-id">Zone ID</h2>
 <p>Instead of the <code>zone_name</code>, you can also fill in a <code>zone_id</code> in <code>CF_ZONES</code>. When using a <code>zone_id</code>, you can use a scoped token (<code>CF_APITOKEN</code>) that only needs the <code>Zone - DNS - Edit</code> permissions. This improves security. The configuration could look like the example below.</p>
-<pre><code class="shell">-e CF_APITOKEN=&quot;azkqvJ86wEScojvSJC8DyY67TwqNwZCtomEVrHwt&quot;
--e CF_HOSTS=&quot;example.com;test.foobar.com&quot;
--e CF_ZONES=&quot;zbpsi9ceikrdnnym27s2xnp6s5dvj6ep;dccbe6grakumohwwd4amh4o46yupepn8&quot;
--e CF_RECORDTYPES=&quot;A;A&quot;
-</code></pre>
+<div class="highlight"><pre><span></span><code>-e <span class="nv">CF_APITOKEN</span><span class="o">=</span><span class="s2">&quot;azkqvJ86wEScojvSJC8DyY67TwqNwZCtomEVrHwt&quot;</span>
+-e <span class="nv">CF_HOSTS</span><span class="o">=</span><span class="s2">&quot;example.com;test.foobar.com&quot;</span>
+-e <span class="nv">CF_ZONES</span><span class="o">=</span><span class="s2">&quot;zbpsi9ceikrdnnym27s2xnp6s5dvj6ep;dccbe6grakumohwwd4amh4o46yupepn8&quot;</span>
+-e <span class="nv">CF_RECORDTYPES</span><span class="o">=</span><span class="s2">&quot;A;A&quot;</span>
+</code></pre></div>
 
 <h2 id="seperate-api-tokens">Seperate API Tokens</h2>
 <p>If you do not prefer to use a <code>zone_id</code>, but prefer some more security, you can use 2 seperate tokens.</p>
@@ -909,43 +909,43 @@
 <ul>
 <li>We use a <code>zone_id</code> so that our token only needs the permissions <code>Zone - DNS - Edit</code>.</li>
 </ul>
-<pre><code class="shell">-e CF_APITOKEN=&quot;azkqvJ86wEScojvSJC8DyY67TwqNwZCtomEVrHwt&quot;
--e CF_HOSTS=&quot;vpn.example.com;test.foobar.com&quot;
--e CF_ZONES=&quot;zbpsi9ceikrdnnym27s2xnp6s5dvj6ep;axozor886pyja7nmbcvu5kh7dp9557j4&quot;
--e CF_RECORDTYPES=&quot;A;A&quot;
-</code></pre>
+<div class="highlight"><pre><span></span><code>-e <span class="nv">CF_APITOKEN</span><span class="o">=</span><span class="s2">&quot;azkqvJ86wEScojvSJC8DyY67TwqNwZCtomEVrHwt&quot;</span>
+-e <span class="nv">CF_HOSTS</span><span class="o">=</span><span class="s2">&quot;vpn.example.com;test.foobar.com&quot;</span>
+-e <span class="nv">CF_ZONES</span><span class="o">=</span><span class="s2">&quot;zbpsi9ceikrdnnym27s2xnp6s5dvj6ep;axozor886pyja7nmbcvu5kh7dp9557j4&quot;</span>
+-e <span class="nv">CF_RECORDTYPES</span><span class="o">=</span><span class="s2">&quot;A;A&quot;</span>
+</code></pre></div>
 
 <ul>
 <li>We use additionally a <code>CF_APITOKEN_ZONE</code> with the permissions <code>Zone - Zone - Read</code> to query the zones and getting the <code>zone_id</code>.</li>
 </ul>
-<pre><code class="shell">-e CF_APITOKEN=&quot;azkqvJ86wEScojvSJC8DyY67TwqNwZCtomEVrHwt&quot;
--e CF_APITOKEN_ZONE=&quot;8m4TxzWb9QHXEpTwQDMugkKuHRavsxoK8qmJ4P7M&quot;
--e CF_HOSTS=&quot;vpn.example.com;test.foobar.com&quot;
--e CF_ZONES=&quot;example.com;axozor886pyja7nmbcvu5kh7dp9557j4&quot;
--e CF_RECORDTYPES=&quot;A;A&quot;
-</code></pre>
+<div class="highlight"><pre><span></span><code>-e <span class="nv">CF_APITOKEN</span><span class="o">=</span><span class="s2">&quot;azkqvJ86wEScojvSJC8DyY67TwqNwZCtomEVrHwt&quot;</span>
+-e <span class="nv">CF_APITOKEN_ZONE</span><span class="o">=</span><span class="s2">&quot;8m4TxzWb9QHXEpTwQDMugkKuHRavsxoK8qmJ4P7M&quot;</span>
+-e <span class="nv">CF_HOSTS</span><span class="o">=</span><span class="s2">&quot;vpn.example.com;test.foobar.com&quot;</span>
+-e <span class="nv">CF_ZONES</span><span class="o">=</span><span class="s2">&quot;example.com;axozor886pyja7nmbcvu5kh7dp9557j4&quot;</span>
+-e <span class="nv">CF_RECORDTYPES</span><span class="o">=</span><span class="s2">&quot;A;A&quot;</span>
+</code></pre></div>
 
 <ul>
 <li>We use only <code>CF_APITOKEN</code>, but with the permissions <code>Zone - DNS - Edit</code> and <code>Zone - Zone - Read</code>.</li>
 </ul>
-<pre><code class="shell">-e CF_APITOKEN=&quot;azkqvJ86wEScojvSJC8DyY67TwqNwZCtomEVrHwt&quot;
--e CF_HOSTS=&quot;vpn.example.com;test.foobar.com&quot;
--e CF_ZONES=&quot;example.com;axozor886pyja7nmbcvu5kh7dp9557j4&quot;
--e CF_RECORDTYPES=&quot;A;A&quot;
-</code></pre>
+<div class="highlight"><pre><span></span><code>-e <span class="nv">CF_APITOKEN</span><span class="o">=</span><span class="s2">&quot;azkqvJ86wEScojvSJC8DyY67TwqNwZCtomEVrHwt&quot;</span>
+-e <span class="nv">CF_HOSTS</span><span class="o">=</span><span class="s2">&quot;vpn.example.com;test.foobar.com&quot;</span>
+-e <span class="nv">CF_ZONES</span><span class="o">=</span><span class="s2">&quot;example.com;axozor886pyja7nmbcvu5kh7dp9557j4&quot;</span>
+-e <span class="nv">CF_RECORDTYPES</span><span class="o">=</span><span class="s2">&quot;A;A&quot;</span>
+</code></pre></div>
 
 <ul>
 <li>We use <code>CF_USER</code> and <code>CF_APIKEY</code>, basically giving full control over our account.</li>
 </ul>
-<pre><code class="shell">-e CF_USER=&quot;your.cf.email@example.com&quot;
--e CF_APIKEY=&quot;your.global.apikey&quot;
--e CF_HOSTS=&quot;vpn.example.com;test.foobar.com&quot;
--e CF_ZONES=&quot;example.com;axozor886pyja7nmbcvu5kh7dp9557j4&quot;
--e CF_RECORDTYPES=&quot;A;A&quot;
-</code></pre>
+<div class="highlight"><pre><span></span><code>-e <span class="nv">CF_USER</span><span class="o">=</span><span class="s2">&quot;your.cf.email@example.com&quot;</span>
+-e <span class="nv">CF_APIKEY</span><span class="o">=</span><span class="s2">&quot;your.global.apikey&quot;</span>
+-e <span class="nv">CF_HOSTS</span><span class="o">=</span><span class="s2">&quot;vpn.example.com;test.foobar.com&quot;</span>
+-e <span class="nv">CF_ZONES</span><span class="o">=</span><span class="s2">&quot;example.com;axozor886pyja7nmbcvu5kh7dp9557j4&quot;</span>
+-e <span class="nv">CF_RECORDTYPES</span><span class="o">=</span><span class="s2">&quot;A;A&quot;</span>
+</code></pre></div>
 
 <h2 id="example-of-the-log-output">Example of the log output</h2>
-<pre><code class="text">2020-05-17 17:20:54 -    INFO - IPv4 detected by [dig-whoami.cloudflare] is [1.1.1.1].
+<div class="highlight"><pre><span></span><code>2020-05-17 17:20:54 -    INFO - IPv4 detected by [dig-whoami.cloudflare] is [1.1.1.1].
 2020-05-17 17:20:54 -    INFO - [1/1] [A] [vpn.example.com] Reading zone list from Cloudflare.
 2020-05-17 17:20:54 -    INFO - [1/1] [A] [vpn.example.com] Retrieved zone list from Cloudflare.
 2020-05-17 17:20:54 -    INFO - [1/1] [A] [vpn.example.com] Zone ID [xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx] found for zone [example.com].
@@ -954,7 +954,7 @@
 2020-05-17 17:20:55 -    INFO - [1/1] [A] [vpn.example.com] Checking if update is needed.
 2020-05-17 17:20:55 -    INFO - [1/1] [A] [vpn.example.com] No update needed.
 2020-05-17 17:20:55 -    INFO - Going to sleep for [300] seconds...
-</code></pre>
+</code></pre></div>
 
 <h2 id="log-levels">Log levels</h2>
 <p>For <code>LOG_LEVEL</code> you can pick <code>0</code>, <code>1</code>, <code>2</code> or <code>3</code>.</p>
@@ -966,35 +966,35 @@
 <p><code>1</code> will give you the following output types. It's the recommended value when all things are configured and running as expected.</p>
 </li>
 </ul>
-<pre><code class="shell">UPDATE, WARNING, ERROR
-</code></pre>
+<div class="highlight"><pre><span></span><code>UPDATE, WARNING, ERROR
+</code></pre></div>
 
 <ul>
 <li><code>2</code> will give you the following output types. Use this if you always wanna see what's going on, but <code>3</code> gives you too much output.</li>
 </ul>
-<pre><code class="shell">UPDATE, WARNING, ERROR, INFO
-</code></pre>
+<div class="highlight"><pre><span></span><code>UPDATE, WARNING, ERROR, INFO
+</code></pre></div>
 
 <ul>
 <li><code>3</code> will give you the following output types. This is the default.</li>
 </ul>
-<pre><code class="shell">UPDATE, WARNING, ERROR, INFO, DEBUG
-</code></pre>
+<div class="highlight"><pre><span></span><code>UPDATE, WARNING, ERROR, INFO, DEBUG
+</code></pre></div>
 
 <h2 id="json-log">JSON log</h2>
 <p>Every IP update is also logged to <code>/config/app/cf-ddns-updates.json</code>. This can be used with the <a href="https://github.com/influxdata/telegraf/tree/master/plugins/parsers/json">Telegraf JSON parser</a> and the <code>tail</code> input, to get your domain updates into InfluxDB. Example output below.</p>
-<pre><code class="json">{&quot;domain&quot;:&quot;vpn.example.com&quot;,&quot;recordtype&quot;:&quot;A&quot;,&quot;ip&quot;:&quot;1.1.1.1&quot;,&quot;timestamp&quot;:&quot;2020-05-17T20:27:14Z&quot;}
-{&quot;domain&quot;:&quot;vpn.example.com&quot;,&quot;recordtype&quot;:&quot;A&quot;,&quot;ip&quot;:&quot;1.1.1.1&quot;,&quot;timestamp&quot;:&quot;2020-05-17T20:29:26Z&quot;}
-</code></pre>
+<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="nt">&quot;domain&quot;</span><span class="p">:</span><span class="s2">&quot;vpn.example.com&quot;</span><span class="p">,</span><span class="nt">&quot;recordtype&quot;</span><span class="p">:</span><span class="s2">&quot;A&quot;</span><span class="p">,</span><span class="nt">&quot;ip&quot;</span><span class="p">:</span><span class="s2">&quot;1.1.1.1&quot;</span><span class="p">,</span><span class="nt">&quot;timestamp&quot;</span><span class="p">:</span><span class="s2">&quot;2020-05-17T20:27:14Z&quot;</span><span class="p">}</span>
+<span class="p">{</span><span class="nt">&quot;domain&quot;</span><span class="p">:</span><span class="s2">&quot;vpn.example.com&quot;</span><span class="p">,</span><span class="nt">&quot;recordtype&quot;</span><span class="p">:</span><span class="s2">&quot;A&quot;</span><span class="p">,</span><span class="nt">&quot;ip&quot;</span><span class="p">:</span><span class="s2">&quot;1.1.1.1&quot;</span><span class="p">,</span><span class="nt">&quot;timestamp&quot;</span><span class="p">:</span><span class="s2">&quot;2020-05-17T20:29:26Z&quot;</span><span class="p">}</span>
+</code></pre></div>
 
 <h2 id="cached-results-from-cloudflare">Cached results from Cloudflare</h2>
 <p>The returned results from Cloudflare are cached. This means minimal api calls to Cloudflare. If you have made any manual changes to the IP on the Cloudflare webinterface, for instance when wanting to test an update, a container restart is needed to clear the cache.</p>
 <p>The proxy setting (orange cloud) and TTL is also cached and re-set based on the previous value, so if you made any modifications to these settings, you should restart the container so that the script is aware of the new settings.</p>
 <h2 id="sending-notifications-using-apprise">Sending notifications using Apprise</h2>
 <p>You can send notifications when a DNS record gets updated with a new IP using <a href="https://github.com/caronc/apprise/blob/master/README.md">Apprise</a>. Use the environment variable <code>APPRISE</code> to configure notifications, see below for some examples.</p>
-<pre><code class="shell">-e APPRISE=&quot;pover://user@token&quot;
--e APPRISE=&quot;pover://user@token;discord://webhook_id/webhook_token&quot;
-</code></pre>
+<div class="highlight"><pre><span></span><code>-e <span class="nv">APPRISE</span><span class="o">=</span><span class="s2">&quot;pover://user@token&quot;</span>
+-e <span class="nv">APPRISE</span><span class="o">=</span><span class="s2">&quot;pover://user@token;discord://webhook_id/webhook_token&quot;</span>
+</code></pre></div>
                 
               
               
