@@ -39,7 +39,7 @@ theme:
   features:
     - navigation.instant
   language: en
-  logo: img/logo.png
+  logo: img/logo-header.png
   name: material
   palette:
     scheme: hotio
