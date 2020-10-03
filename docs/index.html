@@ -622,6 +622,18 @@
   </li>
 
     
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="arr-discord-notifier/" title="Arr Discord Notifier" class="md-nav__link">
+      Arr Discord Notifier
+    </a>
+  </li>
+
+    
   </ul>
 </nav>
                   </div>
@@ -637,16 +649,18 @@
                 
                   <h1>Home</h1>
                 
-                <p align="center""><img src="/img/logo-transparent.png" alt="Logo" height="300" width="300"></p>
+                <p align="center"><img src="/img/logo-transparent.png" alt="Logo" height="300" width="300"></p>
 
 <p>Huh? What does <code>hotio</code> do?</p>
-<p>I build and maintain Docker images. When joining the <a href="discord">discord</a> server you'll get access to the <code>#image-builds</code> channel and can keep an eye on when your favorite app has released a new update. All the updating of docker images is automated, giving you the fastest updates. We're not just building them and pushing them to you though...every app is tested and when they fail the test, pushing to the registries is cancelled.</p>
-<p>The images get pushed to <a href="dockerhub">DockerHub</a> and <a href="ghcr">ghcr.io</a>.</p>
-<p>On this website you'll find all the documentation needed to get the containers running. All commands provided include the most basic to get the container running.</p>
+<p>I build and maintain Docker images. When joining the <a href="discord">discord</a> server you'll get access to the <code>#image-builds</code> channel and you can keep an eye on when your favorite app has released a new update. All the updating of docker images is automated, giving you the fastest updates. We're not just building them and pushing them out though...no, every app is tested and when they fail the test, pushing to the registries is cancelled. This for the most part ensures your system remains operational when you are doing auto-updates and are not paying attention.</p>
+<p>The images get pushed to <a href="dockerhub">DockerHub</a> and <a href="ghcr">ghcr.io</a>. They can then be pulled from DockerHub with <code>docker pull hotio/...</code> and from ghcr.io with <code>docker pull ghcr.io/hotio/...</code>.</p>
+<p>On this website you'll also find all the documentation needed to get the containers running. All commands provided include the most basic to get the container running. In most cases you'll have to add additional volumes to get access to your other files that every app needs.</p>
 <p>Almost all the commands will start with <code>docker run -rm ...</code>, which is the same as <code>docker create</code>, followed by <code>docker start</code>. The argument <code>--rm</code> will make sure that when we exit the container, it'll get deleted.</p>
 <p>As you might have guessed, these command are not suited for longterm use. For that we suggest to maybe use <code>compose</code> or integrate the commands with <code>systemd</code>.</p>
-<p>All images can be pulled from Docker Hub with <code>docker pull hotio/...</code> and from GitHub Container Registry with <code>docker pull ghcr.io/hotio/...</code>.</p>
 <p>Images where you see a mention of <code>ENTRYPOINT</code> are meant to be used like any other cli app, except that they are containerized.</p>
+<p>If you like what I do, you know the drill... <span class="twemoji heart"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 20.408c-.492.308-.903.546-1.192.709-.153.086-.308.17-.463.252h-.002a.75.75 0 01-.686 0 16.709 16.709 0 01-.465-.252 31.147 31.147 0 01-4.803-3.34C3.8 15.572 1 12.331 1 8.513 1 5.052 3.829 2.5 6.736 2.5 9.03 2.5 10.881 3.726 12 5.605 13.12 3.726 14.97 2.5 17.264 2.5 20.17 2.5 23 5.052 23 8.514c0 3.818-2.801 7.06-5.389 9.262A31.146 31.146 0 0114 20.408z"/></svg></span></p>
+<iframe src="https://github.com/sponsors/hotio/card" title="Sponsor hotio" height="225" width="600" style="border: 0;"></iframe>
+
 <p><sub><sup>Logo made possible by <a href="https://www.flaticon.com/authors/freepik">Freepik</a> from <a href="https://www.flaticon.com">flaticon.com</a>.</sup></sub></p>
                 
               

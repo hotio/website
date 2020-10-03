@@ -127,5 +127,9 @@
      <loc>https://hotio.dev/containers/mono/</loc>
      <lastmod>2020-10-03</lastmod>
      <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://hotio.dev/arr-discord-notifier/</loc>
+     <lastmod>2020-10-03</lastmod>
+     <changefreq>daily</changefreq>
     </url>
 </urlset>
