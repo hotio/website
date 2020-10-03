@@ -6,6 +6,7 @@
   --md-footer-bg-color:              #ffb64c;
   --md-footer-fg-color:              #6c5d53;
   --md-typeset-a-color:              #ffb64c;
+  --md-code-hl-color:                #ffdf8e5d;
 }
 
 @keyframes heart {
