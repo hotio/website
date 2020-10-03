@@ -1,3 +1,5 @@
+[![GitHub](https://img.shields.io/badge/source-github-lightgrey)](https://github.com/docker-hotio/arr-discord-notifier)
+
 Arr Discord Notifier sends pretty notifications to a discord webhook. The Radarr and Sonarr v3 (only v3 is supported) docker images come bundled with this script, but it can also be used on its own.
 
 ## Configuration

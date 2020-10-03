@@ -53,6 +53,10 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - attr_list
 
+google_analytics:
+  - UA-126819406-1
+  - auto
+
 nav:
 - Home: index.md
 - Containers:
