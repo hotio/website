@@ -1,6 +1,6 @@
 # radarr
 
-![logo](https://hotio.dev/img/radarr.png)
+<img src="https://hotio.dev/img/radarr.png" alt="logo" height="130" width="130">
 
 ![Base](https://img.shields.io/badge/base-ubuntu-orange)
 ![Base](https://img.shields.io/badge/base-alpine-blue)

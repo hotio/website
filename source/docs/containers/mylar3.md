@@ -1,6 +1,6 @@
 # mylar3
 
-![logo](https://hotio.dev/img/mylar3.png)
+<img src="https://hotio.dev/img/mylar3.png" alt="logo" height="130" width="130">
 
 ![Base](https://img.shields.io/badge/base-alpine-blue)
 [![GitHub](https://img.shields.io/badge/source-github-lightgrey)](https://github.com/hotio/docker-mylar3)
