@@ -1,5 +1,3 @@
-# mylar3
-
 [<img src="https://hotio.dev/img/mylar3.png" alt="logo" height="130" width="130">](https://github.com/mylar3/mylar3)
 
 ![Base](https://img.shields.io/badge/base-alpine-blue)

@@ -1,5 +1,3 @@
-# mono
-
 [![GitHub](https://img.shields.io/badge/source-github-lightgrey)](https://github.com/hotio/docker-mono)
 [![Docker Pulls](https://img.shields.io/docker/pulls/hotio/mono)](https://hub.docker.com/r/hotio/mono)
 [![GitHub Registry](https://img.shields.io/badge/registry-ghcr.io-blue)](https://github.com/users/hotio/packages/container/package/mono)

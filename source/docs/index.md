@@ -2,7 +2,7 @@
 
 Huh? What does `hotio` do?
 
-I build and maintain Docker images. When joining the [discord](discord) server you'll get access to the `#image-builds` channel and you can keep an eye on when your favorite app has released a new update. All the updating of docker images is automated, giving you the fastest updates. We're not just building them and pushing them out though...no, every app is tested and when they fail the test, pushing to the registries is cancelled. This for the most part ensures your system remains operational when you are doing auto-updates and are not paying attention.
+I build and maintain Docker images. When joining the [Discord](discord) server you'll get access to the `#image-builds` channel and you can keep an eye on when your favorite app has released a new update. All the updating of docker images is automated, giving you the fastest updates. We're not just building them and pushing them out though...no, every app is tested and when they fail the test, pushing to the registries is cancelled. This for the most part ensures your system remains operational when you are doing auto-updates and are not paying attention.
 
 The images get pushed to [DockerHub](dockerhub) and [ghcr.io](ghcr). They can then be pulled from DockerHub with `docker pull hotio/...` and from ghcr.io with `docker pull ghcr.io/hotio/...`.
 

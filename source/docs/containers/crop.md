@@ -1,5 +1,3 @@
-# crop
-
 ![Base](https://img.shields.io/badge/base-alpine-blue)
 [![GitHub](https://img.shields.io/badge/source-github-lightgrey)](https://github.com/hotio/docker-crop)
 [![Docker Pulls](https://img.shields.io/docker/pulls/hotio/crop)](https://hub.docker.com/r/hotio/crop)

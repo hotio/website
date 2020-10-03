@@ -1,5 +1,3 @@
-# scrutiny
-
 [<img src="https://hotio.dev/img/scrutiny.png" alt="logo" height="130" width="130">](https://hotio.dev/img/scrutiny.png)
 
 ![Base](https://img.shields.io/badge/base-alpine-blue)

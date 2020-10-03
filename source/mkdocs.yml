@@ -63,36 +63,37 @@ google_analytics:
 nav:
 - Home: index.md
 - Containers:
-  - containers/apprise.md
-  - containers/autoscan.md
-  - containers/bazarr.md
-  - containers/borg.md
-  - containers/cloudflare-ddns.md
-  - containers/crop.md
-  - containers/hd-idle.md
-  - containers/jackett.md
-  - containers/jellyfin.md
-  - containers/lidarr.md
-  - containers/mergerfs.md
-  - containers/mylar3.md
-  - containers/nzbget.md
-  - containers/nzbhydra2.md
-  - containers/ombi.md
-  - containers/plex.md
-  - containers/plexarr.md
-  - containers/radarr.md
-  - containers/rar2fs.md
-  - containers/rclone.md
-  - containers/readarr.md
-  - containers/requestrr.md
-  - containers/restic.md
-  - containers/sabnzbd.md
-  - containers/scrutiny.md
-  - containers/sonarr.md
-  - containers/tautulli.md
-  - containers/trackarr.md
-  - containers/unpackerr.md
-- Base Containers:
-  - containers/base.md
-  - containers/mono.md
+  - Apps:
+    - hotio/apprise: containers/apprise.md
+    - hotio/autoscan: containers/autoscan.md
+    - hotio/bazarr: containers/bazarr.md
+    - hotio/borg: containers/borg.md
+    - hotio/cloudflare-ddns: containers/cloudflare-ddns.md
+    - hotio/crop: containers/crop.md
+    - hotio/hd-idle: containers/hd-idle.md
+    - hotio/jackett: containers/jackett.md
+    - hotio/jellyfin: containers/jellyfin.md
+    - hotio/lidarr: containers/lidarr.md
+    - hotio/mergerfs: containers/mergerfs.md
+    - hotio/mylar3: containers/mylar3.md
+    - hotio/nzbget: containers/nzbget.md
+    - hotio/nzbhydra2: containers/nzbhydra2.md
+    - hotio/ombi: containers/ombi.md
+    - hotio/plex: containers/plex.md
+    - hotio/plexarr: containers/plexarr.md
+    - hotio/radarr: containers/radarr.md
+    - hotio/rar2fs: containers/rar2fs.md
+    - hotio/rclone: containers/rclone.md
+    - hotio/readarr: containers/readarr.md
+    - hotio/requestrr: containers/requestrr.md
+    - hotio/restic: containers/restic.md
+    - hotio/sabnzbd: containers/sabnzbd.md
+    - hotio/scrutiny: containers/scrutiny.md
+    - hotio/sonarr: containers/sonarr.md
+    - hotio/tautulli: containers/tautulli.md
+    - hotio/trackarr: containers/trackarr.md
+    - hotio/unpackerr: containers/unpackerr.md
+  - Base Images:
+    - hotio/base: containers/base.md
+    - hotio/mono: containers/mono.md
 - Arr Discord Notifier: arr-discord-notifier.md
