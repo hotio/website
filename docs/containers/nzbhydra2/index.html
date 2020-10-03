@@ -769,18 +769,20 @@
 <a href="https://github.com/theotherp/nzbhydra2"><img alt="Upstream" src="https://img.shields.io/badge/upstream-project-yellow" /></a></p>
 <h2 id="starting-the-container">Starting the container</h2>
 <p>Just the basics to get the container running:</p>
-<div class="highlight"><pre><span></span><code>docker run --rm --name nzbhydra2 -p <span class="m">5076</span>:5076 -v /&lt;host_folder_config&gt;:/config hotio/nzbhydra2
+<div class="highlight"><pre><span></span><code>docker run --rm <span class="se">\</span>
+    --name nzbhydra2 <span class="se">\</span>
+    -p <span class="m">5076</span>:5076 <span class="se">\</span>
+<span class="hll">    -e <span class="nv">PUID</span><span class="o">=</span><span class="m">1000</span> <span class="se">\</span>
+</span><span class="hll">    -e <span class="nv">PGID</span><span class="o">=</span><span class="m">1000</span> <span class="se">\</span>
+</span><span class="hll">    -e <span class="nv">UMASK</span><span class="o">=</span><span class="m">002</span> <span class="se">\</span>
+</span><span class="hll">    -e <span class="nv">TZ</span><span class="o">=</span><span class="s2">&quot;Etc/UTC&quot;</span> <span class="se">\</span>
+</span><span class="hll">    -e <span class="nv">ARGS</span><span class="o">=</span><span class="s2">&quot;&quot;</span> <span class="se">\</span>
+</span><span class="hll">    -e <span class="nv">DEBUG</span><span class="o">=</span><span class="s2">&quot;no&quot;</span> <span class="se">\</span>
+</span>    -v /&lt;host_folder_config&gt;:/config <span class="se">\</span>
+    hotio/nzbhydra2
 </code></pre></div>
 
-<p>The environment variables below are all optional, the values you see are the defaults.</p>
-<div class="highlight"><pre><span></span><code>-e <span class="nv">PUID</span><span class="o">=</span><span class="m">1000</span>
--e <span class="nv">PGID</span><span class="o">=</span><span class="m">1000</span>
--e <span class="nv">UMASK</span><span class="o">=</span><span class="m">002</span>
--e <span class="nv">TZ</span><span class="o">=</span><span class="s2">&quot;Etc/UTC&quot;</span>
--e <span class="nv">ARGS</span><span class="o">=</span><span class="s2">&quot;&quot;</span>
--e <span class="nv">DEBUG</span><span class="o">=</span><span class="s2">&quot;no&quot;</span>
-</code></pre></div>
-
+<p>The <a href="https://hotio.dev/containers/nzbhydra2">highlighted</a> variables are all optional, the values you see are the defaults.</p>
 <h2 id="tags">Tags</h2>
 <table>
 <thead>
