@@ -1,6 +1,6 @@
 # trackarr
 
-<img src="https://hotio.dev/img/trackarr.png" alt="logo" height="130" width="130">
+[<img src="https://hotio.dev/img/trackarr.png" alt="logo" height="130" width="130">](https://gitlab.com/cloudb0x/trackarr)
 
 ![Base](https://img.shields.io/badge/base-alpine-blue)
 [![GitHub](https://img.shields.io/badge/source-github-lightgrey)](https://github.com/hotio/docker-trackarr)
