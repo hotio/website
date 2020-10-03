@@ -13,52 +13,53 @@
 
 Just the basics to get the container running:
 
-```shell
-docker run --rm --name scrutiny -p 8080:8080 \
-    --cap-add SYS_RAWIO \ # or [--cap-add SYS_ADMIN] for NVMe drives
+```shell hl_lines="4 5 6 7 8 9 10 11 12"
+docker run --rm \
+    --name scrutiny \
+    -p 8080:8080 \
+    -e PUID=1000 \
+    -e PGID=1000 \
+    -e UMASK=002 \
+    -e TZ="Etc/UTC" \
+    -e ARGS="" \
+    -e DEBUG="no" \
+    -e INTERVAL=86400 \
+    -e API_ENDPOINT="http://localhost:8080" \
+    -e MODE="both" \
+    --cap-add SYS_RAWIO \
     --device /dev/sda \
     -v /run/udev:/run/udev:ro \
-    -v /<host_folder_config>:/config
+    -v /<host_folder_config>:/config \
     hotio/scrutiny
 ```
 
-The environment variables below are all optional, the values you see are the defaults.
+The [highlighted](https://hotio.dev/containers/scrutiny) variables are all optional, the values you see are the defaults.
 
-```shell
--e PUID=1000
--e PGID=1000
--e UMASK=002
--e TZ="Etc/UTC"
--e ARGS=""
--e DEBUG="no"
--e INTERVAL=86400
--e API_ENDPOINT="http://localhost:8080"
--e MODE="both"
-```
-
-For the environment variable `MODE` you can pick the values `both`, `web` or `collector` to enable the desired operating mode (see below). The `INTERVAL` variable defines the amount of time in seconds between collector runs, the metrics are pushed to the webinterface located at `API_ENDPOINT`.
+For the environment variable `MODE` you can pick the values `both`, `web` or `collector` to enable the desired operating mode (see below). The `INTERVAL` variable defines the amount of time in seconds between collector runs, the metrics are pushed to the webinterface located at `API_ENDPOINT`. When passing through NVMe devices you'll probably have to use `--cap-add SYS_ADMIN` instead of `--cap-add SYS_RAWIO`.
 
 ## Deploying as 2 seperate containers
 
 ```shell
-docker run --rm --name scrutiny-collector \
+docker run --rm \
+    --name scrutiny-collector \
     --network my-net \
-    --cap-add SYS_RAWIO \ # or [--cap-add SYS_ADMIN] for NVMe drives
-    --device /dev/sda \
-    -v /run/udev:/run/udev:ro \
-    -v /<host_folder_config>:/config \
     -e INTERVAL=3600 \
     -e API_ENDPOINT="http://scrutiny-web:8080" \
     -e MODE="collector" \
+    --cap-add SYS_RAWIO \
+    --device /dev/sda \
+    -v /run/udev:/run/udev:ro \
+    -v /<host_folder_config>:/config \
     hotio/scrutiny
 ```
 
 ```shell
-docker run --rm --name scrutiny-web \
+docker run --rm \
+    --name scrutiny-web \
     --network my-net \
     -p 8080:8080 \
-    -v /<host_folder_config>:/config \
     -e MODE="web" \
+    -v /<host_folder_config>:/config \
     hotio/scrutiny
 ```
 
