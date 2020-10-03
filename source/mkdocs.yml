@@ -12,6 +12,9 @@ extra:
   - icon: fontawesome/brands/github
     link: 'https://github.com/docker-hotio'
     name: GitHub
+  - icon: fontawesome/solid/at
+    link: 'mailto:input@hotio.dev'
+    name: E-mail
 
 extra_css:
   - stylesheets/extra.css
