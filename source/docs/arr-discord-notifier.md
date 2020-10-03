@@ -6,7 +6,7 @@ Arr Discord Notifier sends pretty notifications to a discord webhook. The Radarr
 
 Add a `Custom Script` to the `Connect` settings in Sonarr/Radarr as seen below.  
 
-<p align="center"><img src="/img/arr-discord-notifier-config.png" alt="config-screen" width="500" style="border: 1px solid #6c5d53;"></p>
+<p align="center"><img src="/img/arr-discord-notifier-config.png" alt="config-screen" height="500" width="500" style="border: 1px solid #6c5d53;"></p>
 
 Then add the environment variable `DISCORD_WEBHOOK` with your webhook url provided by Discord to the container. After that hit the `Test` button and you should see a notification appear in your discord channel.  
 

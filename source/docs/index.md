@@ -1,4 +1,4 @@
-<p align="center"><img src="/img/logo-transparent.png" alt="logo" height="300" width="300"></p>
+<p align="center"><img src="/img/logo-header.png" alt="logo" height="250" width="250"></p>
 
 Huh? What does `hotio` do?
 
