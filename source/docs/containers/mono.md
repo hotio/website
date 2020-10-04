@@ -1,7 +1,8 @@
-[![GitHub](https://img.shields.io/badge/source-github-lightgrey)](https://github.com/hotio/docker-mono)
-[![Docker Pulls](https://img.shields.io/docker/pulls/hotio/mono)](https://hub.docker.com/r/hotio/mono)
-[![GitHub Registry](https://img.shields.io/badge/registry-ghcr.io-blue)](https://github.com/users/hotio/packages/container/package/mono)
-[![Discord](https://img.shields.io/discord/610068305893523457?color=738ad6&label=discord&logo=discord&logoColor=white)](https://discord.gg/3SnkuKp)
+[![GitHub Source](https://img.shields.io/badge/github-source-ffb64c?style=flat-square&logo=github&logoColor=white)](https://github.com/docker-hotio/docker-mono)
+[![GitHub Registry](https://img.shields.io/badge/github-registry-ffb64c?style=flat-square&logo=github&logoColor=white)](https://github.com/users/hotio/packages/container/package/mono)
+[![Docker Pulls](https://img.shields.io/docker/pulls/hotio/mono?color=ffb64c&style=flat-square&label=pulls&logo=docker&logoColor=white)](https://hub.docker.com/r/hotio/mono)
+[![Discord](https://img.shields.io/discord/610068305893523457?style=flat-square&color=ffb64c&label=discord&logo=discord&logoColor=white)](https://hotio.dev/discord)
+[![Website](https://img.shields.io/badge/website-hotio.dev-ffb64c?style=flat-square)](https://hotio.dev/containers/mono)
 
 ## Tags
 

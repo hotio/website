@@ -1,9 +1,9 @@
-![Base](https://img.shields.io/badge/base-alpine-blue)
-[![GitHub](https://img.shields.io/badge/source-github-lightgrey)](https://github.com/hotio/docker-crop)
-[![Docker Pulls](https://img.shields.io/docker/pulls/hotio/crop)](https://hub.docker.com/r/hotio/crop)
-[![GitHub Registry](https://img.shields.io/badge/registry-ghcr.io-blue)](https://github.com/users/hotio/packages/container/package/crop)
-[![Discord](https://img.shields.io/discord/610068305893523457?color=738ad6&label=discord&logo=discord&logoColor=white)](https://discord.gg/3SnkuKp)
-[![Upstream](https://img.shields.io/badge/upstream-project-yellow)](https://github.com/l3uddz/crop)
+[![GitHub Source](https://img.shields.io/badge/github-source-ffb64c?style=flat-square&logo=github&logoColor=white)](https://github.com/docker-hotio/docker-crop)
+[![GitHub Registry](https://img.shields.io/badge/github-registry-ffb64c?style=flat-square&logo=github&logoColor=white)](https://github.com/users/hotio/packages/container/package/crop)
+[![Docker Pulls](https://img.shields.io/docker/pulls/hotio/crop?color=ffb64c&style=flat-square&label=pulls&logo=docker&logoColor=white)](https://hub.docker.com/r/hotio/crop)
+[![Discord](https://img.shields.io/discord/610068305893523457?style=flat-square&color=ffb64c&label=discord&logo=discord&logoColor=white)](https://hotio.dev/discord)
+[![Upstream](https://img.shields.io/badge/upstream-project-ffb64c?style=flat-square)](https://github.com/l3uddz/crop)
+[![Website](https://img.shields.io/badge/website-hotio.dev-ffb64c?style=flat-square)](https://hotio.dev/containers/crop)
 
 ## Starting the container
 
