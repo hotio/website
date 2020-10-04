@@ -3,7 +3,7 @@ name: push-readme
 on:
   push:
     paths:
-    - 'source/docs/containers/**'
+    - 'docs/containers/**'
     - '.github/workflows/push-readme.yml'
     branches:
     - master
@@ -27,7 +27,7 @@ jobs:
         git config --global user.email "github-action@users.noreply.github.com"
         git config --global user.name "GitHub Action"
         if [[ "${{ steps.files.outputs.added_modified }}" == *push-readme.yml* ]]; then
-          files="${GITHUB_WORKSPACE}/source/docs/containers/*"
+          files="${GITHUB_WORKSPACE}/docs/containers/*"
         else
           files="${{ steps.files.outputs.added_modified }}"
         fi
@@ -36,12 +36,12 @@ jobs:
             cd ${GITHUB_WORKSPACE} || exit 1
             readme=$(basename ${file//.md/})
             git clone https://${GITHUB_TOKEN}@github.com/${GITHUB_OWNER}/docker-${readme}.git
-            cp ${GITHUB_WORKSPACE}/source/docs/containers/${readme}.md ${GITHUB_WORKSPACE}/docker-${readme}/README.md
+            cp ${GITHUB_WORKSPACE}/docs/containers/${readme}.md ${GITHUB_WORKSPACE}/docker-${readme}/README.md
             cd ${GITHUB_WORKSPACE}/docker-${readme} || exit 1
             git add README.md
             if git commit -m "Synced README with hotio.dev"; then
               git push
             fi
-            docker run -v ${GITHUB_WORKSPACE}/docker-${readme}:/workspace -e DOCKERHUB_USERNAME="${DOCKER_USER}" -e DOCKERHUB_PASSWORD="${DOCKER_PASS}" -e DOCKERHUB_REPOSITORY="${DOCKER_USER}/${readme}" -e README_FILEPATH='/workspace/README.md' -e SHORT_DESCRIPTION="Visit https://hotio.dev for more information." peterevans/dockerhub-description:2
+            docker run -v ${GITHUB_WORKSPACE}/docker-${readme}:/workspace -e DOCKERHUB_USERNAME="${DOCKER_USER}" -e DOCKERHUB_PASSWORD="${DOCKER_PASS}" -e DOCKERHUB_REPOSITORY="${DOCKER_USER}/${readme}" -e README_FILEPATH='/workspace/README.md' -e SHORT_DESCRIPTION="Visit https://hotio.dev/containers/${readme} for more information." peterevans/dockerhub-description:2
           fi
         done

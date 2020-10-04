@@ -1,0 +1,16 @@
+name: deploy-pages
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Deploy site
+        run: |
+          docker run --rm -v ${PWD}:/docs squidfunk/mkdocs-material gh-deploy --force
