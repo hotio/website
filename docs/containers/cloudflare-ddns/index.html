@@ -390,8 +390,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#sending-notifications-using-apprise" class="md-nav__link">
-    Sending notifications using Apprise
+  <a href="#sending-notifications-using-cloudflare-ddns" class="md-nav__link">
+    Sending notifications using cloudflare-ddns
   </a>
   
 </li>
@@ -848,8 +848,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#sending-notifications-using-apprise" class="md-nav__link">
-    Sending notifications using Apprise
+  <a href="#sending-notifications-using-cloudflare-ddns" class="md-nav__link">
+    Sending notifications using cloudflare-ddns
   </a>
   
 </li>
@@ -869,12 +869,12 @@
                 
                   <h1>hotio/cloudflare-ddns</h1>
                 
-                <p><a href="https://github.com/hotio/docker-cloudflare-ddns"><img src="https://hotio.dev/img/cloudflare-ddns.png" alt="logo" height="130" width="130"></a></p>
-<p><img alt="Base" src="https://img.shields.io/badge/base-alpine-blue" />
-<a href="https://github.com/hotio/docker-cloudflare-ddns"><img alt="GitHub" src="https://img.shields.io/badge/source-github-lightgrey" /></a>
-<a href="https://hub.docker.com/r/hotio/cloudflare-ddns"><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/hotio/cloudflare-ddns" /></a>
-<a href="https://github.com/users/hotio/packages/container/package/cloudflare-ddns"><img alt="GitHub Registry" src="https://img.shields.io/badge/registry-ghcr.io-blue" /></a>
-<a href="https://discord.gg/3SnkuKp"><img alt="Discord" src="https://img.shields.io/discord/610068305893523457?color=738ad6&amp;label=discord&amp;logo=discord&amp;logoColor=white" /></a></p>
+                <p><a href="https://github.com/docker-hotio/docker-cloudflare-ddns"><img src="https://hotio.dev/img/cloudflare-ddns.png" alt="logo" height="130" width="130"></a></p>
+<p><a href="https://github.com/docker-hotio/docker-cloudflare-ddns"><img alt="GitHub Source" src="https://img.shields.io/badge/github-source-ffb64c?style=flat-square&amp;logo=github&amp;logoColor=white" /></a>
+<a href="https://github.com/users/hotio/packages/container/package/cloudflare-ddns"><img alt="GitHub Registry" src="https://img.shields.io/badge/github-registry-ffb64c?style=flat-square&amp;logo=github&amp;logoColor=white" /></a>
+<a href="https://hub.docker.com/r/hotio/cloudflare-ddns"><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/hotio/cloudflare-ddns?color=ffb64c&amp;style=flat-square&amp;label=pulls&amp;logo=docker&amp;logoColor=white" /></a>
+<a href="https://hotio.dev/discord"><img alt="Discord" src="https://img.shields.io/discord/610068305893523457?style=flat-square&amp;color=ffb64c&amp;label=discord&amp;logo=discord&amp;logoColor=white" /></a>
+<a href="https://hotio.dev/containers/cloudflare-ddns"><img alt="Website" src="https://img.shields.io/badge/website-hotio.dev-ffb64c?style=flat-square" /></a></p>
 <h2 id="starting-the-container">Starting the container</h2>
 <p>Just the basics to get the container running:</p>
 <div class="highlight"><pre><span></span><code>docker run --rm <span class="se">\</span>
@@ -887,7 +887,7 @@
 </span><span class="hll">    -e <span class="nv">INTERVAL</span><span class="o">=</span><span class="m">300</span> <span class="se">\</span>
 </span><span class="hll">    -e <span class="nv">DETECTION_MODE</span><span class="o">=</span><span class="s2">&quot;dig-whoami.cloudflare&quot;</span> <span class="se">\</span>
 </span><span class="hll">    -e <span class="nv">LOG_LEVEL</span><span class="o">=</span><span class="m">3</span> <span class="se">\</span>
-</span><span class="hll">    -e <span class="nv">APPRISE</span><span class="o">=</span><span class="s2">&quot;&quot;</span> <span class="se">\</span>
+</span><span class="hll">    -e cloudflare-ddns<span class="o">=</span><span class="s2">&quot;&quot;</span> <span class="se">\</span>
 </span>    -e <span class="nv">CF_USER</span><span class="o">=</span><span class="s2">&quot;your.cf.email@example.com&quot;</span> <span class="se">\</span>
     -e <span class="nv">CF_APIKEY</span><span class="o">=</span><span class="s2">&quot;your.global.apikey&quot;</span> <span class="se">\</span>
     -e <span class="nv">CF_APITOKEN</span><span class="o">=</span><span class="s2">&quot;&quot;</span> <span class="se">\</span>
@@ -1029,10 +1029,10 @@
 <h2 id="cached-results-from-cloudflare">Cached results from Cloudflare</h2>
 <p>The returned results from Cloudflare are cached. This means minimal api calls to Cloudflare. If you have made any manual changes to the IP on the Cloudflare webinterface, for instance when wanting to test an update, a container restart is needed to clear the cache.</p>
 <p>The proxy setting (orange cloud) and TTL is also cached and re-set based on the previous value, so if you made any modifications to these settings, you should restart the container so that the script is aware of the new settings.</p>
-<h2 id="sending-notifications-using-apprise">Sending notifications using Apprise</h2>
-<p>You can send notifications when a DNS record gets updated with a new IP using <a href="https://github.com/caronc/apprise/blob/master/README.md">Apprise</a>. Use the environment variable <code>APPRISE</code> to configure notifications, see below for some examples.</p>
-<div class="highlight"><pre><span></span><code>-e <span class="nv">APPRISE</span><span class="o">=</span><span class="s2">&quot;pover://user@token&quot;</span>
--e <span class="nv">APPRISE</span><span class="o">=</span><span class="s2">&quot;pover://user@token;discord://webhook_id/webhook_token&quot;</span>
+<h2 id="sending-notifications-using-cloudflare-ddns">Sending notifications using cloudflare-ddns</h2>
+<p>You can send notifications when a DNS record gets updated with a new IP using <a href="https://github.com/caronc/cloudflare-ddns/blob/master/README.md">cloudflare-ddns</a>. Use the environment variable <code>cloudflare-ddns</code> to configure notifications, see below for some examples.</p>
+<div class="highlight"><pre><span></span><code>-e cloudflare-ddns<span class="o">=</span><span class="s2">&quot;pover://user@token&quot;</span>
+-e cloudflare-ddns<span class="o">=</span><span class="s2">&quot;pover://user@token;discord://webhook_id/webhook_token&quot;</span>
 </code></pre></div>
                 
               
