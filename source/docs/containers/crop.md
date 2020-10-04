@@ -17,9 +17,9 @@ The default `ENTRYPOINT` is `crop`.
 
 ## Tags
 
-| Tag                | Description                    | Version |
-| -------------------|--------------------------------|---------|
-| `release` (latest) | GitHub releases                | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fdocker-hotio%2Fdocker-crop%2Frelease%2FVERSION.json) |
-| `nightly`          | Every commit to develop branch | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fdocker-hotio%2Fdocker-crop%2Fnightly%2FVERSION.json) |
+| Tag                | Description                    | Version | Build |
+| -------------------|--------------------------------|---------|-------|
+| `release` (latest) | GitHub releases                | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fdocker-hotio%2Fdocker-crop%2Frelease%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/docker-hotio/docker-crop/build/release?style=flat-square&label=) |
+| `nightly`          | Every commit to develop branch | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fdocker-hotio%2Fdocker-crop%2Fnightly%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/docker-hotio/docker-crop/build/nightly?style=flat-square&label=) |
 
 You can also find tags that reference a commit or version number.
