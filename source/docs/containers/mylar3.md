@@ -29,10 +29,10 @@ The [highlighted](https://hotio.dev/containers/mylar3) variables are all optiona
 
 ## Tags
 
-| Tag                | Upstream                           |
-| -------------------|------------------------------------|
-| `release` (latest) | GitHub releases                    |
-| `nightly`          | Every commit to python3-dev branch |
+| Tag                | Upstream                           | Version |
+| -------------------|------------------------------------|---------|
+| `release` (latest) | GitHub releases                    | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fdocker-hotio%2Fdocker-mylar3%2Frelease%2FVERSION.json) |
+| `nightly`          | Every commit to python3-dev branch | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fdocker-hotio%2Fdocker-mylar3%2Fnightly%2FVERSION.json) |
 
 You can also find tags that reference a commit or version number.
 
