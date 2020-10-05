@@ -31,7 +31,7 @@ plugins:
 repo_name: hotio
 repo_url: https://github.com/docker-hotio
 site_author: hotio
-site_description: Documentation to get the containers running
+site_description: Documentation for all Docker images maintained by hotio.
 site_name: hotio.dev
 site_url: https://hotio.dev
 
