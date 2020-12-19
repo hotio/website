@@ -79,6 +79,7 @@ nav:
     - hotio/nzbget: containers/nzbget.md
     - hotio/nzbhydra2: containers/nzbhydra2.md
     - hotio/ombi: containers/ombi.md
+    - hotio/overseerr: containers/overseerr.md
     - hotio/plex: containers/plex.md
     - hotio/plexarr: containers/plexarr.md
     - hotio/radarr: containers/radarr.md
