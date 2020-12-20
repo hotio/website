@@ -1,10 +1,10 @@
-[<img src="https://hotio.dev/img/cloudflare-ddns.png" alt="logo" height="130" width="130">](https://github.com/docker-hotio/docker-cloudflare-ddns)
+[<img src="https://hotio.dev/img/cloudflareddns.png" alt="logo" height="130" width="130">](https://github.com/hotio/cloudflareddns)
 
-[![GitHub Source](https://img.shields.io/badge/github-source-ffb64c?style=flat-square&logo=github&logoColor=white&labelColor=757575)](https://github.com/docker-hotio/docker-cloudflare-ddns)
-[![GitHub Registry](https://img.shields.io/badge/github-registry-ffb64c?style=flat-square&logo=github&logoColor=white&labelColor=757575)](https://github.com/users/hotio/packages/container/package/cloudflare-ddns)
-[![Docker Pulls](https://img.shields.io/docker/pulls/hotio/cloudflare-ddns?color=ffb64c&style=flat-square&label=pulls&logo=docker&logoColor=white&labelColor=757575)](https://hub.docker.com/r/hotio/cloudflare-ddns)
+[![GitHub Source](https://img.shields.io/badge/github-source-ffb64c?style=flat-square&logo=github&logoColor=white&labelColor=757575)](https://github.com/hotio/cloudflareddns)
+[![GitHub Registry](https://img.shields.io/badge/github-registry-ffb64c?style=flat-square&logo=github&logoColor=white&labelColor=757575)](https://github.com/users/hotio/packages/container/package/cloudflareddns)
+[![Docker Pulls](https://img.shields.io/docker/pulls/hotio/cloudflareddns?color=ffb64c&style=flat-square&label=pulls&logo=docker&logoColor=white&labelColor=757575)](https://hub.docker.com/r/hotio/cloudflareddns)
 [![Discord](https://img.shields.io/discord/610068305893523457?style=flat-square&color=ffb64c&label=discord&logo=discord&logoColor=white&labelColor=757575)](https://hotio.dev/discord)
-[![Website](https://img.shields.io/badge/website-hotio.dev-ffb64c?style=flat-square&labelColor=757575)](https://hotio.dev/containers/cloudflare-ddns)
+[![Website](https://img.shields.io/badge/website-hotio.dev-ffb64c?style=flat-square&labelColor=757575)](https://hotio.dev/containers/cloudflareddns)
 
 ## Starting the container
 
@@ -12,7 +12,7 @@ Just the basics to get the container running:
 
 ```shell hl_lines="3 4 5 6 7 8 9 10 11"
 docker run --rm \
-    --name cloudflare-ddns \
+    --name cloudflareddns \
     -e PUID=1000 \
     -e PGID=1000 \
     -e UMASK=002 \
@@ -30,10 +30,10 @@ docker run --rm \
     -e CF_ZONES="example.com;foobar.com;foobar.com" \
     -e CF_RECORDTYPES="A;A;AAAA" \
     -v /<host_folder_config>:/config \
-    hotio/cloudflare-ddns
+    hotio/cloudflareddns
 ```
 
-The [highlighted](https://hotio.dev/containers/cloudflare-ddns) variables are all optional, the values you see are the defaults.
+The [highlighted](https://hotio.dev/containers/cloudflareddns) variables are all optional, the values you see are the defaults.
 
 Possible values for `DETECTION_MODE` are `dig-google.com`, `dig-opendns.com`, `dig-whoami.cloudflare`, `curl-icanhazip.com`, `curl-wtfismyip.com`, `curl-showmyip.ca`, `curl-da.gd`, `curl-seeip.org` and `curl-ifconfig.co`. If you want to get the local ip from a network interface, use something like `local:eth0` as `DETECTION_MODE`.
 
@@ -45,7 +45,7 @@ Notice that we give 3 values each time for `CF_HOSTS`, `CF_ZONES` and `CF_RECORD
 
 | Tag                | Description     | Build |
 | -------------------|-----------------|-------|
-| `release` (latest) | The main branch | ![build](https://img.shields.io/github/workflow/status/docker-hotio/docker-cloudflare-ddns/build/release?style=flat-square&label=) |
+| `release` (latest) | The main branch | ![build](https://img.shields.io/github/workflow/status/hotio/cloudflareddns/build/release?style=flat-square&label=) |
 
 You can also find tags that reference a commit or version number.
 

@@ -1,5 +1,5 @@
 copyright: Copyright &copy; 2020 hotio
-edit_uri: 'docker-hotio.github.io/edit/master/docs'
+edit_uri: 'hotio.github.io/edit/master/docs'
 
 extra:
   social:
@@ -10,7 +10,7 @@ extra:
     link: 'https://hub.docker.com/u/hotio'
     name: Docker
   - icon: fontawesome/brands/github
-    link: 'https://github.com/docker-hotio'
+    link: 'https://github.com/hotio'
     name: GitHub
   - icon: fontawesome/solid/at
     link: 'mailto:input@hotio.dev'
@@ -25,11 +25,11 @@ plugins:
     redirect_maps:
       discord.md: 'https://discord.gg/3SnkuKp'
       dockerhub.md: 'https://hub.docker.com/u/hotio'
-      github.md: 'https://github.com/docker-hotio'
-      ghcr.md: 'https://github.com/orgs/docker-hotio/packages?ecosystem=container&visibility=public'
+      github.md: 'https://github.com/hotio'
+      ghcr.md: 'https://github.com/orgs/hotio/packages?ecosystem=container&visibility=public'
 
 repo_name: hotio
-repo_url: https://github.com/docker-hotio
+repo_url: https://github.com/hotio
 site_author: hotio
 site_description: Documentation for all Docker images maintained by hotio.
 site_name: hotio.dev
