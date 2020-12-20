@@ -68,9 +68,9 @@ nav:
     - hotio/autoscan: containers/autoscan.md
     - hotio/bazarr: containers/bazarr.md
     - hotio/borg: containers/borg.md
-    - hotio/cloudflare-ddns: containers/cloudflare-ddns.md
+    - hotio/cloudflareddns: containers/cloudflareddns.md
     - hotio/crop: containers/crop.md
-    - hotio/hd-idle: containers/hd-idle.md
+    - hotio/hdidle: containers/hdidle.md
     - hotio/jackett: containers/jackett.md
     - hotio/jellyfin: containers/jellyfin.md
     - hotio/lidarr: containers/lidarr.md

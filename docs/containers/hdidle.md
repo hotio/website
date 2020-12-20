@@ -1,9 +1,9 @@
-[![GitHub Source](https://img.shields.io/badge/github-source-ffb64c?style=flat-square&logo=github&logoColor=white&labelColor=757575)](https://github.com/hotio/hd-idle)
-[![GitHub Registry](https://img.shields.io/badge/github-registry-ffb64c?style=flat-square&logo=github&logoColor=white&labelColor=757575)](https://github.com/orgs/hotio/packages/container/package/hd-idle)
-[![Docker Pulls](https://img.shields.io/docker/pulls/hotio/hd-idle?color=ffb64c&style=flat-square&label=pulls&logo=docker&logoColor=white&labelColor=757575)](https://hub.docker.com/r/hotio/hd-idle)
+[![GitHub Source](https://img.shields.io/badge/github-source-ffb64c?style=flat-square&logo=github&logoColor=white&labelColor=757575)](https://github.com/hotio/hdidle)
+[![GitHub Registry](https://img.shields.io/badge/github-registry-ffb64c?style=flat-square&logo=github&logoColor=white&labelColor=757575)](https://github.com/orgs/hotio/packages/container/package/hdidle)
+[![Docker Pulls](https://img.shields.io/docker/pulls/hotio/hdidle?color=ffb64c&style=flat-square&label=pulls&logo=docker&logoColor=white&labelColor=757575)](https://hub.docker.com/r/hotio/hdidle)
 [![Discord](https://img.shields.io/discord/610068305893523457?style=flat-square&color=ffb64c&label=discord&logo=discord&logoColor=white&labelColor=757575)](https://hotio.dev/discord)
 [![Upstream](https://img.shields.io/badge/upstream-project-ffb64c?style=flat-square&labelColor=757575)](https://github.com/adelolmo/hd-idle)
-[![Website](https://img.shields.io/badge/website-hotio.dev-ffb64c?style=flat-square&labelColor=757575)](https://hotio.dev/containers/hd-idle)
+[![Website](https://img.shields.io/badge/website-hotio.dev-ffb64c?style=flat-square&labelColor=757575)](https://hotio.dev/containers/hdidle)
 
 ## Starting the container
 
@@ -11,7 +11,7 @@ Just the basics to get the container running:
 
 ```shell hl_lines="4 5 6 7 8 9 10"
 docker run --rm \
-    --name hd-idle \
+    --name hdidle \
     --privileged=true \
     -e PUID=1000 \
     -e PGID=1000 \
@@ -21,16 +21,16 @@ docker run --rm \
     -e DEBUG="no" \
     -e IDLE_TIME=1800 \
     -v /<host_folder_config>:/config \
-    hotio/hd-idle
+    hotio/hdidle
 ```
 
-The [highlighted](https://hotio.dev/containers/hd-idle) variables are all optional, the values you see are the defaults.
+The [highlighted](https://hotio.dev/containers/hdidle) variables are all optional, the values you see are the defaults.
 
 ## Tags
 
 | Tag                | Upstream        | Version | Build |
 | -------------------|-----------------|---------|-------|
-| `release` (latest) | GitHub releases | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Fhd-idle%2Frelease%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/hd-idle/build/release?style=flat-square&label=) |
+| `release` (latest) | GitHub releases | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Fhdidle%2Frelease%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/hdidle/build/release?style=flat-square&label=) |
 
 You can also find tags that reference a commit or version number.
 
