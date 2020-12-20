@@ -24,8 +24,8 @@ jobs:
           DOCKER_USER: ${{ secrets.DOCKER_USER }}
           DOCKER_PASS: ${{ secrets.DOCKER_PASS }}
         run: |
-          git config --global user.email "github-action@users.noreply.github.com"
-          git config --global user.name "GitHub Action"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions"
           if [[ "${{ steps.files.outputs.added_modified }}" == *sync-readme.yml* ]]; then
             files="${GITHUB_WORKSPACE}/docs/containers/*"
           else
