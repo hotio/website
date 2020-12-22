@@ -55,6 +55,7 @@ If you are a Plex Pass subscriber, you can enable the install of beta builds wit
 ## TOP secret stuff
 
 If you do `-e PLEX_PASS="https://..."`, stuff happens for which no support will be given.
+
 ## Configuration location
 
 Your plex configuration inside the container is stored in `/config/app/Plex Media Server`, your `Preferences.xml` file its full path would be `/config/app/Plex Media Server/Preferences.xml`.
