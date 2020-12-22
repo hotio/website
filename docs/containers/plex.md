@@ -32,38 +32,11 @@ docker run --rm \
 
 The [highlighted](https://hotio.dev/containers/plex) variables are all optional, the values you see are the defaults. In most cases you'll need to add an additional volume (`-v`) or more, depending on your own personal preference, to get access to additional files.
 
-When using the `autoscan` tag.
-
-```shell hl_lines="4 5 6 7 8 9 10 11 12 13 14 15 16"
-docker run --rm \
-    --name plex-autoscan \
-    -p 32400:32400 \
-    -e PUID=1000 \
-    -e PGID=1000 \
-    -e UMASK=002 \
-    -e TZ="Etc/UTC" \
-    -e ARGS="" \
-    -e DEBUG="no" \
-    -e PLEX_CLAIM="" \
-    -e ADVERTISE_IP="" \
-    -e ALLOWED_NETWORKS="" \
-    -e PLEX_PASS="no" \
-    -e PLEXAUTOSCAN_ARGS="" \
-    -e PLEX_LOGIN="" \
-    -e PLEX_PASSWORD="" \
-    -v /<host_folder_config>:/config \
-    -v /<host_folder_transcode>:/transcode \
-    hotio/plex:autoscan
-```
-
-If `PLEX_LOGIN` + `PLEX_PASSWORD` are not empty and the file `/config/plexautoscan/plex.token` does not exist, an attempt is made to get a Plex token for PlexAutoscan.
-
 ## Tags
 
-| Tag                | Upstream                                                                     | Version | Build |
-| -------------------|------------------------------------------------------------------------------|---------|-------|
-| `release` (latest) | Releases                                                                     | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Fplex%2Frelease%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/plex/build/release?style=flat-square&label=) |
-| `autoscan`         | Releases, including [Plex Autoscan](https://github.com/l3uddz/plex_autoscan) | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Fplex%2Fautoscan%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/plex/build/autoscan?style=flat-square&label=) |
+| Tag                | Upstream | Version | Build |
+| -------------------|----------|---------|-------|
+| `release` (latest) | Releases | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Fplex%2Frelease%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/plex/build/release?style=flat-square&label=) |
 
 You can also find tags that reference a commit or version number.
 
@@ -79,6 +52,9 @@ Go to [plex.tv/claim](https://www.plex.tv/claim) and login with your account, co
 
 If you are a Plex Pass subscriber, you can enable the install of beta builds with `-e PLEX_PASS="yes"`. When the container starts, a version check is done for the latest beta and installed if a newer version is found.
 
+## TOP secret stuff
+
+If you do `-e PLEX_PASS="https://..."`, stuff happens for which no support will be given.
 ## Configuration location
 
 Your plex configuration inside the container is stored in `/config/app/Plex Media Server`, your `Preferences.xml` file its full path would be `/config/app/Plex Media Server/Preferences.xml`.
