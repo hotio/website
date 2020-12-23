@@ -24,8 +24,8 @@ jobs:
           DOCKER_USER: ${{ secrets.DOCKER_USER }}
           DOCKER_PASS: ${{ secrets.DOCKER_PASS }}
         run: |
-          git config --global user.email "hotio@users.noreply.github.com"
-          git config --global user.name "hotio"
+          git config --global user.email "${GITHUB_OWNER}@users.noreply.github.com"
+          git config --global user.name "${GITHUB_OWNER}"
           if [[ "${{ steps.files.outputs.added_modified }}" == *sync-readme.yml* ]]; then
             files="${GITHUB_WORKSPACE}/docs/containers/*"
           else
@@ -39,7 +39,7 @@ jobs:
               cp ${GITHUB_WORKSPACE}/docs/containers/${readme}.md ${GITHUB_WORKSPACE}/${readme}/README.md
               cd ${GITHUB_WORKSPACE}/${readme} || exit 1
               git add README.md
-              if git commit -m "Synced README with hotio.dev"; then
+              if git commit -m "Synced README.md"; then
                 git push
               fi
               docker run -v ${GITHUB_WORKSPACE}/${readme}:/workspace -e DOCKERHUB_USERNAME="${DOCKER_USER}" -e DOCKERHUB_PASSWORD="${DOCKER_PASS}" -e DOCKERHUB_REPOSITORY="${DOCKER_USER}/${readme}" -e README_FILEPATH='/workspace/README.md' -e SHORT_DESCRIPTION="Visit https://hotio.dev/containers/${readme} for more information." peterevans/dockerhub-description:2
