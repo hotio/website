@@ -21,3 +21,15 @@
   animation: heart 1000ms infinite;
   color: #e91e63;
 }
+
+@keyframes heartfooter {
+  0%, 40%, 80%, 100% {
+    transform: scale(1);
+  }
+  20%, 60% {
+    transform: scale(1.15);
+  }
+}
+[title=Donate] svg {
+  animation: heartfooter 1000ms infinite;
+}
