@@ -20,6 +20,6 @@ Images where you see a mention of `ENTRYPOINT` are meant to be used like any oth
 
 If you like what I do, you know the drill... :octicons-heart-fill-24:{: .heart }
 
-<p align="left"><iframe src="https://github.com/sponsors/mrhotio/card" title="Sponsor mrhotio" height="225" width="600" style="border: 0;"></iframe></p>
+<iframe src="https://github.com/sponsors/mrhotio/button" title="Sponsor mrhotio" height="35" width="116" style="border: 0;"></iframe>
 
 <sub><sup>Logo made possible by [Freepik](https://www.flaticon.com/authors/freepik) from [flaticon.com](https://www.flaticon.com).</sup></sub>
