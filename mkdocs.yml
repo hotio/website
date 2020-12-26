@@ -3,6 +3,9 @@ edit_uri: 'hotio.github.io/edit/master/docs'
 
 extra:
   social:
+  - icon: fontawesome/solid/heart
+    link: 'https://github.com/sponsors/mrhotio'
+    name: Donate
   - icon: fontawesome/brands/discord
     link: 'https://hotio.dev/discord'
     name: Discord
