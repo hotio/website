@@ -75,6 +75,7 @@ nav:
     - hotio/jellyfin: containers/jellyfin.md
     - hotio/lidarr: containers/lidarr.md
     - hotio/mergerfs: containers/mergerfs.md
+    - hotio/movearr: containers/movearr.md
     - hotio/mylar3: containers/mylar3.md
     - hotio/nzbget: containers/nzbget.md
     - hotio/nzbhydra2: containers/nzbhydra2.md
