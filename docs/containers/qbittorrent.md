@@ -38,7 +38,7 @@ You can also find tags that reference a commit or version number.
 
 ## Configuration location
 
-Your qbittorrent configuration inside the container is stored in `/config/.config`, to migrate from another container, you'd probably have to move your files to the correct locations.
+Your qbittorrent configuration inside the container is stored in `/config/app`, to migrate from another container, you'd probably have to move your files from `/config` to `/config/app`.
 
 ## Executing your own scripts
 
