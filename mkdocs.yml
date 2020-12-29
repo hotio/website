@@ -86,6 +86,7 @@ nav:
     - hotio/overseerr: containers/overseerr.md
     - hotio/plex: containers/plex.md
     - hotio/plexarr: containers/plexarr.md
+    - hotio/qbittorrent: containers/qbittorrent.md
     - hotio/radarr: containers/radarr.md
     - hotio/rar2fs: containers/rar2fs.md
     - hotio/rclone: containers/rclone.md
