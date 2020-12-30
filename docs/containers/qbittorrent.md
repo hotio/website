@@ -53,3 +53,28 @@ echo "Hello, this is me, your script."
 ## Troubleshooting a problem
 
 By default all output is redirected to `/dev/null`, so you won't see anything from the application when using `docker logs`. Most applications write everything to a log file too. If you do want to see this output with `docker logs`, you can use `-e DEBUG="yes"` to enable this.
+
+## Starting the container with VPN support, still needs testing
+
+Just the basics to get the container running:
+
+```shell
+docker run --rm \
+    --name qbittorrent \
+    --cap-add=NET_ADMIN \
+    --sysctl="net.ipv4.conf.all.src_valid_mark=1" \
+    --sysctl="net.ipv6.conf.all.disable_ipv6=0" \
+    -p 8080:8080 \
+    -e PUID=1000 \
+    -e PGID=1000 \
+    -e UMASK=002 \
+    -e TZ="Etc/UTC" \
+    -e ARGS="" \
+    -e DEBUG="yes" \
+    -e VPN_ENABLED="true" \
+    -e VPN_LAN_NETWORK="192.168.1.0/24" \
+    -v /<host_folder_config>:/config \
+    hotio/qbittorrent:vpn
+```
+
+There needs to be a file `wg0.conf` located in `/config/wireguard`, the part `--sysctl="net.ipv6.conf.all.disable_ipv6=0"` can be removed if there is no mention of any ipv6 in `wg0.conf`. For all ipv6 stuff to work, it probably needs to be enabled for docker (needs testing).
