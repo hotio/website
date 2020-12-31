@@ -60,6 +60,7 @@ This is probably not going to work if your OS has no kernel with WireGuard suppo
 
 Tested Operating Systems:
 
+* Ubuntu 18.04
 * Ubuntu 20.04
 * Unraid (recent version)
 
