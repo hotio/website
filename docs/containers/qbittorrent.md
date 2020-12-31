@@ -65,7 +65,7 @@ Tested Operating Systems:
 
 Just the basics to get the container running:
 
-```shell
+```shell hl_lines="7 8 9 10 11 12 13 14"
 docker run --rm \
     --name qbittorrent \
     --cap-add=NET_ADMIN \
@@ -77,11 +77,11 @@ docker run --rm \
     -e UMASK=002 \
     -e TZ="Etc/UTC" \
     -e ARGS="" \
-    -e DEBUG="yes" \
-    -e VPN_ENABLED="true" \
-    -e VPN_LAN_NETWORK="192.168.1.0/24" \
+    -e DEBUG="no" \
+    -e VPN_ENABLED="false" \
+    -e VPN_LAN_NETWORK="" \
     -v /<host_folder_config>:/config \
     hotio/qbittorrent:vpn
 ```
 
-There needs to be a file `wg0.conf` located in `/config/wireguard`, the part `--sysctl="net.ipv6.conf.all.disable_ipv6=0"` can be removed if there is no mention of any ipv6 in `wg0.conf`.
+There needs to be a file `wg0.conf` located in `/config/wireguard`, the part `--sysctl="net.ipv6.conf.all.disable_ipv6=0"` can be removed if there is no mention of any ipv6 in `wg0.conf`. The environment variable `VPN_LAN_NETWORK`can be set to for example `192.168.1.0/24` or `192.168.1.33`.
