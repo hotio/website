@@ -56,6 +56,13 @@ By default all output is redirected to `/dev/null`, so you won't see anything fr
 
 ## Starting the container with VPN support, still needs testing
 
+This is probably not going to work if your OS has no kernel with WireGuard support.
+
+Tested Operating Systems:
+
+* Ubuntu 20.04
+* Unraid (recent version)
+
 Just the basics to get the container running:
 
 ```shell
