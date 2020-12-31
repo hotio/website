@@ -36,6 +36,7 @@ Tested Operating Systems:
 * Ubuntu 18.04
 * Ubuntu 20.04
 * Unraid 6.8.3
+* Unraid 6.9 RC1
 
 Just the basics to get the container running:
 
