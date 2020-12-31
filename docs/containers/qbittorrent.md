@@ -84,4 +84,4 @@ docker run --rm \
     hotio/qbittorrent:vpn
 ```
 
-There needs to be a file `wg0.conf` located in `/config/wireguard`, the part `--sysctl="net.ipv6.conf.all.disable_ipv6=0"` can be removed if there is no mention of any ipv6 in `wg0.conf`. The environment variable `VPN_LAN_NETWORK`can be set to for example `192.168.1.0/24` or `192.168.1.33`.
+There needs to be a file `wg0.conf` located in `/config/wireguard`, the part `--sysctl="net.ipv6.conf.all.disable_ipv6=0"` can be removed if there is no mention of any ipv6 in `wg0.conf`. The environment variable `VPN_LAN_NETWORK`can be set to for example `192.168.1.0/24`, `192.168.1.0/24,192.168.44.0/24` or `192.168.1.33`.
