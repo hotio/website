@@ -27,6 +27,39 @@ docker run --rm \
 
 The [highlighted](https://hotio.dev/containers/qbittorrent) variables are all optional, the values you see are the defaults. In most cases you'll need to add an additional volume (`-v`) or more, depending on your own personal preference, to get access to additional files.
 
+## WireGuard VPN support
+
+This is probably not going to work if your OS has no kernel with WireGuard support.
+
+Tested Operating Systems:
+
+* Ubuntu 18.04
+* Ubuntu 20.04
+* Unraid 6.8.3
+
+Just the basics to get the container running:
+
+```shell hl_lines="7 8 9 10 11 12 13 14"
+docker run --rm \
+    --name qbittorrent \
+    --cap-add=NET_ADMIN \
+    --sysctl="net.ipv4.conf.all.src_valid_mark=1" \
+    --sysctl="net.ipv6.conf.all.disable_ipv6=0" \
+    -p 8080:8080 \
+    -e PUID=1000 \
+    -e PGID=1000 \
+    -e UMASK=002 \
+    -e TZ="Etc/UTC" \
+    -e ARGS="" \
+    -e DEBUG="no" \
+    -e VPN_ENABLED="false" \
+    -e VPN_LAN_NETWORK="" \
+    -v /<host_folder_config>:/config \
+    hotio/qbittorrent
+```
+
+There needs to be a file `wg0.conf` located in `/config/wireguard` and you need to set the variable `VPN_ENABLED` to `true` for the VPN to work. The part `--sysctl="net.ipv6.conf.all.disable_ipv6=0"` can be removed if there is no mention of any ipv6 in `wg0.conf`. If your vpn provider supports ipv6, you'll have full ipv6 connectivity over the vpn connection, this has been tested with Mullvad. The environment variable `VPN_LAN_NETWORK`can be set to for example `192.168.1.0/24`, `192.168.1.0/24,192.168.44.0/24` or `192.168.1.33`, so you can get access to the qBittorrent webui.
+
 ## Tags
 
 | Tag                | Upstream                | Version | Build |
@@ -53,36 +86,3 @@ echo "Hello, this is me, your script."
 ## Troubleshooting a problem
 
 By default all output is redirected to `/dev/null`, so you won't see anything from the application when using `docker logs`. Most applications write everything to a log file too. If you do want to see this output with `docker logs`, you can use `-e DEBUG="yes"` to enable this.
-
-## Starting the container with VPN support, still needs testing
-
-This is probably not going to work if your OS has no kernel with WireGuard support.
-
-Tested Operating Systems:
-
-* Ubuntu 18.04
-* Ubuntu 20.04
-* Unraid (recent version)
-
-Just the basics to get the container running:
-
-```shell hl_lines="7 8 9 10 11 12 13 14"
-docker run --rm \
-    --name qbittorrent \
-    --cap-add=NET_ADMIN \
-    --sysctl="net.ipv4.conf.all.src_valid_mark=1" \
-    --sysctl="net.ipv6.conf.all.disable_ipv6=0" \
-    -p 8080:8080 \
-    -e PUID=1000 \
-    -e PGID=1000 \
-    -e UMASK=002 \
-    -e TZ="Etc/UTC" \
-    -e ARGS="" \
-    -e DEBUG="no" \
-    -e VPN_ENABLED="false" \
-    -e VPN_LAN_NETWORK="" \
-    -v /<host_folder_config>:/config \
-    hotio/qbittorrent:vpn
-```
-
-There needs to be a file `wg0.conf` located in `/config/wireguard`, the part `--sysctl="net.ipv6.conf.all.disable_ipv6=0"` can be removed if there is no mention of any ipv6 in `wg0.conf`. The environment variable `VPN_LAN_NETWORK`can be set to for example `192.168.1.0/24`, `192.168.1.0/24,192.168.44.0/24` or `192.168.1.33`.
