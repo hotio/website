@@ -91,6 +91,42 @@ Endpoint = xxx.x.xxx.x:51820
 
 ```
 
+## TorGuard instructions
+
+While Mullvad is pretty straightforward to setup by using the `wg0.conf` example from above, TorGuard is a bit more complex.
+
+Our `wg0.conf` should look something like this:
+
+```text
+# TorGuard WireGuard Config
+[Interface]
+PrivateKey = secretprivatekey
+ListenPort = 51820
+DNS = 1.1.1.1
+Address = xx.xx.xxx.xx/24
+PreUp = bash /config/wireguard/torguard.sh
+
+[Peer]
+PublicKey = publickey
+AllowedIPs = 0.0.0.0/0
+Endpoint = xx.xxx.xx.xxx:1443
+PersistentKeepalive = 25
+````
+
+Pay attention to `PreUp = bash /config/wireguard/torguard.sh` in our config. That command will execute the below script that you should create in `/config/wireguard/torguard.sh`, this script will get executed just before starting WireGuard.
+
+```shell
+#!/usr/bin/bash
+pubkey=$(grep PrivateKey "${CONFIG_DIR}/wireguard/wg0.conf" | awk '{print $3}' | wg pubkey)
+wgserver=$(grep Endpoint "${CONFIG_DIR}/wireguard/wg0.conf" | awk '{print $3}')
+
+curl -ksG -u "${TORGUARD_USER}":"${TORGUARD_PASS}" --data-urlencode "public-key=${pubkey}" "https://${wgserver}/api/v1/setup"
+```
+
+You will also have to add these additional environment variables `-e TORGUARD_USER="ServiceUsername" -e TORGUARD_PASS="ServicePassword"` or fill them in into the script directly (see `curl` command). These credentials can be found [here](https://torguard.net/clientarea.php?action=changepw).
+
+When doing the whole WireGuard setup on the TorGuard website, pay attention to enable WireGuard from the `My Account` menu next to the `JOIN NOW` button visible while on the [homepage](https://torguard.net). After that you should see a fixed ip on the `Services > My Fixed IPs` page (found in the menu while on the [Account](https://torguard.net/clientarea.php) page). Use this ip on the [config generator page](https://torguard.net/tgconf.php?action=vpn-openvpnconfig) to generate your WireGuard config.
+
 ## Executing your own scripts
 
 If you have a need to do additional stuff when the container starts or stops, you can mount your script with `-v /docker/host/my-script.sh:/etc/cont-init.d/99-my-script` to execute your script on container start or `-v /docker/host/my-script.sh:/etc/cont-finish.d/99-my-script` to execute it when the container stops. An example script can be seen below.
