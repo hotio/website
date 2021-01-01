@@ -111,7 +111,7 @@ PublicKey = publickey
 AllowedIPs = 0.0.0.0/0
 Endpoint = xx.xxx.xx.xxx:1443
 PersistentKeepalive = 25
-````
+```
 
 Pay attention to `PreUp = bash /config/wireguard/torguard.sh` in our config. That command will execute the below script that you should create in `/config/wireguard/torguard.sh`, this script will get executed just before starting WireGuard.
 
