@@ -74,6 +74,23 @@ You can also find tags that reference a commit or version number.
 
 Your qbittorrent configuration inside the container is stored in `/config/app`, to migrate from another container, you'd probably have to move your files from `/config` to `/config/app`.
 
+## wg0.conf example
+
+This is an example of how your `wg0.conf` could look like.
+
+```text
+[Interface]
+PrivateKey = supersecretprivatekey
+Address = xx.xx.xxx.xxx/32
+DNS = 1.1.1.1
+
+[Peer]
+PublicKey = publickey
+AllowedIPs = 0.0.0.0/0
+Endpoint = xxx.x.xxx.x:51820
+
+```
+
 ## Executing your own scripts
 
 If you have a need to do additional stuff when the container starts or stops, you can mount your script with `-v /docker/host/my-script.sh:/etc/cont-init.d/99-my-script` to execute your script on container start or `-v /docker/host/my-script.sh:/etc/cont-finish.d/99-my-script` to execute it when the container stops. An example script can be seen below.
