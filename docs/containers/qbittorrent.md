@@ -124,7 +124,7 @@ curl -ksG -u "${TORGUARD_USER}":"${TORGUARD_PASS}" --data-urlencode "public-key=
 
 You will also have to add these additional environment variables `-e TORGUARD_USER="ServiceUsername" -e TORGUARD_PASS="ServicePassword"` or fill them in into the script directly (see `curl` command). These credentials can be found [here](https://torguard.net/clientarea.php?action=changepw).
 
-When doing the whole WireGuard setup on the TorGuard website, pay attention to enable WireGuard from the `My Account` menu next to the `JOIN NOW` button visible while on the [homepage](https://torguard.net). After that you should see a fixed ip on the `Services > My Fixed IPs` page (found in the menu while on the [Account](https://torguard.net/clientarea.php) page). Use this ip on the [config generator page](https://torguard.net/tgconf.php?action=vpn-openvpnconfig) to generate your WireGuard config. This ip should also be used on the Port Forwarding Request page, where **Protocol** should be set to `UDP` and **Port/Auth** to `WireGuard` under **On VPN Server**.
+When doing the whole WireGuard setup on the TorGuard website, pay attention to enable WireGuard from the `My Account` menu next to the `JOIN NOW` button visible while on the [homepage](https://torguard.net). After that you should see a fixed ip on the `Services > My Fixed IPs` page (found in the menu while on the [Account](https://torguard.net/clientarea.php) page). Use this ip on the [config generator page](https://torguard.net/tgconf.php?action=vpn-openvpnconfig) to generate your WireGuard config. This ip should also be used on the **Port Forward Request** page, where **Protocol** should be set to `UDP` and **Port/Auth** to `WireGuard` under **On VPN Server**.
 
 ## Executing your own scripts
 
