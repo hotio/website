@@ -55,6 +55,7 @@ docker run --rm \
     -e DEBUG="no" \
     -e VPN_ENABLED="false" \
     -e VPN_LAN_NETWORK="" \
+    -e VPN_CONF="wg0" \
     -v /<host_folder_config>:/config \
     hotio/qbittorrent
 ```
