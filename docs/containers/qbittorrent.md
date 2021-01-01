@@ -88,7 +88,6 @@ DNS = 1.1.1.1
 PublicKey = publickey
 AllowedIPs = 0.0.0.0/0
 Endpoint = xxx.x.xxx.x:51820
-
 ```
 
 ## TorGuard instructions
