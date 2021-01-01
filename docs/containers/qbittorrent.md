@@ -40,7 +40,7 @@ Tested Operating Systems:
 
 Just the basics to get the container running:
 
-```shell hl_lines="7 8 9 10 11 12 13 14"
+```shell hl_lines="7 8 9 10 11 12 13 14 15"
 docker run --rm \
     --name qbittorrent \
     --cap-add=NET_ADMIN \
