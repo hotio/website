@@ -119,7 +119,6 @@ Pay attention to `PreUp = bash /config/wireguard/torguard.sh` in our config. Tha
 #!/usr/bin/bash
 pubkey=$(grep PrivateKey "${CONFIG_DIR}/wireguard/wg0.conf" | awk '{print $3}' | wg pubkey)
 wgserver=$(grep Endpoint "${CONFIG_DIR}/wireguard/wg0.conf" | awk '{print $3}')
-
 curl -ksG -u "${TORGUARD_USER}":"${TORGUARD_PASS}" --data-urlencode "public-key=${pubkey}" "https://${wgserver}/api/v1/setup"
 ```
 
