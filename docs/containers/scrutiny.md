@@ -11,7 +11,7 @@
 
 Just the basics to get the container running:
 
-```shell hl_lines="4 5 6 7 8 9 10 11 12"
+```shell
 docker run --rm \
     --name scrutiny \
     -p 8080:8080 \
@@ -30,8 +30,6 @@ docker run --rm \
     -v /<host_folder_config>:/config \
     hotio/scrutiny
 ```
-
-The [highlighted](https://hotio.dev/containers/scrutiny) variables are all optional, the values you see are the defaults.
 
 For the environment variable `MODE` you can pick the values `both`, `web` or `collector` to enable the desired operating mode (see below). The `INTERVAL` variable defines the amount of time in seconds between collector runs, the metrics are pushed to the webinterface located at `API_ENDPOINT`. When passing through NVMe devices you'll probably have to use `--cap-add SYS_ADMIN` instead of `--cap-add SYS_RAWIO`.
 

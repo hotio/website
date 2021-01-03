@@ -10,7 +10,7 @@
 
 Just the basics to get the container running:
 
-```shell hl_lines="3 4 5 6 7 8 9 10 11"
+```shell
 docker run --rm \
     --name cloudflareddns \
     -e PUID=1000 \
@@ -32,8 +32,6 @@ docker run --rm \
     -v /<host_folder_config>:/config \
     hotio/cloudflareddns
 ```
-
-The [highlighted](https://hotio.dev/containers/cloudflareddns) variables are all optional, the values you see are the defaults.
 
 Possible values for `DETECTION_MODE` are `dig-google.com`, `dig-opendns.com`, `dig-whoami.cloudflare`, `curl-icanhazip.com`, `curl-wtfismyip.com`, `curl-showmyip.ca`, `curl-da.gd`, `curl-seeip.org` and `curl-ifconfig.co`. If you want to get the local ip from a network interface, use something like `local:eth0` as `DETECTION_MODE`.
 
