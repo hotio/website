@@ -9,9 +9,9 @@
 
 ## Starting the container
 
-Just the basics to get the container running:
+CLI:
 
-```shell hl_lines="4 5 6 7 8 9"
+```shell
 docker run --rm \
     --name qbittorrent \
     -p 8080:8080 \
@@ -25,7 +25,29 @@ docker run --rm \
     hotio/qbittorrent
 ```
 
-The [highlighted](https://hotio.dev/containers/qbittorrent) variables are all optional, the values you see are the defaults. In most cases you'll need to add an additional volume (`-v`) or more, depending on your own personal preference, to get access to additional files.
+Compose:
+
+```text
+version: "3.7"
+
+services:
+  qbittorrent:
+    container_name: qbittorrent
+    image: hotio/qbittorrent
+    ports:
+      - "8080:8080"
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - UMASK=002
+      - TZ=Etc/UTC
+      - ARGS
+      - DEBUG=no
+    volumes:
+      - /<host_folder_config>:/config
+```
+
+In most cases you'll need to add additional volumes, depending on your own personal preference, to get access to your files.
 
 ## WireGuard VPN support
 
@@ -39,14 +61,11 @@ Tested Operating Systems:
 * Unraid 6.9 RC1
 * macOS Big Sur 11.1 Apple M1
 
-Just the basics to get the container running:
+CLI:
 
-```shell hl_lines="7 8 9 10 11 12 13 14 15"
+```shell
 docker run --rm \
     --name qbittorrent \
-    --cap-add=NET_ADMIN \
-    --sysctl="net.ipv4.conf.all.src_valid_mark=1" \
-    --sysctl="net.ipv6.conf.all.disable_ipv6=0" \
     -p 8080:8080 \
     -e PUID=1000 \
     -e PGID=1000 \
@@ -54,14 +73,47 @@ docker run --rm \
     -e TZ="Etc/UTC" \
     -e ARGS="" \
     -e DEBUG="no" \
-    -e VPN_ENABLED="false" \
+    -e VPN_ENABLED="true" \
     -e VPN_LAN_NETWORK="" \
     -e VPN_CONF="wg0" \
     -v /<host_folder_config>:/config \
+    --cap-add=NET_ADMIN \
+    --sysctl="net.ipv4.conf.all.src_valid_mark=1" \
+    --sysctl="net.ipv6.conf.all.disable_ipv6=0" \
     hotio/qbittorrent
 ```
 
-There needs to be a file `wg0.conf` located in `/config/wireguard` and you need to set the variable `VPN_ENABLED` to `true` for the VPN to work. The part `--sysctl="net.ipv6.conf.all.disable_ipv6=0"` can be removed if there is no mention of any ipv6 in `wg0.conf`. If your vpn provider supports ipv6, you'll have full ipv6 connectivity over the vpn connection, this has been tested with Mullvad. The environment variable `VPN_LAN_NETWORK`can be set to for example `192.168.1.0/24`, `192.168.1.0/24,192.168.44.0/24` or `192.168.1.33`, so you can get access to the qBittorrent webui.
+Compose:
+
+```text
+version: "3.7"
+
+services:
+  qbittorrent:
+    container_name: qbittorrent
+    image: hotio/qbittorrent
+    ports:
+      - "8080:8080"
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - UMASK=002
+      - TZ=Etc/UTC
+      - ARGS
+      - DEBUG=no
+      - VPN_ENABLED=true
+      - VPN_LAN_NETWORK
+      - VPN_CONF=wg0
+    volumes:
+      - /<host_folder_config>:/config
+    cap_add:
+      - NET_ADMIN
+    sysctls:
+      - net.ipv4.conf.all.src_valid_mark=1
+      - net.ipv6.conf.all.disable_ipv6=0
+```
+
+There needs to be a file `wg0.conf` located in `/config/wireguard` and you need to set the variable `VPN_ENABLED` to `true` for the VPN to work. The part with `net.ipv6.conf.all.disable_ipv6=0` can be removed if there is no mention (or need for) of any ipv6 in `wg0.conf`. If your vpn provider does support ipv6, you'll have full ipv6 connectivity over the vpn connection, this has been tested with Mullvad. The environment variable `VPN_LAN_NETWORK`can be set to for example `192.168.1.0/24`, `192.168.1.0/24,192.168.44.0/24` or `192.168.1.33`, so you can get access to the qBittorrent webui.
 
 ## Tags
 
@@ -123,13 +175,13 @@ wgserver=$(grep Endpoint "${CONFIG_DIR}/wireguard/wg0.conf" | awk '{print $3}')
 curl -ksG -u "${TORGUARD_USER}":"${TORGUARD_PASS}" --data-urlencode "public-key=${pubkey}" "https://${wgserver}/api/v1/setup"
 ```
 
-You will also have to add these additional environment variables `-e TORGUARD_USER="ServiceUsername" -e TORGUARD_PASS="ServicePassword"` or fill them in into the script directly (see `curl` command). These credentials can be found [here](https://torguard.net/clientarea.php?action=changepw).
+You will also have to add the additional environment variables `TORGUARD_USER` and `TORGUARD_PASS` or fill them in into the script directly (see `curl` command). These credentials can be found [here](https://torguard.net/clientarea.php?action=changepw).
 
 My experience with getting TorGuard working wasn't the smoothest journey to say the least. I had to click around quite a bit and finally after generating my 3rd config it worked. On the `Netherlands` server for example I didn't get any internet connectivity and at first I was unable to get port forwarding working on the `Germany` server. All of a sudden after generating the 3rd config and also pasting in the ip found under `My Fixed IPs`, that seems to populate when doing a Port Forward Request, I managed to get port forwarding working. So don't give up too soon, it can all work eventually.
 
 ## Executing your own scripts
 
-If you have a need to do additional stuff when the container starts or stops, you can mount your script with `-v /docker/host/my-script.sh:/etc/cont-init.d/99-my-script` to execute your script on container start or `-v /docker/host/my-script.sh:/etc/cont-finish.d/99-my-script` to execute it when the container stops. An example script can be seen below.
+If you have a need to do additional stuff when the container starts or stops, you can mount your script with the volume `/docker/host/my-script.sh:/etc/cont-init.d/99-my-script` to execute your script on container start or `/docker/host/my-script.sh:/etc/cont-finish.d/99-my-script` to execute it when the container stops. An example script can be seen below.
 
 ```shell
 #!/usr/bin/with-contenv bash
@@ -139,4 +191,4 @@ echo "Hello, this is me, your script."
 
 ## Troubleshooting a problem
 
-By default all output is redirected to `/dev/null`, so you won't see anything from the application when using `docker logs`. Most applications write everything to a log file too. If you do want to see this output with `docker logs`, you can use `-e DEBUG="yes"` to enable this.
+By default all output is redirected to `/dev/null`, so you won't see anything from the application when using `docker logs`. Most applications write everything to a log file too. If you do want to see this output with `docker logs`, you can set `DEBUG` to `yes`.
