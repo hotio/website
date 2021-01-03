@@ -25,6 +25,28 @@ docker run --rm \
     hotio/jellyfin
 ```
 
+Compose:
+
+```yaml
+version: "3.7"
+
+services:
+  jellyfin:
+    container_name: jellyfin
+    image: hotio/jellyfin
+    ports:
+      - "8096:8096"
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - UMASK=002
+      - TZ=Etc/UTC
+      - ARGS
+      - DEBUG=no
+    volumes:
+      - /<host_folder_config>:/config
+```
+
 In most cases you'll need to add additional volumes, depending on your own personal preference, to get access to your files.
 
 ## Tags

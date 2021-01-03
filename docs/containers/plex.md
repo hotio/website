@@ -30,6 +30,33 @@ docker run --rm \
     hotio/plex
 ```
 
+Compose:
+
+```yaml
+version: "3.7"
+
+services:
+  plex:
+    container_name: plex
+    image: hotio/plex
+    ports:
+      - "32400:32400"
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - UMASK=002
+      - TZ=Etc/UTC
+      - ARGS
+      - DEBUG=no
+      - PLEX_CLAIM
+      - ADVERTISE_IP
+      - ALLOWED_NETWORKS
+      - PLEX_PASS=no
+    volumes:
+      - /<host_folder_config>:/config
+      - /<host_folder_transcode>:/transcode
+```
+
 In most cases you'll need to add additional volumes, depending on your own personal preference, to get access to your files.
 
 ## Tags

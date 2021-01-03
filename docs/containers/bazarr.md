@@ -25,6 +25,28 @@ docker run --rm \
     hotio/bazarr
 ```
 
+Compose:
+
+```yaml
+version: "3.7"
+
+services:
+  bazarr:
+    container_name: bazarr
+    image: hotio/bazarr
+    ports:
+      - "6767:6767"
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - UMASK=002
+      - TZ=Etc/UTC
+      - ARGS
+      - DEBUG=no
+    volumes:
+      - /<host_folder_config>:/config
+```
+
 In most cases you'll need to add additional volumes, depending on your own personal preference, to get access to your files.
 
 ## Tags

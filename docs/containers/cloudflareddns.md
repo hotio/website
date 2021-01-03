@@ -33,6 +33,36 @@ docker run --rm \
     hotio/cloudflareddns
 ```
 
+Compose:
+
+```yaml
+version: "3.7"
+
+services:
+  cloudflareddns:
+    container_name: cloudflareddns
+    image: hotio/cloudflareddns
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - UMASK=002
+      - TZ=Etc/UTC
+      - ARGS
+      - INTERVAL=300
+      - DETECTION_MODE=dig-whoami.cloudflare
+      - LOG_LEVEL=3
+      - APPRISE
+      - CF_USER=your.cf.email@example.com
+      - CF_APIKEY=your.global.apikey
+      - CF_APITOKEN
+      - CF_APITOKEN_ZONE
+      - CF_HOSTS=test.example.com;test.foobar.com;test2.foobar.com
+      - CF_ZONES=example.com;foobar.com;foobar.com
+      - CF_RECORDTYPES=A;A;AAAA
+    volumes:
+      - /<host_folder_config>:/config
+```
+
 Possible values for `DETECTION_MODE` are `dig-google.com`, `dig-opendns.com`, `dig-whoami.cloudflare`, `curl-icanhazip.com`, `curl-wtfismyip.com`, `curl-showmyip.ca`, `curl-da.gd`, `curl-seeip.org` and `curl-ifconfig.co`. If you want to get the local ip from a network interface, use something like `local:eth0` as `DETECTION_MODE`.
 
 Notice that we give 3 values each time for `CF_HOSTS`, `CF_ZONES` and `CF_RECORDTYPES`. In our example, the domain `test.foobar.com` belonging to the zone `foobar.com` will have its A record updated with an ipv4 ip. If you use `CF_APITOKEN`, you can leave `CF_USER` and `CF_APIKEY` empty.

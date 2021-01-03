@@ -25,6 +25,28 @@ docker run --rm \
     hotio/requestrr
 ```
 
+Compose:
+
+```yaml
+version: "3.7"
+
+services:
+  requestrr:
+    container_name: requestrr
+    image: hotio/requestrr
+    ports:
+      - "4545:4545"
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - UMASK=002
+      - TZ=Etc/UTC
+      - ARGS
+      - DEBUG=no
+    volumes:
+      - /<host_folder_config>:/config
+```
+
 ## Tags
 
 | Tag                | Upstream        | Version | Build |
