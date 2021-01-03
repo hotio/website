@@ -37,6 +37,7 @@ Tested Operating Systems:
 * Ubuntu 20.04
 * Unraid 6.8.3
 * Unraid 6.9 RC1
+* macOS Big Sur 11.1 Apple M1
 
 Just the basics to get the container running:
 
