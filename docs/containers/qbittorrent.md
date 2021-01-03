@@ -132,7 +132,7 @@ Your qbittorrent configuration inside the container is stored in `/config/app`, 
 
 This is an example of how your `wg0.conf` could look like.
 
-```toml
+```text
 [Interface]
 PrivateKey = supersecretprivatekey
 Address = xx.xx.xxx.xxx/32
@@ -150,7 +150,7 @@ While Mullvad is pretty straightforward to setup by using the `wg0.conf` example
 
 Our `wg0.conf` should look something like this:
 
-```toml
+```text
 # TorGuard WireGuard Config
 [Interface]
 PrivateKey = secretprivatekey
