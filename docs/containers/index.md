@@ -1,1 +1,0 @@
-Overview of all the available tags for each docker image.

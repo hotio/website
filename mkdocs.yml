@@ -69,7 +69,7 @@ google_analytics:
 
 nav:
 - Home: index.md
-- Containers: containers/index.md
+- Containers:
   - Apps:
     - hotio/apprise: containers/apprise.md
     - hotio/autoscan: containers/autoscan.md
