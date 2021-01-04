@@ -1,6 +1,6 @@
 ## Apps
 
-#### hotio/apprise
+### hotio/apprise
 
 | Tag                | Upstream        | Version | Build |
 | -------------------|-----------------|---------|-------|
