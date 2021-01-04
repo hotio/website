@@ -42,29 +42,93 @@
 
 ## hotio/hdidle
 
+| Tag                | Upstream        | Version | Build |
+| -------------------|-----------------|---------|-------|
+| `release` (latest) | GitHub releases | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Fhdidle%2Frelease%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/hdidle/build/release?style=flat-square&label=) |
+
 ## hotio/jackett
+
+| Tag                | Upstream            | Version | Build |
+| -------------------|---------------------|---------|-------|
+| `release` (latest) | GitHub releases     | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Fjackett%2Frelease%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/jackett/build/release?style=flat-square&label=) |
+| `testing`          | GitHub pre-releases | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Fjackett%2Ftesting%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/jackett/build/testing?style=flat-square&label=) |
 
 ## hotio/jellyfin
 
+| Tag                | Upstream                      | Version | Build |
+| -------------------|-------------------------------|---------|-------|
+| `release` (latest) | Releases                      | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Fjellyfin%2Frelease%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/jellyfin/build/release?style=flat-square&label=) |
+| `nightly`          | Every commit to master branch | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Fjellyfin%2Fnightly%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/jellyfin/build/nightly?style=flat-square&label=) |
+
 ## hotio/lidarr
+
+| Tag                    | Upstream | Version | Build |
+| -----------------------|----------|---------|-------|
+| `release` (latest)     | master   | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Flidarr%2Frelease%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/lidarr/build/release?style=flat-square&label=) |
+| `testing`              | develop  | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Flidarr%2Ftesting%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/lidarr/build/testing?style=flat-square&label=) |
+| `nightly`              | nightly  | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Flidarr%2Fnightly%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/lidarr/build/nightly?style=flat-square&label=) |
 
 ## hotio/mergerfs
 
+| Tag                | Upstream                      | Version | Build |
+| -------------------|-------------------------------|---------|-------|
+| `release` (latest) | GitHub releases               | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Fmergerfs%2Frelease%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/mergerfs/build/release?style=flat-square&label=) |
+| `nightly`          | Every commit to master branch | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Fmergerfs%2Fnightly%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/mergerfs/build/nightly?style=flat-square&label=) |
+
 ## hotio/movearr
+
+| Tag                | Upstream                      | Version | Build |
+| -------------------|-------------------------------|---------|-------|
+| `release` (latest) | GitHub releases               | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Fmovearr%2Frelease%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/movearr/build/release?style=flat-square&label=) |
+| `nightly`          | Every commit to master branch | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Fmovearr%2Fnightly%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/movearr/build/nightly?style=flat-square&label=) |
 
 ## hotio/mylar3
 
+| Tag                | Upstream                           | Version | Build |
+| -------------------|------------------------------------|---------|-------|
+| `release` (latest) | GitHub releases                    | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Fmylar3%2Frelease%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/mylar3/build/release?style=flat-square&label=) |
+| `nightly`          | Every commit to python3-dev branch | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Fmylar3%2Fnightly%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/mylar3/build/nightly?style=flat-square&label=) |
+
 ## hotio/nzbget
+
+| Tag                | Upstream            | Version | Build |
+| -------------------|---------------------|---------|-------|
+| `release` (latest) | GitHub releases     | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Fnzbget%2Frelease%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/nzbget/build/release?style=flat-square&label=) |
+| `testing`          | GitHub pre-releases | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Fnzbget%2Ftesting%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/nzbget/build/testing?style=flat-square&label=) |
 
 ## hotio/nzbhydra2
 
+| Tag                | Upstream            | Version | Build |
+| -------------------|---------------------|---------|-------|
+| `release` (latest) | GitHub releases     | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Fnzbhydra2%2Frelease%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/nzbhydra2/build/release?style=flat-square&label=) |
+| `testing`          | GitHub pre-releases | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Fnzbhydra2%2Ftesting%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/nzbhydra2/build/testing?style=flat-square&label=) |
+
 ## hotio/ombi
+
+| Tag                | Upstream    | Version | Build |
+| -------------------|-------------|---------|-------|
+| `release` (latest) | v3 releases | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Fombi%2Frelease%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/ombi/build/release?style=flat-square&label=) |
+| `testing`          | v4 releases | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Fombi%2Ftesting%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/ombi/build/testing?style=flat-square&label=) |
 
 ## hotio/overseerr
 
+| Tag                | Upstream                           | Version | Build |
+| -------------------|------------------------------------|---------|-------|
+| `release` (latest) | GitHub releases                    | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Foverseerr%2Frelease%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/overseerr/build/release?style=flat-square&label=) |
+| `nightly`          | Every commit to develop branch | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Foverseerr%2Fnightly%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/overseerr/build/nightly?style=flat-square&label=) |
+
 ## hotio/plex
 
+| Tag                | Upstream | Version | Build |
+| -------------------|----------|---------|-------|
+| `release` (latest) | Releases | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Fplex%2Frelease%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/plex/build/release?style=flat-square&label=) |
+
 ## hotio/plexarr
+
+| Tag                | Upstream                      | Version | Build |
+| -------------------|-------------------------------|---------|-------|
+| `release` (latest) | GitHub releases               | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Fplexarr%2Frelease%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/plexarr/build/release?style=flat-square&label=) |
+| `nightly`          | Every commit to master branch | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Fplexarr%2Fnightly%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/plexarr/build/nightly?style=flat-square&label=) |
 
 ## hotio/qbittorrent
 
@@ -97,3 +161,8 @@
 ## hotio/base
 
 ## hotio/mono
+
+| Tag        | Description           | Build |
+| -----------|-----------------------|-------|
+| `bionic`   | Based on Ubuntu 18.04 | ![build](https://img.shields.io/github/workflow/status/hotio/mono/build/bionic?style=flat-square&label=) |
+| `focal`    | Based on Ubuntu 20.04 | ![build](https://img.shields.io/github/workflow/status/hotio/mono/build/focal?style=flat-square&label=) |
