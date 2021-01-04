@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 <p align="center"><img src="/img/logo-header.png" alt="logo" height="250" width="250"></p>
 
 ## Introduction

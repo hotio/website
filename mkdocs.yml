@@ -60,6 +60,8 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - attr_list
+  - toc:
+      permalink: true
 
 google_analytics:
   - UA-126819406-1
