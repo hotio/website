@@ -79,6 +79,12 @@ Go to [plex.tv/claim](https://www.plex.tv/claim) and login with your account, co
 
 If you are a Plex Pass subscriber, you can enable the install of beta builds with `-e PLEX_PASS="yes"`. When the container starts, a version check is done for the latest beta and installed if a newer version is found.
 
+## Environment variables ADVERTISE_IP and ALLOWED_NETWORKS
+
+The variables correspond to the below plex network settings.
+
+![Plex settings](https://hotio.dev/img/plex_settings.png "Plex settings")
+
 ## TOP secret stuff
 
 If you do `-e PLEX_PASS="https://..."`, stuff happens for which no support will be given.
