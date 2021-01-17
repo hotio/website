@@ -121,6 +121,8 @@ The part with `net.ipv6.conf.all.disable_ipv6=0` can be removed or set to `1` if
 
 The environment variable `VPN_LAN_NETWORK`can be set to for example `192.168.1.0/24`, `192.168.1.0/24,192.168.44.0/24` or `192.168.1.33`, so you can get access to the qBittorrent webui.
 
+If you need to expose additional ports you can use `VPN_ADDITIONAL_PORTS`, for example `VPN_ADDITIONAL_PORTS=7878/tcp,9117/tcp`.
+
 ## Tags
 
 | Tag                | Upstream                | Version | Build |
