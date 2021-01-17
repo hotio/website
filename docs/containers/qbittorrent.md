@@ -76,6 +76,7 @@ docker run --rm \
     -e VPN_ENABLED="true" \
     -e VPN_LAN_NETWORK="" \
     -e VPN_CONF="wg0" \
+    -e VPN_ADDITIONAL_PORTS="" \
     -v /<host_folder_config>:/config \
     --cap-add=NET_ADMIN \
     --sysctl="net.ipv4.conf.all.src_valid_mark=1" \
@@ -104,6 +105,7 @@ services:
       - VPN_ENABLED=true
       - VPN_LAN_NETWORK
       - VPN_CONF=wg0
+      - VPN_ADDITIONAL_PORTS
     volumes:
       - /<host_folder_config>:/config
     cap_add:
