@@ -27,4 +27,8 @@ If you like what I do, you know the drill... :octicons-heart-fill-24:{: .heart }
 
 <iframe src="https://github.com/sponsors/mrhotio/button" title="Sponsor mrhotio" height="35" width="116" style="border: 0;"></iframe>
 
+<a href="https://opencollective.com/hotio_collective/donate" target="_blank">
+  <img src="https://opencollective.com/hotio_collective/donate/button@2x.png?color=blue" width=300 />
+</a>
+
 <sub><sup>Logo made possible by [Freepik](https://www.flaticon.com/authors/freepik) from [flaticon.com](https://www.flaticon.com).</sup></sub>
