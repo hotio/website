@@ -53,7 +53,7 @@ services:
       - /<host_folder_logs>:/logs
 ```
 
-In most cases you'll need to add additional volumes, depending on your own personal preference, to get access to your files. If you don't want to enter your password every time you restart the container, set the environment variable `DWE_PASSWORD` with your password.
+In most cases you'll need to add additional volumes, depending on your own personal preference, to get access to your files. If you don't want to enter your password every time you restart the container, you can set the environment variable `DWE_PASSWORD` with your password or starting with version 1.4.1 a file `/config/keyring` will be created that stores your password encryted if you click the checkmark on the login page.
 
 ## Tags
 
