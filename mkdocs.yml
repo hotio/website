@@ -102,6 +102,7 @@ nav:
     - hotio/sabnzbd: containers/sabnzbd.md
     - hotio/scrutiny: containers/scrutiny.md
     - hotio/sonarr: containers/sonarr.md
+    - hotio/stash: containers/stash.md
     - hotio/tautulli: containers/tautulli.md
     - hotio/trackarr: containers/trackarr.md
     - hotio/unpackerr: containers/unpackerr.md
