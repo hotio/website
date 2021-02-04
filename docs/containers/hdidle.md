@@ -51,13 +51,3 @@ services:
 | `release` (latest) | GitHub releases | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Fhdidle%2Frelease%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/hdidle/build/release?style=flat-square&label=) |
 
 You can also find tags that reference a commit or version number.
-
-## Executing your own scripts
-
-If you have a need to do additional stuff when the container starts or stops, you can mount your script with the volume `/docker/host/my-script.sh:/etc/cont-init.d/99-my-script` to execute your script on container start or `/docker/host/my-script.sh:/etc/cont-finish.d/99-my-script` to execute it when the container stops. An example script can be seen below.
-
-```shell
-#!/usr/bin/with-contenv bash
-
-echo "Hello, this is me, your script."
-```

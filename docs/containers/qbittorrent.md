@@ -182,13 +182,3 @@ curl -ksG -u "${TORGUARD_USER}":"${TORGUARD_PASS}" --data-urlencode "public-key=
 You will also have to add the additional environment variables `TORGUARD_USER` and `TORGUARD_PASS` or fill them in into the script directly (see `curl` command). These credentials can be found [here](https://torguard.net/clientarea.php?action=changepw).
 
 My experience with getting TorGuard working wasn't the smoothest journey to say the least. I had to click around quite a bit and finally after generating my 3rd config it worked. On the `Netherlands` server for example I didn't get any internet connectivity and at first I was unable to get port forwarding working on the `Germany` server. All of a sudden after generating the 3rd config and also pasting in the ip found under `My Fixed IPs`, that seems to populate when doing a Port Forward Request, I managed to get port forwarding working. So don't give up too soon, it can all work eventually.
-
-## Executing your own scripts
-
-If you have a need to do additional stuff when the container starts or stops, you can mount your script with the volume `/docker/host/my-script.sh:/etc/cont-init.d/99-my-script` to execute your script on container start or `/docker/host/my-script.sh:/etc/cont-finish.d/99-my-script` to execute it when the container stops. An example script can be seen below.
-
-```shell
-#!/usr/bin/with-contenv bash
-
-echo "Hello, this is me, your script."
-```
