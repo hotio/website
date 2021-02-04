@@ -61,6 +61,10 @@ services:
 
 For the environment variable `MODE` you can pick the values `both`, `web` or `collector` to enable the desired operating mode (see below). The `INTERVAL` variable defines the amount of time in seconds between collector runs, the metrics are pushed to the webinterface located at `API_ENDPOINT`. When passing through NVMe devices you'll probably have to use `--cap-add SYS_ADMIN` instead of `--cap-add SYS_RAWIO`.
 
+## Tags
+
+Go [here](https://hotio.dev/containers-overview/#hotioscrutiny) to see all available tags.
+
 ## Deploying as 2 seperate containers
 
 CLI:
@@ -120,7 +124,3 @@ services:
     volumes:
       - /<host_folder_config>:/config
 ```
-
-## Tags
-
-Go [here](https://hotio.dev/containers-overview/#hotioscrutiny) to see all available tags.
