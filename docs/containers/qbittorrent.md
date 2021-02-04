@@ -128,10 +128,6 @@ If you need to expose additional ports you can use `VPN_ADDITIONAL_PORTS`, for e
 
 You can also find tags that reference a commit or version number.
 
-## Configuration location
-
-Your qbittorrent configuration inside the container is stored in `/config/app`, to migrate from another container, you'd probably have to move your files from `/config` to `/config/app`.
-
 ## wg0.conf example
 
 This is an example of how your `wg0.conf` could look like.
