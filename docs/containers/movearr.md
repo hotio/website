@@ -17,4 +17,4 @@ The default `ENTRYPOINT` is `movearr`.
 
 ## Tags
 
-Go [here](https://hotio.dev/containers-overview/#hotiomovearr) to see all available tags.
+Go [here](https://hotio.dev/tags-overview/#hotiomovearr) to see all available tags.

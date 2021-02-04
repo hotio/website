@@ -19,4 +19,4 @@ The default `ENTRYPOINT` is `borg`.
 
 ## Tags
 
-Go [here](https://hotio.dev/containers-overview/#hotioborg) to see all available tags.
+Go [here](https://hotio.dev/tags-overview/#hotioborg) to see all available tags.

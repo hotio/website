@@ -47,4 +47,4 @@ services:
 
 ## Tags
 
-Go [here](https://hotio.dev/containers-overview/#hotiorequestrr) to see all available tags.
+Go [here](https://hotio.dev/tags-overview/#hotiorequestrr) to see all available tags.

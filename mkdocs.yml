@@ -71,7 +71,7 @@ google_analytics:
 nav:
 - Home: index.md
 - Containers:
-  - Overview: containers-overview.md
+  - Tags overview: tags-overview.md
   - Custom scripts: custom-scripts.md
   - Configuration location: configuration-location.md
   - Apps:

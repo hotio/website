@@ -63,7 +63,7 @@ For the environment variable `MODE` you can pick the values `both`, `web` or `co
 
 ## Tags
 
-Go [here](https://hotio.dev/containers-overview/#hotioscrutiny) to see all available tags.
+Go [here](https://hotio.dev/tags-overview/#hotioscrutiny) to see all available tags.
 
 ## Deploying as 2 seperate containers
 
