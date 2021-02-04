@@ -71,11 +71,7 @@ Notice that we give 3 values each time for `CF_HOSTS`, `CF_ZONES` and `CF_RECORD
 
 ## Tags
 
-| Tag                | Description     | Build |
-| -------------------|-----------------|-------|
-| `release` (latest) | The main branch | ![build](https://img.shields.io/github/workflow/status/hotio/cloudflareddns/build/release?style=flat-square&label=) |
-
-You can also find tags that reference a commit or version number.
+Go [here](https://hotio.dev/containers-overview/#hotiocloudflareddns) to see all available tags.
 
 ## Zone ID
 

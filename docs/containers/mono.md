@@ -6,9 +6,4 @@
 
 ## Tags
 
-| Tag        | Description           | Build |
-| -----------|-----------------------|-------|
-| `bionic`   | Based on Ubuntu 18.04 | ![build](https://img.shields.io/github/workflow/status/hotio/mono/build/bionic?style=flat-square&label=) |
-| `focal`    | Based on Ubuntu 20.04 | ![build](https://img.shields.io/github/workflow/status/hotio/mono/build/focal?style=flat-square&label=) |
-
-You can also find tags that reference a commit or version number.
+Go [here](https://hotio.dev/containers-overview/#hotiomono) to see all available tags.
