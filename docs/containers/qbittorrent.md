@@ -47,6 +47,10 @@ services:
 
 In most cases you'll need to add additional volumes, depending on your own personal preference, to get access to your files.
 
+## Tags
+
+Go [here](https://hotio.dev/containers-overview/#hotioqbittorrent) to see all available tags.
+
 ## WireGuard VPN support
 
 This is probably not going to work if your OS has no kernel with WireGuard support.
@@ -118,10 +122,6 @@ The part with `net.ipv6.conf.all.disable_ipv6=0` can be removed or set to `1` if
 The environment variable `VPN_LAN_NETWORK`can be set to for example `192.168.1.0/24`, `192.168.1.0/24,192.168.44.0/24` or `192.168.1.33`, so you can get access to the qBittorrent webui.
 
 If you need to expose additional ports you can use `VPN_ADDITIONAL_PORTS`, for example `VPN_ADDITIONAL_PORTS=7878/tcp,9117/tcp`. Every port in this list will be blocked on the vpn interface, so that there's no risk that they might be exposed to the world via the vpn (mostly there in case your vpn provider screws up and piece of mind). Why would you need this? Wanting to route traffic from other containers over the vpn is probably the most used scenario.
-
-## Tags
-
-Go [here](https://hotio.dev/containers-overview/#hotioqbittorrent) to see all available tags.
 
 ## wg0.conf example
 
