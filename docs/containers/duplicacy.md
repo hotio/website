@@ -21,7 +21,6 @@ docker run --rm \
     -e UMASK=002 \
     -e TZ="Etc/UTC" \
     -e ARGS="" \
-    -e DEBUG="no" \
     -v /<host_folder_config>:/config \
     -v /<host_folder_cache>:/cache \
     -v /<host_folder_logs>:/logs \
@@ -46,7 +45,6 @@ services:
       - UMASK=002
       - TZ=Etc/UTC
       - ARGS
-      - DEBUG=no
     volumes:
       - /<host_folder_config>:/config
       - /<host_folder_cache>:/cache
@@ -73,7 +71,3 @@ If you have a need to do additional stuff when the container starts or stops, yo
 
 echo "Hello, this is me, your script."
 ```
-
-## Troubleshooting a problem
-
-By default all output is redirected to `/dev/null`, so you won't see anything from the application when using `docker logs`. Most applications write everything to a log file too. If you do want to see this output with `docker logs`, you can set `DEBUG` to `yes`.

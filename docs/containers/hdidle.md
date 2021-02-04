@@ -18,7 +18,6 @@ docker run --rm \
     -e UMASK=002 \
     -e TZ="Etc/UTC" \
     -e ARGS="" \
-    -e DEBUG="no" \
     -e IDLE_TIME=1800 \
     -v /<host_folder_config>:/config \
     hotio/hdidle
@@ -40,7 +39,6 @@ services:
       - UMASK=002
       - TZ=Etc/UTC
       - ARGS
-      - DEBUG=no
       - IDLE_TIME=1800
     volumes:
       - /<host_folder_config>:/config
@@ -63,7 +61,3 @@ If you have a need to do additional stuff when the container starts or stops, yo
 
 echo "Hello, this is me, your script."
 ```
-
-## Troubleshooting a problem
-
-By default all output is redirected to `/dev/null`, so you won't see anything from the application when using `docker logs`. Most applications write everything to a log file too. If you do want to see this output with `docker logs`, you can set `DEBUG` to `yes`.
