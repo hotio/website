@@ -87,7 +87,7 @@ The variables correspond to the below plex network settings.
 
 If you do `-e PLEX_PASS="https://..."`, stuff happens for which no support will be given.
 
-## Configuration location
+## Configuration
 
 Your plex configuration inside the container is stored in `/config/app/Plex Media Server`, your `Preferences.xml` file its full path would be `/config/app/Plex Media Server/Preferences.xml`.
 

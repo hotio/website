@@ -56,9 +56,9 @@ In most cases you'll need to add additional volumes, depending on your own perso
 
 You can also find tags that reference a commit or version number.
 
-## Configuration location
+## Configuration
 
-Your jellyfin configuration inside the container is stored in `/config/app`, to migrate from another container, you'd probably have to move your files from `/config` to `/config/app`. The following jellyfin path locations are used by default.
+The following jellyfin path locations are used by default.
 
 ```shell
 JELLYFIN_CONFIG_DIR="/config/app"

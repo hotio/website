@@ -73,6 +73,7 @@ nav:
 - Containers:
   - Overview: containers-overview.md
   - Custom Scripts: custom-scripts.md
+  - Configuration Location: configuration-location.md
   - Apps:
     - hotio/apprise: containers/apprise.md
     - hotio/autoscan: containers/autoscan.md
