@@ -1,3 +1,7 @@
+For the most part you can use the tags `release`, `testing` and `nightly`. You can also use tags that reference a commit or version number, for example `release-1.0.0`, `nightly-95522985ff8b6aa014e44b4901bfd835837c6d76` or `testing-de64d54`. A long git sha refers to a git sha from the app, a short one refers to a git sha from the image repository.
+
+Have a look below to see the available tags for each image and their current version status.
+
 ## Apps
 
 ### hotio/apprise
