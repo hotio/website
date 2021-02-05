@@ -2,7 +2,7 @@ Hello there!
 
 So somebody linked you this page or you found it by either pure luck or intense Google magic? Good! What is all this `libseccomp2` mumbo jumbo about?
 
-If you are running Raspbian (most likely), your docker container all of a sudden stops working and you appear to be the only person in the world to have this happen... Rest assured you are not alone. The issue here is that you are probably running an outdated version of libseccomp2. The symptom can vary in many ways depending on the app.
+If you are running `Raspbian/Raspberry Pi OS` (key part here, it being arm 32-bit), your docker container all of a sudden stops working and you appear to be the only person in the world to have this happen... Rest assured you are not alone. The issue here is that you are probably running an outdated version of libseccomp2. The symptom can vary in many ways depending on the app.
 
 Radarr for example does nothing (no error or anything), Mylar3 gives this `Fatal Python error: pyinit_main: can't initialize time`, Overseerr gives you `Fatal error in , line 0`, `docker exec <container-name> date` returns 1970 and the list goes on.
 
