@@ -22,5 +22,5 @@ Several solutions:
 
 The prefered way here is going with Ubuntu + ARM64 if you can.
 
-!!! note
+!!! info
     Make sure you are running the latest [Docker Engine](https://docs.docker.com/engine/install/).
