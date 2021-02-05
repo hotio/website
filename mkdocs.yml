@@ -74,6 +74,7 @@ nav:
   - Tags overview: tags-overview.md
   - Custom scripts: custom-scripts.md
   - Configuration location: configuration-location.md
+  - The libseccomp2 saga: libseccomp2-saga.md
   - Apps:
     - hotio/apprise: containers/apprise.md
     - hotio/autoscan: containers/autoscan.md
