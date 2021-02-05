@@ -21,3 +21,6 @@ Several solutions:
 3. Keep running with `--privileged`, not recommended though.
 
 The prefered way here is going with Ubuntu + ARM64 if you can.
+
+!!! note
+    Make sure you are running the latest [Docker Engine](https://docs.docker.com/engine/install/).

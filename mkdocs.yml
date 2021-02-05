@@ -63,6 +63,7 @@ markdown_extensions:
   - attr_list
   - toc:
       permalink: true
+  - admonition
 
 google_analytics:
   - UA-126819406-1
