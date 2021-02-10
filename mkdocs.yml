@@ -82,6 +82,7 @@ nav:
     - hotio/bazarr: containers/bazarr.md
     - hotio/borg: containers/borg.md
     - hotio/cloudflareddns: containers/cloudflareddns.md
+    - hotio/conreq: containers/conreq.md
     - hotio/crop: containers/crop.md
     - hotio/duplicacy: containers/duplicacy.md
     - hotio/hdidle: containers/hdidle.md
