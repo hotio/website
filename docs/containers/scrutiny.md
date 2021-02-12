@@ -19,7 +19,6 @@ docker run --rm \
     -e PGID=1000 \
     -e UMASK=002 \
     -e TZ="Etc/UTC" \
-    -e ARGS="" \
     -e INTERVAL=86400 \
     -e API_ENDPOINT="http://localhost:8080" \
     -e MODE="both" \
@@ -46,7 +45,6 @@ services:
       - PGID=1000
       - UMASK=002
       - TZ=Etc/UTC
-      - ARGS
       - INTERVAL=86400
       - API_ENDPOINT=http://localhost:8080
       - MODE=both

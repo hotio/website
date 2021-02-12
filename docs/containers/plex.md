@@ -19,7 +19,6 @@ docker run --rm \
     -e PGID=1000 \
     -e UMASK=002 \
     -e TZ="Etc/UTC" \
-    -e ARGS="" \
     -e PLEX_CLAIM="" \
     -e ADVERTISE_IP="" \
     -e ALLOWED_NETWORKS="" \
@@ -45,7 +44,6 @@ services:
       - PGID=1000
       - UMASK=002
       - TZ=Etc/UTC
-      - ARGS
       - PLEX_CLAIM
       - ADVERTISE_IP
       - ALLOWED_NETWORKS

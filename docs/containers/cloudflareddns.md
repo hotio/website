@@ -17,7 +17,6 @@ docker run --rm \
     -e PGID=1000 \
     -e UMASK=002 \
     -e TZ="Etc/UTC" \
-    -e ARGS="" \
     -e INTERVAL=300 \
     -e DETECTION_MODE="dig-whoami.cloudflare" \
     -e LOG_LEVEL=3 \
@@ -47,7 +46,6 @@ services:
       - PGID=1000
       - UMASK=002
       - TZ=Etc/UTC
-      - ARGS
       - INTERVAL=300
       - DETECTION_MODE=dig-whoami.cloudflare
       - LOG_LEVEL=3

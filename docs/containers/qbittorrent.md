@@ -19,7 +19,6 @@ docker run --rm \
     -e PGID=1000 \
     -e UMASK=002 \
     -e TZ="Etc/UTC" \
-    -e ARGS="" \
     -v /<host_folder_config>:/config \
     hotio/qbittorrent
 ```
@@ -40,7 +39,6 @@ services:
       - PGID=1000
       - UMASK=002
       - TZ=Etc/UTC
-      - ARGS
     volumes:
       - /<host_folder_config>:/config
 ```
@@ -73,7 +71,6 @@ docker run --rm \
     -e PGID=1000 \
     -e UMASK=002 \
     -e TZ="Etc/UTC" \
-    -e ARGS="" \
     -e VPN_ENABLED="true" \
     -e VPN_LAN_NETWORK="" \
     -e VPN_CONF="wg0" \
@@ -101,7 +98,6 @@ services:
       - PGID=1000
       - UMASK=002
       - TZ=Etc/UTC
-      - ARGS
       - VPN_ENABLED=true
       - VPN_LAN_NETWORK
       - VPN_CONF=wg0
