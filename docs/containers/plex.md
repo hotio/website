@@ -83,10 +83,6 @@ The variables correspond to the below plex network settings.
 
 If you do `-e PLEX_PASS="https://..."`, stuff happens for which no support will be given.
 
-## Configuration
-
-Your plex configuration inside the container is stored in `/config/app/Plex Media Server`, your `Preferences.xml` file its full path would be `/config/app/Plex Media Server/Preferences.xml`.
-
 ## Hardware support
 
 To make your hardware devices available inside the container use the following argument `--device=/dev/dri:/dev/dri` for Intel QuickSync and `--device=/dev/dvb:/dev/dvb` for a tuner. NVIDIA users should go visit the [NVIDIA github](https://github.com/NVIDIA/nvidia-docker) page for instructions.
