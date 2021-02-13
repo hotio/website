@@ -17,7 +17,7 @@ docker run --rm \
     -e PGID=1000 \
     -e UMASK=002 \
     -e TZ="Etc/UTC" \
-    -e IDLE_TIME=1800 \
+    -e ARGS="-d -i 1800" \
     -v /<host_folder_config>:/config \
     hotio/hdidle
 ```
@@ -37,7 +37,7 @@ services:
       - PGID=1000
       - UMASK=002
       - TZ=Etc/UTC
-      - IDLE_TIME=1800
+      - ARGS=-d -i 1800
     volumes:
       - /<host_folder_config>:/config
 ```
