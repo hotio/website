@@ -157,6 +157,12 @@ Have a look below to see the available tags for each image and their current ver
 | `release` (latest) | Stable                  | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Fqbittorrent%2Frelease%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/qbittorrent/build/release?style=flat-square&label=) |
 | `testing`          | Unstable                | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Fqbittorrent%2Ftesting%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/qbittorrent/build/testing?style=flat-square&label=) |
 
+### hotio/qflood
+
+| Tag                | Upstream        | Version | Build |
+| -------------------|-----------------|---------|-------|
+| `release` (latest) | Releases | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Fqflood%2Frelease%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/qflood/build/release?style=flat-square&label=) |
+
 ### hotio/radarr
 
 | Tag                | Upstream                | Version | Build |
@@ -203,7 +209,7 @@ Have a look below to see the available tags for each image and their current ver
 
 | Tag                | Upstream        | Version | Build |
 | -------------------|-----------------|---------|-------|
-| `release` (latest) | GitHub releases | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Frflood%2Frelease%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/rflood/build/release?style=flat-square&label=) |
+| `release` (latest) | Releases | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Frflood%2Frelease%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/rflood/build/release?style=flat-square&label=) |
 
 ### hotio/sabnzbd
 
