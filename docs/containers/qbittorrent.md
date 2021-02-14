@@ -176,4 +176,4 @@ My experience with getting TorGuard working wasn't the smoothest journey to say 
 
 This image comes bundled with the VueTorrent Alternative WebUI, to enable it you'll have to adjust your settings like pictured below.
 
-<img src="https://hotio.dev/img/vuetorrentsettings.png" alt="vuetorrentsettings">
+<img src="https://hotio.dev/img/vuetorrentsettings.png" alt="vuetorrentsettings" width="300">
