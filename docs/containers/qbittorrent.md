@@ -169,3 +169,11 @@ curl -ksG -u "${TORGUARD_USER}":"${TORGUARD_PASS}" --data-urlencode "public-key=
 You will also have to add the additional environment variables `TORGUARD_USER` and `TORGUARD_PASS` or fill them in into the script directly (see `curl` command). These credentials can be found [here](https://torguard.net/clientarea.php?action=changepw).
 
 My experience with getting TorGuard working wasn't the smoothest journey to say the least. I had to click around quite a bit and finally after generating my 3rd config it worked. On the `Netherlands` server for example I didn't get any internet connectivity and at first I was unable to get port forwarding working on the `Germany` server. All of a sudden after generating the 3rd config and also pasting in the ip found under `My Fixed IPs`, that seems to populate when doing a Port Forward Request, I managed to get port forwarding working. So don't give up too soon, it can all work eventually.
+
+## VueTorrent
+
+<img src="https://hotio.dev/img/vuetorrentui.png" alt="vuetorrentui">
+
+This image comes bundled with the VueTorrent Alternative WebUI, to enable it you'll have to adjust your settings like pictured below.
+
+<img src="https://hotio.dev/img/vuetorrentsettings.png" alt="vuetorrentsettings">
