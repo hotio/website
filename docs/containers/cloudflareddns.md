@@ -153,7 +153,7 @@ Below are some example configuration combinations, ordered from most secure to l
 2020-05-17 17:20:54 -    INFO - [1/1] [A] [vpn.example.com] Retrieved zone list from Cloudflare.
 2020-05-17 17:20:54 -    INFO - [1/1] [A] [vpn.example.com] Zone ID [xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx] found for zone [example.com].
 2020-05-17 17:20:54 -    INFO - [1/1] [A] [vpn.example.com] Reading DNS record from Cloudflare.
-2020-05-17 17:20:55 -    INFO - [1/1] [A] [vpn.example.com] Writing DNS record to cache file [/config/app/cf-ddns-A-vpn.example.com.cache].
+2020-05-17 17:20:55 -    INFO - [1/1] [A] [vpn.example.com] Writing DNS record to cache file [/config/cf-ddns-A-vpn.example.com.cache].
 2020-05-17 17:20:55 -    INFO - [1/1] [A] [vpn.example.com] Checking if update is needed.
 2020-05-17 17:20:55 -    INFO - [1/1] [A] [vpn.example.com] No update needed.
 2020-05-17 17:20:55 -    INFO - Going to sleep for [300] seconds...
@@ -185,7 +185,7 @@ UPDATE, WARNING, ERROR, INFO, DEBUG
 
 ## JSON log
 
-Every IP update is also logged to `/config/app/cf-ddns-updates.json`. This can be used with the [Telegraf JSON parser](https://github.com/influxdata/telegraf/tree/master/plugins/parsers/json) and the `tail` input, to get your domain updates into InfluxDB. Example output below.
+Every IP update is also logged to `/config/cf-ddns-updates.json`. This can be used with the [Telegraf JSON parser](https://github.com/influxdata/telegraf/tree/master/plugins/parsers/json) and the `tail` input, to get your domain updates into InfluxDB. Example output below.
 
 ```json
 {"domain":"vpn.example.com","recordtype":"A","ip":"1.1.1.1","timestamp":"2020-05-17T20:27:14Z"}
