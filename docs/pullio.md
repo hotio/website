@@ -15,6 +15,15 @@ Features:
 - Private registries
 - With `--tag` you can use seperate configs for hourly "Update available" notifications and on a daily schedule actually apply the updates.
 
+## Installation
+
+```shell
+curl -fsSL "https://raw.githubusercontent.com/hotio/pullio/master/pullio.sh" > /usr/local/bin/pullio
+chmod +x /usr/local/bin/pullio
+```
+
+Now execute it however and whenever you want.
+
 ## Configuration
 
 You configure the scripts behaviour by adding one or more of the following labels to your `docker-compose.yml` for every container you want..
@@ -51,4 +60,4 @@ If you need to provide credentials for a Private Registry, this file's content n
 
 ## Notification preview
 
-<img src="/img/pullio-preview.png" alt="sample-screen" width="400">
+<img src="/img/pullio-preview.png" alt="sample-screen" width="500">
