@@ -8,6 +8,7 @@ Pullio is a bash script that you execute with cron or a systemd timer (or any ot
 Features:
 
 - Discord notifications (see below for preview)
+- No notifications if you leave the webhook out, it'll run as an updater and script executer
 - Detailed info about what has changed for images that follow the Opencontainers Annotation Keys
 - Execute script before sending notification
 - Execute script before updating container, after container is stopped
@@ -27,6 +28,15 @@ labels:
   - "org.hotio.pullio.script.notify=bash /notify-script.sh"
   - "org.hotio.pullio.script.update=bash /update-script.sh"
   - "org.hotio.pullio.registry.authfile=/authfile.txt"
+```
+
+Using `--tag mytag`, would let you do the following.
+
+```text
+...
+labels:
+  - "org.hotio.pullio.mytag.notify=true"
+  - "org.hotio.pullio.mytag.discord.webhook=https://discord.com/api/webhooks/..."
 ```
 
 If you need to provide credentials for a Private Registry, this file's content needs to be as shown below.
