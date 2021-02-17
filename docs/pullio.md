@@ -13,7 +13,7 @@ Features:
 - Execute script before sending notification
 - Execute script before updating container, after container is stopped
 - Private registries
-- With `--tag` you can use seperate configs for hourly "Update available" notifications and on a daily schedule actually apply the updates.
+- With `--tag` you can use seperate configs for hourly "Update available" notifications and on a daily schedule actually apply the updates
 
 ## Installation
 
