@@ -77,6 +77,7 @@ docker run --rm \
     --name qflood \
     -p 8080:8080 \
     -p 3000:3000 \
+    -p 8118:8118 \
     -e PUID=1000 \
     -e PGID=1000 \
     -e UMASK=002 \
@@ -85,6 +86,7 @@ docker run --rm \
     -e VPN_LAN_NETWORK="" \
     -e VPN_CONF="wg0" \
     -e VPN_ADDITIONAL_PORTS="" \
+    -e PRIVOXY_ENABLED="false" \
     -e FLOOD_AUTH="false" \
     -v /<host_folder_config>:/config \
     --cap-add=NET_ADMIN \
@@ -105,6 +107,7 @@ services:
     ports:
       - "8080:8080"
       - "3000:3000"
+      - "8118:8118"
     environment:
       - PUID=1000
       - PGID=1000
@@ -114,6 +117,7 @@ services:
       - VPN_LAN_NETWORK
       - VPN_CONF=wg0
       - VPN_ADDITIONAL_PORTS
+      - PRIVOXY_ENABLED=false
       - FLOOD_AUTH=false
     volumes:
       - /<host_folder_config>:/config
