@@ -3,7 +3,7 @@ hide:
   - navigation
 ---
 
-Pullio is a bash script that you execute with cron or a systemd timer (or any other way that you prefer), it then does a `docker-compose pull` for all the containers configured to have notifications or updates enabled. It then checks if there's an update available and takes action according to your configuration. As you might have already guessed it, this script relies on docker-compose to do the heavy lifting and thus is only compatible with docker-compose managed containers.
+[Pullio](https://raw.githubusercontent.com/hotio/pullio/master/pullio.sh) is a bash script that you execute with cron or a systemd timer (or any other way that you prefer), it then does a `docker-compose pull` for all the containers configured to have notifications or updates enabled. It then checks if there's an update available and takes action according to your configuration. As you might have already guessed it, this script relies on docker-compose to do the heavy lifting and thus is only compatible with docker-compose managed containers.
 
 Features:
 
