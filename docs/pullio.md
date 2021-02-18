@@ -62,4 +62,4 @@ If you need to provide credentials for a Private Registry, this file's content n
 
 ## Notification preview
 
-<img src="/img/pullio-preview.png" alt="sample-screen" width="500">
+<img src="/img/pullio-preview.png" alt="sample-screen" width="700">
