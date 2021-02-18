@@ -30,7 +30,7 @@ Now execute it however and whenever you want.
 
 ## Configuration
 
-You configure the scripts behaviour by adding one or more of the following labels to your `docker-compose.yml` for every container you want..
+You configure the script its behaviour by adding one or more of the following labels to your `docker-compose.yml` for every container you want. Adding no discord webhook will disable the notifications.
 
 ```text
 ...
