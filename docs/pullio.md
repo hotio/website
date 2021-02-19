@@ -38,6 +38,7 @@ labels:
   - "org.hotio.pullio.notify=true"
   - "org.hotio.pullio.update=true"
   - "org.hotio.pullio.discord.webhook=https://discord.com/api/webhooks/..."
+  - "org.hotio.pullio.generic.webhook=https://some.domain.com/api/webhooks/..."
   - "org.hotio.pullio.author.avatar=https://domain.com/logo.png"
   - "org.hotio.pullio.script.notify=bash /notify-script.sh"
   - "org.hotio.pullio.script.update=bash /update-script.sh"
