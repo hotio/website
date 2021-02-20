@@ -23,7 +23,7 @@ extra_css:
   - stylesheets/extra.css
 
 plugins:
-  - snippet:
+  - snippets:
       base_path: docs
       check_paths: true
   - search
