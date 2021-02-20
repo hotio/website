@@ -19,6 +19,4 @@ The default `ENTRYPOINT` is `apprise`.
 
 ## Tags
 
-```
 --8<--​ "tags/apprise.md"
-```
