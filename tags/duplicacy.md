@@ -1,0 +1,4 @@
+| Tag                | Upstream       | Version | Build |
+| -------------------|----------------|---------|-------|
+| `release` (latest) | Stable channel | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Fduplicacy%2Frelease%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/duplicacy/build/release?style=flat-square&label=) |
+| `testing`          | Latest channel | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Fduplicacy%2Ftesting%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/duplicacy/build/testing?style=flat-square&label=) |

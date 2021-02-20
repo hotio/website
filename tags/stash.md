@@ -1,0 +1,4 @@
+| Tag                | Upstream                           | Version | Build |
+| -------------------|------------------------------------|---------|-------|
+| `release` (latest) | GitHub releases                    | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Fstash%2Frelease%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/stash/build/release?style=flat-square&label=) |
+| `nightly`          | GitHub latest_develop release      | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotio%2Fstash%2Fnightly%2FVERSION.json) | ![build](https://img.shields.io/github/workflow/status/hotio/stash/build/nightly?style=flat-square&label=) |
