@@ -36,7 +36,7 @@ jobs:
               cd ${GITHUB_WORKSPACE} || exit 1
               readme=$(basename ${file//.md/})
               git clone https://${GITHUB_TOKEN}@github.com/${GITHUB_OWNER}/${readme}.git
-              cp ${GITHUB_WORKSPACE}/docs/containers/${readme}.md ${GITHUB_WORKSPACE}/${readme}/README.md
+              echo "[![visit me](https://hotio.dev/img/visit-me.png "Visit https://hotio.dev/containers/${readme} or click me!")](https://hotio.dev/containers/${readme})" ${GITHUB_WORKSPACE}/${readme}/README.md
               cd ${GITHUB_WORKSPACE}/${readme} || exit 1
               git add README.md
               if git commit -m "Synced README.md"; then
