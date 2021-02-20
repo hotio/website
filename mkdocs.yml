@@ -23,9 +23,6 @@ extra_css:
   - stylesheets/extra.css
 
 plugins:
-  - snippets:
-      base_path: docs
-      check_paths: true
   - search
   - redirects:
       redirect_maps:
@@ -58,7 +55,6 @@ theme:
   custom_dir: docs/overrides
 
 markdown_extensions:
-  - pymdownx.snippets
   - pymdownx.highlight
   - pymdownx.tabbed
   - pymdownx.superfences
