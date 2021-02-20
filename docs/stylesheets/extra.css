@@ -33,3 +33,7 @@
 [title=Donate] svg {
   animation: heartfooter 1000ms infinite;
 }
+
+a.header-icons {
+  color: #48423e;
+}

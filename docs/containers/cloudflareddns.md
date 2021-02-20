@@ -1,10 +1,8 @@
-[<img src="https://hotio.dev/img/cloudflareddns.png" alt="logo" height="130" width="130">](https://github.com/hotio/cloudflareddns)
+<img src="https://hotio.dev/img/cloudflareddns.png" alt="logo" height="130" width="130">
 
-[![GitHub Source](https://img.shields.io/badge/github-source-ffb64c?style=flat-square&logo=github&logoColor=white&labelColor=757575)](https://github.com/hotio/cloudflareddns)
-[![GitHub Registry](https://img.shields.io/badge/github-registry-ffb64c?style=flat-square&logo=github&logoColor=white&labelColor=757575)](https://github.com/orgs/hotio/packages/container/package/cloudflareddns)
-[![Docker Pulls](https://img.shields.io/docker/pulls/hotio/cloudflareddns?color=ffb64c&style=flat-square&label=pulls&logo=docker&logoColor=white&labelColor=757575)](https://hub.docker.com/r/hotio/cloudflareddns)
-[![Discord](https://img.shields.io/discord/610068305893523457?style=flat-square&color=ffb64c&label=discord&logo=discord&logoColor=white&labelColor=757575)](https://hotio.dev/discord)
-[![Website](https://img.shields.io/badge/website-hotio.dev-ffb64c?style=flat-square&labelColor=757575)](https://hotio.dev/containers/cloudflareddns)
+[:material-github: GitHub](https://github.com/hotio/cloudflareddns){: .header-icons target=_blank }  
+[:material-github: GitHub Registry](https://github.com/orgs/hotio/packages/container/package/cloudflareddns){: .header-icons target=_blank }  
+[:material-docker: Docker Hub](https://hub.docker.com/r/hotio/cloudflareddns){: .header-icons target=_blank }  
 
 ## Starting the container
 
@@ -20,7 +18,7 @@
         -e INTERVAL=300 \
         -e DETECTION_MODE="dig-whoami.cloudflare" \
         -e LOG_LEVEL=3 \
-        -e APPRISE="" \
+        -e cloudflareddns="" \
         -e CF_USER="your.cf.email@example.com" \
         -e CF_APIKEY="your.global.apikey" \
         -e CF_APITOKEN="" \
@@ -49,7 +47,7 @@
           - INTERVAL=300
           - DETECTION_MODE=dig-whoami.cloudflare
           - LOG_LEVEL=3
-          - APPRISE
+          - cloudflareddns
           - CF_USER=your.cf.email@example.com
           - CF_APIKEY=your.global.apikey
           - CF_APITOKEN
@@ -198,11 +196,11 @@ The returned results from Cloudflare are cached. This means minimal api calls to
 
 The proxy setting (orange cloud) and TTL is also cached and re-set based on the previous value, so if you made any modifications to these settings, you should restart the container so that the script is aware of the new settings.
 
-## Sending notifications using Apprise
+## Sending notifications using cloudflareddns
 
-You can send notifications when a DNS record gets updated with a new IP using [Apprise](https://github.com/caronc/apprise/blob/master/README.md). Use the environment variable `APPRISE` to configure notifications, see below for some examples.
+You can send notifications when a DNS record gets updated with a new IP using [cloudflareddns](https://github.com/caronc/cloudflareddns/blob/master/README.md). Use the environment variable `cloudflareddns` to configure notifications, see below for some examples.
 
 ```shell
--e APPRISE="pover://user@token"
--e APPRISE="pover://user@token;discord://webhook_id/webhook_token"
+-e cloudflareddns="pover://user@token"
+-e cloudflareddns="pover://user@token;discord://webhook_id/webhook_token"
 ```

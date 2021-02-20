@@ -21,6 +21,14 @@ As you might have guessed, these command are not suited for longterm use. For th
 
 Images where you see a mention of `ENTRYPOINT` are meant to be used like any other cli app, except that they are containerized.
 
+## Support
+
+Join us on Discord!
+
+<a href="discord" target="_blank">
+  <img src="/img/discord.png" alt="discord" width="300" height="102">
+</a>
+
 ## Donations
 
 If you like what I do, you know the drill... :octicons-heart-fill-24:{: .heart }
