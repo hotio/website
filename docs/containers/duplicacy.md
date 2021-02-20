@@ -53,4 +53,4 @@ In most cases you'll need to add additional volumes, depending on your own perso
 
 ## Tags
 
-Go [here](https://hotio.dev/tags-overview/#hotioduplicacy) to see all available tags.
+--8<-- "tags/duplicacy.md"

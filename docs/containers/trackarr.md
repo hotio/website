@@ -45,4 +45,4 @@
 
 ## Tags
 
-Go [here](https://hotio.dev/tags-overview/#hotiotrackarr) to see all available tags.
+--8<-- "tags/trackarr.md"

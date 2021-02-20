@@ -19,7 +19,7 @@ The default `ENTRYPOINT` is `mergerfs -f`.
 
 ## Tags
 
-Go [here](https://hotio.dev/tags-overview/#hotiomergerfs) to see all available tags.
+--8<-- "tags/mergerfs.md"
 
 ## Using the mergerfs mount on the host
 

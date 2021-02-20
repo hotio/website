@@ -19,4 +19,4 @@ The default `ENTRYPOINT` is `restic`.
 
 ## Tags
 
-Go [here](https://hotio.dev/tags-overview/#hotiorestic) to see all available tags.
+--8<-- "tags/restic.md"

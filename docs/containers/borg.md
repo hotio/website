@@ -19,4 +19,4 @@ The default `ENTRYPOINT` is `borg`.
 
 ## Tags
 
-Go [here](https://hotio.dev/tags-overview/#hotioborg) to see all available tags.
+--8<-- "tags/borg.md"

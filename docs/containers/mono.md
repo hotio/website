@@ -6,4 +6,4 @@
 
 ## Tags
 
-Go [here](https://hotio.dev/tags-overview/#hotiomono) to see all available tags.
+--8<-- "tags/mono.md"

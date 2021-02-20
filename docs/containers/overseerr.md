@@ -45,7 +45,7 @@
 
 ## Tags
 
-Go [here](https://hotio.dev/tags-overview/#hotiooverseerr) to see all available tags.
+--8<-- "tags/overseerr.md"
 
 ## Using a secure Plex connection
 

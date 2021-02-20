@@ -17,4 +17,4 @@ The default `ENTRYPOINT` is `crop`.
 
 ## Tags
 
-Go [here](https://hotio.dev/tags-overview/#hotiocrop) to see all available tags.
+--8<-- "tags/crop.md"

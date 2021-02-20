@@ -69,7 +69,7 @@ Notice that we give 3 values each time for `CF_HOSTS`, `CF_ZONES` and `CF_RECORD
 
 ## Tags
 
-Go [here](https://hotio.dev/tags-overview/#hotiocloudflareddns) to see all available tags.
+--8<-- "tags/cloudflareddns.md"
 
 ## Zone ID
 

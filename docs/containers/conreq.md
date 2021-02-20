@@ -45,4 +45,4 @@
 
 ## Tags
 
-Go [here](https://hotio.dev/tags-overview/#hotioconreq) to see all available tags.
+--8<-- "tags/conreq.md"

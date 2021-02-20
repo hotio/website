@@ -44,4 +44,4 @@
 
 ## Tags
 
-Go [here](https://hotio.dev/tags-overview/#hotiohdidle) to see all available tags.
+--8<-- "tags/hdidle.md"

@@ -45,4 +45,4 @@
 
 ## Tags
 
-Go [here](https://hotio.dev/tags-overview/#hotioombi) to see all available tags.
+--8<-- "tags/ombi.md"

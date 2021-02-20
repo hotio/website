@@ -42,7 +42,7 @@
 
 ## Tags
 
-Go [here](https://hotio.dev/tags-overview/#hotiounpackerr) to see all available tags.
+--8<-- "tags/unpackerr.md"
 
 ## Configuration
 

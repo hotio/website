@@ -17,7 +17,7 @@ The default `ENTRYPOINT` is `plexarr`.
 
 ## Tags
 
-Go [here](https://hotio.dev/tags-overview/#hotioplexarr) to see all available tags.
+--8<-- "tags/plexarr.md"
 
 ## Getting a Plex token for use in your configuration
 

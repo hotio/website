@@ -45,4 +45,4 @@
 
 ## Tags
 
-Go [here](https://hotio.dev/tags-overview/#hotionzbhydra2) to see all available tags.
+--8<-- "tags/nzbhydra2.md"

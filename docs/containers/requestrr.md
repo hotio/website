@@ -45,4 +45,4 @@
 
 ## Tags
 
-Go [here](https://hotio.dev/tags-overview/#hotiorequestrr) to see all available tags.
+--8<-- "tags/requestrr.md"
