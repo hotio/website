@@ -9,39 +9,39 @@
 
 ## Starting the container
 
-CLI:
+=== "cli"
 
-```shell
-docker run --rm \
-    --name conreq \
-    -p 8000:8000 \
-    -e PUID=1000 \
-    -e PGID=1000 \
-    -e UMASK=002 \
-    -e TZ="Etc/UTC" \
-    -v /<host_folder_config>:/config \
-    hotio/conreq
-```
+    ```shell
+    docker run --rm \
+        --name conreq \
+        -p 8000:8000 \
+        -e PUID=1000 \
+        -e PGID=1000 \
+        -e UMASK=002 \
+        -e TZ="Etc/UTC" \
+        -v /<host_folder_config>:/config \
+        hotio/conreq
+    ```
 
-Compose:
+=== "compose"
 
-```yaml
-version: "3.7"
+    ```yaml
+    version: "3.7"
 
-services:
-  conreq:
-    container_name: conreq
-    image: hotio/conreq
-    ports:
-      - "8000:8000"
-    environment:
-      - PUID=1000
-      - PGID=1000
-      - UMASK=002
-      - TZ=Etc/UTC
-    volumes:
-      - /<host_folder_config>:/config
-```
+    services:
+      conreq:
+        container_name: conreq
+        image: hotio/conreq
+        ports:
+          - "8000:8000"
+        environment:
+          - PUID=1000
+          - PGID=1000
+          - UMASK=002
+          - TZ=Etc/UTC
+        volumes:
+          - /<host_folder_config>:/config
+    ```
 
 ## Tags
 

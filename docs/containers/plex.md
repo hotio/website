@@ -9,49 +9,49 @@
 
 ## Starting the container
 
-CLI:
+=== "cli"
 
-```shell
-docker run --rm \
-    --name plex \
-    -p 32400:32400 \
-    -e PUID=1000 \
-    -e PGID=1000 \
-    -e UMASK=002 \
-    -e TZ="Etc/UTC" \
-    -e PLEX_CLAIM="" \
-    -e ADVERTISE_IP="" \
-    -e ALLOWED_NETWORKS="" \
-    -e PLEX_PASS="no" \
-    -v /<host_folder_config>:/config \
-    -v /<host_folder_transcode>:/transcode \
-    hotio/plex
-```
+    ```shell
+    docker run --rm \
+        --name plex \
+        -p 32400:32400 \
+        -e PUID=1000 \
+        -e PGID=1000 \
+        -e UMASK=002 \
+        -e TZ="Etc/UTC" \
+        -e PLEX_CLAIM="" \
+        -e ADVERTISE_IP="" \
+        -e ALLOWED_NETWORKS="" \
+        -e PLEX_PASS="no" \
+        -v /<host_folder_config>:/config \
+        -v /<host_folder_transcode>:/transcode \
+        hotio/plex
+    ```
 
-Compose:
+=== "compose"
 
-```yaml
-version: "3.7"
+    ```yaml
+    version: "3.7"
 
-services:
-  plex:
-    container_name: plex
-    image: hotio/plex
-    ports:
-      - "32400:32400"
-    environment:
-      - PUID=1000
-      - PGID=1000
-      - UMASK=002
-      - TZ=Etc/UTC
-      - PLEX_CLAIM
-      - ADVERTISE_IP
-      - ALLOWED_NETWORKS
-      - PLEX_PASS=no
-    volumes:
-      - /<host_folder_config>:/config
-      - /<host_folder_transcode>:/transcode
-```
+    services:
+      plex:
+        container_name: plex
+        image: hotio/plex
+        ports:
+          - "32400:32400"
+        environment:
+          - PUID=1000
+          - PGID=1000
+          - UMASK=002
+          - TZ=Etc/UTC
+          - PLEX_CLAIM
+          - ADVERTISE_IP
+          - ALLOWED_NETWORKS
+          - PLEX_PASS=no
+        volumes:
+          - /<host_folder_config>:/config
+          - /<host_folder_transcode>:/transcode
+    ```
 
 In most cases you'll need to add additional volumes, depending on your own personal preference, to get access to your files.
 

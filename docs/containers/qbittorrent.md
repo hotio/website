@@ -9,21 +9,21 @@
 
 ## Starting the container
 
-CLI:
+=== "cli"
 
-```shell
-docker run --rm \
-    --name qbittorrent \
-    -p 8080:8080 \
-    -e PUID=1000 \
-    -e PGID=1000 \
-    -e UMASK=002 \
-    -e TZ="Etc/UTC" \
-    -v /<host_folder_config>:/config \
-    hotio/qbittorrent
-```
+    ```shell
+    docker run --rm \
+        --name qbittorrent \
+        -p 8080:8080 \
+        -e PUID=1000 \
+        -e PGID=1000 \
+        -e UMASK=002 \
+        -e TZ="Etc/UTC" \
+        -v /<host_folder_config>:/config \
+        hotio/qbittorrent
+    ```
 
-Compose:
+=== "compose"
 
 ```yaml
 version: "3.7"
@@ -61,59 +61,59 @@ Tested Operating Systems:
 * Unraid 6.9 RC2
 * macOS Big Sur 11.2.1 Apple M1
 
-CLI:
+=== "cli"
 
-```shell
-docker run --rm \
-    --name qbittorrent \
-    -p 8080:8080 \
-    -p 8118:8118 \
-    -e PUID=1000 \
-    -e PGID=1000 \
-    -e UMASK=002 \
-    -e TZ="Etc/UTC" \
-    -e VPN_ENABLED="true" \
-    -e VPN_LAN_NETWORK="" \
-    -e VPN_CONF="wg0" \
-    -e VPN_ADDITIONAL_PORTS="" \
-    -e PRIVOXY_ENABLED="false" \
-    -v /<host_folder_config>:/config \
-    --cap-add=NET_ADMIN \
-    --sysctl="net.ipv4.conf.all.src_valid_mark=1" \
-    --sysctl="net.ipv6.conf.all.disable_ipv6=0" \
-    hotio/qbittorrent
-```
+    ```shell
+    docker run --rm \
+        --name qbittorrent \
+        -p 8080:8080 \
+        -p 8118:8118 \
+        -e PUID=1000 \
+        -e PGID=1000 \
+        -e UMASK=002 \
+        -e TZ="Etc/UTC" \
+        -e VPN_ENABLED="true" \
+        -e VPN_LAN_NETWORK="" \
+        -e VPN_CONF="wg0" \
+        -e VPN_ADDITIONAL_PORTS="" \
+        -e PRIVOXY_ENABLED="false" \
+        -v /<host_folder_config>:/config \
+        --cap-add=NET_ADMIN \
+        --sysctl="net.ipv4.conf.all.src_valid_mark=1" \
+        --sysctl="net.ipv6.conf.all.disable_ipv6=0" \
+        hotio/qbittorrent
+    ```
 
-Compose:
+=== "compose"
 
-```yaml
-version: "3.7"
+    ```yaml
+    version: "3.7"
 
-services:
-  qbittorrent:
-    container_name: qbittorrent
-    image: hotio/qbittorrent
-    ports:
-      - "8080:8080"
-      - "8118:8118"
-    environment:
-      - PUID=1000
-      - PGID=1000
-      - UMASK=002
-      - TZ=Etc/UTC
-      - VPN_ENABLED=true
-      - VPN_LAN_NETWORK
-      - VPN_CONF=wg0
-      - VPN_ADDITIONAL_PORTS
-      - PRIVOXY_ENABLED=false
-    volumes:
-      - /<host_folder_config>:/config
-    cap_add:
-      - NET_ADMIN
-    sysctls:
-      - net.ipv4.conf.all.src_valid_mark=1
-      - net.ipv6.conf.all.disable_ipv6=0
-```
+    services:
+      qbittorrent:
+        container_name: qbittorrent
+        image: hotio/qbittorrent
+        ports:
+          - "8080:8080"
+          - "8118:8118"
+        environment:
+          - PUID=1000
+          - PGID=1000
+          - UMASK=002
+          - TZ=Etc/UTC
+          - VPN_ENABLED=true
+          - VPN_LAN_NETWORK
+          - VPN_CONF=wg0
+          - VPN_ADDITIONAL_PORTS
+          - PRIVOXY_ENABLED=false
+        volumes:
+          - /<host_folder_config>:/config
+        cap_add:
+          - NET_ADMIN
+        sysctls:
+          - net.ipv4.conf.all.src_valid_mark=1
+          - net.ipv6.conf.all.disable_ipv6=0
+    ```
 
 There needs to be a file `wg0.conf` located in `/config/wireguard` and you need to set the variable `VPN_ENABLED` to `true` for the VPN to start.
 

@@ -9,39 +9,39 @@
 
 ## Starting the container
 
-CLI:
+=== "cli"
 
-```shell
-docker run --rm \
-    --name trackarr \
-    -p 7337:7337 \
-    -e PUID=1000 \
-    -e PGID=1000 \
-    -e UMASK=002 \
-    -e TZ="Etc/UTC" \
-    -v /<host_folder_config>:/config \
-    hotio/trackarr
-```
+    ```shell
+    docker run --rm \
+        --name trackarr \
+        -p 7337:7337 \
+        -e PUID=1000 \
+        -e PGID=1000 \
+        -e UMASK=002 \
+        -e TZ="Etc/UTC" \
+        -v /<host_folder_config>:/config \
+        hotio/trackarr
+    ```
 
-Compose:
+=== "compose"
 
-```yaml
-version: "3.7"
+    ```yaml
+    version: "3.7"
 
-services:
-  trackarr:
-    container_name: trackarr
-    image: hotio/trackarr
-    ports:
-      - "7337:7337"
-    environment:
-      - PUID=1000
-      - PGID=1000
-      - UMASK=002
-      - TZ=Etc/UTC
-    volumes:
-      - /<host_folder_config>:/config
-```
+    services:
+      trackarr:
+        container_name: trackarr
+        image: hotio/trackarr
+        ports:
+          - "7337:7337"
+        environment:
+          - PUID=1000
+          - PGID=1000
+          - UMASK=002
+          - TZ=Etc/UTC
+        volumes:
+          - /<host_folder_config>:/config
+    ```
 
 ## Tags
 

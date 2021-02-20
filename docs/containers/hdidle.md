@@ -7,40 +7,40 @@
 
 ## Starting the container
 
-CLI:
+=== "cli"
 
-```shell
-docker run --rm \
-    --name hdidle \
-    --privileged=true \
-    -e PUID=1000 \
-    -e PGID=1000 \
-    -e UMASK=002 \
-    -e TZ="Etc/UTC" \
-    -e ARGS="-d -i 1800" \
-    -v /<host_folder_config>:/config \
-    hotio/hdidle
-```
+    ```shell
+    docker run --rm \
+        --name hdidle \
+        --privileged=true \
+        -e PUID=1000 \
+        -e PGID=1000 \
+        -e UMASK=002 \
+        -e TZ="Etc/UTC" \
+        -e ARGS="-d -i 1800" \
+        -v /<host_folder_config>:/config \
+        hotio/hdidle
+    ```
 
-Compose:
+=== "compose"
 
-```yaml
-version: "3.7"
+    ```yaml
+    version: "3.7"
 
-services:
-  hdidle:
-    container_name: hdidle
-    image: hotio/hdidle
-    privileged: true
-    environment:
-      - PUID=1000
-      - PGID=1000
-      - UMASK=002
-      - TZ=Etc/UTC
-      - ARGS=-d -i 1800
-    volumes:
-      - /<host_folder_config>:/config
-```
+    services:
+      hdidle:
+        container_name: hdidle
+        image: hotio/hdidle
+        privileged: true
+        environment:
+          - PUID=1000
+          - PGID=1000
+          - UMASK=002
+          - TZ=Etc/UTC
+          - ARGS=-d -i 1800
+        volumes:
+          - /<host_folder_config>:/config
+    ```
 
 ## Tags
 

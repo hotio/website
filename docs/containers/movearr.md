@@ -7,11 +7,11 @@
 
 ## Starting the container
 
-CLI:
+=== "cli"
 
-```shell
-docker run --rm hotio/movearr ...
-```
+    ```shell
+    docker run --rm hotio/movearr ...
+    ```
 
 The default `ENTRYPOINT` is `movearr`.
 

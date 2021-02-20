@@ -9,11 +9,11 @@
 
 ## Starting the container
 
-CLI:
+=== "cli"
 
-```shell
-docker run --rm hotio/restic ...
-```
+    ```shell
+    docker run --rm hotio/restic ...
+    ```
 
 The default `ENTRYPOINT` is `restic`.
 

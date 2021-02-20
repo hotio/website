@@ -12,39 +12,39 @@
 
 ## Starting the container
 
-CLI:
+=== "cli"
 
-```shell
-docker run --rm \
-    --name readarr \
-    -p 8787:8787 \
-    -e PUID=1000 \
-    -e PGID=1000 \
-    -e UMASK=002 \
-    -e TZ="Etc/UTC" \
-    -v /<host_folder_config>:/config \
-    hotio/readarr
-```
+    ```shell
+    docker run --rm \
+        --name readarr \
+        -p 8787:8787 \
+        -e PUID=1000 \
+        -e PGID=1000 \
+        -e UMASK=002 \
+        -e TZ="Etc/UTC" \
+        -v /<host_folder_config>:/config \
+        hotio/readarr
+    ```
 
-Compose:
+=== "compose"
 
-```yaml
-version: "3.7"
+    ```yaml
+    version: "3.7"
 
-services:
-  readarr:
-    container_name: readarr
-    image: hotio/readarr
-    ports:
-      - "8787:8787"
-    environment:
-      - PUID=1000
-      - PGID=1000
-      - UMASK=002
-      - TZ=Etc/UTC
-    volumes:
-      - /<host_folder_config>:/config
-```
+    services:
+      readarr:
+        container_name: readarr
+        image: hotio/readarr
+        ports:
+          - "8787:8787"
+        environment:
+          - PUID=1000
+          - PGID=1000
+          - UMASK=002
+          - TZ=Etc/UTC
+        volumes:
+          - /<host_folder_config>:/config
+    ```
 
 In most cases you'll need to add additional volumes, depending on your own personal preference, to get access to your files.
 

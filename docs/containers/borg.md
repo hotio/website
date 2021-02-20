@@ -9,11 +9,11 @@
 
 ## Starting the container
 
-CLI:
+=== "cli"
 
-```shell
-docker run --rm hotio/borg ...
-```
+    ```shell
+    docker run --rm hotio/borg ...
+    ```
 
 The default `ENTRYPOINT` is `borg`.
 

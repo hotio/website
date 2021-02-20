@@ -7,11 +7,11 @@
 
 ## Starting the container
 
-CLI:
+=== "cli"
 
-```shell
-docker run --rm hotio/plexarr ...
-```
+    ```shell
+    docker run --rm hotio/plexarr ...
+    ```
 
 The default `ENTRYPOINT` is `plexarr`.
 
