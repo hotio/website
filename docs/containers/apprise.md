@@ -19,4 +19,6 @@ The default `ENTRYPOINT` is `apprise`.
 
 ## Tags
 
-Go [here](https://hotio.dev/tags-overview/#hotioapprise) to see all available tags.
+```
+--8<--​ "tags/apprise.md"
+```
