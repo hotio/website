@@ -1,11 +1,11 @@
 [data-md-color-scheme="hotio"] {
   --md-primary-fg-color:             #48423e;
   --md-primary-fg-color--light:      #ffdf8e;
-  --md-primary-fg-color--dark:       #ffb64c;
-  --md-accent-fg-color:              #ffb64c;
-  --md-footer-bg-color:              #ffb64c;
+  --md-primary-fg-color--dark:       #aeaeae;
+  --md-accent-fg-color:              #aeaeae;
+  --md-footer-bg-color:              #aeaeae;
   --md-footer-fg-color:              #48423e;
-  --md-typeset-a-color:              #ffb64c;
+  --md-typeset-a-color:              #aeaeae;
   --md-code-hl-color:                #ffdf8e5d;
 }
 
