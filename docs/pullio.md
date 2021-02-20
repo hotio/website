@@ -3,7 +3,7 @@ hide:
   - navigation
 ---
 
-<img src="https://hotio.dev/img/pullio.png" alt="logo" height="130" width="130">
+<img src="https://hotio.dev/img/pullio-can-do-things.png" alt="i can do things">
 
 Updating your docker containers the easy way.
 
