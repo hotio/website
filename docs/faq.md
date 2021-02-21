@@ -3,6 +3,8 @@ hide:
   - navigation
 ---
 
+<img src="/img/pullio-i-am-here.png" alt="i'm here" width="674" height="168">
+
 ??? question "Someone asked you for a 'docker-compose' snippet...How do you give them that?"
 
     If you are not using `docker-compose` that can sound like a daunting task. Have no fear though, the following cli command spits it out.
