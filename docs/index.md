@@ -3,7 +3,7 @@ hide:
   - navigation
 ---
 
-<img src="/img/hello.png" alt="hello">
+<img src="/img/hello.png" alt="hello" width="500" height="168">
 
 ## Introduction
 
