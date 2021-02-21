@@ -44,4 +44,4 @@
 
 ## Configuration
 
-You can use docker environment variables or a configuration file that should be stored in `/config/app/unpackerr.conf`. Don't forget to mount your volume where Unpackerr should look to find your downloads. Take a look at the [upstream](https://github.com/davidnewhall/unpackerr) project page for info on how to configure Unpackerr.
+You can use docker environment variables or a configuration file that should be stored in `/config/unpackerr.conf`. Don't forget to mount your volume where Unpackerr should look to find your downloads. Take a look at the [upstream](https://github.com/davidnewhall/unpackerr) project page for info on how to configure Unpackerr.
