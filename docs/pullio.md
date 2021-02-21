@@ -3,7 +3,7 @@ hide:
   - navigation
 ---
 
-<img src="https://hotio.dev/img/pullio-can-do-things.png" alt="i can do things">
+<img src="img/pullio-can-do-things.png" alt="i can do things" width="507" height="168">
 
 [:material-github: GitHub](https://github.com/hotio/arr-discord-notifier){: .header-icons target=_blank }  
 
