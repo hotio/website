@@ -4,7 +4,7 @@ edit_uri: 'website/edit/master/docs'
 extra:
   social:
   - icon: fontawesome/solid/heart
-    link: 'https://hotio.dev/#donations'
+    link: 'https://hotio.dev/donate'
     name: Donate
   - icon: fontawesome/brands/discord
     link: 'https://hotio.dev/discord'
@@ -15,9 +15,6 @@ extra:
   - icon: fontawesome/brands/github
     link: 'https://github.com/hotio'
     name: GitHub
-  - icon: fontawesome/solid/at
-    link: 'mailto:input@hotio.dev'
-    name: E-mail
 
 extra_css:
   - stylesheets/extra.css
@@ -120,3 +117,4 @@ nav:
     - hotio/mono: containers/mono.md
 - Arr Discord Notifier: arr-discord-notifier.md
 - Pullio: pullio.md
+- Donate: /donate

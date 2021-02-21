@@ -33,8 +33,6 @@ Join us on Discord!
 
 If you like what I do, you know the drill... :octicons-heart-fill-24:{: .heart }
 
-<iframe src="https://github.com/sponsors/mrhotio/button" title="Sponsor mrhotio" height="35" width="116" style="border: 0;"></iframe>
+[:material-github: GitHub Sponsors](https://github.com/sponsors/mrhotio){: .md-button target=_blank .donate-button }
 
-<a href="https://opencollective.com/hotio_collective/donate" target="_blank">
-  <img src="https://opencollective.com/hotio_collective/donate/button@2x.png?color=blue" width=300 />
-</a>
+[:fontawesome-solid-money-bill-wave: Open Collective](https://opencollective.com/hotio_collective/donate){: .md-button target=_blank .donate-button }
