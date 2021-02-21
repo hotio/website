@@ -52,10 +52,10 @@ In most cases you'll need to add additional volumes, depending on your own perso
 The following jellyfin path locations are used by default.
 
 ```shell
-JELLYFIN_CONFIG_DIR="/config/app"
-JELLYFIN_DATA_DIR="/config/app/data"
-JELLYFIN_LOG_DIR="/config/app/log"
-JELLYFIN_CACHE_DIR="/config/app/cache"
+JELLYFIN_CONFIG_DIR="/config"
+JELLYFIN_DATA_DIR="/config/data"
+JELLYFIN_LOG_DIR="/config/log"
+JELLYFIN_CACHE_DIR="/config/cache"
 ```
 
 You can override these locations by setting them to a different value with a docker environment variable.
