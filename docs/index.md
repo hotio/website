@@ -36,3 +36,9 @@ If you like what I do, you know the drill... :octicons-heart-fill-24:{: .heart }
 [:material-github: GitHub Sponsors](https://github.com/sponsors/mrhotio){: .md-button target=_blank .donate-button }
 
 [:fontawesome-solid-money-bill-wave: Open Collective](https://opencollective.com/hotio_collective/donate){: .md-button target=_blank .donate-button }
+
+[:fontawesome-solid-coins: Nano](https://nanocrawler.cc/explorer/account/nano_1bxqm6nsm55s64rgf8f5k9m795hda535to6y15ik496goatakpupjfqzokfc/history){: .md-button target=_blank .donate-button }
+
+[:material-bitcoin: Bitcoin](https://www.blockchain.com/btc/address/39W6dcaG3uuF5mZTRL4h6Ghem74kUBHrmz){: .md-button target=_blank .donate-button }
+
+[:material-litecoin: Litecoin](https://live.blockcypher.com/ltc/address/MMUFcGLiK6DnnHGFnN2MJLyTfANXw57bDY/){: .md-button target=_blank .donate-button }
