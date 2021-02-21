@@ -7,39 +7,41 @@
 
 ## Starting the container
 
-=== "cli"
+!!! docker ""
 
-    ```shell
-    docker run --rm \
-        --name overseerr \
-        -p 5055:5055 \
-        -e PUID=1000 \
-        -e PGID=1000 \
-        -e UMASK=002 \
-        -e TZ="Etc/UTC" \
-        -v /<host_folder_config>:/config \
-        hotio/overseerr
-    ```
+    === "cli"
 
-=== "compose"
+        ```shell
+        docker run --rm \
+            --name overseerr \
+            -p 5055:5055 \
+            -e PUID=1000 \
+            -e PGID=1000 \
+            -e UMASK=002 \
+            -e TZ="Etc/UTC" \
+            -v /<host_folder_config>:/config \
+            hotio/overseerr
+        ```
 
-    ```yaml
-    version: "3.7"
+    === "compose"
 
-    services:
-      overseerr:
-        container_name: overseerr
-        image: hotio/overseerr
-        ports:
-          - "5055:5055"
-        environment:
-          - PUID=1000
-          - PGID=1000
-          - UMASK=002
-          - TZ=Etc/UTC
-        volumes:
-          - /<host_folder_config>:/config
-    ```
+        ```yaml
+        version: "3.7"
+
+        services:
+          overseerr:
+            container_name: overseerr
+            image: hotio/overseerr
+            ports:
+              - "5055:5055"
+            environment:
+              - PUID=1000
+              - PGID=1000
+              - UMASK=002
+              - TZ=Etc/UTC
+            volumes:
+              - /<host_folder_config>:/config
+        ```
 
 ## Tags
 

@@ -7,39 +7,41 @@
 
 ## Starting the container
 
-=== "cli"
+!!! docker ""
 
-    ```shell
-    docker run --rm \
-        --name tautulli \
-        -p 8181:8181 \
-        -e PUID=1000 \
-        -e PGID=1000 \
-        -e UMASK=002 \
-        -e TZ="Etc/UTC" \
-        -v /<host_folder_config>:/config \
-        hotio/tautulli
-    ```
+    === "cli"
 
-=== "compose"
+        ```shell
+        docker run --rm \
+            --name tautulli \
+            -p 8181:8181 \
+            -e PUID=1000 \
+            -e PGID=1000 \
+            -e UMASK=002 \
+            -e TZ="Etc/UTC" \
+            -v /<host_folder_config>:/config \
+            hotio/tautulli
+        ```
 
-    ```yaml
-    version: "3.7"
+    === "compose"
 
-    services:
-      tautulli:
-        container_name: tautulli
-        image: hotio/tautulli
-        ports:
-          - "8181:8181"
-        environment:
-          - PUID=1000
-          - PGID=1000
-          - UMASK=002
-          - TZ=Etc/UTC
-        volumes:
-          - /<host_folder_config>:/config
-    ```
+        ```yaml
+        version: "3.7"
+
+        services:
+          tautulli:
+            container_name: tautulli
+            image: hotio/tautulli
+            ports:
+              - "8181:8181"
+            environment:
+              - PUID=1000
+              - PGID=1000
+              - UMASK=002
+              - TZ=Etc/UTC
+            volumes:
+              - /<host_folder_config>:/config
+        ```
 
 ## Tags
 

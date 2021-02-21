@@ -7,39 +7,41 @@
 
 ## Starting the container
 
-=== "cli"
+!!! docker ""
 
-    ```shell
-    docker run --rm \
-        --name jackett \
-        -p 9117:9117 \
-        -e PUID=1000 \
-        -e PGID=1000 \
-        -e UMASK=002 \
-        -e TZ="Etc/UTC" \
-        -v /<host_folder_config>:/config \
-        hotio/jackett
-    ```
+    === "cli"
 
-=== "compose"
+        ```shell
+        docker run --rm \
+            --name jackett \
+            -p 9117:9117 \
+            -e PUID=1000 \
+            -e PGID=1000 \
+            -e UMASK=002 \
+            -e TZ="Etc/UTC" \
+            -v /<host_folder_config>:/config \
+            hotio/jackett
+        ```
 
-    ```yaml
-    version: "3.7"
+    === "compose"
 
-    services:
-      jackett:
-        container_name: jackett
-        image: hotio/jackett
-        ports:
-          - "9117:9117"
-        environment:
-          - PUID=1000
-          - PGID=1000
-          - UMASK=002
-          - TZ=Etc/UTC
-        volumes:
-          - /<host_folder_config>:/config
-    ```
+        ```yaml
+        version: "3.7"
+
+        services:
+          jackett:
+            container_name: jackett
+            image: hotio/jackett
+            ports:
+              - "9117:9117"
+            environment:
+              - PUID=1000
+              - PGID=1000
+              - UMASK=002
+              - TZ=Etc/UTC
+            volumes:
+              - /<host_folder_config>:/config
+        ```
 
 ## Tags
 

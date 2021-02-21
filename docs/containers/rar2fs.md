@@ -7,11 +7,13 @@
 
 ## Starting the container
 
-=== "cli"
+!!! docker ""
 
-    ```shell
-    docker run --rm hotio/rar2fs ...
-    ```
+    === "cli"
+
+        ```shell
+        docker run --rm hotio/rar2fs ...
+        ```
 
 The default `ENTRYPOINT` is `rar2fs -f -o auto_unmount`.
 

@@ -7,11 +7,13 @@
 
 ## Starting the container
 
-=== "cli"
+!!! docker ""
 
-    ```shell
-    docker run --rm hotio/apprise ...
-    ```
+    === "cli"
+
+        ```shell
+        docker run --rm hotio/apprise ...
+        ```
 
 The default `ENTRYPOINT` is `apprise`.
 

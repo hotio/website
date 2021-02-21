@@ -7,11 +7,13 @@
 
 ## Starting the container
 
-=== "cli"
+!!! docker ""
 
-    ```shell
-    docker run --rm hotio/rclone ...
-    ```
+    === "cli"
+
+        ```shell
+        docker run --rm hotio/rclone ...
+        ```
 
 The default `ENTRYPOINT` is `rclone`.
 

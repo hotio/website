@@ -7,39 +7,41 @@
 
 ## Starting the container
 
-=== "cli"
+!!! docker ""
 
-    ```shell
-    docker run --rm \
-        --name ombi \
-        -p 5000:5000 \
-        -e PUID=1000 \
-        -e PGID=1000 \
-        -e UMASK=002 \
-        -e TZ="Etc/UTC" \
-        -v /<host_folder_config>:/config \
-        hotio/ombi
-    ```
+    === "cli"
 
-=== "compose"
+        ```shell
+        docker run --rm \
+            --name ombi \
+            -p 5000:5000 \
+            -e PUID=1000 \
+            -e PGID=1000 \
+            -e UMASK=002 \
+            -e TZ="Etc/UTC" \
+            -v /<host_folder_config>:/config \
+            hotio/ombi
+        ```
 
-    ```yaml
-    version: "3.7"
+    === "compose"
 
-    services:
-      ombi:
-        container_name: ombi
-        image: hotio/ombi
-        ports:
-          - "5000:5000"
-        environment:
-          - PUID=1000
-          - PGID=1000
-          - UMASK=002
-          - TZ=Etc/UTC
-        volumes:
-          - /<host_folder_config>:/config
-    ```
+        ```yaml
+        version: "3.7"
+
+        services:
+          ombi:
+            container_name: ombi
+            image: hotio/ombi
+            ports:
+              - "5000:5000"
+            environment:
+              - PUID=1000
+              - PGID=1000
+              - UMASK=002
+              - TZ=Etc/UTC
+            volumes:
+              - /<host_folder_config>:/config
+        ```
 
 ## Tags
 

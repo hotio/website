@@ -7,36 +7,38 @@
 
 ## Starting the container
 
-=== "cli"
+!!! docker ""
 
-    ```shell
-    docker run --rm \
-        --name unpackerr \
-        -e PUID=1000 \
-        -e PGID=1000 \
-        -e UMASK=002 \
-        -e TZ="Etc/UTC" \
-        -v /<host_folder_config>:/config \
-        hotio/unpackerr
-    ```
+    === "cli"
 
-=== "compose"
+        ```shell
+        docker run --rm \
+            --name unpackerr \
+            -e PUID=1000 \
+            -e PGID=1000 \
+            -e UMASK=002 \
+            -e TZ="Etc/UTC" \
+            -v /<host_folder_config>:/config \
+            hotio/unpackerr
+        ```
 
-    ```yaml
-    version: "3.7"
+    === "compose"
 
-    services:
-      unpackerr:
-        container_name: unpackerr
-        image: hotio/unpackerr
-        environment:
-          - PUID=1000
-          - PGID=1000
-          - UMASK=002
-          - TZ=Etc/UTC
-        volumes:
-          - /<host_folder_config>:/config
-    ```
+        ```yaml
+        version: "3.7"
+
+        services:
+          unpackerr:
+            container_name: unpackerr
+            image: hotio/unpackerr
+            environment:
+              - PUID=1000
+              - PGID=1000
+              - UMASK=002
+              - TZ=Etc/UTC
+            volumes:
+              - /<host_folder_config>:/config
+        ```
 
 ## Tags
 

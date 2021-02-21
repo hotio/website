@@ -5,11 +5,13 @@
 
 ## Starting the container
 
-=== "cli"
+!!! docker ""
 
-    ```shell
-    docker run --rm hotio/crop ...
-    ```
+    === "cli"
+
+        ```shell
+        docker run --rm hotio/crop ...
+        ```
 
 The default `ENTRYPOINT` is `crop`.
 

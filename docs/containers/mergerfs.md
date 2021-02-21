@@ -7,11 +7,13 @@
 
 ## Starting the container
 
-=== "cli"
+!!! docker ""
 
-    ```shell
-    docker run --rm hotio/mergerfs ...
-    ```
+    === "cli"
+
+        ```shell
+        docker run --rm hotio/mergerfs ...
+        ```
 
 The default `ENTRYPOINT` is `mergerfs -f`.
 

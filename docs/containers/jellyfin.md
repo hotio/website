@@ -7,39 +7,41 @@
 
 ## Starting the container
 
-=== "cli"
+!!! docker ""
 
-    ```shell
-    docker run --rm \
-        --name jellyfin \
-        -p 8096:8096 \
-        -e PUID=1000 \
-        -e PGID=1000 \
-        -e UMASK=002 \
-        -e TZ="Etc/UTC" \
-        -v /<host_folder_config>:/config \
-        hotio/jellyfin
-    ```
+    === "cli"
 
-=== "compose"
+        ```shell
+        docker run --rm \
+            --name jellyfin \
+            -p 8096:8096 \
+            -e PUID=1000 \
+            -e PGID=1000 \
+            -e UMASK=002 \
+            -e TZ="Etc/UTC" \
+            -v /<host_folder_config>:/config \
+            hotio/jellyfin
+        ```
 
-    ```yaml
-    version: "3.7"
+    === "compose"
 
-    services:
-      jellyfin:
-        container_name: jellyfin
-        image: hotio/jellyfin
-        ports:
-          - "8096:8096"
-        environment:
-          - PUID=1000
-          - PGID=1000
-          - UMASK=002
-          - TZ=Etc/UTC
-        volumes:
-          - /<host_folder_config>:/config
-    ```
+        ```yaml
+        version: "3.7"
+
+        services:
+          jellyfin:
+            container_name: jellyfin
+            image: hotio/jellyfin
+            ports:
+              - "8096:8096"
+            environment:
+              - PUID=1000
+              - PGID=1000
+              - UMASK=002
+              - TZ=Etc/UTC
+            volumes:
+              - /<host_folder_config>:/config
+        ```
 
 In most cases you'll need to add additional volumes, depending on your own personal preference, to get access to your files.
 

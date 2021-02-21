@@ -7,39 +7,41 @@
 
 ## Starting the container
 
-=== "cli"
+!!! docker ""
 
-    ```shell
-    docker run --rm \
-        --name sabnzbd \
-        -p 8080:8080 \
-        -e PUID=1000 \
-        -e PGID=1000 \
-        -e UMASK=002 \
-        -e TZ="Etc/UTC" \
-        -v /<host_folder_config>:/config \
-        hotio/sabnzbd
-    ```
+    === "cli"
 
-=== "compose"
+        ```shell
+        docker run --rm \
+            --name sabnzbd \
+            -p 8080:8080 \
+            -e PUID=1000 \
+            -e PGID=1000 \
+            -e UMASK=002 \
+            -e TZ="Etc/UTC" \
+            -v /<host_folder_config>:/config \
+            hotio/sabnzbd
+        ```
 
-    ```yaml
-    version: "3.7"
+    === "compose"
 
-    services:
-      sabnzbd:
-        container_name: sabnzbd
-        image: hotio/sabnzbd
-        ports:
-          - "8080:8080"
-        environment:
-          - PUID=1000
-          - PGID=1000
-          - UMASK=002
-          - TZ=Etc/UTC
-        volumes:
-          - /<host_folder_config>:/config
-    ```
+        ```yaml
+        version: "3.7"
+
+        services:
+          sabnzbd:
+            container_name: sabnzbd
+            image: hotio/sabnzbd
+            ports:
+              - "8080:8080"
+            environment:
+              - PUID=1000
+              - PGID=1000
+              - UMASK=002
+              - TZ=Etc/UTC
+            volumes:
+              - /<host_folder_config>:/config
+        ```
 
 In most cases you'll need to add additional volumes, depending on your own personal preference, to get access to your files.
 

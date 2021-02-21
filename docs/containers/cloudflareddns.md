@@ -6,58 +6,60 @@
 
 ## Starting the container
 
-=== "cli"
+!!! docker ""
 
-    ```shell
-    docker run --rm \
-        --name cloudflareddns \
-        -e PUID=1000 \
-        -e PGID=1000 \
-        -e UMASK=002 \
-        -e TZ="Etc/UTC" \
-        -e INTERVAL=300 \
-        -e DETECTION_MODE="dig-whoami.cloudflare" \
-        -e LOG_LEVEL=3 \
-        -e cloudflareddns="" \
-        -e CF_USER="your.cf.email@example.com" \
-        -e CF_APIKEY="your.global.apikey" \
-        -e CF_APITOKEN="" \
-        -e CF_APITOKEN_ZONE="" \
-        -e CF_HOSTS="test.example.com;test.foobar.com;test2.foobar.com" \
-        -e CF_ZONES="example.com;foobar.com;foobar.com" \
-        -e CF_RECORDTYPES="A;A;AAAA" \
-        -v /<host_folder_config>:/config \
-        hotio/cloudflareddns
-    ```
+    === "cli"
 
-=== "compose"
+        ```shell
+        docker run --rm \
+            --name cloudflareddns \
+            -e PUID=1000 \
+            -e PGID=1000 \
+            -e UMASK=002 \
+            -e TZ="Etc/UTC" \
+            -e INTERVAL=300 \
+            -e DETECTION_MODE="dig-whoami.cloudflare" \
+            -e LOG_LEVEL=3 \
+            -e cloudflareddns="" \
+            -e CF_USER="your.cf.email@example.com" \
+            -e CF_APIKEY="your.global.apikey" \
+            -e CF_APITOKEN="" \
+            -e CF_APITOKEN_ZONE="" \
+            -e CF_HOSTS="test.example.com;test.foobar.com;test2.foobar.com" \
+            -e CF_ZONES="example.com;foobar.com;foobar.com" \
+            -e CF_RECORDTYPES="A;A;AAAA" \
+            -v /<host_folder_config>:/config \
+            hotio/cloudflareddns
+        ```
 
-    ```yaml
-    version: "3.7"
+    === "compose"
 
-    services:
-      cloudflareddns:
-        container_name: cloudflareddns
-        image: hotio/cloudflareddns
-        environment:
-          - PUID=1000
-          - PGID=1000
-          - UMASK=002
-          - TZ=Etc/UTC
-          - INTERVAL=300
-          - DETECTION_MODE=dig-whoami.cloudflare
-          - LOG_LEVEL=3
-          - cloudflareddns
-          - CF_USER=your.cf.email@example.com
-          - CF_APIKEY=your.global.apikey
-          - CF_APITOKEN
-          - CF_APITOKEN_ZONE
-          - CF_HOSTS=test.example.com;test.foobar.com;test2.foobar.com
-          - CF_ZONES=example.com;foobar.com;foobar.com
-          - CF_RECORDTYPES=A;A;AAAA
-        volumes:
-          - /<host_folder_config>:/config
-    ```
+        ```yaml
+        version: "3.7"
+
+        services:
+          cloudflareddns:
+            container_name: cloudflareddns
+            image: hotio/cloudflareddns
+            environment:
+              - PUID=1000
+              - PGID=1000
+              - UMASK=002
+              - TZ=Etc/UTC
+              - INTERVAL=300
+              - DETECTION_MODE=dig-whoami.cloudflare
+              - LOG_LEVEL=3
+              - cloudflareddns
+              - CF_USER=your.cf.email@example.com
+              - CF_APIKEY=your.global.apikey
+              - CF_APITOKEN
+              - CF_APITOKEN_ZONE
+              - CF_HOSTS=test.example.com;test.foobar.com;test2.foobar.com
+              - CF_ZONES=example.com;foobar.com;foobar.com
+              - CF_RECORDTYPES=A;A;AAAA
+            volumes:
+              - /<host_folder_config>:/config
+        ```
 
 Possible values for `DETECTION_MODE` are `dig-google.com`, `dig-opendns.com`, `dig-whoami.cloudflare`, `curl-icanhazip.com`, `curl-wtfismyip.com`, `curl-showmyip.ca`, `curl-da.gd`, `curl-seeip.org` and `curl-ifconfig.co`. If you want to get the local ip from a network interface, use something like `local:eth0` as `DETECTION_MODE`.
 

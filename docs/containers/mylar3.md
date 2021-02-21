@@ -7,39 +7,41 @@
 
 ## Starting the container
 
-=== "cli"
+!!! docker ""
 
-    ```shell
-    docker run --rm \
-        --name mylar3 \
-        -p 8090:8090 \
-        -e PUID=1000 \
-        -e PGID=1000 \
-        -e UMASK=002 \
-        -e TZ="Etc/UTC" \
-        -v /<host_folder_config>:/config \
-        hotio/mylar3
-    ```
+    === "cli"
 
-=== "compose"
+        ```shell
+        docker run --rm \
+            --name mylar3 \
+            -p 8090:8090 \
+            -e PUID=1000 \
+            -e PGID=1000 \
+            -e UMASK=002 \
+            -e TZ="Etc/UTC" \
+            -v /<host_folder_config>:/config \
+            hotio/mylar3
+        ```
 
-    ```yaml
-    version: "3.7"
+    === "compose"
 
-    services:
-      mylar3:
-        container_name: mylar3
-        image: hotio/mylar3
-        ports:
-          - "8090:8090"
-        environment:
-          - PUID=1000
-          - PGID=1000
-          - UMASK=002
-          - TZ=Etc/UTC
-        volumes:
-          - /<host_folder_config>:/config
-    ```
+        ```yaml
+        version: "3.7"
+
+        services:
+          mylar3:
+            container_name: mylar3
+            image: hotio/mylar3
+            ports:
+              - "8090:8090"
+            environment:
+              - PUID=1000
+              - PGID=1000
+              - UMASK=002
+              - TZ=Etc/UTC
+            volumes:
+              - /<host_folder_config>:/config
+        ```
 
 In most cases you'll need to add additional volumes, depending on your own personal preference, to get access to your files.
 
