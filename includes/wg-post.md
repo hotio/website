@@ -46,11 +46,14 @@ PersistentKeepalive = 25
 
 Pay attention to `PreUp = bash /config/wireguard/torguard.sh` in our config. That command will execute the below script that you should create in `/config/wireguard/torguard.sh`, this script will get executed just before starting WireGuard.
 
-```shell
+```shell linenums="1"
 #!/usr/bin/bash
+
 pubkey=$(grep PrivateKey "${CONFIG_DIR}/wireguard/wg0.conf" | awk '{print $3}' | wg pubkey)
 wgserver=$(grep Endpoint "${CONFIG_DIR}/wireguard/wg0.conf" | awk '{print $3}')
-curl -ksG -u "${TORGUARD_USER}":"${TORGUARD_PASS}" --data-urlencode "public-key=${pubkey}" "https://${wgserver}/api/v1/setup"
+
+curl -ksG -u "${TORGUARD_USER}":"${TORGUARD_PASS}" \
+    --data-urlencode "public-key=${pubkey}" "https://${wgserver}/api/v1/setup"
 ```
 
 You will also have to add the additional environment variables `TORGUARD_USER` and `TORGUARD_PASS` or fill them in into the script directly (see `curl` command). These credentials can be found [here](https://torguard.net/clientarea.php?action=changepw).
