@@ -39,3 +39,13 @@ hide:
 ??? question "Installing Docker, how and where?"
 
     I'd have a look at the official [Docker Engine](https://docs.docker.com/engine/install/){: target=_blank } installation instructions.
+
+## Guides
+
+??? question "Got any Docker guides?"
+
+    Take a look [here](https://wiki.servarr.com/Docker_Guide){: target=_blank } for an extensive guide on best practises from the *arr team.
+
+??? question "But, but, how do I configure all this stuff?"
+
+    Maybe TRaSH from [TRaSH Guides](https://trash-guides.info){: target=_blank } can help...
