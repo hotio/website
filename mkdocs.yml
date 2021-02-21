@@ -52,6 +52,7 @@ theme:
   custom_dir: docs/overrides
 
 markdown_extensions:
+  - pymdownx.details
   - pymdownx.snippets
   - pymdownx.highlight
   - pymdownx.tabbed

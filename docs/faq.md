@@ -3,7 +3,7 @@ hide:
   - navigation
 ---
 
-!!! question "Someone asked you for a 'docker-compose' snippet...How do you give them that?"
+??? question "Someone asked you for a 'docker-compose' snippet...How do you give them that?"
 
     If you are not using `docker-compose` that can sound like a daunting task. Have no fear though, the following cli command spits it out.
 
@@ -19,9 +19,7 @@ hide:
     docker run --rm -v /var/run/docker.sock:/var/run/docker.sock:ro red5d/docker-autocompose <container-name-or-id> [<additional-names-or-ids>] | curl -H "x-uuid;" --upload-file - 'https://paste.c-net.org/'
     ```
 
-<br>
-
-!!! question "How do I install 'docker-compose' on my machine?"
+??? question "How do I install 'docker-compose' on my machine?"
 
     There's all sorts of ways to do this, here we are going to pick the easy way. The following commands will download and install a wrapper script that uses the docker image `linuxserver/docker-compose`.
 
@@ -32,8 +30,6 @@ hide:
 
     Now you should be able to do `docker-compose --version` as if it were natively installed. This script doesn't pull for the latest image though everytime it runs, so it might be a good idea to once in a while purge the image. It'll then pull a new one the next time it runs.
 
-<br>
-
-!!! question "Installing Docker, how and where?"
+??? question "Installing Docker, how and where?"
 
     I'd have a look at the official [Docker Engine](https://docs.docker.com/engine/install/) installation instructions.
