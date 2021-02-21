@@ -5,7 +5,7 @@ hide:
 
 <img src="img/pullio-can-do-things.png" alt="i can do things" width="507" height="168">
 
-[:material-github: GitHub](https://github.com/hotio/arr-discord-notifier){: .header-icons target=_blank }  
+[:material-github: GitHub](https://github.com/hotio/pullio){: .header-icons target=_blank }  
 
 Updating your docker containers the easy way.
 
