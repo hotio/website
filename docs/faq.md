@@ -15,7 +15,7 @@ hide:
     docker run --rm -v /var/run/docker.sock:/var/run/docker.sock:ro red5d/docker-autocompose <container-name-or-id> [<additional-names-or-ids>]
     ```
 
-    Now you should upload this to something like [hastebin.com](https://hastebin.com), [pastebin.com](https://pastebin.com), [github.com](https://gist.github.com/) or any other site that provides easy sharing of text files.
+    Now you should upload this to something like [hastebin.com](https://hastebin.com){: target=_blank }, [pastebin.com](https://pastebin.com){: target=_blank }, [github.com](https://gist.github.com/){: target=_blank } or any other site that provides easy sharing of text files.
 
     If you are sure that there's no personal information to be seen, you can also use the command below and provide them the link.
 
@@ -38,4 +38,4 @@ hide:
 
 ??? question "Installing Docker, how and where?"
 
-    I'd have a look at the official [Docker Engine](https://docs.docker.com/engine/install/) installation instructions.
+    I'd have a look at the official [Docker Engine](https://docs.docker.com/engine/install/){: target=_blank } installation instructions.
