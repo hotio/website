@@ -49,3 +49,9 @@ hide:
 ??? question "But, but, how do I configure all this stuff?"
 
     Maybe TRaSH from [TRaSH Guides](https://trash-guides.info){: target=_blank } can help...
+
+## Usage
+
+??? question "How to setup container(s) using docker-compose?"
+    Create a YAML file. A sample .yaml file for a [single container](https://docs.linuxserver.io/general/docker-compose#single-service-usage){: target=_blank } and for [multiple containers](https://docs.linuxserver.io/general/docker-compose#multiple-service-usage){: target=_blank }
+    _Note: A YAML file may end with either ```.yaml``` or ```.yml``` and both should work with ```docker-compose```, but the [YAML FAQ](https://yaml.org/faq.html){: target=_blank} recommends the use of the ```.yaml``` file extension._
