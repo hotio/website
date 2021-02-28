@@ -174,6 +174,32 @@ hide:
         ...
     ```
 
+??? question "How do I route a container's traffic through a VPN container?"
+
+    Small docker-compose example below. Notice the `...`, this isn't a copy/paste ready to go example.
+
+    ```text
+    version: "3.7"
+
+    services:
+      qbittorrent:
+        container_name: qbittorrent
+        image: hotio/qbittorrent
+        ports:
+          - "8080:8080"
+          - "9117:9117"
+        environment:
+          ...
+          - VPN_ADDITIONAL_PORTS=9117/tcp,9117/udp
+        ...
+
+      jackett:
+        container_name: jackett
+        image: hotio/jackett
+        network_mode: "service:qbittorrent"
+        ...
+    ```
+
 ??? question "Got any Docker guides?"
 
     Take a look [here](https://wiki.servarr.com/Docker_Guide){: target=_blank rel="noopener noreferrer" } for an extensive guide on best practises from the *arr team.
