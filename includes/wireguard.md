@@ -14,7 +14,7 @@ There needs to be a file `wg0.conf` located in `/config/wireguard` and you need 
 
 The part with `net.ipv6.conf.all.disable_ipv6=0` can be removed or set to `1` if there is no need for ipv6, no attempt will be made in that case to set ip6tables rules and can prevent an error if the module `ip6table_filter` isn't loaded on the host. The WireGuard configuration should not have any ipv6 related stuff when ipv6 is disabled, otherwise creating the interface will fail. If your vpn provider supports ipv6 and you keep it enabled, you'll have full ipv6 connectivity over the vpn connection (confirmed with Mullvad). If for any reason there's a failure trying to setup ip6tables rules, you'll probably need to do `sudo modprobe ip6table_filter` on the host, this will mostly happen on systems that have ipv6 completely disabled.
 
-The environment variable `VPN_LAN_NETWORK`can be set to for example `192.168.1.0/24`, `192.168.1.0/24,192.168.44.0/24` or `192.168.1.33`, so you can get access to the qBittorrent webui.
+The environment variable `VPN_LAN_NETWORK` can be set to for example `192.168.1.0/24`, `192.168.1.0/24,192.168.44.0/24` or `192.168.1.33`, so you can get access to the webui or other additional ports (see below).
 
 If you need to expose additional ports you can use `VPN_ADDITIONAL_PORTS`, for example `VPN_ADDITIONAL_PORTS=7878/tcp,9117/tcp`. Every port in this list will be blocked on the vpn interface, so that there's no risk that they might be exposed to the world via the vpn (mostly there in case your vpn provider screws up and piece of mind). Why would you need this? Wanting to route traffic from other containers over the vpn is probably the most used scenario.
 
