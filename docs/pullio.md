@@ -24,8 +24,8 @@ Features:
 ## Installation
 
 ```shell
-curl -fsSL "https://raw.githubusercontent.com/hotio/pullio/master/pullio.sh" > /usr/local/bin/pullio
-chmod +x /usr/local/bin/pullio
+sudo curl -fsSL "https://raw.githubusercontent.com/hotio/pullio/master/pullio.sh" -o /usr/local/bin/pullio
+sudo chmod +x /usr/local/bin/pullio
 ```
 
 Now execute it however and whenever you want.
