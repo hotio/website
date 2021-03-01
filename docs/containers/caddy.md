@@ -49,7 +49,7 @@
               - /<host_folder_config>:/config
         ```
 
-## Custom builds
+## Custom build
 
 If you set the environment variable `CUSTOM_BUILD` to a file location like for example `/config/caddy_linux_amd64_custom`, an attempt is made to start Caddy with that binary. The custom builds can be obtained from the Caddy [download](https://caddyserver.com/download) page. This is particularly useful if you need extra modules.
 
