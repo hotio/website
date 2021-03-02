@@ -24,6 +24,7 @@
             -e TZ="Etc/UTC" \
             -e CUSTOM_BUILD="" \
             -v /<host_folder_config>:/config \
+            --cap-add=NET_ADMIN \
             hotio/caddy
         ```
 
@@ -47,6 +48,8 @@
               - CUSTOM_BUILD
             volumes:
               - /<host_folder_config>:/config
+            cap_add:
+              - NET_ADMIN
         ```
 
 ## Custom build
