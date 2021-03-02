@@ -7,6 +7,10 @@
 
 --8<-- "includes/stats.md"
 
+!!! question "What is this?"
+
+    A docker image with [Caddy v2](https://caddyserver.com){: target=_blank rel="noopener noreferrer" } and fail2ban integrated.
+
 ## Starting the container
 
 !!! docker ""
