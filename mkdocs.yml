@@ -93,6 +93,7 @@ nav:
     - hotio/nzbhydra2: containers/nzbhydra2.md
     - hotio/ombi: containers/ombi.md
     - hotio/overseerr: containers/overseerr.md
+    - hotio/petio: containers/petio.md
     - hotio/plex: containers/plex.md
     - hotio/plexarr: containers/plexarr.md
     - hotio/qbittorrent: containers/qbittorrent.md
