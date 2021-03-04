@@ -66,6 +66,8 @@
               - /<host_folder_db>:/data/db
         ```
 
-You'll need to pre-create the folders for Mongo on the host and give them the correct permissions. The folder `/data/configdb` isn't always required, take a look at the Mongo documentation to see if this applies to you. For ease of use you'll want to create a custom bridge network (most likely you already have one) for Mongo and Petio (Etc.) when using the cli commands, so that you can refer to the Mongo container by containername.
+You'll need to pre-create the folders for Mongo on the host and give them the correct permissions. The folder `/data/configdb` isn't always required, take a look at the Mongo documentation to see if this applies to you. For ease of use you'll want to create a custom bridge network (most likely you already have one) for Mongo and Petio (and others) when using the cli commands, so that you can refer to the Mongo container by containername.
+
+For first time setup you'll need to visit `http://<ip or hostname>:7777/admin`.
 
 --8<-- "includes/tags.md"
