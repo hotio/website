@@ -18,3 +18,14 @@
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript" src="/javascripts/loadJSON.js"></script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-h6-3+1f-3d+2z"
+     data-ad-client="ca-pub-1584473904647869"
+     data-ad-slot="5490484264"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
