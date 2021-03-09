@@ -3,7 +3,7 @@ hide:
   - navigation
 ---
 
-<div class="pullio-banner"><img src="/img/pullio.svg" alt="pullio"/><div class="pullio-banner-text">I'm here if you need me...</div></div>
+<div class="pullio-banner"><img src="/img/pullio-stick-out-tongue.svg" alt="pullio"/><div class="pullio-banner-text">I'm here if you need me...</div></div>
 
 ## Troubleshooting
 
