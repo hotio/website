@@ -1,5 +1,4 @@
 $(function loadJSON() {
-    document.getElementById("ad-warning").remove();
     var image = document.getElementsByTagName("h1")[0].innerHTML;
     $.getJSON('https://raw.githubusercontent.com/' + image + '/master/tags.json', function(data) {
         console.log("Pulls: " + data.pulls + ", Stars: " + data.stars);

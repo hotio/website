@@ -15,17 +15,3 @@
 <div id="tags-admonition" class="admonition docker">
 <div class="highlight" id="tags-codeblock"><pre id="__code_2"><span></span><button class="md-clipboard md-icon" title="Copy to clipboard" data-clipboard-target="#__code_2 > code"></button><code></code></pre></div>
 </div>
-
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script type="text/javascript" src="/javascripts/loadJSON.js"></script>
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-format="fluid"
-     data-ad-layout-key="-hf-v+1t-u+27"
-     data-ad-client="ca-pub-1584473904647869"
-     data-ad-slot="5490484264"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
