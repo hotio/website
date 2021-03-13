@@ -15,3 +15,6 @@
 <div id="tags-admonition" class="admonition docker">
 <div class="highlight" id="tags-codeblock"><pre id="__code_2"><span></span><button class="md-clipboard md-icon" title="Copy to clipboard" data-clipboard-target="#__code_2 > code"></button><code></code></pre></div>
 </div>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="/javascripts/loadJSON.js"></script>
