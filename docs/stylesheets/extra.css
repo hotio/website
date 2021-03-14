@@ -1,12 +1,7 @@
 [data-md-color-scheme="hotio"] {
   --md-primary-fg-color:             #48423e;
-  --md-primary-fg-color--light:      #ffdf8e;
-  --md-primary-fg-color--dark:       #aeaeae;
-  --md-accent-fg-color:              #aeaeae;
-  --md-footer-bg-color:              #aeaeae;
-  --md-footer-fg-color:              #48423e;
-  --md-typeset-a-color:              #aeaeae;
-  --md-code-hl-color:                #ffdf8e5d;
+  --md-accent-fg-color:              rgb(117, 117, 117);
+  --md-typeset-a-color:              #ffb64c;
 }
 
 @keyframes heart {
@@ -138,7 +133,7 @@ a.header-icons {
   min-width: 130px;
   padding: 5px;
   border-radius: 5px;
-  background: #48423e;
+  background: rgb(117, 117, 117);
   color: #fff;
   text-align: center;
   font-size: 14px;
@@ -162,8 +157,8 @@ a.header-icons {
   transform: translateY(-50%);
  
   /* the arrow */
-  border: 10px solid #48423e;
-  border-color: transparent #48423e transparent transparent;
+  border: 10px solid rgb(117, 117, 117);
+  border-color: transparent rgb(117, 117, 117) transparent transparent;
   
   display: none;
 }
