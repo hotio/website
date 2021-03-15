@@ -2,7 +2,8 @@
   --md-primary-fg-color:             #48423e;
   --md-primary-fg-color--dark:       #48423e;
   --md-primary-fg-color--light:      #ffb64c;
-  --md-accent-fg-color:              rgb(117, 117, 117);
+  --md-accent-fg-color--transparent: #7575754d;
+  --md-accent-fg-color:              #757575;
   --md-typeset-a-color:              #ffb64c;
 }
 
