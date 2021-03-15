@@ -1,6 +1,7 @@
 [data-md-color-scheme="hotio"] {
   --md-primary-fg-color:             #48423e;
   --md-primary-fg-color--dark:       #48423e;
+  --md-primary-fg-color--light:      #ffb64c;
   --md-accent-fg-color:              rgb(117, 117, 117);
   --md-typeset-a-color:              #ffb64c;
 }
