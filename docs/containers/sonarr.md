@@ -35,7 +35,7 @@
             container_name: sonarr
             image: hotio/sonarr
             ports:
-              - "8989:8989
+              - "8989:8989"
             environment:
               - PUID=1000
               - PGID=1000
