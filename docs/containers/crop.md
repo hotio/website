@@ -19,4 +19,6 @@
 
 The default `ENTRYPOINT` is `crop`.
 
+The official Rclone is included at `/usr/local/bin/rclone`, the non official version from [l3uddz](https://github.com/l3uddz) is included at `/usr/local/bin/gclone` and symlinked at `/usr/local/bin/lclone`.
+
 --8<-- "includes/tags.md"
