@@ -7,10 +7,6 @@
 
 --8<-- "includes/stats.md"
 
-!!! info
-
-    Not yet available! Petio hasn't been released...
-
 ## Starting the container
 
 !!! docker ""
