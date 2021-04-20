@@ -3,7 +3,8 @@
 [:octicons-mark-github-16: GitHub](https://github.com/hotio/qbittorrent){: .header-icons target=_blank rel="noopener noreferrer" }  
 [:octicons-container-16: GitHub Registry](https://github.com/orgs/hotio/packages/container/package/qbittorrent){: .header-icons target=_blank rel="noopener noreferrer" }  
 [:material-docker:{: style="transform: scale(1.3);" } Docker Hub](https://hub.docker.com/r/hotio/qbittorrent){: .header-icons target=_blank rel="noopener noreferrer" }  
-[:octicons-link-16: qBittorrent](https://github.com/qbittorrent/qbittorrent){: .header-icons target=_blank rel="noopener noreferrer" }  
+[:octicons-link-16: qBittorrent](https://github.com/qbittorrent/qbittorrent){: .header-icons target=_blank rel="noopener noreferrer" }
+[:octicons-link-16: VueTorrent](https://github.com/WDaan/VueTorrent){: .header-icons target=_blank rel="noopener noreferrer" }
 
 --8<-- "includes/stats.md"
 
