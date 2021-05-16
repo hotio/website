@@ -3,7 +3,7 @@
 [:octicons-mark-github-16: GitHub](https://github.com/hotio/overseerr){: .header-icons target=_blank rel="noopener noreferrer" }  
 [:octicons-container-16: GitHub Registry](https://github.com/orgs/hotio/packages/container/package/overseerr){: .header-icons target=_blank rel="noopener noreferrer" }  
 [:material-docker:{: style="transform: scale(1.3);" } Docker Hub](https://hub.docker.com/r/hotio/overseerr){: .header-icons target=_blank rel="noopener noreferrer" }  
-[:octicons-link-16: Overseerr](https://github.com/sct/overseerr){: .header-icons target=_blank rel="noopener noreferrer" }  
+[:octicons-link-16: Overseerr](https://overseerr.dev/){: .header-icons target=_blank rel="noopener noreferrer" }  
 
 --8<-- "includes/stats.md"
 
