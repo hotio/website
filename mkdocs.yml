@@ -96,6 +96,7 @@ nav:
     - hotio/petio: containers/petio.md
     - hotio/plex: containers/plex.md
     - hotio/plexarr: containers/plexarr.md
+    - hotio/prowlarr: containers/prowlarr.md
     - hotio/qbittorrent: containers/qbittorrent.md
     - hotio/qflood: containers/qflood.md
     - hotio/radarr: containers/radarr.md
