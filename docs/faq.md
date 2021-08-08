@@ -7,6 +7,10 @@ hide:
 
 ## Troubleshooting
 
+??? question "What are the default qBittorrent login credentials?"
+
+    The default username is `admin` and the default password is `adminadmin`. If this doesn't work you're probably running Unraid and you'll most likely have to change the internal port on which the WebUI runs to match the external port.
+
 ??? question "Someone asked you for a 'docker-compose' snippet...How do you give them that?"
 
     If you are not using `docker-compose` that can sound like a daunting task. Have no fear though, the following cli command spits it out.
