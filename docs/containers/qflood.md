@@ -116,4 +116,8 @@ In most cases you'll need to add additional volumes, depending on your own perso
 
 --8<-- "includes/tags.md"
 
+## Changing the WebUI port on the inside of the container
+
+Under certain circumstances it's required to run the WebUI on a different internal port, you can do that by modifying the environment variable `WEBUI_PORTS` accordingly.
+
 --8<-- "includes/wireguard.md"
