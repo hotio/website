@@ -36,6 +36,9 @@ Endpoint = xxx.x.xxx.x:51820
 
 ## TorGuard instructions
 
+!!! warning
+    The following instructions are no longer needed if you re-download a config from the TorGuard website or if this is your first time doing it.
+
 While Mullvad is pretty straightforward to setup by using the `wg0.conf` example from above, TorGuard is a bit more complex.
 
 Our `wg0.conf` should look something like this:
