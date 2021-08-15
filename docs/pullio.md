@@ -66,6 +66,10 @@ If you need to provide credentials for a Private Registry, this file's content n
 }
 ```
 
+## Troubleshooting
+
+It can be frustrating to test the script if no docker image updates are available, for that you can do `./pullio.sh --debug` and the script will behave as if an update is available.
+
 ## Notification preview
 
 <div class="pullio-preview">
