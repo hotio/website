@@ -20,6 +20,14 @@
             -e PGID=1000 \
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
+            -e BOT_TOKEN="your_bot_token" \
+            -e ROLE_ID="your_role_id" \
+            -e RADARR_URL="http://radarr:7878" \
+            -e RADARR_API="your_radarr_api_key" \
+            -e SONARR_URL="http://sonarr:8989" \
+            -e SONARR_API="your_sonarr_api_key" \
+            -e OVERSEERR_URL="http://overseerr:5055" \
+            -e OVERSEERR_API="your_overseerr_api_key" \
             -v /<host_folder_config>:/config \
             hotio/doplarr
         ```
@@ -38,6 +46,14 @@
               - PGID=1000
               - UMASK=002
               - TZ=Etc/UTC
+              - BOT_TOKEN=your_bot_token
+              - ROLE_ID=your_role_id
+              - RADARR_URL=http://radarr:7878
+              - RADARR_API=your_radarr_api_key
+              - SONARR_URL=http://sonarr:8989
+              - SONARR_API=your_sonarr_api_key
+              - OVERSEERR_URL=http://overseerr:5055
+              - OVERSEERR_API=your_overseerr_api_key
             volumes:
               - /<host_folder_config>:/config
         ```
