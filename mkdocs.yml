@@ -81,6 +81,7 @@ nav:
     - hotio/cloudflareddns: containers/cloudflareddns.md
     - hotio/conreq: containers/conreq.md
     - hotio/crop: containers/crop.md
+    - hotio/doplarr: containers/doplarr.md
     - hotio/duplicacy: containers/duplicacy.md
     - hotio/hdidle: containers/hdidle.md
     - hotio/jackett: containers/jackett.md
