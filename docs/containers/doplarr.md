@@ -58,4 +58,6 @@
               - /<host_folder_config>:/config
         ```
 
+You can either use the environment variables `RADARR_...` + `SONARR_...` combo or just `OVERSEERR_...`, depending on your usage of Overseerr or not. See the Doplarr documentation on how to get your `BOT_TOKEN` and the Discord documentation for your `ROLE_ID`.
+
 --8<-- "includes/tags.md"
