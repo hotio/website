@@ -46,3 +46,6 @@
         ```
 
 --8<-- "includes/tags.md"
+
+!!! warning
+    There's only a `testing` and `nightly` tag available for the moment.
