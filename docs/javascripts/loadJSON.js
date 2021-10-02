@@ -21,7 +21,7 @@ $(function loadJSON() {
             }
             var d = new Date(f.lastUpdated);
             var datestring = d.getFullYear() + "-" + (d.getMonth()+1).toString().padStart(2, '0') + "-" + d.getDate().toString().padStart(2, '0') + " " + d.getHours().toString().padStart(2, '0') + ":" + d.getMinutes().toString().padStart(2, '0') + ":" + d.getSeconds().toString().padStart(2, '0');
-            var tblRow = "<tr>" + "<td><code>" + f.name + "</code>" + extraTag + "</td>" + "<td>" + f.upstream + "</td>" + "<td>" + version + "</td>" + "<td><a class=\"header-icons\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/" + image + "/tree/" + f.commit + "\">" + f.commit + "</a></td>" + "<td style=\"white-space:nowrap;\">" + datestring + "</td>" + "</tr>"
+            var tblRow = "<tr>" + "<td><a class=\"header-icons\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/" + image + "/tree/" + f.name + "\">" + f.name + "</a>" + extraTag + "</td>" + "<td>" + f.upstream + "</td>" + "<td>" + version + "</td>" + "<td><a class=\"header-icons\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/" + image + "/tree/" + f.commit + "\">" + f.commit + "</a></td>" + "<td style=\"white-space:nowrap;\">" + datestring + "</td>" + "</tr>"
             $(tblRow).appendTo("#tags-table tbody");
             $("<span>docker pull " + image + ":" + f.name + "</span><br>").appendTo("#tags-codeblock code");
             $("<span>docker pull " + image + ":" + f.name + "-" + f.version + "</span><br>").appendTo("#tags-codeblock code");
