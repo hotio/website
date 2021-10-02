@@ -4,7 +4,7 @@
     You can click the tag name to go to the source on GitHub for that particular tag. Every tag has its own branch.
     The `master` branch is used as a landing page and to store some statistics used by this page to populate the table.
     Temporary tags/branches might not show up in the table, but are also generally not for end-user consumption.
-    Clicking the commit brings you to the exact source of that commit.
+    Clicking the commit sha brings you to the exact source of that commit.
 
 <table id= "tags-table">
   <thead>
