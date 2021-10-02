@@ -7,6 +7,9 @@
 
 --8<-- "includes/stats.md"
 
+!!! warning
+    There's only a `testing` and `nightly` tag available for the moment.
+
 ## Starting the container
 
 !!! docker ""
@@ -46,6 +49,3 @@
         ```
 
 --8<-- "includes/tags.md"
-
-!!! warning
-    There's only a `testing` and `nightly` tag available for the moment.
