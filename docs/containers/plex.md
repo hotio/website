@@ -77,6 +77,8 @@ The variables correspond to the below plex network settings.
 
 ![Plex settings](/img/plex_settings.png "Plex settings")
 
+The variable `ADVERTISE_IP` is useful to aid your local clients in discovering your plex server when running in the `bridge` network mode. Most likely you would use something like `http://192.168.0.10:32400`. You could use `ALLOWED_NETWORKS` when you're locked out and need to regain access without providing credentials.
+
 ## TOP secret stuff
 
 If you do `-e PLEX_PASS="https://..."`, stuff happens for which no support will be given.
