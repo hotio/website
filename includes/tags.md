@@ -12,7 +12,7 @@
   </tbody>
 </table>
 
-!!! info
+??? info "Source"
     You can click the tag name to go to the source on GitHub.
 
 <div id="tags-admonition" class="admonition docker">
