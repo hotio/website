@@ -12,6 +12,9 @@
   </tbody>
 </table>
 
+!!! info
+    You can click the tag name to go to the source on GitHub.
+
 <div id="tags-admonition" class="admonition docker">
 <div class="highlight" id="tags-codeblock"><pre id="__code_2"><span></span><button class="md-clipboard md-icon" title="Copy to clipboard" data-clipboard-target="#__code_2 > code"></button><code></code></pre></div>
 </div>
