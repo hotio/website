@@ -30,7 +30,7 @@ Oooh, am I glad you asked! Check out my tiny list just a few pixels down. Have y
 
 Go check out the rest of our website to see how you can get started with your favorite app. Most images come with docker cli or compose examples. If you've got any questions, feel free to join the [discord](discord){: target=_blank rel="noopener noreferrer" } server. Discord is our main channel to provide support, if you think to have found a bug in one of the images, feel free to create a new issue on GitHub.
 
-If you enjoy the images don't forget to go give us a star on Docker Hub and GitHub. It would mean a lot to us!
+If you enjoy the images don't forget to go give us a star on [Docker Hub](dockerhub){: target=_blank rel="noopener noreferrer" } and [GitHub](github){: target=_blank rel="noopener noreferrer" }. It would mean a lot to us!
 
 ## Support
 
