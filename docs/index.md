@@ -16,11 +16,12 @@ Oooh, am I glad you asked! Check out my tiny list just a few pixels down. Have y
     - Smoke tested, if the test fails, you don't end up with the mess
     - Containers shut down on failure, giving you control on what to do next
     - 100% open source and built with GitHub Actions, transparency is key
+    - Source that allows reproducible builds by you
     - Some images have built-in WireGuard VPN support with no ip leaks
     - Building of pull requests for the majority of *arr apps
     - Smart use of layers to make image updates as fast as possible, reducing downtime
     - Shared base images to further increase fast updates and reduced disk/bandwidth usage
-    - Great selection of tags for pre-release or nightly builds
+    - Great selection of tags for pre-release or nightly builds, tags by version and commit
     - Build feed on the [discord](discord){: target=_blank rel="noopener noreferrer" } server with gorgeous notifications
     - You take control of your paths, the bare minimum of pre-defined volumes
     - Multiple architectures whenever possible
