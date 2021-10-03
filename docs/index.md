@@ -7,6 +7,8 @@ hide:
 
 ## Why hotio?
 
+Oooh, am I glad you asked! Check out my tiny list just a few pixels down. Have you met Pullio already? You'll see more of him when browsing this tiny piece of the interwebz. Enjoy!
+
 !!! abstract "What makes us best-in-class"
     - Incredibly fast automated updates of upstream apps
     - Automated updates when new upstream images get released
