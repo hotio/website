@@ -5,21 +5,30 @@ hide:
 
 <div class="pullio-banner"><img src="/img/pullio.svg" alt="pullio"/><div class="pullio-banner-text">Hello, I'm Pullio!</div></div>
 
-## Introduction
+## Why hotio?
 
-Huh? What does `hotio` do?
+!!! abstract "What makes us best-in-class"
+    - Incredibly fast automated updates of upstream apps
+    - Automated updates when new upstream images get released
+    - Small images, yet packed with sufficient dependencies for your scripts
+    - Smoke tested, if the test fails, you don't end up with the mess
+    - Containers shut down on failure, giving you control on what to do next
+    - 100% open source and built with GitHub Actions, transparency is key
+    - Some images have built-in WireGuard VPN support with no ip leaks
+    - Building of pull requests for the majority of *arr apps
+    - Smart use of layers to make image updates as fast as possible, reducing downtime
+    - Shared base images to further increase fast updates and reduced disk/bandwidth usage
+    - Great selection of tags for pre-release or nightly builds
+    - Build feed on the [discord](discord){: target=_blank rel="noopener noreferrer" } server with gorgeous notifications
+    - You take control of your paths, the bare minimum of pre-defined volumes
+    - Multiple architectures whenever possible
+    - Pushed to both [Docker Hub](dockerhub){: target=_blank rel="noopener noreferrer" } and [GitHub Container Registry](ghcr){: target=_blank rel="noopener noreferrer" }
+    - Most images are available in the [Unraid CA](https://unraid.net/community/apps?q=hotio){: target=_blank rel="noopener noreferrer" } store
+    - No tracking, not now, not ever! Your privacy is our n° 1 concern
 
-I build and maintain Docker images. When joining the [Discord](discord){: target=_blank rel="noopener noreferrer" } server you'll get access to the `#image-builds` channel and you can keep an eye on when your favorite app has released a new update. All the updating of docker images is automated, giving you the fastest updates. We're not just building them and pushing them out though...no, every app is tested and when they fail the test, pushing to the registries is cancelled. This for the most part ensures your system remains operational when you are doing auto-updates and are not paying attention.
+Go check out the rest of our website to see how you can get started with your favorite app. Most images come with docker cli or compose examples. If you've got any questions, feel free to join the [discord](discord){: target=_blank rel="noopener noreferrer" } server. Discord is our main channel to provide support, if you think to have found a bug in one of the images, feel free to create a new issue on GitHub.
 
-The images get pushed to [Docker Hub](dockerhub){: target=_blank rel="noopener noreferrer" } and [GitHub Container Registry](ghcr){: target=_blank rel="noopener noreferrer" }. They can then be pulled from Docker Hub with `docker pull hotio/...` and from GitHub Container Registry with `docker pull ghcr.io/hotio/...`.
-
-On this website you'll also find all the documentation needed to get the containers running. All commands provided include the most basic to get the container running. In most cases you'll have to add additional volumes to get access to your other files that every app needs.
-
-Almost all the commands will start with `docker run -rm ...`, which is the same as `docker create`, followed by `docker start`. The argument `--rm` will make sure that when we exit the container, it'll get deleted.
-
-As you might have guessed, these command are not suited for longterm use. For that we suggest to maybe use `docker-compose` or integrate the commands with `systemd`.
-
-Images where you see a mention of `ENTRYPOINT` are meant to be used like any other cli app, except that they are containerized.
+If you enjoy the images don't forget to go give us a star on Docker Hub and GitHub. It would mean a lot to us!
 
 ## Support
 
