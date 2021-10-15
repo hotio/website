@@ -114,6 +114,6 @@ In most cases you'll need to add additional volumes, depending on your own perso
 
 ## Changing the WebUI port
 
-Under certain circumstances it's required to run the WebUI on a different internal port, you can do that by modifying the environment variable `WEBUI_PORTS` accordingly.
+Under certain circumstances it's required to run the WebUI on a different internal port, you can do that by modifying the environment variable `WEBUI_PORTS` accordingly. It should be in the format `xxxx/tcp,xxxx/udp`, take a look at the default with `docker logs` (variable is printed at container start) or `docker inspect`.
 
 --8<-- "includes/wireguard.md"
