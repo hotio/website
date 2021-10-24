@@ -16,7 +16,7 @@ hide:
     If you are not using `docker-compose` that can sound like a daunting task. Have no fear though, the following cli command spits it out.
 
     ```shell
-    docker run --rm -v /var/run/docker.sock:/var/run/docker.sock:ro red5d/docker-autocompose <container-name-or-id> [<additional-names-or-ids>]
+    docker run --rm -v /var/run/docker.sock:/var/run/docker.sock:ro ghcr.io/red5d/docker-autocompose <container-name-or-id> [<additional-names-or-ids>]
     ```
 
     Now you should upload this to something like [hastebin.com](https://hastebin.com){: target=_blank rel="noopener noreferrer" }, [pastebin.com](https://pastebin.com){: target=_blank rel="noopener noreferrer" }, [github.com](https://gist.github.com/){: target=_blank rel="noopener noreferrer" } or any other site that provides easy sharing of text files.
@@ -24,7 +24,7 @@ hide:
     If you are sure that there's no personal information to be seen, you can also use the command below and provide them the link.
 
     ```shell
-    docker run --rm -v /var/run/docker.sock:/var/run/docker.sock:ro red5d/docker-autocompose <container-name-or-id> [<additional-names-or-ids>] | curl -H "x-uuid;" --upload-file - 'https://paste.c-net.org/'
+    docker run --rm -v /var/run/docker.sock:/var/run/docker.sock:ro ghcr.io/red5d/docker-autocompose <container-name-or-id> [<additional-names-or-ids>] | curl -H "x-uuid;" --upload-file - 'https://paste.c-net.org/'
     ```
 
 ??? question "What is this libseccomp2 thing I keep hearing about? Am I affected by it?"
