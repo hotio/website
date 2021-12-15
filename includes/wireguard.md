@@ -20,7 +20,7 @@ If you need to expose additional ports you can use `VPN_ADDITIONAL_PORTS`, for e
 
 ## wg0.conf example
 
-This is an example of how your `wg0.conf` could look like.
+This is an example of how your `wg0.conf` should look like.
 
 ```text
 [Interface]
