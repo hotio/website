@@ -13,4 +13,4 @@ jobs:
 
       - name: Deploy site
         run: |
-          docker run --rm -v ${PWD}:/docs squidfunk/mkdocs-material:8.0.0 gh-deploy --force
+          docker run --rm -v ${PWD}:/docs squidfunk/mkdocs-material:8.0.1 gh-deploy --force
