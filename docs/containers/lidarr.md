@@ -22,7 +22,7 @@
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
             -v /<host_folder_config>:/config \
-            hotio/lidarr
+            cr.hotio.dev/hotio/lidarr
         ```
 
     === "compose"
@@ -33,7 +33,7 @@
         services:
           lidarr:
             container_name: lidarr
-            image: hotio/lidarr
+            image: cr.hotio.dev/hotio/lidarr
             ports:
               - "8686:8686"
             environment:

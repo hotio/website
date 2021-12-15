@@ -14,7 +14,7 @@
     === "cli"
 
         ```shell
-        docker run --rm hotio/restic ...
+        docker run --rm cr.hotio.dev/hotio/restic ...
         ```
 
 The default `ENTRYPOINT` is `restic`.

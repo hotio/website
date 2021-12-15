@@ -22,7 +22,7 @@
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
             -v /<host_folder_config>:/config \
-            hotio/jellyfin
+            cr.hotio.dev/hotio/jellyfin
         ```
 
     === "compose"
@@ -33,7 +33,7 @@
         services:
           jellyfin:
             container_name: jellyfin
-            image: hotio/jellyfin
+            image: cr.hotio.dev/hotio/jellyfin
             ports:
               - "8096:8096"
             environment:

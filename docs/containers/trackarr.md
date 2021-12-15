@@ -22,7 +22,7 @@
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
             -v /<host_folder_config>:/config \
-            hotio/trackarr
+            cr.hotio.dev/hotio/trackarr
         ```
 
     === "compose"
@@ -33,7 +33,7 @@
         services:
           trackarr:
             container_name: trackarr
-            image: hotio/trackarr
+            image: cr.hotio.dev/hotio/trackarr
             ports:
               - "7337:7337"
             environment:

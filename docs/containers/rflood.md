@@ -28,7 +28,7 @@
             -e TZ="Etc/UTC" \
             -e FLOOD_AUTH="false" \
             -v /<host_folder_config>:/config \
-            hotio/rflood
+            cr.hotio.dev/hotio/rflood
         ```
 
     === "compose"
@@ -39,7 +39,7 @@
         services:
           rflood:
             container_name: rflood
-            image: hotio/rflood
+            image: cr.hotio.dev/hotio/rflood
             ports:
               - "3000:3000"
             environment:
@@ -73,7 +73,7 @@
             --cap-add=NET_ADMIN \
             --sysctl="net.ipv4.conf.all.src_valid_mark=1" \
             --sysctl="net.ipv6.conf.all.disable_ipv6=0" \
-            hotio/rflood
+            cr.hotio.dev/hotio/rflood
         ```
 
     === "compose vpn"
@@ -84,7 +84,7 @@
         services:
           rflood:
             container_name: rflood
-            image: hotio/rflood
+            image: cr.hotio.dev/hotio/rflood
             ports:
               - "3000:3000"
               - "8118:8118"

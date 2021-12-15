@@ -25,7 +25,7 @@
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
             -v /<host_folder_config>:/config \
-            hotio/prowlarr
+            cr.hotio.dev/hotio/prowlarr
         ```
 
     === "compose"
@@ -36,7 +36,7 @@
         services:
           prowlarr:
             container_name: prowlarr
-            image: hotio/prowlarr
+            image: cr.hotio.dev/hotio/prowlarr
             ports:
               - "9696:9696"
             environment:

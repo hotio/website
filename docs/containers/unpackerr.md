@@ -21,7 +21,7 @@
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
             -v /<host_folder_config>:/config \
-            hotio/unpackerr
+            cr.hotio.dev/hotio/unpackerr
         ```
 
     === "compose"
@@ -32,7 +32,7 @@
         services:
           unpackerr:
             container_name: unpackerr
-            image: hotio/unpackerr
+            image: cr.hotio.dev/hotio/unpackerr
             environment:
               - PUID=1000
               - PGID=1000

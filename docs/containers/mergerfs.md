@@ -14,7 +14,7 @@
     === "cli"
 
         ```shell
-        docker run --rm hotio/mergerfs ...
+        docker run --rm cr.hotio.dev/hotio/mergerfs ...
         ```
 
 The default `ENTRYPOINT` is `mergerfs -f`.

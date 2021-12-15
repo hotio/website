@@ -29,7 +29,7 @@
             -e CUSTOM_BUILD="" \
             -v /<host_folder_config>:/config \
             --cap-add=NET_ADMIN \
-            hotio/caddy
+            cr.hotio.dev/hotio/caddy
         ```
 
     === "compose"
@@ -40,7 +40,7 @@
         services:
           caddy:
             container_name: caddy
-            image: hotio/caddy
+            image: cr.hotio.dev/hotio/caddy
             ports:
               - "80:8080"
               - "443:8443"

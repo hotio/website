@@ -14,7 +14,7 @@
     === "cli"
 
         ```shell
-        docker run --rm hotio/borg ...
+        docker run --rm cr.hotio.dev/hotio/borg ...
         ```
 
 The default `ENTRYPOINT` is `borg`.

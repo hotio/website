@@ -22,7 +22,7 @@
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
             -v /<host_folder_config>:/config \
-            hotio/radarr
+            cr.hotio.dev/hotio/radarr
         ```
 
     === "compose"
@@ -33,7 +33,7 @@
         services:
           radarr:
             container_name: radarr
-            image: hotio/radarr
+            image: cr.hotio.dev/hotio/radarr
             ports:
               - "7878:7878"
             environment:

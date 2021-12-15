@@ -14,7 +14,7 @@
     === "cli"
 
         ```shell
-        docker run --rm hotio/rclone ...
+        docker run --rm cr.hotio.dev/hotio/rclone ...
         ```
 
 The default `ENTRYPOINT` is `rclone`.

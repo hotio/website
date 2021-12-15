@@ -22,7 +22,7 @@
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
             -v /<host_folder_config>:/config \
-            hotio/tautulli
+            cr.hotio.dev/hotio/tautulli
         ```
 
     === "compose"
@@ -33,7 +33,7 @@
         services:
           tautulli:
             container_name: tautulli
-            image: hotio/tautulli
+            image: cr.hotio.dev/hotio/tautulli
             ports:
               - "8181:8181"
             environment:

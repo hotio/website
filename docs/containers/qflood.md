@@ -29,7 +29,7 @@
             -e TZ="Etc/UTC" \
             -e FLOOD_AUTH="false" \
             -v /<host_folder_config>:/config \
-            hotio/qflood
+            cr.hotio.dev/hotio/qflood
         ```
 
     === "compose"
@@ -40,7 +40,7 @@
         services:
           qflood:
             container_name: qflood
-            image: hotio/qflood
+            image: cr.hotio.dev/hotio/qflood
             ports:
               - "8080:8080"
               - "3000:3000"
@@ -76,7 +76,7 @@
             --cap-add=NET_ADMIN \
             --sysctl="net.ipv4.conf.all.src_valid_mark=1" \
             --sysctl="net.ipv6.conf.all.disable_ipv6=0" \
-            hotio/qflood
+            cr.hotio.dev/hotio/qflood
         ```
 
     === "compose vpn"
@@ -87,7 +87,7 @@
         services:
           qflood:
             container_name: qflood
-            image: hotio/qflood
+            image: cr.hotio.dev/hotio/qflood
             ports:
               - "8080:8080"
               - "3000:3000"

@@ -22,7 +22,7 @@
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
             -v /<host_folder_config>:/config \
-            hotio/overseerr
+            cr.hotio.dev/hotio/overseerr
         ```
 
     === "compose"
@@ -33,7 +33,7 @@
         services:
           overseerr:
             container_name: overseerr
-            image: hotio/overseerr
+            image: cr.hotio.dev/hotio/overseerr
             ports:
               - "5055:5055"
             environment:

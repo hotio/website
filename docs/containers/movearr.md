@@ -14,7 +14,7 @@
     === "cli"
 
         ```shell
-        docker run --rm hotio/movearr ...
+        docker run --rm cr.hotio.dev/hotio/movearr ...
         ```
 
 The default `ENTRYPOINT` is `movearr`.

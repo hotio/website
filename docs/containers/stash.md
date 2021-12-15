@@ -22,7 +22,7 @@
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
             -v /<host_folder_config>:/config \
-            hotio/stash
+            cr.hotio.dev/hotio/stash
         ```
 
     === "compose"
@@ -33,7 +33,7 @@
         services:
           stash:
             container_name: stash
-            image: hotio/stash
+            image: cr.hotio.dev/hotio/stash
             ports:
               - "9999:9999"
             environment:

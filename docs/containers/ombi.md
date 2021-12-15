@@ -22,7 +22,7 @@
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
             -v /<host_folder_config>:/config \
-            hotio/ombi
+            cr.hotio.dev/hotio/ombi
         ```
 
     === "compose"
@@ -33,7 +33,7 @@
         services:
           ombi:
             container_name: ombi
-            image: hotio/ombi
+            image: cr.hotio.dev/hotio/ombi
             ports:
               - "5000:5000"
             environment:

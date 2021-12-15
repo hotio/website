@@ -25,7 +25,7 @@
             -v /<host_folder_config>:/config \
             -v /<host_folder_cache>:/cache \
             -v /<host_folder_logs>:/logs \
-            hotio/duplicacy
+            cr.hotio.dev/hotio/duplicacy
         ```
 
     === "compose"
@@ -37,7 +37,7 @@
           duplicacy:
             container_name: duplicacy
             hostname: duplicacy
-            image: hotio/duplicacy
+            image: cr.hotio.dev/hotio/duplicacy
             ports:
               - "3875:3875"
             environment:

@@ -22,7 +22,7 @@
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
             -v /<host_folder_config>:/config \
-            hotio/jackett
+            cr.hotio.dev/hotio/jackett
         ```
 
     === "compose"
@@ -33,7 +33,7 @@
         services:
           jackett:
             container_name: jackett
-            image: hotio/jackett
+            image: cr.hotio.dev/hotio/jackett
             ports:
               - "9117:9117"
             environment:

@@ -22,7 +22,7 @@
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
             -v /<host_folder_config>:/config \
-            hotio/bazarr
+            cr.hotio.dev/hotio/bazarr
         ```
 
     === "compose"
@@ -33,7 +33,7 @@
         services:
           bazarr:
             container_name: bazarr
-            image: hotio/bazarr
+            image: cr.hotio.dev/hotio/bazarr
             ports:
               - "6767:6767"
             environment:

@@ -14,7 +14,7 @@
     === "cli"
 
         ```shell
-        docker run --rm hotio/crop ...
+        docker run --rm cr.hotio.dev/hotio/crop ...
         ```
 
 The default `ENTRYPOINT` is `crop`.

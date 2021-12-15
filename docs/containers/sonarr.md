@@ -22,7 +22,7 @@
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
             -v /<host_folder_config>:/config \
-            hotio/sonarr
+            cr.hotio.dev/hotio/sonarr
         ```
 
     === "compose"
@@ -33,7 +33,7 @@
         services:
           sonarr:
             container_name: sonarr
-            image: hotio/sonarr
+            image: cr.hotio.dev/hotio/sonarr
             ports:
               - "8989:8989"
             environment:

@@ -22,7 +22,7 @@
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
             -v /<host_folder_config>:/config \
-            hotio/requestrr
+            cr.hotio.dev/hotio/requestrr
         ```
 
     === "compose"
@@ -33,7 +33,7 @@
         services:
           requestrr:
             container_name: requestrr
-            image: hotio/requestrr
+            image: cr.hotio.dev/hotio/requestrr
             ports:
               - "4545:4545"
             environment:

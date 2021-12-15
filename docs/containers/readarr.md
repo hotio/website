@@ -26,7 +26,7 @@
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
             -v /<host_folder_config>:/config \
-            hotio/readarr
+            cr.hotio.dev/hotio/readarr
         ```
 
     === "compose"
@@ -37,7 +37,7 @@
         services:
           readarr:
             container_name: readarr
-            image: hotio/readarr
+            image: cr.hotio.dev/hotio/readarr
             ports:
               - "8787:8787"
             environment:

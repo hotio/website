@@ -23,7 +23,7 @@
             -e TZ="Etc/UTC" \
             -e ARGS="-d -i 1800" \
             -v /<host_folder_config>:/config \
-            hotio/hdidle
+            cr.hotio.dev/hotio/hdidle
         ```
 
     === "compose"
@@ -34,7 +34,7 @@
         services:
           hdidle:
             container_name: hdidle
-            image: hotio/hdidle
+            image: cr.hotio.dev/hotio/hdidle
             privileged: true
             environment:
               - PUID=1000

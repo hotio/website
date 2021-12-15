@@ -27,7 +27,7 @@
             -e PLEX_PASS="no" \
             -v /<host_folder_config>:/config \
             -v /<host_folder_transcode>:/transcode \
-            hotio/plex
+            cr.hotio.dev/hotio/plex
         ```
 
     === "compose"
@@ -38,7 +38,7 @@
         services:
           plex:
             container_name: plex
-            image: hotio/plex
+            image: cr.hotio.dev/hotio/plex
             ports:
               - "32400:32400"
             environment:

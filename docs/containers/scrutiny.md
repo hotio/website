@@ -28,7 +28,7 @@
             -v /run/udev:/run/udev:ro \
             --cap-add SYS_RAWIO \
             --device /dev/sda \
-            hotio/scrutiny
+            cr.hotio.dev/hotio/scrutiny
         ```
 
     === "compose"
@@ -39,7 +39,7 @@
         services:
           scrutiny:
             container_name: scrutiny
-            image: hotio/scrutiny
+            image: cr.hotio.dev/hotio/scrutiny
             ports:
               - "8080:8080"
             environment:
@@ -80,7 +80,7 @@ For the environment variable `MODE` you can pick the values `both`, `web` or `co
             -v /run/udev:/run/udev:ro \
             --cap-add SYS_RAWIO \
             --device /dev/sda \
-            hotio/scrutiny
+            cr.hotio.dev/hotio/scrutiny
         ```
 
         ```shell
@@ -90,7 +90,7 @@ For the environment variable `MODE` you can pick the values `both`, `web` or `co
             -p 8080:8080 \
             -e MODE="web" \
             -v /<host_folder_config>:/config \
-            hotio/scrutiny
+            cr.hotio.dev/hotio/scrutiny
         ```
 
     === "compose"
@@ -101,7 +101,7 @@ For the environment variable `MODE` you can pick the values `both`, `web` or `co
         services:
           scrutiny-collector:
             container_name: scrutiny-collector
-            image: hotio/scrutiny
+            image: cr.hotio.dev/hotio/scrutiny
             environment:
               - INTERVAL=3600
               - API_ENDPOINT=http://scrutiny-web:8080
@@ -116,7 +116,7 @@ For the environment variable `MODE` you can pick the values `both`, `web` or `co
 
           scrutiny-web:
             container_name: scrutiny-web
-            image: hotio/scrutiny
+            image: cr.hotio.dev/hotio/scrutiny
             ports:
               - "8080:8080"
             environment:

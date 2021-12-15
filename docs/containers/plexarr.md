@@ -14,7 +14,7 @@
     === "cli"
 
         ```shell
-        docker run --rm hotio/plexarr ...
+        docker run --rm cr.hotio.dev/hotio/plexarr ...
         ```
 
 The default `ENTRYPOINT` is `plexarr`.
@@ -26,7 +26,7 @@ The default `ENTRYPOINT` is `plexarr`.
 Run the following command, but replace `<plex_username>` and `<plex_password>` with your actual username and password.
 
 ```shell
-docker run --rm --entrypoint get-token hotio/plexarr <plex_username> <plex_password>
+docker run --rm --entrypoint get-token cr.hotio.dev/hotio/plexarr <plex_username> <plex_password>
 ```
 
 You should see something like this, if all went well:

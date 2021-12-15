@@ -22,7 +22,7 @@
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
             -v /<host_folder_config>:/config \
-            hotio/mylar3
+            cr.hotio.dev/hotio/mylar3
         ```
 
     === "compose"
@@ -33,7 +33,7 @@
         services:
           mylar3:
             container_name: mylar3
-            image: hotio/mylar3
+            image: cr.hotio.dev/hotio/mylar3
             ports:
               - "8090:8090"
             environment:

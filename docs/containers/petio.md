@@ -22,7 +22,7 @@
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
             -v /<host_folder_config>:/config \
-            hotio/petio
+            cr.hotio.dev/hotio/petio
         ```
 
         ```shell
@@ -42,7 +42,7 @@
         services:
           petio:
             container_name: petio
-            image: hotio/petio
+            image: cr.hotio.dev/hotio/petio
             ports:
               - "7777:7777"
             environment:

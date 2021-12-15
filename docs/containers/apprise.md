@@ -14,7 +14,7 @@
     === "cli"
 
         ```shell
-        docker run --rm hotio/apprise ...
+        docker run --rm cr.hotio.dev/hotio/apprise ...
         ```
 
 The default `ENTRYPOINT` is `apprise`.

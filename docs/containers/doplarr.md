@@ -29,7 +29,7 @@
             -e OVERSEERR_URL="http://overseerr:5055" \
             -e OVERSEERR_API="your_overseerr_api_key" \
             -v /<host_folder_config>:/config \
-            hotio/doplarr
+            cr.hotio.dev/hotio/doplarr
         ```
 
     === "compose"
@@ -40,7 +40,7 @@
         services:
           doplarr:
             container_name: doplarr
-            image: hotio/doplarr
+            image: cr.hotio.dev/hotio/doplarr
             environment:
               - PUID=1000
               - PGID=1000

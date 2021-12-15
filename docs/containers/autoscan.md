@@ -24,7 +24,7 @@
             -e PLEX_LOGIN="" \
             -e PLEX_PASSWORD="" \
             -v /<host_folder_config>:/config \
-            hotio/autoscan
+            cr.hotio.dev/hotio/autoscan
         ```
 
     === "compose"
@@ -35,7 +35,7 @@
         services:
           autoscan:
             container_name: autoscan
-            image: hotio/autoscan
+            image: cr.hotio.dev/hotio/autoscan
             ports:
               - "3030:3030"
             environment:

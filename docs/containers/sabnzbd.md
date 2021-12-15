@@ -22,7 +22,7 @@
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
             -v /<host_folder_config>:/config \
-            hotio/sabnzbd
+            cr.hotio.dev/hotio/sabnzbd
         ```
 
     === "compose"
@@ -33,7 +33,7 @@
         services:
           sabnzbd:
             container_name: sabnzbd
-            image: hotio/sabnzbd
+            image: cr.hotio.dev/hotio/sabnzbd
             ports:
               - "8080:8080"
             environment:

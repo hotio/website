@@ -22,7 +22,7 @@
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
             -v /<host_folder_config>:/config \
-            hotio/conreq
+            cr.hotio.dev/hotio/conreq
         ```
 
     === "compose"
@@ -33,7 +33,7 @@
         services:
           conreq:
             container_name: conreq
-            image: hotio/conreq
+            image: cr.hotio.dev/hotio/conreq
             ports:
               - "8000:8000"
             environment:

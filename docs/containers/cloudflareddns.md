@@ -31,7 +31,7 @@
             -e CF_ZONES="example.com;foobar.com;foobar.com" \
             -e CF_RECORDTYPES="A;A;AAAA" \
             -v /<host_folder_config>:/config \
-            hotio/cloudflareddns
+            cr.hotio.dev/hotio/cloudflareddns
         ```
 
     === "compose"
@@ -42,7 +42,7 @@
         services:
           cloudflareddns:
             container_name: cloudflareddns
-            image: hotio/cloudflareddns
+            image: cr.hotio.dev/hotio/cloudflareddns
             environment:
               - PUID=1000
               - PGID=1000

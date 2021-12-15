@@ -22,7 +22,7 @@
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
             -v /<host_folder_config>:/config \
-            hotio/nzbget
+            cr.hotio.dev/hotio/nzbget
         ```
 
     === "compose"
@@ -33,7 +33,7 @@
         services:
           nzbget:
             container_name: nzbget
-            image: hotio/nzbget
+            image: cr.hotio.dev/hotio/nzbget
             ports:
               - "6789:6789"
             environment:

@@ -22,7 +22,7 @@
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
             -v /<host_folder_config>:/config \
-            hotio/nzbhydra2
+            cr.hotio.dev/hotio/nzbhydra2
         ```
 
     === "compose"
@@ -33,7 +33,7 @@
         services:
           nzbhydra2:
             container_name: nzbhydra2
-            image: hotio/nzbhydra2
+            image: cr.hotio.dev/hotio/nzbhydra2
             ports:
               - "5076:5076"
             environment:

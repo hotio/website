@@ -23,7 +23,7 @@
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
             -v /<host_folder_config>:/config \
-            hotio/qbittorrent
+            cr.hotio.dev/hotio/qbittorrent
         ```
 
     === "compose"
@@ -34,7 +34,7 @@
         services:
           qbittorrent:
             container_name: qbittorrent
-            image: hotio/qbittorrent
+            image: cr.hotio.dev/hotio/qbittorrent
             ports:
               - "8080:8080"
             environment:
@@ -66,7 +66,7 @@
             --cap-add=NET_ADMIN \
             --sysctl="net.ipv4.conf.all.src_valid_mark=1" \
             --sysctl="net.ipv6.conf.all.disable_ipv6=0" \
-            hotio/qbittorrent
+            cr.hotio.dev/hotio/qbittorrent
         ```
 
     === "compose vpn"
@@ -77,7 +77,7 @@
         services:
           qbittorrent:
             container_name: qbittorrent
-            image: hotio/qbittorrent
+            image: cr.hotio.dev/hotio/qbittorrent
             ports:
               - "8080:8080"
               - "8118:8118"
