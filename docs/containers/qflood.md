@@ -117,7 +117,8 @@
 In most cases you'll need to add additional volumes, depending on your own personal preference, to get access to your files.
 
 !!! info "Login credentials"
-    The default username for qBittorrent is `admin` and the default password is `adminadmin`.
+
+    The default qBittorrent username is `admin` and the default password is `adminadmin`. If this doesn't work you're probably running Unraid and you'll most likely have to change the internal port on which the WebUI runs to match the external port.
 
 --8<-- "includes/tags.md"
 
