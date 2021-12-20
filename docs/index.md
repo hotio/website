@@ -25,7 +25,7 @@ Oooh, am I glad you asked! Check out my tiny list just a few pixels down. Have y
     - Build feed on the [discord](discord){: target=_blank rel="noopener noreferrer" } server with gorgeous notifications
     - You take control of your paths, the bare minimum of pre-defined volumes
     - Multiple architectures whenever possible
-    - Pushed to [Docker Hub](dockerhub){: target=_blank rel="noopener noreferrer" }, [GitHub Container Registry](ghcr){: target=_blank rel="noopener noreferrer" } and [Quay](https://quay.io/user/hotio){: target=_blank rel="noopener noreferrer" }
+    - Pushed to [docker.io](dockerhub){: target=_blank rel="noopener noreferrer" }, [ghcr.io](ghcr){: target=_blank rel="noopener noreferrer" } and [quay.io](quay){: target=_blank rel="noopener noreferrer" }
     - Most images are available in the [Unraid CA](https://unraid.net/community/apps?q=hotio){: target=_blank rel="noopener noreferrer" } store
     - No tracking, not now, not ever! Your privacy is our n° 1 concern
 
