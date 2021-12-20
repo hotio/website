@@ -8,6 +8,10 @@
 
 --8<-- "includes/stats.md"
 
+!!! danger "Deprecated"
+
+    The Requestrr project is no longer under development, the owner has archived the project. As an alternative we recommend `hotio/doplarr`.
+
 ## Starting the container
 
 !!! docker ""
