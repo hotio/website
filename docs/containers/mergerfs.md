@@ -1,8 +1,9 @@
 <div class="image-logo"><img src="/img/image-logos/mergerfs.svg" alt="logo"></div>
 
 [:octicons-mark-github-16: GitHub](https://github.com/hotio/mergerfs){: .header-icons target=_blank rel="noopener noreferrer" }  
-[:octicons-container-16: GitHub Registry](https://github.com/orgs/hotio/packages/container/package/mergerfs){: .header-icons target=_blank rel="noopener noreferrer" }  
-[:material-docker:{: style="transform: scale(1.3);" } Docker Hub](https://hub.docker.com/r/hotio/mergerfs){: .header-icons target=_blank rel="noopener noreferrer" }  
+[:octicons-container-16: docker.io](https://hub.docker.com/r/hotio/mergerfs){: .header-icons target=_blank rel="noopener noreferrer" }
+ / [:octicons-container-16: ghcr.io](https://github.com/orgs/hotio/packages/container/package/mergerfs){: .header-icons target=_blank rel="noopener noreferrer" }
+ / [:octicons-container-16: quay.io](https://quay.io/repository/hotio/mergerfs){: .header-icons target=_blank rel="noopener noreferrer" }  
 [:octicons-link-16: MergerFS](https://github.com/trapexit/mergerfs){: .header-icons target=_blank rel="noopener noreferrer" }  
 
 --8<-- "includes/stats.md"

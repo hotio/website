@@ -1,8 +1,9 @@
 <div class="image-logo"><img src="/img/image-logos/scrutiny.svg" alt="logo"></div>
 
 [:octicons-mark-github-16: GitHub](https://github.com/hotio/scrutiny){: .header-icons target=_blank rel="noopener noreferrer" }  
-[:octicons-container-16: GitHub Registry](https://github.com/orgs/hotio/packages/container/package/scrutiny){: .header-icons target=_blank rel="noopener noreferrer" }  
-[:material-docker:{: style="transform: scale(1.3);" } Docker Hub](https://hub.docker.com/r/hotio/scrutiny){: .header-icons target=_blank rel="noopener noreferrer" }  
+[:octicons-container-16: docker.io](https://hub.docker.com/r/hotio/scrutiny){: .header-icons target=_blank rel="noopener noreferrer" }
+ / [:octicons-container-16: ghcr.io](https://github.com/orgs/hotio/packages/container/package/scrutiny){: .header-icons target=_blank rel="noopener noreferrer" }
+ / [:octicons-container-16: quay.io](https://quay.io/repository/hotio/scrutiny){: .header-icons target=_blank rel="noopener noreferrer" }  
 [:octicons-link-16: Scrutiny](https://github.com/analogj/scrutiny){: .header-icons target=_blank rel="noopener noreferrer" }  
 
 --8<-- "includes/stats.md"

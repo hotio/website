@@ -1,8 +1,9 @@
 <div class="image-logo no-logo"><img src="/img/pullio.svg" alt="logo"></div>
 
 [:octicons-mark-github-16: GitHub](https://github.com/hotio/trackarr){: .header-icons target=_blank rel="noopener noreferrer" }  
-[:octicons-container-16: GitHub Registry](https://github.com/orgs/hotio/packages/container/package/trackarr){: .header-icons target=_blank rel="noopener noreferrer" }  
-[:material-docker:{: style="transform: scale(1.3);" } Docker Hub](https://hub.docker.com/r/hotio/trackarr){: .header-icons target=_blank rel="noopener noreferrer" }  
+[:octicons-container-16: docker.io](https://hub.docker.com/r/hotio/trackarr){: .header-icons target=_blank rel="noopener noreferrer" }
+ / [:octicons-container-16: ghcr.io](https://github.com/orgs/hotio/packages/container/package/trackarr){: .header-icons target=_blank rel="noopener noreferrer" }
+ / [:octicons-container-16: quay.io](https://quay.io/repository/hotio/trackarr){: .header-icons target=_blank rel="noopener noreferrer" }  
 [:octicons-link-16: Trackarr](https://gitlab.com/cloudb0x/trackarr){: .header-icons target=_blank rel="noopener noreferrer" }  
 
 --8<-- "includes/stats.md"

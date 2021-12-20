@@ -1,8 +1,9 @@
 <div class="image-logo"><img src="/img/image-logos/doplarr.svg" alt="logo"></div>
 
 [:octicons-mark-github-16: GitHub](https://github.com/hotio/doplarr){: .header-icons target=_blank rel="noopener noreferrer" }  
-[:octicons-container-16: GitHub Registry](https://github.com/orgs/hotio/packages/container/package/doplarr){: .header-icons target=_blank rel="noopener noreferrer" }  
-[:material-docker:{: style="transform: scale(1.3);" } Docker Hub](https://hub.docker.com/r/hotio/doplarr){: .header-icons target=_blank rel="noopener noreferrer" }  
+[:octicons-container-16: docker.io](https://hub.docker.com/r/hotio/doplarr){: .header-icons target=_blank rel="noopener noreferrer" }
+ / [:octicons-container-16: ghcr.io](https://github.com/orgs/hotio/packages/container/package/doplarr){: .header-icons target=_blank rel="noopener noreferrer" }
+ / [:octicons-container-16: quay.io](https://quay.io/repository/hotio/doplarr){: .header-icons target=_blank rel="noopener noreferrer" }  
 [:octicons-link-16: Doplarr](https://github.com/kiranshila/doplarr){: .header-icons target=_blank rel="noopener noreferrer" }  
 
 --8<-- "includes/stats.md"

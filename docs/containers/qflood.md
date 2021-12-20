@@ -1,10 +1,11 @@
 <div class="image-logo"><img src="/img/image-logos/flood.svg" alt="logo"></div>
 
 [:octicons-mark-github-16: GitHub](https://github.com/hotio/qflood){: .header-icons target=_blank rel="noopener noreferrer" }  
-[:octicons-container-16: GitHub Registry](https://github.com/orgs/hotio/packages/container/package/qflood){: .header-icons target=_blank rel="noopener noreferrer" }  
-[:material-docker:{: style="transform: scale(1.3);" } Docker Hub](https://hub.docker.com/r/hotio/qflood){: .header-icons target=_blank rel="noopener noreferrer" }  
-[:octicons-link-16: qBittorrent](https://github.com/qbittorrent/qbittorrent){: .header-icons target=_blank rel="noopener noreferrer" }  
-[:octicons-link-16: Flood](https://github.com/jesec/flood){: .header-icons target=_blank rel="noopener noreferrer" }  
+[:octicons-container-16: docker.io](https://hub.docker.com/r/hotio/qflood){: .header-icons target=_blank rel="noopener noreferrer" }
+ / [:octicons-container-16: ghcr.io](https://github.com/orgs/hotio/packages/container/package/qflood){: .header-icons target=_blank rel="noopener noreferrer" }
+ / [:octicons-container-16: quay.io](https://quay.io/repository/hotio/qflood){: .header-icons target=_blank rel="noopener noreferrer" }  
+[:octicons-link-16: qBittorrent](https://github.com/qbittorrent/qbittorrent){: .header-icons target=_blank rel="noopener noreferrer" }
+ / [:octicons-link-16: Flood](https://github.com/jesec/flood){: .header-icons target=_blank rel="noopener noreferrer" }  
 
 --8<-- "includes/stats.md"
 
