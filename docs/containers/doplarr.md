@@ -21,14 +21,21 @@
             -e PGID=1000 \
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
-            -e BOT_TOKEN="your_bot_token" \
-            -e ROLE_ID="your_role_id" \
-            -e RADARR_URL="http://radarr:7878" \
-            -e RADARR_API="your_radarr_api_key" \
-            -e SONARR_URL="http://sonarr:8989" \
-            -e SONARR_API="your_sonarr_api_key" \
-            -e OVERSEERR_URL="http://overseerr:5055" \
-            -e OVERSEERR_API="your_overseerr_api_key" \
+            -e DISCORD__TOKEN="your_bot_token" \
+            -e DISCORD__ROLE_ID="your_role_id" \
+            -e DISCORD__MAX_RESULTS=25 \
+            -e RADARR__URL="http://radarr:7878" \
+            -e RADARR__API="your_radarr_api_key" \
+            -e RADARR__QUALITY_PROFILE="your default quality profile name" \
+            -e SONARR__URL="http://sonarr:8989" \
+            -e SONARR__API="your_sonarr_api_key" \
+            -e SONARR__QUALITY_PROFILE="your default quality profile name" \
+            -e SONARR__LANGUAGE_PROFILE="your default language profile name" \
+            -e OVERSEERR__URL="http://overseerr:5055" \
+            -e OVERSEERR__API="your_overseerr_api_key" \
+            -e OVERSEERR__DEFAULT_ID=default_id \
+            -e PARTIAL_SEASONS=true \
+            -e LOG_LEVEL=:info \
             -v /<host_folder_config>:/config \
             cr.hotio.dev/hotio/doplarr
         ```
@@ -47,18 +54,25 @@
               - PGID=1000
               - UMASK=002
               - TZ=Etc/UTC
-              - BOT_TOKEN=your_bot_token
-              - ROLE_ID=your_role_id
-              - RADARR_URL=http://radarr:7878
-              - RADARR_API=your_radarr_api_key
-              - SONARR_URL=http://sonarr:8989
-              - SONARR_API=your_sonarr_api_key
-              - OVERSEERR_URL=http://overseerr:5055
-              - OVERSEERR_API=your_overseerr_api_key
+              - DISCORD__TOKEN=your_bot_token
+              - DISCORD__ROLE_ID=your_role_id
+              - DISCORD__MAX_RESULTS=25
+              - RADARR__URL=http://radarr:7878
+              - RADARR__API=your_radarr_api_key
+              - RADARR__QUALITY_PROFILE=your default quality profile name
+              - SONARR__URL=http://sonarr:8989
+              - SONARR__API=your_sonarr_api_key
+              - SONARR__QUALITY_PROFILE=your default quality profile name
+              - SONARR__LANGUAGE_PROFILE=your default language profile name
+              - OVERSEERR__URL=http://overseerr:5055
+              - OVERSEERR__API=your_overseerr_api_key
+              - OVERSEERR__DEFAULT_ID=default_id
+              - PARTIAL_SEASONS=true
+              - LOG_LEVEL=:info
             volumes:
               - /<host_folder_config>:/config
         ```
 
-You can either use the environment variables `RADARR_...` + `SONARR_...` combo or just `OVERSEERR_...`, depending on your usage of Overseerr or not. See the Doplarr documentation on how to get your `BOT_TOKEN` and the Discord documentation for your `ROLE_ID`.
+You can either use the environment variables `RADARR__...` + `SONARR__...` combo or just `OVERSEERR__...`, depending on your usage of Overseerr or not. See the Doplarr documentation on how to get your `DISCORD__TOKEN` and the Discord documentation for your `DISCORD__ROLE_ID`.
 
 --8<-- "includes/tags.md"
