@@ -26,14 +26,14 @@
             -e DISCORD__MAX_RESULTS=25 \
             -e RADARR__URL="http://radarr:7878" \
             -e RADARR__API="your_radarr_api_key" \
-            -e RADARR__QUALITY_PROFILE="your default quality profile name" \
+            -e RADARR__QUALITY_PROFILE="your_default_quality_profile_name" \
             -e SONARR__URL="http://sonarr:8989" \
             -e SONARR__API="your_sonarr_api_key" \
-            -e SONARR__QUALITY_PROFILE="your default quality profile name" \
-            -e SONARR__LANGUAGE_PROFILE="your default language profile name" \
+            -e SONARR__QUALITY_PROFILE="your_default_quality_profile_name" \
+            -e SONARR__LANGUAGE_PROFILE="your_default_language_profile_name" \
             -e OVERSEERR__URL="http://overseerr:5055" \
             -e OVERSEERR__API="your_overseerr_api_key" \
-            -e OVERSEERR__DEFAULT_ID=default_id \
+            -e OVERSEERR__DEFAULT_ID="your_default_id" \
             -e PARTIAL_SEASONS=true \
             -e LOG_LEVEL=:info \
             -v /<host_folder_config>:/config \
@@ -59,14 +59,14 @@
               - DISCORD__MAX_RESULTS=25
               - RADARR__URL=http://radarr:7878
               - RADARR__API=your_radarr_api_key
-              - RADARR__QUALITY_PROFILE=your default quality profile name
+              - RADARR__QUALITY_PROFILE=your_default_quality_profile_name
               - SONARR__URL=http://sonarr:8989
               - SONARR__API=your_sonarr_api_key
-              - SONARR__QUALITY_PROFILE=your default quality profile name
-              - SONARR__LANGUAGE_PROFILE=your default language profile name
+              - SONARR__QUALITY_PROFILE=your_default_quality_profile_name
+              - SONARR__LANGUAGE_PROFILE=your_default_language_profile_name
               - OVERSEERR__URL=http://overseerr:5055
               - OVERSEERR__API=your_overseerr_api_key
-              - OVERSEERR__DEFAULT_ID=default_id
+              - OVERSEERR__DEFAULT_ID=your_default_id
               - PARTIAL_SEASONS=true
               - LOG_LEVEL=:info
             volumes:
