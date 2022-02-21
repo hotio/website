@@ -9,8 +9,7 @@
 --8<-- "includes/stats.md"
 
 !!! warning
-    Until further notice, some updates could require a fresh database.
-    There's only a `nightly` tag available for the moment.
+    There's only a `nightly` and `testing` tag available for the moment.
 
 ## Starting the container
 
