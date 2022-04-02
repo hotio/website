@@ -4,7 +4,7 @@
 [:octicons-container-16: docker.io](https://hub.docker.com/r/hotio/whisparr){: .header-icons target=_blank rel="noopener noreferrer" }
  / [:octicons-container-16: ghcr.io](https://github.com/orgs/hotio/packages/container/package/whisparr){: .header-icons target=_blank rel="noopener noreferrer" }
  / [:octicons-container-16: quay.io](https://quay.io/repository/hotio/whisparr){: .header-icons target=_blank rel="noopener noreferrer" }  
-[:octicons-link-16: whisparr](https://github.com/whisparr/whisparr){: .header-icons target=_blank rel="noopener noreferrer" }  
+[:octicons-link-16: Whisparr](https://github.com/whisparr/whisparr){: .header-icons target=_blank rel="noopener noreferrer" }  
 
 --8<-- "includes/stats.md"
 
