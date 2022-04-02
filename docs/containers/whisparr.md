@@ -36,7 +36,7 @@
             container_name: whisparr
             image: cr.hotio.dev/hotio/whisparr
             ports:
-              - "7878:7878"
+              - "6969:6969"
             environment:
               - PUID=1000
               - PGID=1000
