@@ -116,6 +116,7 @@ nav:
     - hotio/tautulli: containers/tautulli.md
     - hotio/trackarr: containers/trackarr.md
     - hotio/unpackerr: containers/unpackerr.md
+    - hotio/whisparr: containers/whisparr.md
   - Base Images:
     - hotio/base: containers/base.md
 - Arr Discord Notifier: arr-discord-notifier.md
