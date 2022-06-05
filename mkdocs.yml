@@ -110,7 +110,6 @@ nav:
     - hotio/restic: containers/restic.md
     - hotio/rflood: containers/rflood.md
     - hotio/sabnzbd: containers/sabnzbd.md
-    - hotio/scrutiny: containers/scrutiny.md
     - hotio/sonarr: containers/sonarr.md
     - hotio/stash: containers/stash.md
     - hotio/tautulli: containers/tautulli.md
