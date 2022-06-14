@@ -26,6 +26,7 @@
             -e ADVERTISE_IP="" \
             -e ALLOWED_NETWORKS="" \
             -e PLEX_PASS="no" \
+            -e SYSCTL_MAX_USER_WATCHES=32768 \
             -v /<host_folder_config>:/config \
             -v /<host_folder_transcode>:/transcode \
             cr.hotio.dev/hotio/plex
@@ -87,3 +88,7 @@ If you do `-e PLEX_PASS="https://..."`, stuff happens for which no support will 
 ## Hardware support
 
 To make your hardware devices available inside the container use the following argument `--device=/dev/dri:/dev/dri` for Intel QuickSync and `--device=/dev/dvb:/dev/dvb` for a tuner. NVIDIA users should go visit the [NVIDIA github](https://github.com/NVIDIA/nvidia-docker){: target=_blank rel="noopener noreferrer" } page for instructions.
+
+## Large libraries
+
+When you have more than 8192 directories in your PMS library sources, you will run into an issue where you have no more space in the linux `inotify` table. This will mean that other services which rely on it (e.g. the audio transcoder, EAE) will fail, somewhat silently. You can manually change that number as part of the docker container config by setting the variable `SYSCTL_MAX_USER_WATCHES` to a multiple of 32768. More info as to the why & how you might want to do this can be found at [this plex forum post](https://forums.plex.tv/t/increase-the-number-of-directories-linux-can-monitor-notify/209156){: target=_blank rel="noopener noreferrer" }.
