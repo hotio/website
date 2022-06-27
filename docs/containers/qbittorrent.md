@@ -124,3 +124,5 @@ This image comes bundled with the alternative Web UI VueTorrent, to enable it yo
 <img src="/img/vuetorrentsettings.png" alt="vuetorrentsettings" width="300">
 
 --8<-- "includes/wireguard.md"
+
+--8<-- "includes/wireguard-go.md"
