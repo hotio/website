@@ -1,8 +1,8 @@
-## Wireguard-Go (Userspace)
+## WireGuard Go
 
-This brings support for Synology, Qnap or other systems with missing kernel modules. It requires the following two changes.
+This image includes `wireguard-go`, the Go implementation of WireGuard which runs in userspace. Systems like Synology, Qnap or others with missing kernel modules can make use of this to establish a WireGuard VPN connection. It requires the following two changes.
 
-A change to your `wg0.conf` is needed, due to a long lasting bug in Wireguard on these systems. You'll need to change the `AllowedIPs` line to have Wireguard start up properly.
+A change to your `wg0.conf`, due to a long lasting bug in WireGuard on these systems. You'll need to change the `AllowedIPs` line to have WireGuard start up properly.
 
 ```text
 ...
