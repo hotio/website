@@ -14,7 +14,7 @@
     A docker image with qBittorrent and the Flood UI, also optional WireGuard VPN support.
 
 !!! warning
-    A recent qBittorrent update has broken the Flood UI, you'll see a message that no connection could be established.
+    A recent qBittorrent update (v4.4.5) has broken the Flood UI, you'll see a message that no connection could be established.
 
 ## Starting the container
 
