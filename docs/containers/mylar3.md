@@ -2,7 +2,7 @@
 
 [:octicons-mark-github-16: GitHub](https://github.com/hotio/mylar3){: .header-icons target=_blank rel="noopener noreferrer" }  
 [:octicons-container-16: docker.io](https://hub.docker.com/r/hotio/mylar3){: .header-icons target=_blank rel="noopener noreferrer" }
- / [:octicons-container-16: ghcr.io](https://github.com/orgs/hotio/packages/container/package/mylar3){: .header-icons target=_blank rel="noopener noreferrer" }
+ / [:octicons-container-16: ghcr.io](https://github.com/orgs/hotio/packages/container/package/mylar3){: .header-icons target=_blank rel="noopener noreferrer" }  
 [:octicons-link-16: Mylar3](https://github.com/mylar3/mylar3){: .header-icons target=_blank rel="noopener noreferrer" }  
 
 --8<-- "includes/stats.md"
