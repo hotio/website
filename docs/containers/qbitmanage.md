@@ -3,7 +3,6 @@
 [:octicons-mark-github-16: GitHub](https://github.com/hotio/qbitmanage){: .header-icons target=_blank rel="noopener noreferrer" }  
 [:octicons-container-16: docker.io](https://hub.docker.com/r/hotio/qbitmanage){: .header-icons target=_blank rel="noopener noreferrer" }
  / [:octicons-container-16: ghcr.io](https://github.com/orgs/hotio/packages/container/package/qbitmanage){: .header-icons target=_blank rel="noopener noreferrer" }
- / [:octicons-container-16: quay.io](https://quay.io/repository/hotio/qbitmanage){: .header-icons target=_blank rel="noopener noreferrer" }  
 [:octicons-link-16: qbit_manage](https://github.com/StuffAnThings/qbit_manage){: .header-icons target=_blank rel="noopener noreferrer" }  
 
 --8<-- "includes/stats.md"

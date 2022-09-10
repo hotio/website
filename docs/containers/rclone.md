@@ -3,7 +3,6 @@
 [:octicons-mark-github-16: GitHub](https://github.com/hotio/rclone){: .header-icons target=_blank rel="noopener noreferrer" }  
 [:octicons-container-16: docker.io](https://hub.docker.com/r/hotio/rclone){: .header-icons target=_blank rel="noopener noreferrer" }
  / [:octicons-container-16: ghcr.io](https://github.com/orgs/hotio/packages/container/package/rclone){: .header-icons target=_blank rel="noopener noreferrer" }
- / [:octicons-container-16: quay.io](https://quay.io/repository/hotio/rclone){: .header-icons target=_blank rel="noopener noreferrer" }  
 [:octicons-link-16: Rclone](https://github.com/rclone/rclone){: .header-icons target=_blank rel="noopener noreferrer" }  
 
 --8<-- "includes/stats.md"

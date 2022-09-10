@@ -3,7 +3,6 @@
 [:octicons-mark-github-16: GitHub](https://github.com/hotio/qbittorrent){: .header-icons target=_blank rel="noopener noreferrer" }  
 [:octicons-container-16: docker.io](https://hub.docker.com/r/hotio/qbittorrent){: .header-icons target=_blank rel="noopener noreferrer" }
  / [:octicons-container-16: ghcr.io](https://github.com/orgs/hotio/packages/container/package/qbittorrent){: .header-icons target=_blank rel="noopener noreferrer" }
- / [:octicons-container-16: quay.io](https://quay.io/repository/hotio/qbittorrent){: .header-icons target=_blank rel="noopener noreferrer" }  
 [:octicons-link-16: qBittorrent](https://github.com/qbittorrent/qbittorrent){: .header-icons target=_blank rel="noopener noreferrer" }
  / [:octicons-link-16: VueTorrent](https://github.com/WDaan/VueTorrent){: .header-icons target=_blank rel="noopener noreferrer" }
 

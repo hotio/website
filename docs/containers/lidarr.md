@@ -3,7 +3,6 @@
 [:octicons-mark-github-16: GitHub](https://github.com/hotio/lidarr){: .header-icons target=_blank rel="noopener noreferrer" }  
 [:octicons-container-16: docker.io](https://hub.docker.com/r/hotio/lidarr){: .header-icons target=_blank rel="noopener noreferrer" }
  / [:octicons-container-16: ghcr.io](https://github.com/orgs/hotio/packages/container/package/lidarr){: .header-icons target=_blank rel="noopener noreferrer" }
- / [:octicons-container-16: quay.io](https://quay.io/repository/hotio/lidarr){: .header-icons target=_blank rel="noopener noreferrer" }  
 [:octicons-link-16: Lidarr](https://github.com/lidarr/lidarr){: .header-icons target=_blank rel="noopener noreferrer" }  
 
 --8<-- "includes/stats.md"
