@@ -86,7 +86,6 @@ nav:
     - hotio/jackett: containers/jackett.md
     - hotio/jellyfin: containers/jellyfin.md
     - hotio/lidarr: containers/lidarr.md
-    - hotio/mergerfs: containers/mergerfs.md
     - hotio/mylar3: containers/mylar3.md
     - hotio/nzbget: containers/nzbget.md
     - hotio/nzbhydra2: containers/nzbhydra2.md
@@ -98,7 +97,6 @@ nav:
     - hotio/qbittorrent: containers/qbittorrent.md
     - hotio/qflood: containers/qflood.md
     - hotio/radarr: containers/radarr.md
-    - hotio/rar2fs: containers/rar2fs.md
     - hotio/rclone: containers/rclone.md
     - hotio/readarr: containers/readarr.md
     - hotio/restic: containers/restic.md
