@@ -86,7 +86,6 @@ nav:
     - hotio/nzbget: containers/nzbget.md
     - hotio/nzbhydra2: containers/nzbhydra2.md
     - hotio/overseerr: containers/overseerr.md
-    - hotio/petio: containers/petio.md
     - hotio/plex: containers/plex.md
     - hotio/prowlarr: containers/prowlarr.md
     - hotio/qbitmanage: containers/qbitmanage.md
