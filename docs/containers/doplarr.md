@@ -30,6 +30,7 @@
             -e SONARR__API="your_sonarr_api_key" \
             -e SONARR__QUALITY_PROFILE="your_default_quality_profile_name" \
             -e SONARR__LANGUAGE_PROFILE="your_default_language_profile_name" \
+            -e SONARR__SEASON_FOLDERS="false" \
             -e OVERSEERR__URL="http://overseerr:5055" \
             -e OVERSEERR__API="your_overseerr_api_key" \
             -e OVERSEERR__DEFAULT_ID="your_default_id" \
@@ -63,6 +64,7 @@
               - SONARR__API=your_sonarr_api_key
               - SONARR__QUALITY_PROFILE=your_default_quality_profile_name
               - SONARR__LANGUAGE_PROFILE=your_default_language_profile_name
+              - SONARR__SEASON_FOLDERS=false
               - OVERSEERR__URL=http://overseerr:5055
               - OVERSEERR__API=your_overseerr_api_key
               - OVERSEERR__DEFAULT_ID=your_default_id
