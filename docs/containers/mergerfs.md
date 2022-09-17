@@ -16,11 +16,11 @@
         ```shell
         docker run --rm \
             --init \
-            --cap-add SYS_ADMIN \
-            --device /dev/fuse \
             -v /<host_folder_branch_1>:/branch_1 \
             -v /<host_folder_branch_2>:/branch_2 \
             -v /<host_folder_mountpoint>:/mountpoint:shared \
+            --cap-add SYS_ADMIN \
+            --device /dev/fuse \
             cr.hotio.dev/hotio/mergerfs -o allow_other /branch_1 /branch_2 /mountpoint
         ```
 
