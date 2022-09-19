@@ -1,11 +1,15 @@
 $(function loadJSON() {
     var image = document.getElementsByTagName("h1")[0].innerHTML;
+    $.getJSON('https://hub.docker.com/v2/repositories/hotio/?page_size=1&name=' + image.replace('hotio/',''), function(data) {
+        $.each(data.results, function(i, f) {
+            console.log("Pulls: " + f.pull_count + ", Stars: " + f.star_count);
+            const objPulls = document.getElementById("stats-pulls");
+            animateValue(objPulls, 0, f.pull_count, 1000);
+            const objStars = document.getElementById("stats-stars");
+            animateValue(objStars, 0, f.star_count, 1000);
+        });
+    });
     $.getJSON('https://raw.githubusercontent.com/' + image + '/master/tags.json', function(data) {
-        console.log("Pulls: " + data.pulls + ", Stars: " + data.stars);
-        const objPulls = document.getElementById("stats-pulls");
-        animateValue(objPulls, 0, data.pulls, 1000);
-        const objStars = document.getElementById("stats-stars");
-        animateValue(objStars, 0, data.stars, 1000);
         $.each(data.tags, function(i, f) {
             console.log("Tag: " + f.name + ", Version: " + f.version + ", Commit: " + f.commit + ", Last Updated: " + f.lastUpdated);
             if (f.lastUpdated == "") {
