@@ -1,6 +1,6 @@
 $(function loadJSON() {
     var image = document.getElementsByTagName("h1")[0].innerHTML;
-    $.getJSON('https://hub.docker.com/v2/repositories/hotio/?page_size=1&name=' + image.replace('hotio/',''), function(data) {
+    $.getJSON('https://hub.docker.com/v2/repositories/hotio/?page_size=1&name=' + image.replace('hotio/','') + '?callback=?', function(data) {
         $.each(data.results, function(i, f) {
             console.log("Pulls: " + f.pull_count + ", Stars: " + f.star_count);
             const objPulls = document.getElementById("stats-pulls");
