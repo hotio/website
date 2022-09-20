@@ -13,7 +13,6 @@ $(function loadJSON() {
         $.each(data, function(i, f) {
             var branch = f.name;
             var commit = f.commit.sha;
-            var commitURL = f.commit.url;
             if (branch == "master") {
                 return;
             }
@@ -31,7 +30,7 @@ $(function loadJSON() {
                 if (description == undefined) {
                     description = "";
                 }
-                $.getJSON(commitURL, function(data) {
+                $.getJSON('https://cors.hotio.workers.dev/?https://api.github.com/repos/' + image + '/commits/' + commit, function(data) {
                     var commitDate = data.commit.author.date;
                     var d = new Date(commitDate);
                     var datestring = d.getFullYear() + "-" + (d.getMonth()+1).toString().padStart(2, '0') + "-" + d.getDate().toString().padStart(2, '0') + " " + d.getHours().toString().padStart(2, '0') + ":" + d.getMinutes().toString().padStart(2, '0') + ":" + d.getSeconds().toString().padStart(2, '0');
