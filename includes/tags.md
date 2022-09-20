@@ -1,10 +1,16 @@
 ## Tags
 
 ??? question "Where can I find the source of the image?"
+
     You can click the tag name to go to the source on GitHub for that particular tag. Every tag has its own branch.
     The `master` branch is used as a landing page and to store some statistics used by this page to populate the table.
     Temporary tags/branches might not show up in the table, but are also generally not for end-user consumption.
     Clicking the commit sha brings you to the exact source of that commit.
+
+??? info "Information about the Tags"
+
+    The following table shows all available info about the tags as it is currently known in the Git repository.
+    If an image build fails for whatever reason, the information will be incorrect until the next build that doesn't fail.
 
 <table id= "tags-table">
   <thead>
