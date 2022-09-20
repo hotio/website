@@ -12,7 +12,7 @@
   </tbody>
 </table>
 
-??? info "Information about the Tags"
+!!! info "Tags"
 
     The above table reflects the current state of the Git repository. The docker repository is mainly in sync, unless builds fail or commits are pushed for which no builds are started. You can click on the tag's name to go to its corresponding branch on GitHub, clicking the commit sha brings you to the exact source of that commit.
 
