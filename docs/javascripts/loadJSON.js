@@ -42,9 +42,6 @@ $(function loadJSON() {
                     console.log("Tag: " + branch + ", Version: " + version + ", Commit: " + commit + ", Last Updated: " + commitDate);
                     var tblRow = "<tr>" + "<td><a class=\"header-icons\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/" + image + "/tree/" + branch + "\">" + branch + "</a>" + extraTag + "</td>" + "<td>" + description + "</td>" + "<td>" + versionCode + "</td>" + "<td><a class=\"header-icons\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/" + image + "/tree/" + commit + "\">" + commit.slice(0,7) + "</a></td>" + "<td style=\"white-space:nowrap;\">" + datestring + "</td>" + "</tr>"
                     $(tblRow).appendTo("#tags-table tbody");
-                    $("<span>docker pull " + image + ":" + branch + "</span><br>").appendTo("#tags-codeblock code");
-                    $("<span>docker pull " + image + ":" + branch + "-" + version + "</span><br>").appendTo("#tags-codeblock code");
-                    $("<span>docker pull " + image + ":" + branch + "-" + commit.slice(0,7) + "</span><br>").appendTo("#tags-codeblock code");
                 });
             });
         });
