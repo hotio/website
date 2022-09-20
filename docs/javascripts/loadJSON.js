@@ -9,7 +9,7 @@ $(function loadJSON() {
             animateValue(objStars, 0, f.star_count, 1000);
         });
     });
-    $.getJSON('https://api.github.com/repos/' + image + '/branches', function(data) {
+    $.getJSON('https://cors.hotio.workers.dev/?https://api.github.com/repos/' + image + '/branches', function(data) {
         $.each(data, function(i, f) {
             var branch = f.name;
             var commit = f.commit.sha;
@@ -46,6 +46,9 @@ $(function loadJSON() {
             });
         });
     });
+    //$.getJSON('https://cors.hotio.workers.dev/?https://api.github.com/rate_limit', function(data) {
+        //console.log(data.resources.core.remaining);
+    //});
 });
 
 function animateValue(obj, start, end, duration) {
