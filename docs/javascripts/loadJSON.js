@@ -45,11 +45,6 @@ $(function loadJSON() {
                     $("<span>docker pull " + image + ":" + branch + "</span><br>").appendTo("#tags-codeblock code");
                     $("<span>docker pull " + image + ":" + branch + "-" + version + "</span><br>").appendTo("#tags-codeblock code");
                     $("<span>docker pull " + image + ":" + branch + "-" + commit.slice(0,7) + "</span><br>").appendTo("#tags-codeblock code");
-                    var codeBlock = document.getElementById("tags-codeblock").getElementsByTagName( 'code' )[0].innerHTML;
-                    if (codeBlock == "") {
-                        document.getElementById("tags-table").remove();
-                        $("<span>Couldn't load tags! Try again later...</span><br>").appendTo("#tags-codeblock code");
-                    }
                 });
             });
         });
