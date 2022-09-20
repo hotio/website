@@ -7,10 +7,9 @@
     Temporary tags/branches might not show up in the table, but are also generally not for end-user consumption.
     Clicking the commit sha brings you to the exact source of that commit.
 
-??? info "Information about the Tags"
+??? info "Information about the Tags/Branches"
 
-    The following table shows all available info about the tags as it is currently known in the Git repository.
-    If an image build fails for whatever reason, the information will be incorrect until the next build that doesn't fail.
+    The following table reflects the current state of the Git repository. The docker repository is mainly in sync, unless builds fail or commits are pushed for which no builds are started.
 
 <table id= "tags-table">
   <thead>
