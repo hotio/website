@@ -16,10 +16,6 @@ $(function loadJSON() {
             if (branch == "master") {
                 return;
             }
-            var extraTag = ""
-            if (branch == "release") {
-                extraTag = " (latest)";
-            }
             $.getJSON('https://raw.githubusercontent.com/' + image + '/' + f.name + '/VERSION.json', function(data) {
                 var hide = data.hide;
                 if (hide == true) {
@@ -29,6 +25,11 @@ $(function loadJSON() {
                 var description = data.description;
                 if (description == undefined) {
                     description = "";
+                }
+                var latest = data.latest
+                var extraTag = ""
+                if (latest == true) {
+                    extraTag = " (latest)";
                 }
                 $.getJSON('https://cors.hotio.workers.dev/?https://api.github.com/repos/' + image + '/commits/' + commit, function(data) {
                     var commitDate = data.commit.author.date;
