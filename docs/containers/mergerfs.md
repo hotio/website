@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 <div class="image-logo"><img src="/img/image-logos/mergerfs.svg" alt="logo"></div>
 
 [:octicons-mark-github-16: GitHub](https://github.com/hotio/mergerfs){: .header-icons target=_blank rel="noopener noreferrer" }  

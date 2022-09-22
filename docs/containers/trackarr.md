@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 <div class="image-logo no-logo"><img src="/img/pullio.svg" alt="logo"></div>
 
 [:octicons-mark-github-16: GitHub](https://github.com/hotio/trackarr){: .header-icons target=_blank rel="noopener noreferrer" }  

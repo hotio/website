@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 <div class="image-logo"><img src="/img/image-logos/nzbget.png" alt="logo"></div>
 
 [:octicons-mark-github-16: GitHub](https://github.com/hotio/nzbget){: .header-icons target=_blank rel="noopener noreferrer" }  

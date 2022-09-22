@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 <div class="image-logo"><img src="/img/image-logos/sonarr.svg" alt="logo"></div>
 
 [:octicons-mark-github-16: GitHub](https://github.com/hotio/sonarr){: .header-icons target=_blank rel="noopener noreferrer" }  

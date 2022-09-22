@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 <div class="image-logo"><img src="/img/image-logos/duplicacy.png" alt="logo"></div>
 
 [:octicons-mark-github-16: GitHub](https://github.com/hotio/duplicacy){: .header-icons target=_blank rel="noopener noreferrer" }  
