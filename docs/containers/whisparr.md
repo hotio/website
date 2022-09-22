@@ -12,9 +12,6 @@ hide:
 
 --8<-- "includes/stats.md"
 
-!!! warning
-    There's only a `nightly` tag available for the moment.
-
 ## Starting the container
 
 !!! docker ""
