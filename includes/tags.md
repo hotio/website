@@ -4,7 +4,7 @@
   <thead>
     <th style="white-space:nowrap;">Tag</th>
     <th style="white-space:nowrap;">Description</th>
-    <th style="white-space:nowrap;">App Version</th>
+    <th style="white-space:nowrap;">Version</th>
     <th style="white-space:nowrap;">Commit SHA</th>
     <th style="white-space:nowrap;">Commit Message</th>
     <th style="white-space:nowrap;">Last Updated</th>
