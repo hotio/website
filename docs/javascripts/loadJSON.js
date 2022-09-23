@@ -47,7 +47,7 @@ $(function loadJSON() {
                     }
                     var versionCode = "<code>" + version + "</code>";
                     console.log("Tag: " + branch + ", Version: " + version + ", Commit: " + commit + ", Last Updated: " + commitDate + ", Age: " + days(d, currentDate));
-                    var tblRow = "<tr>" + "<td><a class=\"header-icons\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/" + image + "/tree/" + branch + "\">" + branch + "</a>" + extraTag + "</td>" + "<td>" + description + "</td>" + "<td>" + versionCode + "</td>" + "<td><a class=\"header-icons\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/" + image + "/tree/" + commit + "\">" + commit.slice(0,7) + "</a></td>" + '<td>' + commitMessage + "</td><td style=\"white-space:nowrap;\">" + datestring + "</td><td>" + days(d, currentDate) + "</td></tr>"
+                    var tblRow = "<tr>" + "<td><a class=\"header-icons\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/" + image + "/tree/" + branch + "\">" + branch + "</a>" + extraTag + "</td>" + "<td>" + description + "</td>" + "<td>" + versionCode + "</td>" + "<td><a class=\"header-icons\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/" + image + "/commit/" + commit + "\">" + commit.slice(0,7) + "</a></td>" + '<td>' + commitMessage + "</td><td style=\"white-space:nowrap;\">" + datestring + "</td><td>" + days(d, currentDate) + "</td></tr>"
                     $(tblRow).appendTo("#tags-table tbody");
                 });
             });
