@@ -27,7 +27,6 @@ hide:
             -e INTERVAL=300 \
             -e DETECTION_MODE="dig-whoami.cloudflare" \
             -e LOG_LEVEL=3 \
-            -e cloudflareddns="" \
             -e CF_USER="your.cf.email@example.com" \
             -e CF_APIKEY="your.global.apikey" \
             -e CF_APITOKEN="" \
@@ -56,7 +55,6 @@ hide:
               - INTERVAL=300
               - DETECTION_MODE=dig-whoami.cloudflare
               - LOG_LEVEL=3
-              - cloudflareddns
               - CF_USER=your.cf.email@example.com
               - CF_APIKEY=your.global.apikey
               - CF_APITOKEN
