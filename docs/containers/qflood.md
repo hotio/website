@@ -79,6 +79,7 @@ hide:
             -e VPN_CONF="wg0" \
             -e VPN_ADDITIONAL_PORTS="" \
             -e VPN_IP_CHECK_DELAY="5" \
+            -e VPN_IP_CHECK_EXIT="true" \
             -e PRIVOXY_ENABLED="false" \
             -e FLOOD_AUTH="false" \
             -v /<host_folder_config>:/config \
@@ -111,6 +112,7 @@ hide:
               - VPN_CONF=wg0
               - VPN_ADDITIONAL_PORTS
               - VPN_IP_CHECK_DELAY=5
+              - VPN_IP_CHECK_EXIT=true
               - PRIVOXY_ENABLED=false
               - FLOOD_AUTH=false
             volumes:
