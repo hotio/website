@@ -27,7 +27,7 @@ plugins:
   - search
   - redirects:
       redirect_maps:
-        discord.md: 'https://discord.gg/3SnkuKp'
+        discord.md: 'https://discord.gg/FycMN9gTC3'
         dockerhub.md: 'https://hub.docker.com/u/hotio'
         ghcr.md: 'https://github.com/orgs/hotio/packages?ecosystem=container&visibility=public'
         quay.md: 'https://quay.io/user/hotio'
