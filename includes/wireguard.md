@@ -10,7 +10,7 @@ If you need to expose additional ports you can use `VPN_ADDITIONAL_PORTS`, for e
 
 ## wg0.conf example
 
-This is an example of how your `wg0.conf` should look like. Take note, in case you have no need for ipv6 connectivity that you've got it disabled with `net.ipv6.conf.all.disable_ipv6=1` and your `wg0.conf` does not contain ipv6 stuff. Also make sure you remove any `PreUp, PostUp, PreDown, PostDown` stuff that your provider might have added (unless you know what it does).
+This is an example of how your `wg0.conf` should look like. In case you have no need for ipv6 connectivity, make sure that you've got it disabled with `net.ipv6.conf.all.disable_ipv6=1` and your `wg0.conf` does not contain any ipv6 stuff. Also make sure you remove any `PreUp, PostUp, PreDown, PostDown` stuff that your provider might have added (unless you know what it does). When using Mullvad, this means that you shouldn't enable the Kill Switch option.
 
 ```text
 [Interface]
