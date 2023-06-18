@@ -23,3 +23,7 @@ PublicKey = publickey
 AllowedIPs = 0.0.0.0/0
 Endpoint = xxx.x.xxx.x:51820
 ```
+
+!!! warning "resolv.conf error message"
+
+    If you are seeing an error message like `mv: cannot move '/etc/resolv.conf.173.openresolv' to '/etc/resolv.conf': Resource busy`. Remove the `DNS = 1.1.1.1` from your `wg0.conf` file and set the dns server using the docker cli argument `--dns 1.1.1.1` or the equivalent for compose.
