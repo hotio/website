@@ -76,6 +76,7 @@ hide:
             -e FLOOD_AUTH="false" \
             -v /<host_folder_config>:/config \
             --cap-add=NET_ADMIN \
+            --dns 1.1.1.1 \
             --sysctl="net.ipv4.conf.all.src_valid_mark=1" \
             --sysctl="net.ipv6.conf.all.disable_ipv6=0" \
             cr.hotio.dev/hotio/rflood
@@ -108,6 +109,8 @@ hide:
               - /<host_folder_config>:/config
             cap_add:
               - NET_ADMIN
+            dns:
+              - 1.1.1.1
             sysctls:
               - net.ipv4.conf.all.src_valid_mark=1
               - net.ipv6.conf.all.disable_ipv6=0
