@@ -14,7 +14,7 @@ hide:
 
 !!! question "What is this?"
 
-    A docker image with [Caddy 2](https://caddyserver.com){: target=_blank rel="noopener noreferrer" } and fail2ban integrated.
+    A docker image with [Caddy 2](https://caddyserver.com){: target=_blank rel="noopener noreferrer" } and fail2ban integrated, there's also cron running and the `logrotate`` command is available. If you spin up a container, some sample configs for caddy, fail2ban, cron and logrotate are provided in `/config`.
 
 ## Starting the container
 
