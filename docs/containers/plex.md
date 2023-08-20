@@ -90,7 +90,3 @@ The variable `ADVERTISE_IP` is useful to aid your local clients in discovering y
 ## TOP secret stuff
 
 If you do `-e PLEX_PASS="https://..."`, stuff happens for which no support will be given.
-
-## Hardware support
-
-To make your hardware devices available inside the container use the following argument `--device=/dev/dri:/dev/dri` for Intel QuickSync and `--device=/dev/dvb:/dev/dvb` for a tuner. NVIDIA users should go visit the [NVIDIA github](https://github.com/NVIDIA/nvidia-docker){: target=_blank rel="noopener noreferrer" } page for instructions.
