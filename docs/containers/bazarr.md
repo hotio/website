@@ -27,7 +27,7 @@ hide:
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
             -v /<host_folder_config>:/config \
-            cr.hotio.dev/hotio/bazarr
+            ghcr.io/hotio/bazarr
         ```
 
     === "compose"
@@ -38,7 +38,7 @@ hide:
         services:
           bazarr:
             container_name: bazarr
-            image: cr.hotio.dev/hotio/bazarr
+            image: ghcr.io/hotio/bazarr
             ports:
               - "6767:6767"
             environment:

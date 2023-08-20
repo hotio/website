@@ -27,7 +27,7 @@ hide:
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
             -v /<host_folder_config>:/config \
-            cr.hotio.dev/hotio/nzbhydra2
+            ghcr.io/hotio/nzbhydra2
         ```
 
     === "compose"
@@ -38,7 +38,7 @@ hide:
         services:
           nzbhydra2:
             container_name: nzbhydra2
-            image: cr.hotio.dev/hotio/nzbhydra2
+            image: ghcr.io/hotio/nzbhydra2
             ports:
               - "5076:5076"
             environment:

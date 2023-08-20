@@ -27,7 +27,7 @@ hide:
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
             -v /<host_folder_config>:/config \
-            cr.hotio.dev/hotio/trackarr
+            ghcr.io/hotio/trackarr
         ```
 
     === "compose"
@@ -38,7 +38,7 @@ hide:
         services:
           trackarr:
             container_name: trackarr
-            image: cr.hotio.dev/hotio/trackarr
+            image: ghcr.io/hotio/trackarr
             ports:
               - "7337:7337"
             environment:

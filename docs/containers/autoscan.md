@@ -29,7 +29,7 @@ hide:
             -e PLEX_LOGIN="" \
             -e PLEX_PASSWORD="" \
             -v /<host_folder_config>:/config \
-            cr.hotio.dev/hotio/autoscan
+            ghcr.io/hotio/autoscan
         ```
 
     === "compose"
@@ -40,7 +40,7 @@ hide:
         services:
           autoscan:
             container_name: autoscan
-            image: cr.hotio.dev/hotio/autoscan
+            image: ghcr.io/hotio/autoscan
             ports:
               - "3030:3030"
             environment:

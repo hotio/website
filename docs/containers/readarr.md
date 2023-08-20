@@ -27,7 +27,7 @@ hide:
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
             -v /<host_folder_config>:/config \
-            cr.hotio.dev/hotio/readarr
+            ghcr.io/hotio/readarr
         ```
 
     === "compose"
@@ -38,7 +38,7 @@ hide:
         services:
           readarr:
             container_name: readarr
-            image: cr.hotio.dev/hotio/readarr
+            image: ghcr.io/hotio/readarr
             ports:
               - "8787:8787"
             environment:

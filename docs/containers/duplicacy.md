@@ -30,7 +30,7 @@ hide:
             -v /<host_folder_config>:/config \
             -v /<host_folder_cache>:/cache \
             -v /<host_folder_logs>:/logs \
-            cr.hotio.dev/hotio/duplicacy
+            ghcr.io/hotio/duplicacy
         ```
 
     === "compose"
@@ -42,7 +42,7 @@ hide:
           duplicacy:
             container_name: duplicacy
             hostname: duplicacy
-            image: cr.hotio.dev/hotio/duplicacy
+            image: ghcr.io/hotio/duplicacy
             ports:
               - "3875:3875"
             environment:

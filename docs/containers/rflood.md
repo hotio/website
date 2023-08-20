@@ -33,7 +33,7 @@ hide:
             -e TZ="Etc/UTC" \
             -e FLOOD_AUTH="false" \
             -v /<host_folder_config>:/config \
-            cr.hotio.dev/hotio/rflood
+            ghcr.io/hotio/rflood
         ```
 
     === "compose"
@@ -44,7 +44,7 @@ hide:
         services:
           rflood:
             container_name: rflood
-            image: cr.hotio.dev/hotio/rflood
+            image: ghcr.io/hotio/rflood
             ports:
               - "3000:3000"
             environment:
@@ -79,7 +79,7 @@ hide:
             --dns 1.1.1.1 \
             --sysctl="net.ipv4.conf.all.src_valid_mark=1" \
             --sysctl="net.ipv6.conf.all.disable_ipv6=0" \
-            cr.hotio.dev/hotio/rflood
+            ghcr.io/hotio/rflood
         ```
 
     === "compose vpn"
@@ -90,7 +90,7 @@ hide:
         services:
           rflood:
             container_name: rflood
-            image: cr.hotio.dev/hotio/rflood
+            image: ghcr.io/hotio/rflood
             ports:
               - "3000:3000"
               - "8118:8118"

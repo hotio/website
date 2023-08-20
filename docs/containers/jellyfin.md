@@ -27,7 +27,7 @@ hide:
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
             -v /<host_folder_config>:/config \
-            cr.hotio.dev/hotio/jellyfin
+            ghcr.io/hotio/jellyfin
         ```
 
     === "compose"
@@ -38,7 +38,7 @@ hide:
         services:
           jellyfin:
             container_name: jellyfin
-            image: cr.hotio.dev/hotio/jellyfin
+            image: ghcr.io/hotio/jellyfin
             ports:
               - "8096:8096"
             environment:

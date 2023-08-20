@@ -32,7 +32,7 @@ hide:
             -e PLEX_PASS="no" \
             -v /<host_folder_config>:/config \
             -v /<host_folder_transcode>:/transcode \
-            cr.hotio.dev/hotio/plex
+            ghcr.io/hotio/plex
         ```
 
     === "compose"
@@ -43,7 +43,7 @@ hide:
         services:
           plex:
             container_name: plex
-            image: cr.hotio.dev/hotio/plex
+            image: ghcr.io/hotio/plex
             ports:
               - "32400:32400"
             environment:

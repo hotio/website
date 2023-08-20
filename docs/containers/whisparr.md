@@ -27,7 +27,7 @@ hide:
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
             -v /<host_folder_config>:/config \
-            cr.hotio.dev/hotio/whisparr
+            ghcr.io/hotio/whisparr
         ```
 
     === "compose"
@@ -38,7 +38,7 @@ hide:
         services:
           whisparr:
             container_name: whisparr
-            image: cr.hotio.dev/hotio/whisparr
+            image: ghcr.io/hotio/whisparr
             ports:
               - "6969:6969"
             environment:

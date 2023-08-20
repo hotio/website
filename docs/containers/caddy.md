@@ -34,7 +34,7 @@ hide:
             -e CUSTOM_BUILD="" \
             -v /<host_folder_config>:/config \
             --cap-add=NET_ADMIN \
-            cr.hotio.dev/hotio/caddy
+            ghcr.io/hotio/caddy
         ```
 
     === "compose"
@@ -45,7 +45,7 @@ hide:
         services:
           caddy:
             container_name: caddy
-            image: cr.hotio.dev/hotio/caddy
+            image: ghcr.io/hotio/caddy
             ports:
               - "80:8080"
               - "443:8443"

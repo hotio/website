@@ -37,7 +37,7 @@ hide:
             -e TZ="Etc/UTC" \
             -e FLOOD_AUTH="false" \
             -v /<host_folder_config>:/config \
-            cr.hotio.dev/hotio/qflood
+            ghcr.io/hotio/qflood
         ```
 
     === "compose"
@@ -48,7 +48,7 @@ hide:
         services:
           qflood:
             container_name: qflood
-            image: cr.hotio.dev/hotio/qflood
+            image: ghcr.io/hotio/qflood
             ports:
               - "8080:8080"
               - "3000:3000"
@@ -85,7 +85,7 @@ hide:
             --dns 1.1.1.1 \
             --sysctl="net.ipv4.conf.all.src_valid_mark=1" \
             --sysctl="net.ipv6.conf.all.disable_ipv6=0" \
-            cr.hotio.dev/hotio/qflood
+            ghcr.io/hotio/qflood
         ```
 
     === "compose vpn"
@@ -96,7 +96,7 @@ hide:
         services:
           qflood:
             container_name: qflood
-            image: cr.hotio.dev/hotio/qflood
+            image: ghcr.io/hotio/qflood
             ports:
               - "8080:8080"
               - "3000:3000"

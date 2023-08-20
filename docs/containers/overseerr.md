@@ -27,7 +27,7 @@ hide:
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
             -v /<host_folder_config>:/config \
-            cr.hotio.dev/hotio/overseerr
+            ghcr.io/hotio/overseerr
         ```
 
     === "compose"
@@ -38,7 +38,7 @@ hide:
         services:
           overseerr:
             container_name: overseerr
-            image: cr.hotio.dev/hotio/overseerr
+            image: ghcr.io/hotio/overseerr
             ports:
               - "5055:5055"
             environment:

@@ -28,7 +28,7 @@ hide:
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
             -v /<host_folder_config>:/config \
-            cr.hotio.dev/hotio/qbittorrent
+            ghcr.io/hotio/qbittorrent
         ```
 
     === "compose"
@@ -39,7 +39,7 @@ hide:
         services:
           qbittorrent:
             container_name: qbittorrent
-            image: cr.hotio.dev/hotio/qbittorrent
+            image: ghcr.io/hotio/qbittorrent
             ports:
               - "8080:8080"
             environment:
@@ -72,7 +72,7 @@ hide:
             --dns 1.1.1.1 \
             --sysctl="net.ipv4.conf.all.src_valid_mark=1" \
             --sysctl="net.ipv6.conf.all.disable_ipv6=0" \
-            cr.hotio.dev/hotio/qbittorrent
+            ghcr.io/hotio/qbittorrent
         ```
 
     === "compose vpn"
@@ -83,7 +83,7 @@ hide:
         services:
           qbittorrent:
             container_name: qbittorrent
-            image: cr.hotio.dev/hotio/qbittorrent
+            image: ghcr.io/hotio/qbittorrent
             ports:
               - "8080:8080"
               - "8118:8118"

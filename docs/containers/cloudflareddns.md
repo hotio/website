@@ -35,7 +35,7 @@ hide:
             -e CF_ZONES="example.com;foobar.com;foobar.com" \
             -e CF_RECORDTYPES="A;A;AAAA" \
             -v /<host_folder_config>:/config \
-            cr.hotio.dev/hotio/cloudflareddns
+            ghcr.io/hotio/cloudflareddns
         ```
 
     === "compose"
@@ -46,7 +46,7 @@ hide:
         services:
           cloudflareddns:
             container_name: cloudflareddns
-            image: cr.hotio.dev/hotio/cloudflareddns
+            image: ghcr.io/hotio/cloudflareddns
             environment:
               - PUID=1000
               - PGID=1000

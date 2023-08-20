@@ -27,7 +27,7 @@ hide:
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
             -v /<host_folder_config>:/config \
-            cr.hotio.dev/hotio/sonarr
+            ghcr.io/hotio/sonarr
         ```
 
     === "compose"
@@ -38,7 +38,7 @@ hide:
         services:
           sonarr:
             container_name: sonarr
-            image: cr.hotio.dev/hotio/sonarr
+            image: ghcr.io/hotio/sonarr
             ports:
               - "8989:8989"
             environment:

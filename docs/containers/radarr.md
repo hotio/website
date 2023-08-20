@@ -27,7 +27,7 @@ hide:
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
             -v /<host_folder_config>:/config \
-            cr.hotio.dev/hotio/radarr
+            ghcr.io/hotio/radarr
         ```
 
     === "compose"
@@ -38,7 +38,7 @@ hide:
         services:
           radarr:
             container_name: radarr
-            image: cr.hotio.dev/hotio/radarr
+            image: ghcr.io/hotio/radarr
             ports:
               - "7878:7878"
             environment:

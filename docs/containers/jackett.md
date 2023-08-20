@@ -27,7 +27,7 @@ hide:
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
             -v /<host_folder_config>:/config \
-            cr.hotio.dev/hotio/jackett
+            ghcr.io/hotio/jackett
         ```
 
     === "compose"
@@ -38,7 +38,7 @@ hide:
         services:
           jackett:
             container_name: jackett
-            image: cr.hotio.dev/hotio/jackett
+            image: ghcr.io/hotio/jackett
             ports:
               - "9117:9117"
             environment:

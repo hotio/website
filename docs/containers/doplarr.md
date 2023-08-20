@@ -26,7 +26,7 @@ hide:
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
             -v /<host_folder_config>:/config \
-            cr.hotio.dev/hotio/doplarr
+            ghcr.io/hotio/doplarr
         ```
 
     === "compose"
@@ -37,7 +37,7 @@ hide:
         services:
           doplarr:
             container_name: doplarr
-            image: cr.hotio.dev/hotio/doplarr
+            image: ghcr.io/hotio/doplarr
             environment:
               - PUID=1000
               - PGID=1000

@@ -27,7 +27,7 @@ hide:
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
             -v /<host_folder_config>:/config \
-            cr.hotio.dev/hotio/nzbget
+            ghcr.io/hotio/nzbget
         ```
 
     === "compose"
@@ -38,7 +38,7 @@ hide:
         services:
           nzbget:
             container_name: nzbget
-            image: cr.hotio.dev/hotio/nzbget
+            image: ghcr.io/hotio/nzbget
             ports:
               - "6789:6789"
             environment:

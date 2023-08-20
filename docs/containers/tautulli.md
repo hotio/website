@@ -27,7 +27,7 @@ hide:
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
             -v /<host_folder_config>:/config \
-            cr.hotio.dev/hotio/tautulli
+            ghcr.io/hotio/tautulli
         ```
 
     === "compose"
@@ -38,7 +38,7 @@ hide:
         services:
           tautulli:
             container_name: tautulli
-            image: cr.hotio.dev/hotio/tautulli
+            image: ghcr.io/hotio/tautulli
             ports:
               - "8181:8181"
             environment:

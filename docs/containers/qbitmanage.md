@@ -27,7 +27,7 @@ hide:
             -e TZ="Etc/UTC" \
             -e ARGS="" \
             -v /<host_folder_config>:/config \
-            cr.hotio.dev/hotio/qbitmanage
+            ghcr.io/hotio/qbitmanage
         ```
 
     === "compose"
@@ -38,7 +38,7 @@ hide:
         services:
           qbitmanage:
             container_name: qbitmanage
-            image: cr.hotio.dev/hotio/qbitmanage
+            image: ghcr.io/hotio/qbitmanage
             environment:
               - PUID=1000
               - PGID=1000

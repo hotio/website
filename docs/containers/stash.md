@@ -27,7 +27,7 @@ hide:
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
             -v /<host_folder_config>:/config \
-            cr.hotio.dev/hotio/stash
+            ghcr.io/hotio/stash
         ```
 
     === "compose"
@@ -38,7 +38,7 @@ hide:
         services:
           stash:
             container_name: stash
-            image: cr.hotio.dev/hotio/stash
+            image: ghcr.io/hotio/stash
             ports:
               - "9999:9999"
             environment:

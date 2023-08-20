@@ -27,7 +27,7 @@ hide:
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
             -v /<host_folder_config>:/config \
-            cr.hotio.dev/hotio/lidarr
+            ghcr.io/hotio/lidarr
         ```
 
     === "compose"
@@ -38,7 +38,7 @@ hide:
         services:
           lidarr:
             container_name: lidarr
-            image: cr.hotio.dev/hotio/lidarr
+            image: ghcr.io/hotio/lidarr
             ports:
               - "8686:8686"
             environment:

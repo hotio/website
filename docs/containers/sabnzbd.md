@@ -27,7 +27,7 @@ hide:
             -e UMASK=002 \
             -e TZ="Etc/UTC" \
             -v /<host_folder_config>:/config \
-            cr.hotio.dev/hotio/sabnzbd
+            ghcr.io/hotio/sabnzbd
         ```
 
     === "compose"
@@ -38,7 +38,7 @@ hide:
         services:
           sabnzbd:
             container_name: sabnzbd
-            image: cr.hotio.dev/hotio/sabnzbd
+            image: ghcr.io/hotio/sabnzbd
             ports:
               - "8080:8080"
             environment:
