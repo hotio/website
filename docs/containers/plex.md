@@ -12,6 +12,9 @@ hide:
 
 --8<-- "includes/stats.md"
 
+!!! warning
+    Don't file a support request for the error message in the Plex log `Critical: libusb_init failed`, it's not critical, ignore it.
+
 ## Starting the container
 
 !!! docker ""
