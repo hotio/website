@@ -83,6 +83,7 @@ nav:
     - hotio/duplicacy: containers/duplicacy.md
     - hotio/jackett: containers/jackett.md
     - hotio/jellyfin: containers/jellyfin.md
+    - hotio/jellyseerr: containers/jellyseerr.md
     - hotio/lidarr: containers/lidarr.md
     - hotio/mergerfs: containers/mergerfs.md
     - hotio/nzbget: containers/nzbget.md
