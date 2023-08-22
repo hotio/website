@@ -1,4 +1,4 @@
-copyright: Copyright &copy; 2021 hotio<br>Logos based on work by <a href="https://www.flaticon.com/authors/freepik">Freepik</a> from <a href="https://www.flaticon.com">flaticon.com</a> and <a href="https://freeicons.io/profile/6200">Soni Sokell</a> on <a href="https://freeicons.io">freeicons.io</a>
+copyright: Copyright &copy; 2023 hotio<br>Logos based on work by <a href="https://www.flaticon.com/authors/freepik">Freepik</a> from <a href="https://www.flaticon.com">flaticon.com</a> and <a href="https://freeicons.io/profile/6200">Soni Sokell</a> on <a href="https://freeicons.io">freeicons.io</a>
 edit_uri: 'website/edit/master/docs'
 
 extra:
@@ -15,10 +15,6 @@ extra:
   - icon: fontawesome/brands/github
     link: 'https://github.com/hotio'
     name: GitHub
-
-  analytics:
-    provider: google
-    property: UA-126819406-1
 
 extra_css:
   - stylesheets/extra.css
