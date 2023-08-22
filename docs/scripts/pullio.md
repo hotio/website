@@ -1,8 +1,3 @@
----
-hide:
-  - navigation
----
-
 <div class="pullio-banner"><img src="/img/pullio-sunglasses.svg" alt="pullio"/><div class="pullio-banner-text">I can do things...</div></div>
 
 [:material-github: GitHub](https://github.com/hotio/pullio){: .header-icons target=_blank rel="noopener noreferrer" }  
