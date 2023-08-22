@@ -105,8 +105,9 @@ nav:
     - hotio/whisparr: containers/whisparr.md
   - Base Images:
     - hotio/base: containers/base.md
-- Arr Discord Notifier: arr-discord-notifier.md
-- Pullio: pullio.md
+- Scripts:
+  - Arr Discord Notifier: scripts/arr-discord-notifier.md
+  - Pullio: scripts/pullio.md
 - FAQ: faq.md
 - Support: /discord
 - Donate: /donate
