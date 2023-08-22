@@ -8,7 +8,7 @@ hide:
 [:octicons-mark-github-16: GitHub](https://github.com/hotio/caddy){: .header-icons target=_blank rel="noopener noreferrer" }  
 [:octicons-container-16: docker.io](https://hub.docker.com/r/hotio/caddy){: .header-icons target=_blank rel="noopener noreferrer" }
  / [:octicons-container-16: ghcr.io](https://github.com/orgs/hotio/packages/container/package/caddy){: .header-icons target=_blank rel="noopener noreferrer" }  
-[:octicons-link-16: Caddy](https://caddyserver.com){: .header-icons target=_blank rel="noopener noreferrer" }  
+[:octicons-link-16: Upstream Project](https://caddyserver.com){: .header-icons target=_blank rel="noopener noreferrer" }  
 
 --8<-- "includes/stats.md"
 

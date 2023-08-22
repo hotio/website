@@ -8,7 +8,7 @@ hide:
 [:octicons-mark-github-16: GitHub](https://github.com/hotio/duplicacy){: .header-icons target=_blank rel="noopener noreferrer" }  
 [:octicons-container-16: docker.io](https://hub.docker.com/r/hotio/duplicacy){: .header-icons target=_blank rel="noopener noreferrer" }
  / [:octicons-container-16: ghcr.io](https://github.com/orgs/hotio/packages/container/package/duplicacy){: .header-icons target=_blank rel="noopener noreferrer" }  
-[:octicons-link-16: Duplicacy](https://duplicacy.com){: .header-icons target=_blank rel="noopener noreferrer" }  
+[:octicons-link-16: Upstream Project](https://duplicacy.com){: .header-icons target=_blank rel="noopener noreferrer" }  
 
 --8<-- "includes/stats.md"
 
