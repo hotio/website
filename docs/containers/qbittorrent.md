@@ -11,8 +11,6 @@ hide:
 [:octicons-link-16: Upstream Project 1](https://github.com/qbittorrent/qbittorrent){: .header-icons target=_blank rel="noopener noreferrer" }
  / [:octicons-link-16: Upstream Project 2](https://github.com/WDaan/VueTorrent){: .header-icons target=_blank rel="noopener noreferrer" }
 
---8<-- "includes/stats.md"
-
 ## Starting the container
 
 !!! docker ""

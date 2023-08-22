@@ -10,8 +10,6 @@ hide:
  / [:octicons-container-16: ghcr.io](https://github.com/orgs/hotio/packages/container/package/lidarr){: .header-icons target=_blank rel="noopener noreferrer" }  
 [:octicons-link-16: Upstream Project](https://github.com/lidarr/lidarr){: .header-icons target=_blank rel="noopener noreferrer" }  
 
---8<-- "includes/stats.md"
-
 ## Starting the container
 
 !!! docker ""

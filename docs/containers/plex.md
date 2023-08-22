@@ -10,8 +10,6 @@ hide:
  / [:octicons-container-16: ghcr.io](https://github.com/orgs/hotio/packages/container/package/plex){: .header-icons target=_blank rel="noopener noreferrer" }  
 [:octicons-link-16: Upstream Project](https://www.plex.tv){: .header-icons target=_blank rel="noopener noreferrer" }  
 
---8<-- "includes/stats.md"
-
 ## Starting the container
 
 !!! docker ""

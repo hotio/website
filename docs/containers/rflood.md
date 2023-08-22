@@ -11,8 +11,6 @@ hide:
 [:octicons-link-16: Upstream Project 1](https://github.com/jesec/rtorrent){: .header-icons target=_blank rel="noopener noreferrer" }
  / [:octicons-link-16: Upstream Project 2](https://github.com/jesec/flood){: .header-icons target=_blank rel="noopener noreferrer" }  
 
---8<-- "includes/stats.md"
-
 !!! question "What is this?"
 
     A docker image with rTorrent and the Flood UI, also optional WireGuard VPN support.
