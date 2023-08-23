@@ -96,7 +96,6 @@ nav:
     - hotio/sonarr: containers/sonarr.md
     - hotio/stash: containers/stash.md
     - hotio/tautulli: containers/tautulli.md
-    - hotio/trackarr: containers/trackarr.md
     - hotio/unpackerr: containers/unpackerr.md
     - hotio/whisparr: containers/whisparr.md
   - Base Images:
