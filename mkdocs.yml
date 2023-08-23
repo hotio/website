@@ -71,6 +71,7 @@ nav:
 - Home: index.md
 - Containers:
   - Apps:
+    - hotio/autoscan: containers/autoscan.md
     - hotio/bazarr: containers/bazarr.md
     - hotio/caddy: containers/caddy.md
     - hotio/cloudflareddns: containers/cloudflareddns.md
