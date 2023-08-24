@@ -12,51 +12,49 @@ hide:
 
 ## Starting the container
 
-!!! docker ""
+=== "cli"
 
-    === "cli"
+    ```shell
+    docker run --rm \
+        --name plex \
+        -p 32400:32400 \
+        -e PUID=1000 \
+        -e PGID=1000 \
+        -e UMASK=002 \
+        -e TZ="Etc/UTC" \
+        -e PLEX_CLAIM="" \
+        -e ADVERTISE_IP="" \
+        -e ALLOWED_NETWORKS="" \
+        -e PLEX_PASS="no" \
+        -v /<host_folder_config>:/config \
+        -v /<host_folder_transcode>:/transcode \
+        ghcr.io/hotio/plex
+    ```
 
-        ```shell
-        docker run --rm \
-            --name plex \
-            -p 32400:32400 \
-            -e PUID=1000 \
-            -e PGID=1000 \
-            -e UMASK=002 \
-            -e TZ="Etc/UTC" \
-            -e PLEX_CLAIM="" \
-            -e ADVERTISE_IP="" \
-            -e ALLOWED_NETWORKS="" \
-            -e PLEX_PASS="no" \
-            -v /<host_folder_config>:/config \
-            -v /<host_folder_transcode>:/transcode \
-            ghcr.io/hotio/plex
-        ```
+=== "compose"
 
-    === "compose"
+    ```yaml
+    version: "3.7"
 
-        ```yaml
-        version: "3.7"
-
-        services:
-          plex:
-            container_name: plex
-            image: ghcr.io/hotio/plex
-            ports:
-              - "32400:32400"
-            environment:
-              - PUID=1000
-              - PGID=1000
-              - UMASK=002
-              - TZ=Etc/UTC
-              - PLEX_CLAIM
-              - ADVERTISE_IP
-              - ALLOWED_NETWORKS
-              - PLEX_PASS=no
-            volumes:
-              - /<host_folder_config>:/config
-              - /<host_folder_transcode>:/transcode
-        ```
+    services:
+      plex:
+        container_name: plex
+        image: ghcr.io/hotio/plex
+        ports:
+          - "32400:32400"
+        environment:
+          - PUID=1000
+          - PGID=1000
+          - UMASK=002
+          - TZ=Etc/UTC
+          - PLEX_CLAIM
+          - ADVERTISE_IP
+          - ALLOWED_NETWORKS
+          - PLEX_PASS=no
+        volumes:
+          - /<host_folder_config>:/config
+          - /<host_folder_transcode>:/transcode
+    ```
 
 In most cases you'll need to add additional volumes, depending on your own personal preference, to get access to your files.
 
@@ -78,7 +76,7 @@ If you are a Plex Pass subscriber, you can enable the install of beta builds wit
 
 The variables correspond to the below plex network settings.
 
-![Plex settings](/img/plex_settings.png "Plex settings")
+![Plex settings](../img/plex_settings.png "Plex settings")
 
 The variable `ADVERTISE_IP` is useful to aid your local clients in discovering your plex server when running in the `bridge` network mode. Most likely you would use something like `http://192.168.0.10:32400`. You could use `ALLOWED_NETWORKS` when you're locked out and need to regain access without providing credentials.
 

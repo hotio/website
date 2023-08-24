@@ -3,20 +3,20 @@ hide:
   - navigation
 ---
 
-<div class="pullio-banner"><img src="/img/pullio.svg" alt="pullio"/><div class="pullio-banner-text">Hello, I'm Pullio!</div></div>
+<div class="pullio-banner"><img src="img/pullio.svg" alt="pullio"/><div class="pullio-banner-text">Hello, I'm Pullio!</div></div>
 
 ## Welcome
 
-Go check out the rest of our website to see how you can get started with your favorite app. Most images come with docker cli or compose examples. If you've got any questions, feel free to join the [discord](discord){: target=_blank rel="noopener noreferrer" } server. Discord is our main channel to provide support, if you think to have found a bug in one of the images, feel free to create a new issue on GitHub.
+Go check out the rest of our website to see how you can get started with your favorite app. Most images come with docker cli or compose examples. If you've got any questions, feel free to join the [discord](https://hotio.dev/discord){: target=_blank rel="noopener noreferrer" } server. Discord is our main channel to provide support, if you think to have found a bug in one of the images, feel free to create a new issue on GitHub.
 
-If you enjoy the images don't forget to go give us a star on [Docker Hub](dockerhub){: target=_blank rel="noopener noreferrer" } and [GitHub](github){: target=_blank rel="noopener noreferrer" }. It would mean a lot to us!
+If you enjoy the images don't forget to go give us a star on [Docker Hub](https://hotio.dev/dockerhub){: target=_blank rel="noopener noreferrer" } and [GitHub](https://hotio.dev/github){: target=_blank rel="noopener noreferrer" }. It would mean a lot to us!
 
 ## Support
 
 Join us on Discord!
 
-<a href="discord" target="_blank" rel="noopener noreferrer">
-  <img src="/img/discord.svg" alt="discord" width="300" height="82">
+<a href="https://hotio.dev/discord" target="_blank" rel="noopener noreferrer">
+  <img src="img/discord.svg" alt="discord" width="300" height="82">
 </a>
 
 ## Donations

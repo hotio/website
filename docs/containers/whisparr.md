@@ -12,41 +12,39 @@ hide:
 
 ## Starting the container
 
-!!! docker ""
+=== "cli"
 
-    === "cli"
+    ```shell
+    docker run --rm \
+        --name whisparr \
+        -p 6969:6969 \
+        -e PUID=1000 \
+        -e PGID=1000 \
+        -e UMASK=002 \
+        -e TZ="Etc/UTC" \
+        -v /<host_folder_config>:/config \
+        ghcr.io/hotio/whisparr
+    ```
 
-        ```shell
-        docker run --rm \
-            --name whisparr \
-            -p 6969:6969 \
-            -e PUID=1000 \
-            -e PGID=1000 \
-            -e UMASK=002 \
-            -e TZ="Etc/UTC" \
-            -v /<host_folder_config>:/config \
-            ghcr.io/hotio/whisparr
-        ```
+=== "compose"
 
-    === "compose"
+    ```yaml
+    version: "3.7"
 
-        ```yaml
-        version: "3.7"
-
-        services:
-          whisparr:
-            container_name: whisparr
-            image: ghcr.io/hotio/whisparr
-            ports:
-              - "6969:6969"
-            environment:
-              - PUID=1000
-              - PGID=1000
-              - UMASK=002
-              - TZ=Etc/UTC
-            volumes:
-              - /<host_folder_config>:/config
-        ```
+    services:
+      whisparr:
+        container_name: whisparr
+        image: ghcr.io/hotio/whisparr
+        ports:
+          - "6969:6969"
+        environment:
+          - PUID=1000
+          - PGID=1000
+          - UMASK=002
+          - TZ=Etc/UTC
+        volumes:
+          - /<host_folder_config>:/config
+    ```
 
 In most cases you'll need to add additional volumes, depending on your own personal preference, to get access to your files.
 

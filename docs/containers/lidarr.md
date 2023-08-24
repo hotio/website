@@ -12,41 +12,39 @@ hide:
 
 ## Starting the container
 
-!!! docker ""
+=== "cli"
 
-    === "cli"
+    ```shell
+    docker run --rm \
+        --name lidarr \
+        -p 8686:8686 \
+        -e PUID=1000 \
+        -e PGID=1000 \
+        -e UMASK=002 \
+        -e TZ="Etc/UTC" \
+        -v /<host_folder_config>:/config \
+        ghcr.io/hotio/lidarr
+    ```
 
-        ```shell
-        docker run --rm \
-            --name lidarr \
-            -p 8686:8686 \
-            -e PUID=1000 \
-            -e PGID=1000 \
-            -e UMASK=002 \
-            -e TZ="Etc/UTC" \
-            -v /<host_folder_config>:/config \
-            ghcr.io/hotio/lidarr
-        ```
+=== "compose"
 
-    === "compose"
+    ```yaml
+    version: "3.7"
 
-        ```yaml
-        version: "3.7"
-
-        services:
-          lidarr:
-            container_name: lidarr
-            image: ghcr.io/hotio/lidarr
-            ports:
-              - "8686:8686"
-            environment:
-              - PUID=1000
-              - PGID=1000
-              - UMASK=002
-              - TZ=Etc/UTC
-            volumes:
-              - /<host_folder_config>:/config
-        ```
+    services:
+      lidarr:
+        container_name: lidarr
+        image: ghcr.io/hotio/lidarr
+        ports:
+          - "8686:8686"
+        environment:
+          - PUID=1000
+          - PGID=1000
+          - UMASK=002
+          - TZ=Etc/UTC
+        volumes:
+          - /<host_folder_config>:/config
+    ```
 
 In most cases you'll need to add additional volumes, depending on your own personal preference, to get access to your files.
 

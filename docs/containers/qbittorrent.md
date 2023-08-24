@@ -13,98 +13,96 @@ hide:
 
 ## Starting the container
 
-!!! docker ""
+=== "cli"
 
-    === "cli"
+    ```shell
+    docker run --rm \
+        --name qbittorrent \
+        -p 8080:8080 \
+        -e PUID=1000 \
+        -e PGID=1000 \
+        -e UMASK=002 \
+        -e TZ="Etc/UTC" \
+        -v /<host_folder_config>:/config \
+        ghcr.io/hotio/qbittorrent
+    ```
 
-        ```shell
-        docker run --rm \
-            --name qbittorrent \
-            -p 8080:8080 \
-            -e PUID=1000 \
-            -e PGID=1000 \
-            -e UMASK=002 \
-            -e TZ="Etc/UTC" \
-            -v /<host_folder_config>:/config \
-            ghcr.io/hotio/qbittorrent
-        ```
+=== "compose"
 
-    === "compose"
+    ```yaml
+    version: "3.7"
 
-        ```yaml
-        version: "3.7"
+    services:
+      qbittorrent:
+        container_name: qbittorrent
+        image: ghcr.io/hotio/qbittorrent
+        ports:
+          - "8080:8080"
+        environment:
+          - PUID=1000
+          - PGID=1000
+          - UMASK=002
+          - TZ=Etc/UTC
+        volumes:
+          - /<host_folder_config>:/config
+    ```
 
-        services:
-          qbittorrent:
-            container_name: qbittorrent
-            image: ghcr.io/hotio/qbittorrent
-            ports:
-              - "8080:8080"
-            environment:
-              - PUID=1000
-              - PGID=1000
-              - UMASK=002
-              - TZ=Etc/UTC
-            volumes:
-              - /<host_folder_config>:/config
-        ```
+=== "cli vpn"
 
-    === "cli vpn"
+    ```shell
+    docker run --rm \
+        --name qbittorrent \
+        -p 8080:8080 \
+        -p 8118:8118 \
+        -e PUID=1000 \
+        -e PGID=1000 \
+        -e UMASK=002 \
+        -e TZ="Etc/UTC" \
+        -e VPN_ENABLED="true" \
+        -e VPN_LAN_NETWORK="" \
+        -e VPN_CONF="wg0" \
+        -e VPN_ADDITIONAL_PORTS="" \
+        -e PRIVOXY_ENABLED="false" \
+        -v /<host_folder_config>:/config \
+        --cap-add=NET_ADMIN \
+        --dns 1.1.1.1 \
+        --sysctl="net.ipv4.conf.all.src_valid_mark=1" \
+        --sysctl="net.ipv6.conf.all.disable_ipv6=0" \
+        ghcr.io/hotio/qbittorrent
+    ```
 
-        ```shell
-        docker run --rm \
-            --name qbittorrent \
-            -p 8080:8080 \
-            -p 8118:8118 \
-            -e PUID=1000 \
-            -e PGID=1000 \
-            -e UMASK=002 \
-            -e TZ="Etc/UTC" \
-            -e VPN_ENABLED="true" \
-            -e VPN_LAN_NETWORK="" \
-            -e VPN_CONF="wg0" \
-            -e VPN_ADDITIONAL_PORTS="" \
-            -e PRIVOXY_ENABLED="false" \
-            -v /<host_folder_config>:/config \
-            --cap-add=NET_ADMIN \
-            --dns 1.1.1.1 \
-            --sysctl="net.ipv4.conf.all.src_valid_mark=1" \
-            --sysctl="net.ipv6.conf.all.disable_ipv6=0" \
-            ghcr.io/hotio/qbittorrent
-        ```
+=== "compose vpn"
 
-    === "compose vpn"
+    ```yaml
+    version: "3.7"
 
-        ```yaml
-        version: "3.7"
-
-        services:
-          qbittorrent:
-            container_name: qbittorrent
-            image: ghcr.io/hotio/qbittorrent
-            ports:
-              - "8080:8080"
-              - "8118:8118"
-            environment:
-              - PUID=1000
-              - PGID=1000
-              - UMASK=002
-              - TZ=Etc/UTC
-              - VPN_ENABLED=true
-              - VPN_LAN_NETWORK
-              - VPN_CONF=wg0
-              - VPN_ADDITIONAL_PORTS
-              - PRIVOXY_ENABLED=false
-            volumes:
-              - /<host_folder_config>:/config
-            cap_add:
-              - NET_ADMIN
-            dns:
-              - 1.1.1.1
-            sysctls:
-              - net.ipv4.conf.all.src_valid_mark=1
-              - net.ipv6.conf.all.disable_ipv6=0
-        ```
+    services:
+      qbittorrent:
+        container_name: qbittorrent
+        image: ghcr.io/hotio/qbittorrent
+        ports:
+          - "8080:8080"
+          - "8118:8118"
+        environment:
+          - PUID=1000
+          - PGID=1000
+          - UMASK=002
+          - TZ=Etc/UTC
+          - VPN_ENABLED=true
+          - VPN_LAN_NETWORK
+          - VPN_CONF=wg0
+          - VPN_ADDITIONAL_PORTS
+          - PRIVOXY_ENABLED=false
+        volumes:
+          - /<host_folder_config>:/config
+        cap_add:
+          - NET_ADMIN
+        dns:
+          - 1.1.1.1
+        sysctls:
+          - net.ipv4.conf.all.src_valid_mark=1
+          - net.ipv6.conf.all.disable_ipv6=0
+    ```
 
 In most cases you'll need to add additional volumes, depending on your own personal preference, to get access to your files.
 

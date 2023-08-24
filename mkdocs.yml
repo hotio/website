@@ -10,10 +10,10 @@ extra:
     link: 'https://hotio.dev/discord'
     name: Discord
   - icon: fontawesome/brands/docker
-    link: 'https://hub.docker.com/u/hotio'
+    link: 'https://hotio.dev/dockerhub'
     name: Docker
   - icon: fontawesome/brands/github
-    link: 'https://github.com/hotio'
+    link: 'https://hotio.dev/github'
     name: GitHub
 
 extra_css:
@@ -25,8 +25,6 @@ plugins:
       redirect_maps:
         discord.md: 'https://discord.gg/FycMN9gTC3'
         dockerhub.md: 'https://hub.docker.com/u/hotio'
-        ghcr.md: 'https://github.com/orgs/hotio/packages?ecosystem=container&visibility=public'
-        quay.md: 'https://quay.io/user/hotio'
         github.md: 'https://github.com/hotio'
         donate.md: 'https://hotio.dev/#donations'
 
@@ -44,7 +42,10 @@ theme:
   features:
     - navigation.instant
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
+    - navigation.top
+    - navigation.footer
   language: en
   logo: img/hotio.svg
   name: material
@@ -103,5 +104,3 @@ nav:
   - Arr Discord Notifier: scripts/arr-discord-notifier.md
   - Pullio: scripts/pullio.md
 - FAQ: faq.md
-- Support: /discord
-- Donate: /donate

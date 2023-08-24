@@ -19,17 +19,15 @@ AllowedIPs = 0.0.0.0/1,128.0.0.0/1
 
 Next, you'll also need to add a device mapping.
 
-!!! docker ""
+=== "cli"
 
-    === "cli"
+    ```shell
+    --device /dev/net/tun:/dev/net/tun
+    ```
 
-        ```shell
-        --device /dev/net/tun:/dev/net/tun
-        ```
+=== "compose"
 
-    === "compose"
-
-        ```yaml
-        devices:
-          - /dev/net/tun:/dev/net/tun
-        ```
+    ```yaml
+    devices:
+      - /dev/net/tun:/dev/net/tun
+    ```

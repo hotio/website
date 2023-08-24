@@ -16,48 +16,46 @@ hide:
 
 ## Starting the container
 
-!!! docker ""
+=== "cli"
 
-    === "cli"
+    ```shell
+    docker run --rm \
+        --name caddy \
+        -p 80:8080 \
+        -p 443:8443 \
+        -e PUID=1000 \
+        -e PGID=1000 \
+        -e UMASK=002 \
+        -e TZ="Etc/UTC" \
+        -e CUSTOM_BUILD="" \
+        -v /<host_folder_config>:/config \
+        --cap-add=NET_ADMIN \
+        ghcr.io/hotio/caddy
+    ```
 
-        ```shell
-        docker run --rm \
-            --name caddy \
-            -p 80:8080 \
-            -p 443:8443 \
-            -e PUID=1000 \
-            -e PGID=1000 \
-            -e UMASK=002 \
-            -e TZ="Etc/UTC" \
-            -e CUSTOM_BUILD="" \
-            -v /<host_folder_config>:/config \
-            --cap-add=NET_ADMIN \
-            ghcr.io/hotio/caddy
-        ```
+=== "compose"
 
-    === "compose"
+    ```yaml
+    version: "3.7"
 
-        ```yaml
-        version: "3.7"
-
-        services:
-          caddy:
-            container_name: caddy
-            image: ghcr.io/hotio/caddy
-            ports:
-              - "80:8080"
-              - "443:8443"
-            environment:
-              - PUID=1000
-              - PGID=1000
-              - UMASK=002
-              - TZ=Etc/UTC
-              - CUSTOM_BUILD
-            volumes:
-              - /<host_folder_config>:/config
-            cap_add:
-              - NET_ADMIN
-        ```
+    services:
+      caddy:
+        container_name: caddy
+        image: ghcr.io/hotio/caddy
+        ports:
+          - "80:8080"
+          - "443:8443"
+        environment:
+          - PUID=1000
+          - PGID=1000
+          - UMASK=002
+          - TZ=Etc/UTC
+          - CUSTOM_BUILD
+        volumes:
+          - /<host_folder_config>:/config
+        cap_add:
+          - NET_ADMIN
+    ```
 
 ## Custom build
 

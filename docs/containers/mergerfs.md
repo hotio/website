@@ -12,20 +12,18 @@ hide:
 
 ## Starting the container
 
-!!! docker ""
+=== "cli"
 
-    === "cli"
-
-        ```shell
-        docker run --rm \
-            --init \
-            -v /<host_folder_branch_1>:/branch_1 \
-            -v /<host_folder_branch_2>:/branch_2 \
-            -v /<host_folder_mountpoint>:/mountpoint:shared \
-            --cap-add SYS_ADMIN \
-            --device /dev/fuse \
-            ghcr.io/hotio/mergerfs -o allow_other /branch_1 /branch_2 /mountpoint
-        ```
+    ```shell
+    docker run --rm \
+        --init \
+        -v /<host_folder_branch_1>:/branch_1 \
+        -v /<host_folder_branch_2>:/branch_2 \
+        -v /<host_folder_mountpoint>:/mountpoint:shared \
+        --cap-add SYS_ADMIN \
+        --device /dev/fuse \
+        ghcr.io/hotio/mergerfs -o allow_other /branch_1 /branch_2 /mountpoint
+    ```
 
 The default `ENTRYPOINT` is `mergerfs -f`.
 

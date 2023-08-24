@@ -12,40 +12,38 @@ hide:
 
 ## Starting the container
 
-!!! docker ""
+=== "cli"
 
-    === "cli"
+    ```shell
+    docker run --rm \
+        --name qbitmanage \
+        -e PUID=1000 \
+        -e PGID=1000 \
+        -e UMASK=002 \
+        -e TZ="Etc/UTC" \
+        -e ARGS="" \
+        -v /<host_folder_config>:/config \
+        ghcr.io/hotio/qbitmanage
+    ```
 
-        ```shell
-        docker run --rm \
-            --name qbitmanage \
-            -e PUID=1000 \
-            -e PGID=1000 \
-            -e UMASK=002 \
-            -e TZ="Etc/UTC" \
-            -e ARGS="" \
-            -v /<host_folder_config>:/config \
-            ghcr.io/hotio/qbitmanage
-        ```
+=== "compose"
 
-    === "compose"
+    ```yaml
+    version: "3.7"
 
-        ```yaml
-        version: "3.7"
-
-        services:
-          qbitmanage:
-            container_name: qbitmanage
-            image: ghcr.io/hotio/qbitmanage
-            environment:
-              - PUID=1000
-              - PGID=1000
-              - UMASK=002
-              - TZ=Etc/UTC
-              - ARGS
-            volumes:
-              - /<host_folder_config>:/config
-        ```
+    services:
+      qbitmanage:
+        container_name: qbitmanage
+        image: ghcr.io/hotio/qbitmanage
+        environment:
+          - PUID=1000
+          - PGID=1000
+          - UMASK=002
+          - TZ=Etc/UTC
+          - ARGS
+        volumes:
+          - /<host_folder_config>:/config
+    ```
 
 In most cases you'll need to add additional volumes, depending on your own personal preference, to get access to your files.
 
