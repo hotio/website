@@ -22,10 +22,10 @@ hide:
         -e PGID=1000 \
         -e UMASK=002 \
         -e TZ="Etc/UTC" \
-        -e PLEX_CLAIM="" \
-        -e ADVERTISE_IP="" \
-        -e ALLOWED_NETWORKS="" \
-        -e PLEX_PASS="no" \
+        -e PLEX_CLAIM_TOKEN="" \
+        -e PLEX_ADVERTISE_URL="" \
+        -e PLEX_NO_AUTH_NETWORKS="" \
+        -e PLEX_BETA_INSTALL="no" \
         -v /<host_folder_config>:/config \
         -v /<host_folder_transcode>:/transcode \
         ghcr.io/hotio/plex
@@ -47,10 +47,10 @@ hide:
           - PGID=1000
           - UMASK=002
           - TZ=Etc/UTC
-          - PLEX_CLAIM
-          - ADVERTISE_IP
-          - ALLOWED_NETWORKS
-          - PLEX_PASS=no
+          - PLEX_CLAIM_TOKEN
+          - PLEX_ADVERTISE_URL
+          - PLEX_NO_AUTH_NETWORKS
+          - PLEX_BETA_INSTALL=no
         volumes:
           - /<host_folder_config>:/config
           - /<host_folder_transcode>:/transcode
@@ -66,20 +66,20 @@ By default the container has 2 volumes defined, the volume `/config` that contai
 
 ## Claim your server
 
-Go to [plex.tv/claim](https://www.plex.tv/claim){: target=_blank rel="noopener noreferrer" } and login with your account, copy the claim code and add it to the environment variable like this `-e PLEX_CLAIM="claim-xxxxxxxxxxxxxxxxxxxx"`. When starting the new plex server for the first time, the server will be added to your account.
+Go to [plex.tv/claim](https://www.plex.tv/claim){: target=_blank rel="noopener noreferrer" } and login with your account, copy the claim token and add it to the environment variable like this `-e PLEX_CLAIM_TOKEN="claim-xxxxxxxxxxxxxxxxxxxx"`. When starting the new plex server for the first time, the server will be added to your account.
 
-## Plex Pass
+## Plex Beta
 
-If you are a Plex Pass subscriber, you can enable the install of beta builds with `-e PLEX_PASS="yes"`. When the container starts, a version check is done for the latest beta and installed if a newer version is found.
+If you are a Plex Pass subscriber, you can enable the install of beta builds with `-e PLEX_BETA_INSTALL="yes"`. When the container starts, a version check is done for the latest beta and installed if a newer version is found.
 
-## Environment variables ADVERTISE_IP and ALLOWED_NETWORKS
+## Environment variables PLEX_ADVERTISE_URL and PLEX_NO_AUTH_NETWORKS
 
 The variables correspond to the below plex network settings.
 
 ![Plex settings](../img/plex_settings.png "Plex settings")
 
-The variable `ADVERTISE_IP` is useful to aid your local clients in discovering your plex server when running in the `bridge` network mode. Most likely you would use something like `http://192.168.0.10:32400`. You could use `ALLOWED_NETWORKS` when you're locked out and need to regain access without providing credentials.
+The variable `PLEX_ADVERTISE_URL` is useful to aid your local clients in discovering your plex server when running in the `bridge` network mode. Most likely you would use something like `http://192.168.0.10:32400`. You could use `PLEX_NO_AUTH_NETWORKS` when you're locked out and need to regain access without providing credentials.
 
 ## TOP secret stuff
 
-If you do `-e PLEX_PASS="https://..."`, stuff happens for which no support will be given.
+If you do `-e PLEX_BETA_INSTALL="https://..."`, stuff happens for which no support will be given.
