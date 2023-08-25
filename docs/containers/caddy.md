@@ -12,8 +12,7 @@ hide:
 
 !!! question "What is this?"
 
-    A docker image with [Caddy 2](https://caddyserver.com){: target=_blank rel="noopener noreferrer" } (included module: [dns.providers.cloudflare](https://caddyserver.com/docs/modules/dns.providers.cloudflare)).  
-    Additionally `fail2ban`, `cron` and `logrotate` are also available.
+    A docker image with [Caddy 2](https://caddyserver.com){: target=_blank rel="noopener noreferrer" } (included module: [dns.providers.cloudflare](https://caddyserver.com/docs/modules/dns.providers.cloudflare)). Additionally `fail2ban`, `cron` and `logrotate` are also available.
 
 ## Starting the container
 
