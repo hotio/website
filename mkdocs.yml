@@ -46,6 +46,7 @@ theme:
     - navigation.sections
     - navigation.top
     - navigation.footer
+    - content.code.copy
   language: en
   logo: img/hotio.svg
   name: material
