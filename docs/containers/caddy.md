@@ -12,7 +12,7 @@ hide:
 
 !!! question "What is this?"
 
-    A docker image with [Caddy 2](https://caddyserver.com){: target=_blank rel="noopener noreferrer" } (included modules: [caddy-dns/cloudflare](https://github.com/caddy-dns/cloudflare), [mholt/caddy-ratelimit](https://github.com/mholt/caddy-ratelimit)).
+    A docker image with [Caddy 2](https://caddyserver.com){: target=_blank rel="noopener noreferrer" } (included modules: [caddy-dns/cloudflare](https://github.com/caddy-dns/cloudflare){: target=_blank rel="noopener noreferrer" }, [mholt/caddy-ratelimit](https://github.com/mholt/caddy-ratelimit){: target=_blank rel="noopener noreferrer" }).
 
 ## Starting the container
 
