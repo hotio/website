@@ -29,7 +29,6 @@ hide:
         -e TZ="Etc/UTC" \
         -e CUSTOM_BUILD="" \
         -v /<host_folder_config>:/config \
-        --cap-add=NET_ADMIN \
         ghcr.io/hotio/caddy
     ```
 
@@ -53,8 +52,6 @@ hide:
           - CUSTOM_BUILD
         volumes:
           - /<host_folder_config>:/config
-        cap_add:
-          - NET_ADMIN
     ```
 
 ## Custom build
