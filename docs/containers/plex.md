@@ -25,7 +25,7 @@ hide:
         -e PLEX_CLAIM_TOKEN="" \
         -e PLEX_ADVERTISE_URL="" \
         -e PLEX_NO_AUTH_NETWORKS="" \
-        -e PLEX_BETA_INSTALL="no" \
+        -e PLEX_BETA_INSTALL="false" \
         -v /<host_folder_config>:/config \
         -v /<host_folder_transcode>:/transcode \
         ghcr.io/hotio/plex
@@ -50,7 +50,7 @@ hide:
           - PLEX_CLAIM_TOKEN
           - PLEX_ADVERTISE_URL
           - PLEX_NO_AUTH_NETWORKS
-          - PLEX_BETA_INSTALL=no
+          - PLEX_BETA_INSTALL=false
         volumes:
           - /<host_folder_config>:/config
           - /<host_folder_transcode>:/transcode
@@ -70,7 +70,7 @@ Go to [plex.tv/claim](https://www.plex.tv/claim){: target=_blank rel="noopener n
 
 ## Plex Beta
 
-If you are a Plex Pass subscriber, you can enable the install of beta builds with `-e PLEX_BETA_INSTALL="yes"`. When the container starts, a version check is done for the latest beta and installed if a newer version is found.
+If you are a Plex Pass subscriber, you can enable the install of beta builds with `-e PLEX_BETA_INSTALL="true"`. When the container starts, a version check is done for the latest beta and installed if a newer version is found.
 
 ## Environment variables PLEX_ADVERTISE_URL and PLEX_NO_AUTH_NETWORKS
 
