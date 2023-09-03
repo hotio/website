@@ -18,7 +18,7 @@ $(function loadJSON() {
                 var latest = data.latest
                 var extraTag = ""
                 if (latest == true) {
-                    extraTag = "<code>" + image + ":latest</code><br>";
+                    extraTag = "<code>latest</code><br>";
                 }
                 $.getJSON('https://raw.githubusercontent.com/' + image + '/' + branch + '/TAGS.json', function(data) {
                     var tags = "";
@@ -26,7 +26,7 @@ $(function loadJSON() {
                     var last_updated = data.last_updated;
                     $.each(data.tags, function(i, f) {
                         tags = tags + ", " + f;
-                        tags_code = tags_code + "<code>" + image + ":" + f + "</code><br>";
+                        tags_code = tags_code + "<code>" + f + "</code><br>";
                     });
                     tags = tags.replace(/^,/, '');
                     var d = new Date(last_updated);
