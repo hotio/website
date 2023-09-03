@@ -169,3 +169,18 @@ a.header-icons {
   display: block;
   z-index: 100;
 }
+.tag-decoration {
+  border-color: rgb(245, 245, 245); /* Changing background color */
+  border: solid 1px;
+  border-radius: 7px; /* Making border radius */
+  margin-bottom: 5px;
+  width: auto; /* Making auto-sizable width */
+  height: auto; /* Making auto-sizable height */
+  padding: 2px 5px 2px 5px; /* Making space around letters */
+  font-size: .85em; /* Changing font size */
+  display: inline-flex;
+  font-family: "Roboto Mono", SFMono-Regular, Consolas, Menlo, monospace;
+}
+.tag-decoration-latest {
+  border-color: #ffb64c; /* Changing background color */
+}

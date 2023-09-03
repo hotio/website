@@ -1,6 +1,11 @@
 $(function loadJSON() {
     var image = document.getElementsByTagName("h1")[0].innerHTML;
     $.getJSON('https://cors.hotio.workers.dev/?https://api.github.com/repos/' + image + '/branches', function(data) {
+        data = data.sort((a, b) => {
+            if (a.name < b.name) {
+                return -1;
+            }
+        });
         $.each(data, function(i, f) {
             var branch = f.name;
             if (branch == "master") {
@@ -18,7 +23,7 @@ $(function loadJSON() {
                 var latest = data.latest
                 var extraTag = ""
                 if (latest == true) {
-                    extraTag = "<code>latest</code><br>";
+                    extraTag = "<div class=\"tag-decoration tag-decoration-latest\">latest</div><br>";
                 }
                 $.getJSON('https://raw.githubusercontent.com/' + image + '/' + branch + '/TAGS.json', function(data) {
                     var tags = "";
@@ -26,7 +31,7 @@ $(function loadJSON() {
                     var last_updated = data.last_updated;
                     $.each(data.tags, function(i, f) {
                         tags = tags + ", " + f;
-                        tags_code = tags_code + "<code>" + f + "</code><br>";
+                        tags_code = tags_code + "<div class=\"tag-decoration\">" + f + "</div><br>";
                     });
                     tags = tags.replace(/^,/, '');
                     var d = new Date(last_updated);
