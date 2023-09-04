@@ -1,11 +1,6 @@
 $(function loadJSON() {
     var image = document.getElementsByTagName("h1")[0].innerHTML;
     $.getJSON('https://cors.hotio.workers.dev/?https://api.github.com/repos/' + image + '/branches', function(data) {
-        data = data.sort((a, b) => {
-            if (a.name < b.name) {
-                return -1;
-            }
-        });
         $.each(data, function(i, f) {
             var branch = f.name;
             if (branch == "master") {
