@@ -20,7 +20,7 @@ $(function loadJSON() {
                 if (latest == true) {
                     extraTag = "<div class=\"tag-decoration tag-decoration-latest\">latest</div><br>";
                 }
-                $.getJSON('https://raw.githubusercontent.com/' + image + '/master/tag-' + branch + '.json', function(data) {
+                $.getJSON('https://raw.githubusercontent.com/' + image + '/master/tags-' + branch + '.json', function(data) {
                     var tags = "";
                     var tags_code = "";
                     var last_updated = data.last_updated;
