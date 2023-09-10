@@ -3,11 +3,7 @@ hide:
   - toc
 ---
 
-[:octicons-mark-github-16: GitHub](https://github.com/hotio/rflood){: .header-icons target=_blank rel="noopener noreferrer" }  
-[:octicons-container-16: docker.io](https://hub.docker.com/r/hotio/rflood){: .header-icons target=_blank rel="noopener noreferrer" }
- / [:octicons-container-16: ghcr.io](https://github.com/orgs/hotio/packages/container/package/rflood){: .header-icons target=_blank rel="noopener noreferrer" }  
-[:octicons-link-16: Upstream Project 1](https://github.com/jesec/rtorrent){: .header-icons target=_blank rel="noopener noreferrer" }
- / [:octicons-link-16: Upstream Project 2](https://github.com/jesec/flood){: .header-icons target=_blank rel="noopener noreferrer" }  
+--8<-- "includes/header-links.md"
 
 !!! question "What is this?"
 

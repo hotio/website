@@ -3,10 +3,7 @@ hide:
   - toc
 ---
 
-[:octicons-mark-github-16: GitHub](https://github.com/hotio/jackett){: .header-icons target=_blank rel="noopener noreferrer" }  
-[:octicons-container-16: docker.io](https://hub.docker.com/r/hotio/jackett){: .header-icons target=_blank rel="noopener noreferrer" }
- / [:octicons-container-16: ghcr.io](https://github.com/orgs/hotio/packages/container/package/jackett){: .header-icons target=_blank rel="noopener noreferrer" }  
-[:octicons-link-16: Upstream Project](https://github.com/jackett/jackett){: .header-icons target=_blank rel="noopener noreferrer" }  
+--8<-- "includes/header-links.md"
 
 ## Starting the container
 
