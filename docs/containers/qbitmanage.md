@@ -18,6 +18,7 @@ hide:
         -e TZ="Etc/UTC" \
         -e ARGS="" \
         -v /<host_folder_config>:/config \
+        -v /<host_folder_data>:/data \
         ghcr.io/hotio/qbitmanage
     ```
 
@@ -38,8 +39,7 @@ hide:
           - ARGS
         volumes:
           - /<host_folder_config>:/config
+          - /<host_folder_data>:/data
     ```
-
-In most cases you'll need to add additional volumes, depending on your own personal preference, to get access to your files.
 
 --8<-- "includes/tags.md"

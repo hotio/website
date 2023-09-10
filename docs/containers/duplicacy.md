@@ -21,6 +21,7 @@ hide:
         -v /<host_folder_config>:/config \
         -v /<host_folder_cache>:/cache \
         -v /<host_folder_logs>:/logs \
+        -v /<host_folder_data>:/data \
         ghcr.io/hotio/duplicacy
     ```
 
@@ -45,8 +46,9 @@ hide:
           - /<host_folder_config>:/config
           - /<host_folder_cache>:/cache
           - /<host_folder_logs>:/logs
+          - /<host_folder_data>:/data
     ```
 
-In most cases you'll need to add additional volumes, depending on your own personal preference, to get access to your files. If you don't want to enter your password every time you restart the container, you can set the environment variable `DWE_PASSWORD` with your password or starting with version 1.4.1 a file `/config/keyring` will be created that stores your password encryted if you click the checkmark on the login page.
+If you don't want to enter your password every time you restart the container, you can set the environment variable `DWE_PASSWORD` with your password or starting with version 1.4.1 a file `/config/keyring` will be created that stores your password encryted if you click the checkmark on the login page.
 
 --8<-- "includes/tags.md"

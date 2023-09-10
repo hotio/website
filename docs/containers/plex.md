@@ -23,6 +23,7 @@ hide:
         -e PLEX_BETA_INSTALL="false" \
         -v /<host_folder_config>:/config \
         -v /<host_folder_transcode>:/transcode \
+        -v /<host_folder_data>:/data \
         ghcr.io/hotio/plex
     ```
 
@@ -49,9 +50,8 @@ hide:
         volumes:
           - /<host_folder_config>:/config
           - /<host_folder_transcode>:/transcode
+          - /<host_folder_data>:/data
     ```
-
-In most cases you'll need to add additional volumes, depending on your own personal preference, to get access to your files.
 
 --8<-- "includes/tags.md"
 

@@ -23,6 +23,7 @@ hide:
         -e TZ="Etc/UTC" \
         -e FLOOD_AUTH="false" \
         -v /<host_folder_config>:/config \
+        -v /<host_folder_data>:/data \
         ghcr.io/hotio/rflood
     ```
 
@@ -45,6 +46,7 @@ hide:
           - FLOOD_AUTH=false
         volumes:
           - /<host_folder_config>:/config
+          - /<host_folder_data>:/data
     ```
 
 === "cli vpn"
@@ -65,6 +67,7 @@ hide:
         -e PRIVOXY_ENABLED="false" \
         -e FLOOD_AUTH="false" \
         -v /<host_folder_config>:/config \
+        -v /<host_folder_data>:/data \
         --cap-add=NET_ADMIN \
         --dns 1.1.1.1 \
         --sysctl="net.ipv4.conf.all.src_valid_mark=1" \
@@ -97,6 +100,7 @@ hide:
           - FLOOD_AUTH=false
         volumes:
           - /<host_folder_config>:/config
+          - /<host_folder_data>:/data
         cap_add:
           - NET_ADMIN
         dns:
@@ -105,8 +109,6 @@ hide:
           - net.ipv4.conf.all.src_valid_mark=1
           - net.ipv6.conf.all.disable_ipv6=0
     ```
-
-In most cases you'll need to add additional volumes, depending on your own personal preference, to get access to your files.
 
 --8<-- "includes/tags.md"
 

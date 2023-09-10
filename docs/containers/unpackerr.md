@@ -17,6 +17,7 @@ hide:
         -e UMASK=002 \
         -e TZ="Etc/UTC" \
         -v /<host_folder_config>:/config \
+        -v /<host_folder_data>:/data \
         ghcr.io/hotio/unpackerr
     ```
 
@@ -36,10 +37,11 @@ hide:
           - TZ=Etc/UTC
         volumes:
           - /<host_folder_config>:/config
+          - /<host_folder_data>:/data
     ```
 
 --8<-- "includes/tags.md"
 
 ## Configuration
 
-You can use docker environment variables or a configuration file that should be stored in `/config/unpackerr.conf`. Don't forget to mount your volume where Unpackerr should look to find your downloads. Take a look at the [upstream](https://github.com/davidnewhall/unpackerr){: target=_blank rel="noopener noreferrer" } project page for info on how to configure Unpackerr.
+You can use docker environment variables or a configuration file that should be stored in `/config/unpackerr.conf`. Take a look at the [upstream](https://github.com/davidnewhall/unpackerr){: target=_blank rel="noopener noreferrer" } project page for info on how to configure Unpackerr.
