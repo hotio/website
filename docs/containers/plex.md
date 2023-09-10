@@ -3,8 +3,6 @@ hide:
   - toc
 ---
 
-<div class="image-logo"><img src="/img/image-logos/plex.svg" alt="logo"></div>
-
 [:octicons-mark-github-16: GitHub](https://github.com/hotio/plex){: .header-icons target=_blank rel="noopener noreferrer" }  
 [:octicons-container-16: docker.io](https://hub.docker.com/r/hotio/plex){: .header-icons target=_blank rel="noopener noreferrer" }
  / [:octicons-container-16: ghcr.io](https://github.com/orgs/hotio/packages/container/package/plex){: .header-icons target=_blank rel="noopener noreferrer" }  

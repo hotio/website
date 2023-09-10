@@ -1,5 +1,3 @@
-<div class="pullio-banner"><img src="/img/pullio.svg" alt="pullio"/><div class="pullio-banner-text">Let's SPAM somebody!</div></div>
-
 [:material-github: GitHub](https://github.com/hotio/arr-discord-notifier){: .header-icons target=_blank rel="noopener noreferrer" }  
 
 Arr Discord Notifier sends pretty notifications to a discord webhook. The Radarr and Sonarr v3 (only v3 is supported) docker images come bundled with this script, but it can also be used on its own.

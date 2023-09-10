@@ -3,8 +3,6 @@ hide:
   - toc
 ---
 
-<div class="image-logo no-logo"><img src="/img/pullio.svg" alt="logo"></div>
-
 [:octicons-mark-github-16: GitHub](https://github.com/hotio/autoscan){: .header-icons target=_blank rel="noopener noreferrer" }  
 [:octicons-container-16: docker.io](https://hub.docker.com/r/hotio/autoscan){: .header-icons target=_blank rel="noopener noreferrer" }
  / [:octicons-container-16: ghcr.io](https://github.com/orgs/hotio/packages/container/package/autoscan){: .header-icons target=_blank rel="noopener noreferrer" }  

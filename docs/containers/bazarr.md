@@ -3,8 +3,6 @@ hide:
   - toc
 ---
 
-<div class="image-logo"><img src="/img/image-logos/bazarr.svg" alt="logo"></div>
-
 [:octicons-mark-github-16: GitHub](https://github.com/hotio/bazarr){: .header-icons target=_blank rel="noopener noreferrer" }  
 [:octicons-container-16: docker.io](https://hub.docker.com/r/hotio/bazarr){: .header-icons target=_blank rel="noopener noreferrer" }
  / [:octicons-container-16: ghcr.io](https://github.com/orgs/hotio/packages/container/package/bazarr){: .header-icons target=_blank rel="noopener noreferrer" }  

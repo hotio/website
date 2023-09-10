@@ -3,8 +3,6 @@ hide:
   - toc
 ---
 
-<div class="image-logo"><img src="/img/image-logos/radarr.svg" alt="logo"></div>
-
 [:octicons-mark-github-16: GitHub](https://github.com/hotio/radarr){: .header-icons target=_blank rel="noopener noreferrer" }  
 [:octicons-container-16: docker.io](https://hub.docker.com/r/hotio/radarr){: .header-icons target=_blank rel="noopener noreferrer" }
  / [:octicons-container-16: ghcr.io](https://github.com/orgs/hotio/packages/container/package/radarr){: .header-icons target=_blank rel="noopener noreferrer" }  
