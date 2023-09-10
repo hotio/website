@@ -24,11 +24,12 @@ $(function loadJSON() {
             var currentDate = new Date();
             var days = (d, currentDate) =>{
                 let difference = currentDate.getTime() - d.getTime();
-                let TotalDays = Math.ceil(difference / (1000 * 3600 * 24));
-                if (TotalDays ==  1) {
-                    return `${TotalDays} Day`;
+                let TotalDays = Math.floor(difference / (1000 * 3600 * 24));
+                if (TotalDays ==  0) {
+                    TotalDays = Math.floor(difference / (1000 * 3600 * 1));
+                    return `${TotalDays} hour(s)`;
                 } else {
-                    return `${TotalDays} Days`;
+                    return `${TotalDays} day(s)`;
                 }
             }
             var datestring = d.getFullYear() + "-" + (d.getMonth()+1).toString().padStart(2, '0') + "-" + d.getDate().toString().padStart(2, '0') + " " + d.getHours().toString().padStart(2, '0') + ":" + d.getMinutes().toString().padStart(2, '0') + ":" + d.getSeconds().toString().padStart(2, '0');
