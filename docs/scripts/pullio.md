@@ -1,4 +1,4 @@
-[:material-github: GitHub](https://github.com/hotio/pullio){: .header-icons target=_blank rel="noopener noreferrer" }  
+:material-github: [GitHub](https://github.com/hotio/pullio){: .header-icons target=_blank rel="noopener noreferrer" }  
 
 Updating your docker containers the easy way.
 
