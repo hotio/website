@@ -55,7 +55,7 @@ Under certain circumstances it's required to run the WebUI on a different intern
 
 ## VueTorrent
 
-[<img src="/img/vuetorrentui.png" alt="vuetorrentui">](https://github.com/WDaan/VueTorrent){: target=_blank rel="noopener noreferrer" }
+<img src="/img/vuetorrentui.png" alt="vuetorrentui" width="300">
 
 This image comes bundled with the alternative Web UI VueTorrent, to enable it you'll have to adjust your settings like pictured below.
 
