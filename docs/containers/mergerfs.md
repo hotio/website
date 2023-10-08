@@ -17,7 +17,7 @@ hide:
         -v /<host_folder_mountpoint>:/mountpoint:shared \
         --cap-add SYS_ADMIN \
         --device /dev/fuse \
-        ghcr.io/hotio/mergerfs -o allow_other /branch_1 /branch_2 /mountpoint
+        ghcr.io/hotio/mergerfs -o allow_other /branch_1:/branch_2 /mountpoint
     ```
 
 The default `ENTRYPOINT` is `mergerfs -f`.
