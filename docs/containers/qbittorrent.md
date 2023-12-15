@@ -124,7 +124,7 @@ This image comes bundled with the alternative Web UI VueTorrent, to enable it yo
 
 --8<-- "includes/wireguard.md"
 
-## Synology (WireGuard Go)
+## Synology and QNAP (WireGuard Go)
 
 === "cli"
 
