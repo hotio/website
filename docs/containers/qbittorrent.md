@@ -43,10 +43,6 @@ hide:
           - /<host_folder_data>:/data
     ```
 
-!!! info "Login credentials"
-
-    The default qBittorrent username is `admin` and the default password is `adminadmin`. If this doesn't work you're probably running Unraid and you'll most likely have to change the internal port on which the WebUI runs to match the external port.
-
 --8<-- "includes/tags.md"
 
 ## Changing the WebUI port
