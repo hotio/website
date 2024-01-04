@@ -102,6 +102,6 @@ nav:
   - Base Images:
     - hotio/base: containers/base.md
 - Scripts:
-  - Arr Discord Notifier: scripts/arr-discord-notifier.md
   - Pullio: scripts/pullio.md
+  - Arr Discord Notifier: scripts/arr-discord-notifier.md
 - FAQ: faq.md
