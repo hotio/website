@@ -21,6 +21,7 @@ hide:
         -e PLEX_ADVERTISE_URL="" \
         -e PLEX_NO_AUTH_NETWORKS="" \
         -e PLEX_BETA_INSTALL="false" \
+        -e PLEX_PURGE_CODECS="false" \
         -v /<host_folder_config>:/config \
         -v /<host_folder_transcode>:/transcode \
         -v /<host_folder_data>:/data \
@@ -47,6 +48,7 @@ hide:
           - PLEX_ADVERTISE_URL
           - PLEX_NO_AUTH_NETWORKS
           - PLEX_BETA_INSTALL=false
+          - PLEX_PURGE_CODECS=false
         volumes:
           - /<host_folder_config>:/config
           - /<host_folder_transcode>:/transcode
