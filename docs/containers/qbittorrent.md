@@ -49,11 +49,9 @@ hide:
 
 Under certain circumstances it's required to run the WebUI on a different internal port, you can do that by modifying the environment variable `WEBUI_PORTS` accordingly. It should be in the format `xxxx/tcp,xxxx/udp`, take a look at the default with `docker logs` (variable is printed at container start) or `docker inspect`.
 
-## VueTorrent
+## Alternative Web UI
 
-<img src="/img/vuetorrentui.png" alt="vuetorrentui" width="300">
-
-This image comes bundled with the alternative Web UI VueTorrent, to enable it you'll have to adjust your settings like pictured below.
+This image comes bundled with the alternative Web UI VueTorrent (`/app/vuetorrent`) and Nightwalker (`/app/nightwalker`), to enable them you'll have to adjust the setting pictured below.
 
 <img src="/img/vuetorrentsettings.png" alt="vuetorrentsettings" width="300">
 
