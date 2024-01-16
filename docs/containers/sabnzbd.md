@@ -44,3 +44,7 @@ hide:
     ```
 
 --8<-- "includes/tags.md"
+
+## Scripts
+
+The script [nzb-notify](https://github.com/caronc/nzb-notify) is included in this image, you can find the script in the folder `/app-scripts`. First point your SABnzbd script folder setting to the previously mentioned location, next enable the script notification setting and pick `sabnzbd-notify.py`.
