@@ -51,7 +51,7 @@ Under certain circumstances it's required to run the WebUI on a different intern
 
 ## Alternative Web UI
 
-This image comes bundled with the alternative Web UI [VueTorrent](https://github.com/WDaan/VueTorrent) (`/app/vuetorrent`) and [Nightwalker](https://github.com/CallMeBruce/nightwalker) (`/app/nightwalker`).
+This image comes bundled with the alternative Web UI [VueTorrent](https://github.com/VueTorrent/VueTorrent) (`/app/vuetorrent`) and [Nightwalker](https://github.com/CallMeBruce/nightwalker) (`/app/nightwalker`).
 
 ## WireGuard VPN
 
