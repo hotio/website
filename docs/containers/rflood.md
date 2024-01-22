@@ -69,6 +69,7 @@ Under certain circumstances it's required to run the WebUI on a different intern
         -e UMASK=002 \
         -e TZ="Etc/UTC" \
         -e VPN_ENABLED="true" \
+        -e VPN_PROVIDER="generic" \
         -e VPN_LAN_NETWORK="192.168.1.0/24" \
         -e VPN_CONF="wg0" \
         -e VPN_ADDITIONAL_PORTS="" \
@@ -101,6 +102,7 @@ Under certain circumstances it's required to run the WebUI on a different intern
           - UMASK=002
           - TZ=Etc/UTC
           - VPN_ENABLED=true
+          - VPN_PROVIDER=generic
           - VPN_LAN_NETWORK=192.168.1.0/24
           - VPN_CONF=wg0
           - VPN_ADDITIONAL_PORTS
@@ -134,6 +136,7 @@ Under certain circumstances it's required to run the WebUI on a different intern
         -e UMASK=002 \
         -e TZ="Etc/UTC" \
         -e VPN_ENABLED="true" \
+        -e VPN_PROVIDER="generic" \
         -e VPN_LAN_NETWORK="192.168.1.0/24" \
         -e VPN_CONF="wg0" \
         -e VPN_ADDITIONAL_PORTS="" \
@@ -167,6 +170,7 @@ Under certain circumstances it's required to run the WebUI on a different intern
           - UMASK=002
           - TZ=Etc/UTC
           - VPN_ENABLED=true
+          - VPN_PROVIDER=generic
           - VPN_LAN_NETWORK=192.168.1.0/24
           - VPN_CONF=wg0
           - VPN_ADDITIONAL_PORTS
