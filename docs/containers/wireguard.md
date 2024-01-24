@@ -1,4 +1,7 @@
-## WireGuard VPN
+---
+hide:
+  - toc
+---
 
 === "cli"
 
