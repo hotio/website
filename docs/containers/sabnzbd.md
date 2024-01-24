@@ -16,6 +16,7 @@ hide:
         -e PUID=1000 \
         -e PGID=1000 \
         -e UMASK=002 \
+        -e ARGS="" \
         -e TZ="Etc/UTC" \
         -v /<host_folder_config>:/config \
         -v /<host_folder_data>:/data \
@@ -38,6 +39,7 @@ hide:
           - PGID=1000
           - UMASK=002
           - TZ=Etc/UTC
+          - ARGS
         volumes:
           - /<host_folder_config>:/config
           - /<host_folder_data>:/data
