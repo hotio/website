@@ -7,7 +7,6 @@ hide:
 
     ```shell
     docker run --rm \
-        ...
         -e VPN_ENABLED="true" \
         -e VPN_PROVIDER="generic" \
         -e VPN_LAN_NETWORK="192.168.1.0/24" \
@@ -28,7 +27,6 @@ hide:
 
     services:
       app:
-        ...
         environment:
           - VPN_ENABLED=true
           - VPN_PROVIDER=generic
@@ -81,7 +79,6 @@ Endpoint = xxx.x.xxx.x:51820
 
     ```shell
     docker run --rm \
-        ...
         -e VPN_ENABLED="true" \
         -e VPN_PROVIDER="generic" \
         -e VPN_LAN_NETWORK="192.168.1.0/24" \
@@ -103,7 +100,6 @@ Endpoint = xxx.x.xxx.x:51820
 
     services:
       app:
-        ...
         environment:
           - VPN_ENABLED=true
           - VPN_PROVIDER=generic
