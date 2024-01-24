@@ -72,6 +72,8 @@ markdown_extensions:
 nav:
 - Home: index.md
 - Containers:
+  - WireGuard:
+    - Instructions: containers/wireguard.md
   - Apps:
     - hotio/autoscan: containers/autoscan.md
     - hotio/bazarr: containers/bazarr.md
