@@ -3,6 +3,8 @@ hide:
   - toc
 ---
 
+All images (except `hotio/mergerfs`) come with WireGuard VPN support built-in. The cli/compose examples, are additional to the app configs.
+
 === "cli"
 
     ```shell
@@ -44,8 +46,6 @@ hide:
         ...
     ```
 
-All images (except `hotio/mergerfs`) come with WireGuard VPN support built-in. The cli/compose examples, are additional to the app configs.
-
 There needs to be a file `wg0.conf` located in `/config/wireguard` and you need to set the variable `VPN_ENABLED` to `true` for the VPN to start.
 
 With `net.ipv6.conf.all.disable_ipv6=1` you can enable ipv6 support by setting the value to `0`. Leave ipv6 disabled and remove all references to it in your `wg0.conf` file to keep things simple, but keep in mind that the option is there if you need it.
@@ -74,6 +74,8 @@ Endpoint = xxx.x.xxx.x:51820
     If you are seeing an error message like `mv: cannot move '/etc/resolv.conf.173.openresolv' to '/etc/resolv.conf': Resource busy`. Remove the `DNS = 1.1.1.1` from your `wg0.conf` file and set the dns server using the docker cli argument `--dns 1.1.1.1` or the equivalent for compose. This should be done if you were following past instructions.
 
 ## WireGuard Go (Synology and QNAP)
+
+This image includes `wireguard-go`, the Go implementation of WireGuard which runs in userspace. Systems like Synology, Qnap or others with missing kernel modules can make use of this to establish a WireGuard VPN connection.
 
 === "cli"
 
@@ -118,8 +120,6 @@ Endpoint = xxx.x.xxx.x:51820
           - /dev/net/tun:/dev/net/tun
         ...
     ```
-
-This image includes `wireguard-go`, the Go implementation of WireGuard which runs in userspace. Systems like Synology, Qnap or others with missing kernel modules can make use of this to establish a WireGuard VPN connection.
 
 This is an example of how your `wg0.conf` file should look like. If there's a lot of extra stuff, remove it unless you know what it's there for. Don't forget to add `PreUp` and adjust `ÀllowedIPs`.
 
