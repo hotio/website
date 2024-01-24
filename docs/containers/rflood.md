@@ -22,6 +22,8 @@ hide:
         -e UMASK=002 \
         -e TZ="Etc/UTC" \
         -e FLOOD_AUTH="false" \
+        -e ARGS="" \
+        -e FLOOD_ARGS="" \
         -v /<host_folder_config>:/config \
         -v /<host_folder_data>:/data \
         ghcr.io/hotio/rflood
@@ -44,6 +46,8 @@ hide:
           - UMASK=002
           - TZ=Etc/UTC
           - FLOOD_AUTH=false
+          - ARGS
+          - FLOOD_ARGS
         volumes:
           - /<host_folder_config>:/config
           - /<host_folder_data>:/data
