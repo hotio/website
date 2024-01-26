@@ -14,6 +14,10 @@ All images (except `hotio/mergerfs`) come with WireGuard VPN support built-in. T
         -e VPN_LAN_NETWORK="192.168.1.0/24" \
         -e VPN_CONF="wg0" \
         -e VPN_ADDITIONAL_PORTS="" \
+        -e VPN_AUTO_PORT_FORWARD="true" \
+        -e VPN_PIA_USER="" \
+        -e VPN_PIA_PASS="" \
+        -e VPN_PIA_PREFERRED_REGION="" \
         -e PRIVOXY_ENABLED="false" \
         --cap-add=NET_ADMIN \
         --dns 1.1.1.1 \
@@ -35,6 +39,10 @@ All images (except `hotio/mergerfs`) come with WireGuard VPN support built-in. T
           - VPN_LAN_NETWORK=192.168.1.0/24
           - VPN_CONF=wg0
           - VPN_ADDITIONAL_PORTS
+          - VPN_AUTO_PORT_FORWARD=true
+          - VPN_PIA_USER
+          - VPN_PIA_PASS
+          - VPN_PIA_PREFERRED_REGION
           - PRIVOXY_ENABLED=false
         cap_add:
           - NET_ADMIN
@@ -50,7 +58,9 @@ There needs to be a file `wg0.conf` located in `/config/wireguard` and you need 
 
 With `net.ipv6.conf.all.disable_ipv6=1` you can enable ipv6 support by setting the value to `0`. Leave ipv6 disabled and remove all references to it in your `wg0.conf` file to keep things simple, but keep in mind that the option is there if you need it.
 
-Those who use ProtonVPN and would like to have port forwarding support, should set the var `VPN_PROVIDER` to `proton`. The forwarded port will be automatically set in the torrent client.
+Those who use ProtonVPN and would like to have port forwarding support, should set the var `VPN_PROVIDER` to `proton`. The forwarded port will be automatically set in the torrent client if `VPN_AUTO_PORT_FORWARD` is set to `true`.
+
+For PIA you set `VPN_PROVIDER` to `pia`, if no wireguard config is found, one will be fetched for you. Port forwarding can be enabled/disabled with `VPN_AUTO_PORT_FORWARD`.
 
 The environment variable `VPN_LAN_NETWORK` can be set to for example `192.168.1.0/24`, `192.168.1.0/24,192.168.44.0/24` or `192.168.1.33`, so you can get access to the webui or other additional ports (see below). If for example you were to pick `192.168.0.0/24`, every device with an ip in the range `192.168.0.0 - 192.168.0.255` on your LAN is allowed access to the webui.
 
@@ -86,6 +96,10 @@ This image includes `wireguard-go`, the Go implementation of WireGuard which run
         -e VPN_LAN_NETWORK="192.168.1.0/24" \
         -e VPN_CONF="wg0" \
         -e VPN_ADDITIONAL_PORTS="" \
+        -e VPN_AUTO_PORT_FORWARD="true" \
+        -e VPN_PIA_USER="" \
+        -e VPN_PIA_PASS="" \
+        -e VPN_PIA_PREFERRED_REGION="" \
         -e PRIVOXY_ENABLED="false" \
         --cap-add=NET_ADMIN \
         --dns 1.1.1.1 \
@@ -108,6 +122,10 @@ This image includes `wireguard-go`, the Go implementation of WireGuard which run
           - VPN_LAN_NETWORK=192.168.1.0/24
           - VPN_CONF=wg0
           - VPN_ADDITIONAL_PORTS
+          - VPN_AUTO_PORT_FORWARD=true
+          - VPN_PIA_USER
+          - VPN_PIA_PASS
+          - VPN_PIA_PREFERRED_REGION
           - PRIVOXY_ENABLED=false
         cap_add:
           - NET_ADMIN
