@@ -62,6 +62,8 @@ Those who use ProtonVPN and would like to have port forwarding support, should s
 
 For PIA you set `VPN_PROVIDER` to `pia`, if no wireguard config is found, one will be fetched for you. Port forwarding can be enabled/disabled with `VPN_AUTO_PORT_FORWARD`.
 
+For TorGuard, see [TRaSH's Guide](https://trash-guides.info/Misc/How-to-setup-Torguard-for-port-forwarding/){: target=_blank rel="noopener noreferrer" } for setting up your forwarded ports. `VPN_PROVIDER` is not needed in this case.
+
 The environment variable `VPN_LAN_NETWORK` can be set to for example `192.168.1.0/24`, `192.168.1.0/24,192.168.44.0/24` or `192.168.1.33`, so you can get access to the webui or other additional ports (see below). If for example you were to pick `192.168.0.0/24`, every device with an ip in the range `192.168.0.0 - 192.168.0.255` on your LAN is allowed access to the webui.
 
 If you need to expose ports on your LAN you can use `VPN_ADDITIONAL_PORTS`. For example `VPN_ADDITIONAL_PORTS=7878/tcp,9117/tcp`, will block those ports on the vpn interface, so that there's no risk that they might be exposed to the world and allow access to them from your LAN. Some images also have a `WEBUI_PORTS` environment variable that does basically the same for the vpn part. For those apps that support it, it'll also change the port on which the app runs.
@@ -139,7 +141,7 @@ This image includes `wireguard-go`, the Go implementation of WireGuard which run
         ...
     ```
 
-This is an example of how your `wg0.conf` file should look like. If there's a lot of extra stuff, remove it unless you know what it's there for. Don't forget to add `PreUp` and adjust `ÀllowedIPs`.
+This is an example of how your `wg0.conf` file should look like. If there's a lot of extra stuff, remove it unless you know what it's there for. Don't forget to add `PreUp` and adjust `ÀllowedIPs` to be exactly as shown below. (Syno and QNAP won't work with the default `0.0.0.0/0`)
 
 ```text
 [Interface]
