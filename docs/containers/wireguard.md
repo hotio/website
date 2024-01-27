@@ -139,7 +139,7 @@ This image includes `wireguard-go`, the Go implementation of WireGuard which run
         ...
     ```
 
-This is an example of how your `wg0.conf` file should look like. If there's a lot of extra stuff, remove it unless you know what it's there for. Don't forget to add `PreUp` and adjust `ÀllowedIPs` to be exactly as shown below. (Syno and QNAP won't work with the default `0.0.0.0/0`)
+This is an example of how your `wg0.conf` file should look like. If there's a lot of extra stuff, remove it unless you know what it's there for. Don't forget to add `PreUp` and adjust `ÀllowedIPs` to be exactly as shown below. Syno and QNAP won't work with the default `0.0.0.0/0`.
 
 ```text
 [Interface]
