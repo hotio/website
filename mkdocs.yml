@@ -90,6 +90,7 @@ nav:
     - hotio/jellyseerr: containers/jellyseerr.md
     - hotio/lidarr: containers/lidarr.md
     - hotio/mergerfs: containers/mergerfs.md
+    - hotio/nzbget: containers/nzbget.md
     - hotio/nzbhydra2: containers/nzbhydra2.md
     - hotio/overseerr: containers/overseerr.md
     - hotio/plex: containers/plex.md
