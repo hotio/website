@@ -18,7 +18,7 @@
 
         ```shell linenums="1"
         docker run --rm \
-            --hostname container-name.internal \ #(16)
+            --hostname container-name.internal \ #(18)
             -e VPN_ENABLED="true" \ #(5)
             -e VPN_CONF="wg0" \ # READ THIS(8)
             -e VPN_PROVIDER="generic" \ #(4)
@@ -44,7 +44,7 @@
         ```yaml linenums="1"
         services:
           app:
-            hostname: container-name.internal #(16)
+            hostname: container-name.internal #(18)
             environment:
               - VPN_ENABLED=true #(5)
               - VPN_CONF=wg0 # READ THIS(8)
@@ -75,7 +75,7 @@
 
         ```shell linenums="1"
         docker run --rm \
-            --hostname container-name.internal \ #(16)
+            --hostname container-name.internal \ #(18)
             -e VPN_ENABLED="true" \ #(5)
             -e VPN_CONF="wg0" \ # READ THIS(8)
             -e VPN_PROVIDER="proton" \ #(4)
@@ -101,7 +101,7 @@
         ```yaml linenums="1"
         services:
           app:
-            hostname: container-name.internal #(16)
+            hostname: container-name.internal #(18)
             environment:
               - VPN_ENABLED=true #(5)
               - VPN_CONF=wg0 # READ THIS(8)
@@ -132,7 +132,7 @@
 
         ```shell linenums="1"
         docker run --rm \
-            --hostname container-name.internal \ #(16)
+            --hostname container-name.internal \ #(18)
             -e VPN_ENABLED="true" \ #(5)
             -e VPN_CONF="wg0" \ # READ THIS(8)
             -e VPN_PROVIDER="pia" \ #(4)
@@ -163,7 +163,7 @@
         ```yaml linenums="1"
         services:
           app:
-            hostname: container-name.internal #(16)
+            hostname: container-name.internal #(18)
             environment:
               - VPN_ENABLED=true #(5)
               - VPN_CONF=wg0 # READ THIS(8)
