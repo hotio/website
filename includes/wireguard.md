@@ -2,7 +2,7 @@
 
 !!! info
 
-    This image includes VPN support. The cli/compose examples below are environment variables and settings complementary to the app image examples. In case you are still in need of a VPN, consider using my affiliate link for [Proton](https://hotio.dev/proton){: target=_blank rel="noopener" } or [Private Internet Access](https://hotio.dev/pia){: target=_blank rel="noopener" }.
+    This image includes VPN support. The cli/compose examples below are environment variables and settings complementary to the app image examples. In case you are still in need of a VPN, consider using my affiliate link for [Proton](https://hotio.dev/proton){: target=_blank rel="noopener" }, [Private Internet Access](https://hotio.dev/pia){: target=_blank rel="noopener" } or [TorGuard](https://hotio.dev/torguard){: target=_blank rel="noopener" } (50% Off: `hotio.dev-50-all`).
   
 <img src="https://go.getproton.me/aff_i?offer_id=26&aff_id=7223" width="0" height="0" style="position:absolute;visibility:hidden;" border="0" />
 <a href="https://hotio.dev/proton" target="_blank" rel="noopener">
@@ -10,6 +10,9 @@
 </a>
 <a href="https://hotio.dev/pia" target="_blank" rel="noopener">
   <img id="vpnbanner" src="/img/piavpn728x90.png" alt="PiaVPN" width="404" height="50">
+</a>
+<a href="https://hotio.dev/torguard" target="_blank" rel="noopener" title="50% Off: hotio.dev-50-all">
+  <img id="vpnbanner" src="/img/torguard.jpg" alt="TorGuard" width="197" height="50">
 </a>
 
 === "generic"
