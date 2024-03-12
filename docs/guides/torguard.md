@@ -1,3 +1,13 @@
+
+!!! info "Affiliate Info"
+
+    Affiliate link for [TorGuard](https://hotio.dev/torguard){: target=_blank rel="noopener" }.  
+    Get a 50% discount, with code: `hotio.dev-50-all`.
+  
+    <a href="https://hotio.dev/torguard" target="_blank" rel="noopener" title="50% Off: hotio.dev-50-all">
+    <img id="vpnbanner" src="/img/torguard.jpg" alt="TorGuard" width="197" height="50">
+    </a>
+
 Here are the required steps we need to take in order to get a WireGuard `conf` file with port forwarding enabled.
 
 ## Changing Service Credentials
