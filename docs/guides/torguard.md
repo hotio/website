@@ -45,7 +45,7 @@ You'll see the below page, fill in the form as shown. You can pick your own port
 
 <img id="torguardImages" src="/img/torguard_port_forward_request.png" alt="TorGuard Port Forward Request">
 
-Hit `Submit Request`. You'll see the following output:
+Hit `Submit Request`. You'll see the following output if you scroll down.
 
 <img id="torguardImages" src="/img/torguard_port_request_status.png" alt="TorGuard Port Request Status">
 
