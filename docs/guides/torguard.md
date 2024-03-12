@@ -2,7 +2,7 @@ Here are the required steps we need to take in order to get a WireGuard `conf` f
 
 ## Changing Service Credentials
 
-First we're going to change the default credentials under [Manage Credentials](https://torguard.net/clientarea.php?action=changepw). This step is optional though if you've already done it or wish to keep using the defaults.
+First we're going to change the default credentials under [Manage Credentials](https://torguard.net/clientarea.php?action=changepw){: target=_blank rel="noopener" }. This step is optional though if you've already done it or wish to keep using the defaults.
 
 <img id="torguardImages" src="/img/torguard_credentials.png" alt="TorGuard Credentials">
 
@@ -12,7 +12,7 @@ Hit `Generate Random Login`. After it's done, save the credentials. We'll need t
 
 ## Config Generator
 
-We'll generate a new WireGuard config on the [Config Generator](https://torguard.net/tgconf.php?action=vpn-openvpnconfig) page. Fill in the details like shown below, use your own server preference.
+We'll generate a new WireGuard config on the [Config Generator](https://torguard.net/tgconf.php?action=vpn-openvpnconfig){: target=_blank rel="noopener" } page. Fill in the details like shown below, use your own server preference.
 
 <img id="torguardImages" src="/img/torguard_config_generator.png" alt="TorGuard Config Generator">
 
@@ -51,10 +51,10 @@ Hit `Submit Request`. You'll see the following output:
 
 ## Re-Generate WireGuard Config
 
-After having requested the port forward, we'll have to re-generate our config. Go to the [Config Generator](https://torguard.net/tgconf.php?action=vpn-openvpnconfig) and make sure it's set like below.
+After having requested the port forward, we'll have to re-generate our config. Go to the [Config Generator](https://torguard.net/tgconf.php?action=vpn-openvpnconfig){: target=_blank rel="noopener" } and make sure it's set like below.
 
 <img id="torguardImages" src="/img/torguard_config_generator_second.png" alt="TorGuard Config Generator Second">
 
-Hit `Generate Config`. Start the VPN image with the updated `conf` file and do a port check on [YouGetSignal](https://www.yougetsignal.com/tools/open-ports). You'll see that our port is open and ready to receive traffic.
+Hit `Generate Config`. Start the VPN image with the updated `conf` file and do a port check on [YouGetSignal](https://www.yougetsignal.com/tools/open-ports){: target=_blank rel="noopener" }. You'll see that our port is open and ready to receive traffic.
 
 <img id="torguardImages" src="/img/torguard_yougetsignal.png" alt="TorGuard YouGetSignal">
