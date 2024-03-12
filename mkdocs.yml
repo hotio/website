@@ -108,6 +108,8 @@ nav:
     - hotio/tautulli: containers/tautulli.md
     - hotio/unpackerr: containers/unpackerr.md
     - hotio/whisparr: containers/whisparr.md
+- Guides:
+  - TorGuard: guides/torguard.md
 - Scripts:
   - Pullio: scripts/pullio.md
   - Arr Discord Notifier: scripts/arr-discord-notifier.md
