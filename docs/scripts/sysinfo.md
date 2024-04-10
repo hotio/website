@@ -10,11 +10,12 @@ Features:
 - `ups info`, the important you need to know about your NUT supported UPS
 - `docker`, see how your docker containers are doing
 - `virtual machines`, keep an eye on which vm is running
+- `systemd services`, services added in the config will show up
 - `smb shares`, what folder is exported and who has access, you can see it here
+- `network traffic`, if vnstat is available, you can see it here
 - `memory usage`, see your usage before your system experiences a OOM failure
 - `disk space usage`, the same as with memory, but for disk space
 - `physical drives`, spot drive health before it's too late
-- `network traffic`, if vnstat is available, you can see it here
 
 ## Installation
 
