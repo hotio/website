@@ -23,7 +23,7 @@ sudo curl -fsSL "https://raw.githubusercontent.com/hotio/sysinfo.sh/master/sysin
 sudo chmod +x /usr/local/bin/sysinfo
 ```
 
-Now execute it.
+Now execute it with `sudo` or as `root`.
 
 ## Preview
 
