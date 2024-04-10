@@ -23,6 +23,10 @@ sudo curl -fsSL "https://raw.githubusercontent.com/hotio/sysinfo.sh/master/sysin
 sudo chmod +x /usr/local/bin/sysinfo
 ```
 
+## Config
+
+Check the script's content for the config section and available settings. Any of those settings can also be placed in a file `/etc/default/hotio-sysinfo` to allow for script updates without losing the config.
+
 Now execute it with `sudo` or as `root`.
 
 ## Preview
