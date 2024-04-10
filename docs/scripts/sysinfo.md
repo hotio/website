@@ -7,7 +7,7 @@ Features:
 - `system info`, basic info about your system like uptime and load, on `apt-get` based systems it'll also show amount of available updates
 - `ip addresses`, all the global ip addresses easily viewable
 - `thermals`, get a few temperatures from the kernel provided thermal zones
-- `ups info`, the important you need to know about your NUT supported UPS
+- `ups info`, the important stuff you need to know about your NUT supported UPS
 - `docker`, see how your docker containers are doing
 - `virtual machines`, keep an eye on which vm is running
 - `systemd services`, services added in the config will show up
