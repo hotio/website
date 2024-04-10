@@ -111,6 +111,7 @@ nav:
 - Guides:
   - TorGuard: guides/torguard.md
 - Scripts:
+  - SysInfo: scripts/sysinfo.md
   - Pullio: scripts/pullio.md
   - Arr Discord Notifier: scripts/arr-discord-notifier.md
 - FAQ: faq.md
