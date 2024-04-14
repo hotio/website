@@ -59,8 +59,14 @@ hide:
 
 Under certain circumstances it's required to run the WebUI on a different internal port, you can do that by modifying the environment variable `WEBUI_PORTS` accordingly. It should be in the format `xxxx/tcp,xxxx/udp`, take a look at the default with `docker logs` (variable is printed at container start) or `docker inspect`.
 
-## XML-RPC
+## XML-RPC / JSON-RPC
 
-On port `5000` runs Nginx exposing `/RPC2`. Default credentials are shown on first start, `localhost` doesn't need credentials.
+On port `5000` runs Nginx exposing the `/RPC2`, `/JSONRPC` and `/RPC` endpoints. Default credentials are shown on first start in the log output, `localhost` doesn't need credentials (xmlrpc tool is included). To reset the password, remove or modify `/config/rpc2/basic_auth_credentials`.
+
+```text
+/RPC2    >> header 'Content-Type' forced to 'text/xml'
+/JSONRPC >> header 'Content-Type' forced to 'application/json-rpc'
+/RPC     >> header 'Content-Type' not modified
+```
 
 --8<-- "includes/wireguard.md"
