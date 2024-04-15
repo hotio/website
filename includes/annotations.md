@@ -12,7 +12,7 @@
 
 7. By default a random server is used, but if you prefer a certain region you can fill in the region id. A list of available regions can be found in `/config/wireguard` after the first start. If you're seeing an error message `shuf: getrandom: Function not implemented`, you can't let it pick one randomly and are forced to fill in a region id.
 
-8. With `VPN_CONF` you can set the name used for your WireGuard config. This is an example of how your `wg0.conf` file should look like. If there's a lot of extra stuff, remove it unless you know what it's there for. The WireGuard config is automatically modified to use `AllowedIPs = 0.0.0.0/1,128.0.0.0/1` for compatibility with Synology/QNAP/Asustor systems if you append `-fix`, so `VPN_CONF=wg0-fix`.
+8. With `VPN_CONF` you can set the name used for your WireGuard config. This is an example of how your `wg0.conf` file should look like. If there's a lot of extra stuff, remove it unless you know what it's there for. The WireGuard config is automatically modified to use `AllowedIPs = 0.0.0.0/1,128.0.0.0/1` for compatibility with Synology/QNAP/Asustor/WSL2 systems if you append `-fix`, so `VPN_CONF=wg0-fix`. WSL2 users can also compile their own kernel if they don't wanna use this workaround.
 ```text
 [Interface]
 PrivateKey = supersecretprivatekey
