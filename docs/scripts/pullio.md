@@ -61,7 +61,7 @@ If you need to provide credentials for a Private Registry, this file's content n
 
 !!! info
 
-    Don't forget to do `cd /path/of/compose/file` and `docker compose up-d` after adding the labels. The use of `-f` is not supported.
+    Don't forget to do `cd /path/of/compose/file` and `docker compose up -d` after adding the labels. The use of `-f` is not supported.
 
 ## Troubleshooting
 
