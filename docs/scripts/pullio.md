@@ -2,7 +2,7 @@
 
 Updating your docker containers the easy way.
 
-[Pullio](https://raw.githubusercontent.com/hotio/pullio/master/pullio.sh){: target=_blank rel="noopener" } is a bash script that you execute with cron, [jobber](https://dshearer.github.io/jobber/){: target=_blank rel="noopener" }, a systemd timer or any other way that you prefer, it then does a `docker compose pull` for all the containers configured to have notifications or updates enabled. It then checks if there's an update available and takes action according to your configuration. As you might have already guessed it, this script relies on `docker compose` to do the heavy lifting and thus is only compatible with `docker compose` managed containers.
+Pullio is a bash script that you execute with cron, a systemd timer or any other way that you prefer. It then does a `docker compose pull` for all the containers configured to have notifications or updates enabled. It then checks if there's an update available and takes action according to your configuration. As you might have already guessed it, this script relies on `docker compose` to do the heavy lifting and thus is only compatible with `docker compose` managed containers.
 
 Features:
 
@@ -25,7 +25,7 @@ Now execute it however and whenever you want.
 
 ## Configuration
 
-You configure the script its behaviour by adding one or more of the following labels to your `docker-compose.yml` for every container you want. Adding no discord webhook will disable the notifications.
+You configure the script its behaviour by adding one or more of the following labels to your `compose.yaml` for every container you want. Adding no discord webhook will disable the notifications.
 
 ```yaml linenums="1"
 ...
