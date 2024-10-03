@@ -32,7 +32,7 @@
             -e VPN_AUTO_PORT_FORWARD_TO_PORTS="" \ #(15)
             -e VPN_KEEP_LOCAL_DNS="false" \ #(10)
             -e VPN_FIREWALL_TYPE="auto" \ #(17)
-            -e VPN_HEALTHCHECK_ENABLED="true" \
+            -e VPN_HEALTHCHECK_ENABLED="false" \
             -e PRIVOXY_ENABLED="false" \
             -e UNBOUND_ENABLED="false" \ #(16)
             --cap-add=NET_ADMIN \
@@ -61,7 +61,7 @@
               - VPN_AUTO_PORT_FORWARD_TO_PORTS= #(15)
               - VPN_KEEP_LOCAL_DNS=false #(10)
               - VPN_FIREWALL_TYPE=auto #(17)
-              - VPN_HEALTHCHECK_ENABLED=true
+              - VPN_HEALTHCHECK_ENABLED=false
               - PRIVOXY_ENABLED=false
               - UNBOUND_ENABLED=false #(16)
             cap_add:
@@ -93,7 +93,7 @@
             -e VPN_AUTO_PORT_FORWARD_TO_PORTS="" \ #(15)
             -e VPN_KEEP_LOCAL_DNS="false" \ #(10)
             -e VPN_FIREWALL_TYPE="auto" \ #(17)
-            -e VPN_HEALTHCHECK_ENABLED="true" \
+            -e VPN_HEALTHCHECK_ENABLED="false" \
             -e PRIVOXY_ENABLED="false" \
             -e UNBOUND_ENABLED="false" \ #(16)
             --cap-add=NET_ADMIN \
@@ -122,7 +122,7 @@
               - VPN_AUTO_PORT_FORWARD_TO_PORTS= #(15)
               - VPN_KEEP_LOCAL_DNS=false #(10)
               - VPN_FIREWALL_TYPE=auto #(17)
-              - VPN_HEALTHCHECK_ENABLED=true
+              - VPN_HEALTHCHECK_ENABLED=false
               - PRIVOXY_ENABLED=false
               - UNBOUND_ENABLED=false #(16)
             cap_add:
@@ -154,7 +154,7 @@
             -e VPN_AUTO_PORT_FORWARD_TO_PORTS="" \ #(15)
             -e VPN_KEEP_LOCAL_DNS="false" \ #(10)
             -e VPN_FIREWALL_TYPE="auto" \ #(17)
-            -e VPN_HEALTHCHECK_ENABLED="true" \
+            -e VPN_HEALTHCHECK_ENABLED="false" \
             -e VPN_PIA_USER="" \ #(11)
             -e VPN_PIA_PASS="" \
             -e VPN_PIA_PREFERRED_REGION="" \ #(7)
@@ -188,7 +188,7 @@
               - VPN_AUTO_PORT_FORWARD_TO_PORTS= #(15)
               - VPN_KEEP_LOCAL_DNS=false #(10)
               - VPN_FIREWALL_TYPE=auto #(17)
-              - VPN_HEALTHCHECK_ENABLED=true
+              - VPN_HEALTHCHECK_ENABLED=false
               - VPN_PIA_USER #(11)
               - VPN_PIA_PASS
               - VPN_PIA_PREFERRED_REGION #(7)
