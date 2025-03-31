@@ -16,8 +16,8 @@
 ```text
 [Interface]
 PrivateKey = supersecretprivatekey
-Address = xx.xx.xxx.xxx/32 # Yes, /32
-DNS = x.x.x.x
+Address = xx.xx.xxx.xxx/32 # Yes, /32 in most cases
+DNS = x.x.x.x # This will be ignored, modify Unbound config if you really need it
 
 [Peer]
 PublicKey = publickey
@@ -39,8 +39,8 @@ Endpoint = xxx.x.xxx.x:51820
 
 15. Adds a redirect for the forwarded port from your vpn provider to the internal port on which the app runs, ports in this list are also not blocked on the wireguard interface, so this var is also useful if you want to expose a port on both your LAN and VPN. Values like `32400/tcp` will use the port from `VPN_AUTO_PORT_FORWARD` to create the redirect or if set to `true` the forwarded port from pia/proton. Use `3000@3001/tcp,3002@3003/tcp` syntax for extra static redirects. The only known usecase as of right now is Plex and exposing it on the VPN with a non configurable forwarded port, because it's not possible to run Plex on anything else but 32400. Useful website to check for open ports is [YouGetSignal](https://www.yougetsignal.com/tools/open-ports){: target=_blank rel="noopener" } and [ipleak.net](https://ipleak.net){: target=_blank rel="noopener" } to leak test with `.torrent` file.
 
-16. When enabling the Unbound DNS server your requests will use DNS over TLS to Cloudflare. Except for requests made to `.internal` and `.vpn` TLDs, those are done to the local docker DNS server on 127.0.0.11. So if you want to use container hostnames to connect to other containers within a bridge network, you'll have to use `--hostname` and use `container-name.internal` or `container-name.vpn`. Currently `.vpn` is a non existing TLD, but that can change in the future. The TLD `.internal` should become the standard for internal networks, so it's the safest choice. Unbound can be used regardless of `VPN_ENABLED` being `true` or `false`.
+16. Unbound can be used when `VPN_ENABLED` is `false`, it will however always be active when `VPN_ENABLED` is `true`. When the Unbound DNS server is active, your requests will use DNS over TLS to Cloudflare (the default config). Except for requests made to `.internal` and `.vpn` TLDs, those are done to the local docker DNS server on 127.0.0.11. So if you want to use container hostnames to connect to other containers within a bridge network, you'll have to use `--hostname` and use `container-name.internal` or `container-name.vpn`. Currently `.vpn` is a non existing TLD, but that can change in the future. The TLD `.internal` should become the standard for internal networks, so it's the safest choice. You can modify the Unbound config to your personal preference by changing the file `/config/unbound/unbound.conf`.
 
 17. Possible values are `auto`, `legacy` or `nftables`. The default is `auto`, this will try to use the most modern method available. If this doesn't work, you can try forcing it to `legacy` or `nftables`.
 
-18. When enabling the Unbound DNS server your requests will use DNS over TLS to Cloudflare. Except for requests made to `.internal` and `.vpn` TLDs, those are done to the local docker DNS server on 127.0.0.11. So if you want to use container hostnames to connect to other containers within a bridge network, you'll have to use `--hostname` and use `container-name.internal` or `container-name.vpn`. Currently `.vpn` is a non existing TLD, but that can change in the future. The TLD `.internal` should become the standard for internal networks, so it's the safest choice. Unbound can be used regardless of `VPN_ENABLED` being `true` or `false`.
+18. See `UNBOUND_ENABLED` info for more details.
