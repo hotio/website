@@ -12,8 +12,8 @@ hide:
     ```shell linenums="1"
     docker run --rm \
         --name qbitmanage \
-        -e PUID=1000 \
-        -e PGID=1000 \
+        -e PUID=1001 \
+        -e PGID=1001 \
         -e UMASK=002 \
         -e TZ="Etc/UTC" \
         -e ARGS="" \
@@ -30,8 +30,8 @@ hide:
         container_name: qbitmanage
         image: ghcr.io/hotio/qbitmanage
         environment:
-          - PUID=1000
-          - PGID=1000
+          - PUID=1001
+          - PGID=1001
           - UMASK=002
           - TZ=Etc/UTC
           - ARGS

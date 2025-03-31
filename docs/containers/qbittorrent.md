@@ -13,8 +13,8 @@ hide:
     docker run --rm \
         --name qbittorrent \
         -p 8080:8080 \
-        -e PUID=1000 \
-        -e PGID=1000 \
+        -e PUID=1001 \
+        -e PGID=1001 \
         -e UMASK=002 \
         -e TZ="Etc/UTC" \
         -e WEBUI_PORTS="8080/tcp,8080/udp" \
@@ -33,8 +33,8 @@ hide:
         ports:
           - "8080:8080"
         environment:
-          - PUID=1000
-          - PGID=1000
+          - PUID=1001
+          - PGID=1001
           - UMASK=002
           - TZ=Etc/UTC
           - WEBUI_PORTS=8080/tcp,8080/udp
