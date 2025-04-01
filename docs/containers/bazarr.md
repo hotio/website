@@ -13,8 +13,8 @@ hide:
     docker run --rm \
         --name bazarr \
         -p 6767:6767 \
-        -e PUID=1001 \
-        -e PGID=1001 \
+        -e PUID=1000 \
+        -e PGID=1000 \
         -e UMASK=002 \
         -e TZ="Etc/UTC" \
         -e WEBUI_PORTS="6767/tcp,6767/udp" \
@@ -33,8 +33,8 @@ hide:
         ports:
           - "6767:6767"
         environment:
-          - PUID=1001
-          - PGID=1001
+          - PUID=1000
+          - PGID=1000
           - UMASK=002
           - TZ=Etc/UTC
           - WEBUI_PORTS=6767/tcp,6767/udp

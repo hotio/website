@@ -13,8 +13,8 @@ hide:
     docker run --rm \
         --name tautulli \
         -p 8181:8181 \
-        -e PUID=1001 \
-        -e PGID=1001 \
+        -e PUID=1000 \
+        -e PGID=1000 \
         -e UMASK=002 \
         -e TZ="Etc/UTC" \
         -e WEBUI_PORTS="8181/tcp,8181/udp" \
@@ -32,8 +32,8 @@ hide:
         ports:
           - "8181:8181"
         environment:
-          - PUID=1001
-          - PGID=1001
+          - PUID=1000
+          - PGID=1000
           - UMASK=002
           - TZ=Etc/UTC
           - WEBUI_PORTS=8181/tcp,8181/udp

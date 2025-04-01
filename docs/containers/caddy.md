@@ -18,8 +18,8 @@ hide:
         --name caddy \
         -p 80:8080 \
         -p 443:8443 \
-        -e PUID=1001 \
-        -e PGID=1001 \
+        -e PUID=1000 \
+        -e PGID=1000 \
         -e UMASK=002 \
         -e TZ="Etc/UTC" \
         -e CUSTOM_BUILD="" \
@@ -38,8 +38,8 @@ hide:
           - "80:8080"
           - "443:8443"
         environment:
-          - PUID=1001
-          - PGID=1001
+          - PUID=1000
+          - PGID=1000
           - UMASK=002
           - TZ=Etc/UTC
           - CUSTOM_BUILD

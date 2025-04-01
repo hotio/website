@@ -13,8 +13,8 @@ hide:
     docker run --rm \
         --name sabnzbd \
         -p 8080:8080 \
-        -e PUID=1001 \
-        -e PGID=1001 \
+        -e PUID=1000 \
+        -e PGID=1000 \
         -e UMASK=002 \
         -e WEBUI_PORTS="8080/tcp,8080/udp" \
         -e ARGS="" \
@@ -34,8 +34,8 @@ hide:
         ports:
           - "8080:8080"
         environment:
-          - PUID=1001
-          - PGID=1001
+          - PUID=1000
+          - PGID=1000
           - UMASK=002
           - TZ=Etc/UTC
           - WEBUI_PORTS=8080/tcp,8080/udp

@@ -14,8 +14,8 @@ hide:
         --name duplicacy \
         --hostname duplicacy \
         -p 3875:3875 \
-        -e PUID=1001 \
-        -e PGID=1001 \
+        -e PUID=1000 \
+        -e PGID=1000 \
         -e UMASK=002 \
         -e TZ="Etc/UTC" \
         -v /<host_folder_config>:/config \
@@ -36,8 +36,8 @@ hide:
         ports:
           - "3875:3875"
         environment:
-          - PUID=1001
-          - PGID=1001
+          - PUID=1000
+          - PGID=1000
           - UMASK=002
           - TZ=Etc/UTC
         volumes:

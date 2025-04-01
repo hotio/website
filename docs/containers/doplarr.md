@@ -12,8 +12,8 @@ hide:
     ```shell linenums="1"
     docker run --rm \
         --name doplarr \
-        -e PUID=1001 \
-        -e PGID=1001 \
+        -e PUID=1000 \
+        -e PGID=1000 \
         -e UMASK=002 \
         -e TZ="Etc/UTC" \
         -v /<host_folder_config>:/config \
@@ -28,8 +28,8 @@ hide:
         container_name: doplarr
         image: ghcr.io/hotio/doplarr
         environment:
-          - PUID=1001
-          - PGID=1001
+          - PUID=1000
+          - PGID=1000
           - UMASK=002
           - TZ=Etc/UTC
         volumes:
