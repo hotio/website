@@ -5,7 +5,6 @@
 3. With `net.ipv6.conf.all.disable_ipv6=1` all ipv6 support is disabled. Leave ipv6 disabled and remove all references to it in your `wg0.conf` file to keep things simple. If you need any sort of ipv6 support, enable it with `net.ipv6.conf.all.disable_ipv6=0`. A WireGuard ipv6 endpoint is currently not supported.
 
 4. Possible values are `generic`, `proton` and `pia`.  
-  
 Affiliate links:  
 [Proton VPN](https://hotio.dev/protonvpn){: target=_blank rel="noopener" }  
 [Proton Mail](https://hotio.dev/protonmail){: target=_blank rel="noopener" }  
