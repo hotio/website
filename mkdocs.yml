@@ -28,9 +28,10 @@ plugins:
         github.md: 'https://github.com/hotio'
         donate.md: 'https://hotio.dev/#donations'
         pia.md: https://www.privateinternetaccess.com/offer/hotio.dev_hsm018qg
-        proton.md: https://go.getproton.me/aff_c?offer_id=26&aff_id=7223
-        cyberghost.md: https://www.cyberghostvpn.com/offer/hatio.dev_2x3ni6r
-        torguard.md: https://torguard.net/aff.php?aff=7533
+        protonvpn.md: https://go.getproton.me/aff_c?offer_id=26&aff_id=7223
+        protondrive.md: https://go.getproton.me/aff_c?offer_id=43&aff_id=7223
+        protonmail.md: https://go.getproton.me/aff_c?offer_id=7&aff_id=7223
+        protonpass.md: https://go.getproton.me/aff_c?offer_id=38&aff_id=7223
 
 repo_name: hotio
 repo_url: https://github.com/hotio
