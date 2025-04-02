@@ -4,7 +4,12 @@
 
 3. With `net.ipv6.conf.all.disable_ipv6=1` all ipv6 support is disabled. Leave ipv6 disabled and remove all references to it in your `wg0.conf` file to keep things simple. If you need any sort of ipv6 support, enable it with `net.ipv6.conf.all.disable_ipv6=0`. A WireGuard ipv6 endpoint is currently not supported.
 
-4. Possible values are `generic`, `proton` and `pia`.
+4. Possible values are `generic`, `proton` and `pia`.  
+[Proton VPN](https://hotio.dev/protonvpn){: target=_blank rel="noopener" }  
+[Proton Mail](https://hotio.dev/protonmail){: target=_blank rel="noopener" }  
+[Proton Drive](https://hotio.dev/protondrive){: target=_blank rel="noopener" }  
+[Proton Pass](https://hotio.dev/protonpass){: target=_blank rel="noopener" }  
+[Private Internet Access](https://hotio.dev/pia){: target=_blank rel="noopener" }
 
 5. There needs to be a file `wg0.conf` located in `/config/wireguard` and you need to set the variable `VPN_ENABLED` to `true` for the VPN to start. If you'd like to execute some of your own bash commands you can place two scripts alongside your `wg0.conf`, called `wg0-pre.sh` and `wg0-post.sh`. These will execute right before the check for the existence of a `wg0.conf` file and almost at the end, right before the internet connectivity test.
 
