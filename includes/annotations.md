@@ -50,3 +50,5 @@ Endpoint = xxx.x.xxx.x:51820
 17. Possible values are `auto`, `legacy` or `nftables`. The default is `auto`, this will try to use the most modern method available. If this doesn't work, you can try forcing it to `legacy` or `nftables`.
 
 18. See `UNBOUND_ENABLED` info for more details.
+
+19. This will start Privoxy on the default port 8118 when set to `true`. Default config can be changed in `/config/privoxy`.

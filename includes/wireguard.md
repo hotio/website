@@ -29,7 +29,7 @@
             -e VPN_AUTO_PORT_FORWARD_TO_PORTS="" \ #(15)
             -e VPN_FIREWALL_TYPE="auto" \ #(17)
             -e VPN_HEALTHCHECK_ENABLED="false" \
-            -e PRIVOXY_ENABLED="false" \
+            -e PRIVOXY_ENABLED="false" \ #(19)
             -e UNBOUND_ENABLED="false" \ # READ THIS(16)
             --cap-add=NET_ADMIN \
             --sysctl="net.ipv4.conf.all.src_valid_mark=1" \ #(12)
@@ -57,7 +57,7 @@
               - VPN_AUTO_PORT_FORWARD_TO_PORTS= #(15)
               - VPN_FIREWALL_TYPE=auto #(17)
               - VPN_HEALTHCHECK_ENABLED=false
-              - PRIVOXY_ENABLED=false
+              - PRIVOXY_ENABLED=false #(19)
               - UNBOUND_ENABLED=false # READ THIS(16)
             cap_add:
               - NET_ADMIN
@@ -88,7 +88,7 @@
             -e VPN_AUTO_PORT_FORWARD_TO_PORTS="" \ #(15)
             -e VPN_FIREWALL_TYPE="auto" \ #(17)
             -e VPN_HEALTHCHECK_ENABLED="false" \
-            -e PRIVOXY_ENABLED="false" \
+            -e PRIVOXY_ENABLED="false" \ #(19)
             -e UNBOUND_ENABLED="false" \ # READ THIS(16)
             --cap-add=NET_ADMIN \
             --sysctl="net.ipv4.conf.all.src_valid_mark=1" \ #(12)
@@ -116,7 +116,7 @@
               - VPN_AUTO_PORT_FORWARD_TO_PORTS= #(15)
               - VPN_FIREWALL_TYPE=auto #(17)
               - VPN_HEALTHCHECK_ENABLED=false
-              - PRIVOXY_ENABLED=false
+              - PRIVOXY_ENABLED=false #(19)
               - UNBOUND_ENABLED=false # READ THIS(16)
             cap_add:
               - NET_ADMIN
@@ -152,7 +152,7 @@
             -e VPN_PIA_PREFERRED_REGION="" \ #(7)
             -e VPN_PIA_DIP_TOKEN="no" \ #(13)
             -e VPN_PIA_PORT_FORWARD_PERSIST="false" \ #(14)
-            -e PRIVOXY_ENABLED="false" \
+            -e PRIVOXY_ENABLED="false" \ #(19)
             -e UNBOUND_ENABLED="false" \ # READ THIS(16)
             --cap-add=NET_ADMIN \
             --sysctl="net.ipv4.conf.all.src_valid_mark=1" \ #(12)
@@ -185,7 +185,7 @@
               - VPN_PIA_PREFERRED_REGION #(7)
               - VPN_PIA_DIP_TOKEN=no #(13)
               - VPN_PIA_PORT_FORWARD_PERSIST=false #(14)
-              - PRIVOXY_ENABLED=false
+              - PRIVOXY_ENABLED=false #(19)
               - UNBOUND_ENABLED=false # READ THIS(16)
             cap_add:
               - NET_ADMIN
