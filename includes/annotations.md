@@ -23,7 +23,7 @@ Affiliate links:
 [Interface]
 PrivateKey = supersecretprivatekey
 Address = xx.xx.xxx.xxx/32 # Yes, /32 in most cases
-DNS = x.x.x.x # This will be ignored, modify Unbound config if you really need it
+DNS = x.x.x.x
 
 [Peer]
 PublicKey = publickey
@@ -32,8 +32,6 @@ Endpoint = xxx.x.xxx.x:51820
 ```
 
 9. If the WireGuard kernel module is missing (most likely on Synology/QNAP/Asustor), you can run WireGuard in userspace thanks to `wireguard-go`. For that you'll need to add the device `/dev/net/tun`. It's most likely that the device `/dev/net/tun` does not exist however, have a read [here](https://memoryleak.dev/post/fix-tun-tap-not-available-on-a-synology-nas/){: target=_blank rel="noopener" } for instructions on checking and adding the device.
-
-10. Setting this to `true` will re-add the default nameserver if it's been overwritten by the `DNS = ...` entry in `wgO.conf`. This should keep container name resolution working. If container name resolution still doesn't work, add `--dns 1.1.1.1`, somehow this can fix it (confirmed on MacOS).
 
 11. When using `VPN_PROVIDER=pia`, fill in your username and password. A `wg0.conf` will be automatically downloaded.
 
@@ -45,10 +43,10 @@ Endpoint = xxx.x.xxx.x:51820
 
 15. Adds a redirect for the forwarded port from your vpn provider to the internal port on which the app runs, ports in this list are also not blocked on the wireguard interface, so this var is also useful if you want to expose a port on both your LAN and VPN. Values like `32400/tcp` will use the port from `VPN_AUTO_PORT_FORWARD` to create the redirect or if set to `true` the forwarded port from pia/proton. Use `3000@3001/tcp,3002@3003/tcp` syntax for extra static redirects. The only known usecase as of right now is Plex and exposing it on the VPN with a non configurable forwarded port, because it's not possible to run Plex on anything else but 32400. Useful website to check for open ports is [YouGetSignal](https://www.yougetsignal.com/tools/open-ports){: target=_blank rel="noopener" } and [ipleak.net](https://ipleak.net){: target=_blank rel="noopener" } to leak test with `.torrent` file.
 
-16. Unbound can be used when `VPN_ENABLED` is `false`, it will however always be active when `VPN_ENABLED` is `true`. When the Unbound DNS server is active, your requests will use recursive DNS (Uncomment the part at the bottom in `/config/unbound/unbound.conf` to enable DNS over TLS to Cloudflare in case the default doesn't work, some VPN providers hijack DNS). Except for requests made to `.internal` and `.vpn` TLDs, those are done to the local docker DNS server on 127.0.0.11. So if you want to use container hostnames to connect to other containers within a bridge network, you'll have to use `--hostname` and use `container-name.internal` or `container-name.vpn`. Currently `.vpn` is a non existing TLD, but that can change in the future. The TLD `.internal` should become the standard for internal networks, so it's the safest choice. You can modify the Unbound config to your personal preference by changing the file `/config/unbound/unbound.conf`.
+16. Possible values are `wg`, `8.8.8.8` or `1.1.1.1@853#cloudflare-dns.com` seperated by a `,`. The value `wg` will use the nameservers from the `wg0.conf` file. The value `8.8.8.8` is to use a plain old nameserver. The value `1.1.1.1@853#cloudflare-dns.com` will add a `DNS over TLS` nameserver, this will override all other regular nameservers. Leaving the variable empty will allow Unbound to work in recursive mode.
 
 17. Possible values are `auto`, `legacy` or `nftables`. The default is `auto`, this will try to use the most modern method available. If this doesn't work, you can try forcing it to `legacy` or `nftables`.
 
-18. See `UNBOUND_ENABLED` info for more details.
+18. If you want to use container hostnames to connect to other containers within a bridge network, you'll have to use `--hostname` and use `container-name.internal` or `container-name.vpn`. Currently `.vpn` is a non existing TLD, but that can change in the future. The TLD `.internal` should become the standard for internal networks, so it's the safest choice.
 
-19. This will start Privoxy on the default port 8118 when set to `true`. Default config can be changed in `/config/privoxy`.
+19. This will start Privoxy on the default port 8118 when set to `true`. By default Privoxy is not exposed on the LAN, so if you need that, you'll have to add `VPN_EXPOSE_PORTS_ON_LAN=8118/tcp,8118/udp`.
