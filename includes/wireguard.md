@@ -31,7 +31,7 @@
             -e VPN_HEALTHCHECK_ENABLED="false" \ #(20)
             -e VPN_NAMESERVERS="" \ #(16)
             -e PRIVOXY_ENABLED="false" \ #(19)
-            -e UNBOUND_ENABLED="false" \
+            -e UNBOUND_ENABLED="false" \ #(21)
             -e UNBOUND_NAMESERVERS="" \
             --cap-add=NET_ADMIN \
             --sysctl="net.ipv4.conf.all.src_valid_mark=1" \ #(12)
@@ -61,7 +61,7 @@
               - VPN_HEALTHCHECK_ENABLED=false #(20)
               - VPN_NAMESERVERS= #(16)
               - PRIVOXY_ENABLED=false #(19)
-              - UNBOUND_ENABLED=false
+              - UNBOUND_ENABLED=false #(21)
               - UNBOUND_NAMESERVERS
             cap_add:
               - NET_ADMIN
@@ -94,7 +94,7 @@
             -e VPN_HEALTHCHECK_ENABLED="false" \ #(20)
             -e VPN_NAMESERVERS="" \ #(16)
             -e PRIVOXY_ENABLED="false" \ #(19)
-            -e UNBOUND_ENABLED="false" \
+            -e UNBOUND_ENABLED="false" \ #(21)
             -e UNBOUND_NAMESERVERS="" \
             --cap-add=NET_ADMIN \
             --sysctl="net.ipv4.conf.all.src_valid_mark=1" \ #(12)
@@ -124,7 +124,7 @@
               - VPN_HEALTHCHECK_ENABLED=false #(20)
               - VPN_NAMESERVERS= #(16)
               - PRIVOXY_ENABLED=false #(19)
-              - UNBOUND_ENABLED=false
+              - UNBOUND_ENABLED=false #(21)
               - UNBOUND_NAMESERVERS
             cap_add:
               - NET_ADMIN
@@ -162,7 +162,7 @@
             -e VPN_PIA_DIP_TOKEN="no" \ #(13)
             -e VPN_PIA_PORT_FORWARD_PERSIST="false" \ #(14)
             -e PRIVOXY_ENABLED="false" \ #(19)
-            -e UNBOUND_ENABLED="false" \
+            -e UNBOUND_ENABLED="false" \ #(21)
             -e UNBOUND_NAMESERVERS="" \
             --cap-add=NET_ADMIN \
             --sysctl="net.ipv4.conf.all.src_valid_mark=1" \ #(12)
@@ -197,7 +197,7 @@
               - VPN_PIA_DIP_TOKEN=no #(13)
               - VPN_PIA_PORT_FORWARD_PERSIST=false #(14)
               - PRIVOXY_ENABLED=false #(19)
-              - UNBOUND_ENABLED=false
+              - UNBOUND_ENABLED=false #(21)
               - UNBOUND_NAMESERVERS
             cap_add:
               - NET_ADMIN
