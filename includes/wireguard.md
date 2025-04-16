@@ -32,7 +32,7 @@
             -e VPN_NAMESERVERS="" \ #(16)
             -e PRIVOXY_ENABLED="false" \ #(19)
             -e UNBOUND_ENABLED="false" \ #(21)
-            -e UNBOUND_NAMESERVERS="" \
+            -e UNBOUND_NAMESERVERS="" \ #(22)
             --cap-add=NET_ADMIN \
             --sysctl="net.ipv4.conf.all.src_valid_mark=1" \ #(12)
             --sysctl="net.ipv6.conf.all.disable_ipv6=1" \ #(3)
@@ -62,7 +62,7 @@
               - VPN_NAMESERVERS= #(16)
               - PRIVOXY_ENABLED=false #(19)
               - UNBOUND_ENABLED=false #(21)
-              - UNBOUND_NAMESERVERS
+              - UNBOUND_NAMESERVERS #(22)
             cap_add:
               - NET_ADMIN
             sysctls:
@@ -95,7 +95,7 @@
             -e VPN_NAMESERVERS="" \ #(16)
             -e PRIVOXY_ENABLED="false" \ #(19)
             -e UNBOUND_ENABLED="false" \ #(21)
-            -e UNBOUND_NAMESERVERS="" \
+            -e UNBOUND_NAMESERVERS="" \ #(22)
             --cap-add=NET_ADMIN \
             --sysctl="net.ipv4.conf.all.src_valid_mark=1" \ #(12)
             --sysctl="net.ipv6.conf.all.disable_ipv6=1" \ #(3)
@@ -125,7 +125,7 @@
               - VPN_NAMESERVERS= #(16)
               - PRIVOXY_ENABLED=false #(19)
               - UNBOUND_ENABLED=false #(21)
-              - UNBOUND_NAMESERVERS
+              - UNBOUND_NAMESERVERS #(22)
             cap_add:
               - NET_ADMIN
             sysctls:
@@ -163,7 +163,7 @@
             -e VPN_PIA_PORT_FORWARD_PERSIST="false" \ #(14)
             -e PRIVOXY_ENABLED="false" \ #(19)
             -e UNBOUND_ENABLED="false" \ #(21)
-            -e UNBOUND_NAMESERVERS="" \
+            -e UNBOUND_NAMESERVERS="" \ #(22)
             --cap-add=NET_ADMIN \
             --sysctl="net.ipv4.conf.all.src_valid_mark=1" \ #(12)
             --sysctl="net.ipv6.conf.all.disable_ipv6=1" \ #(3)
@@ -198,7 +198,7 @@
               - VPN_PIA_PORT_FORWARD_PERSIST=false #(14)
               - PRIVOXY_ENABLED=false #(19)
               - UNBOUND_ENABLED=false #(21)
-              - UNBOUND_NAMESERVERS
+              - UNBOUND_NAMESERVERS #(22)
             cap_add:
               - NET_ADMIN
             sysctls:

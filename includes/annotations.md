@@ -55,4 +55,6 @@ Endpoint = xxx.x.xxx.x:51820
 
 20. This is almost never needed, only in very rare cases (mostly when using PIA).
 
-21. Enable Unbound by setting to `true`. Use `UNBOUND_NAMESERVERS` to configure Unbound if you don't like recursive mode, similar to `VPN_NAMESERVERS` (except no `wg` value possible).
+21. Enable Unbound by setting to `true` when VPN is not active.
+
+22. Possible values are `8.8.8.8` or `1.1.1.1@853#cloudflare-dns.com` seperated by a `,`. The value `8.8.8.8` is to use a plain old nameserver. The value `1.1.1.1@853#cloudflare-dns.com` will add a `DNS over TLS` nameserver, this will override all other regular nameservers. Leaving the variable empty will allow Unbound to work in recursive mode.
