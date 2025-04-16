@@ -33,6 +33,8 @@ Endpoint = xxx.x.xxx.x:51820
 
 9. If the WireGuard kernel module is missing (most likely on Synology/QNAP/Asustor), you can run WireGuard in userspace thanks to `wireguard-go`. For that you'll need to add the device `/dev/net/tun`. It's most likely that the device `/dev/net/tun` does not exist however, have a read [here](https://memoryleak.dev/post/fix-tun-tap-not-available-on-a-synology-nas/){: target=_blank rel="noopener" } for instructions on checking and adding the device.
 
+10. 
+
 11. When using `VPN_PROVIDER=pia`, fill in your username and password. A `wg0.conf` will be automatically downloaded.
 
 12. Required in most cases, on some systems that don't have `rp_filter` set to strict, it's optional.
