@@ -45,8 +45,4 @@ hide:
 
 --8<-- "includes/tags.md"
 
-## Alternative Web UI
-
-This image comes bundled with the alternative Web UI [VueTorrent](https://github.com/VueTorrent/VueTorrent) (`/app/vuetorrent`) and [Nightwalker](https://github.com/CallMeBruce/nightwalker) (`/app/nightwalker`).
-
 --8<-- "includes/wireguard.md"
