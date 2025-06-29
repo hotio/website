@@ -18,6 +18,7 @@ hide:
         -e UMASK=002 \
         -e TZ="Etc/UTC" \
         -e WEBUI_PORTS="8080/tcp,8080/udp" \
+        -e LIBTORRENT="v1" \
         -v /<host_folder_config>:/config \
         -v /<host_folder_data>:/data \
         ghcr.io/hotio/qbittorrent
@@ -38,6 +39,7 @@ hide:
           - UMASK=002
           - TZ=Etc/UTC
           - WEBUI_PORTS=8080/tcp,8080/udp
+          - LIBTORRENT=v1
         volumes:
           - /<host_folder_config>:/config
           - /<host_folder_data>:/data
