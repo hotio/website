@@ -2,7 +2,6 @@ $(function loadJSON() {
     var image = document.getElementsByTagName("h1")[0].innerHTML;
     const splitImage = image.split("/");
     document.getElementById("github-link").href="https://github.com/" + image;
-    document.getElementById("dockerio-link").href="https://hub.docker.com/r/" + image;
     document.getElementById("ghcrio-link").href="https://github.com/orgs/" + splitImage[0] + "/packages/container/package/" + splitImage[1];
 
     $.getJSON('https://raw.githubusercontent.com/' + image + '/master/links.json', function(data) {
