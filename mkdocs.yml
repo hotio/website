@@ -9,9 +9,6 @@ extra:
   - icon: fontawesome/brands/discord
     link: 'https://hotio.dev/discord'
     name: Discord
-  - icon: fontawesome/brands/docker
-    link: 'https://hotio.dev/dockerhub'
-    name: Docker
   - icon: fontawesome/brands/github
     link: 'https://hotio.dev/github'
     name: GitHub
@@ -24,7 +21,6 @@ plugins:
   - redirects:
       redirect_maps:
         discord.md: 'https://discord.gg/FycMN9gTC3'
-        dockerhub.md: 'https://hub.docker.com/u/hotio'
         github.md: 'https://github.com/hotio'
         donate.md: 'https://hotio.dev/#donations'
         pia.md: https://www.privateinternetaccess.com/offer/hotio.dev_hsm018qg
