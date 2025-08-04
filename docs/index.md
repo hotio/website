@@ -15,10 +15,17 @@ If you like what I do, you know the drill... :octicons-heart-fill-24:{: .heart }
 
 [:material-github: GitHub Sponsors](https://github.com/sponsors/mrhotio){: .md-button target=_blank rel="noopener" .donate-button }
 [:fontawesome-solid-money-bill-wave: Open Collective](https://opencollective.com/hotio_collective/donate?interval=month&amount=10){: .md-button target=_blank rel="noopener" .donate-button }
-
 [:material-bitcoin: Bitcoin](https://bitcoinblockexplorers.com/address/bc1q6zkemu2lacynfg6d6x70l0da0mdpf06pn83jm5){: .md-button target=_blank rel="noopener" .donate-button }
-[:material-ethereum: Ethereum](https://etherscan.io/address/0x404798801f2C3b06DB32E0A14F0442778CF148A9){: .md-button target=_blank rel="noopener" .donate-button }
-[:material-litecoin: Litecoin](https://litecoinblockexplorer.net/address/ltc1qc6yvjpjvvrwvh0xzl7wm5gssyf30hlh2r5wgnw){: .md-button target=_blank rel="noopener" .donate-button }
+
+## Affiliate Links
+
+<img src="https://go.getproton.me/aff_i?offer_id=26&aff_id=7223" width="0" height="0" style="position:absolute;visibility:hidden;" border="0" />
+<a href="https://hotio.dev/protonvpn" target="_blank" rel="noopener">
+  <img id="vpnbanner" src="/img/protonvpn@2x.png" alt="ProtonVPN" width="320" height="50">
+</a>
+<a href="https://hotio.dev/pia" target="_blank" rel="noopener">
+  <img id="vpnbanner" src="/img/piavpn728x90.png" alt="PiaVPN" width="404" height="50">
+</a>
 
 ## Support
 
