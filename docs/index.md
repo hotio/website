@@ -5,9 +5,7 @@ hide:
 
 ## Welcome
 
-Go check out the rest of our website to see how you can get started with your favorite app. Most images come with docker cli or compose examples. If you've got any questions, feel free to join the [discord](https://hotio.dev/discord){: target=_blank rel="noopener" } server. Discord is our main channel to provide support, if you think to have found a bug in one of the images, feel free to create a new issue on GitHub.
-
-If you enjoy the images don't forget to go give us a star on [Docker Hub](https://hotio.dev/dockerhub){: target=_blank rel="noopener" } and [GitHub](https://hotio.dev/github){: target=_blank rel="noopener" }. It would mean a lot to us!
+Go check out the rest of our website to see how you can get started with your favorite app. Most images come with docker cli or compose examples. If you've got any questions, feel free to join the [discord](https://hotio.dev/discord){: target=_blank rel="noopener" } server.
 
 ## Donations
 
