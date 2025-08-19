@@ -7,8 +7,6 @@
 4. Possible values are `generic`, `proton` and `pia`.  
 Affiliate links:  
 [Proton VPN](https://hotio.dev/protonvpn){: target=_blank rel="noopener" }  
-[Proton Mail](https://hotio.dev/protonmail){: target=_blank rel="noopener" }  
-[Proton Drive](https://hotio.dev/protondrive){: target=_blank rel="noopener" }  
 [Proton Pass](https://hotio.dev/protonpass){: target=_blank rel="noopener" }  
 [Private Internet Access](https://hotio.dev/pia){: target=_blank rel="noopener" }
 
