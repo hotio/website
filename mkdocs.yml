@@ -25,7 +25,6 @@ plugins:
         donate.md: 'https://hotio.dev/#donations'
         pia.md: https://www.privateinternetaccess.com/offer/hotio.dev_hsm018qg
         protonvpn.md: https://go.getproton.me/aff_c?offer_id=26&aff_id=7223&url_id=277
-        protonpass.md: https://go.getproton.me/aff_c?offer_id=42&aff_id=7223&url_id=1115
 
 repo_name: hotio
 repo_url: https://github.com/hotio
