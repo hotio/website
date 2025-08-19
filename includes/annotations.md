@@ -7,6 +7,7 @@
 4. Possible values are `generic`, `proton` and `pia`.  
 Affiliate links:  
 [Proton VPN](https://hotio.dev/protonvpn){: target=_blank rel="noopener" }  
+[Proton Unlimited](https://hotio.dev/protonunlimited){: target=_blank rel="noopener" }  
 [Private Internet Access](https://hotio.dev/pia){: target=_blank rel="noopener" }
 
 5. There needs to be a file `wg0.conf` located in `/config/wireguard` and you need to set the variable `VPN_ENABLED` to `true` for the VPN to start. If you'd like to execute some of your own bash commands you can place two scripts alongside your `wg0.conf`, called `wg0-pre.sh` and `wg0-post.sh`. These will execute right before the check for the existence of a `wg0.conf` file and almost at the end, right before the internet connectivity test.
