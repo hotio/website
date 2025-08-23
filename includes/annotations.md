@@ -51,7 +51,7 @@ Endpoint = xxx.x.xxx.x:51820
 
 19. This will start Privoxy on the default port 8118 when set to `true`. By default Privoxy is not exposed on the LAN, so if you need that, you'll have to add `VPN_EXPOSE_PORTS_ON_LAN=8118/tcp,8118/udp`.
 
-20. This is almost never needed, only in very rare cases (mostly when using PIA).
+20. Enabling this will bring down the container if the connectivity tests fail at the end of the Wireguard init process or for an extended period during the container runtime.
 
 21. Enable Unbound by setting to `true` when VPN is not active.
 

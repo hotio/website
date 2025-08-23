@@ -30,7 +30,6 @@
             -e VPN_FIREWALL_TYPE="auto" \ #(17)
             -e VPN_HEALTHCHECK_ENABLED="false" \ #(20)
             -e VPN_NAMESERVERS="" \ #(16)
-            -e VPN_BRING_DOWN_ON_TEST_FAILURE="false" \
             -e PRIVOXY_ENABLED="false" \ #(19)
             -e UNBOUND_ENABLED="false" \ #(21)
             -e UNBOUND_NAMESERVERS="" \ #(22)
@@ -61,7 +60,6 @@
               - VPN_FIREWALL_TYPE=auto #(17)
               - VPN_HEALTHCHECK_ENABLED=false #(20)
               - VPN_NAMESERVERS= #(16)
-              - VPN_BRING_DOWN_ON_TEST_FAILURE=
               - PRIVOXY_ENABLED=false #(19)
               - UNBOUND_ENABLED=false #(21)
               - UNBOUND_NAMESERVERS #(22)
@@ -95,7 +93,6 @@
             -e VPN_FIREWALL_TYPE="auto" \ #(17)
             -e VPN_HEALTHCHECK_ENABLED="false" \ #(20)
             -e VPN_NAMESERVERS="" \ #(16)
-            -e VPN_BRING_DOWN_ON_TEST_FAILURE="false" \
             -e PRIVOXY_ENABLED="false" \ #(19)
             -e UNBOUND_ENABLED="false" \ #(21)
             -e UNBOUND_NAMESERVERS="" \ #(22)
@@ -126,7 +123,6 @@
               - VPN_FIREWALL_TYPE=auto #(17)
               - VPN_HEALTHCHECK_ENABLED=false #(20)
               - VPN_NAMESERVERS= #(16)
-              - VPN_BRING_DOWN_ON_TEST_FAILURE=
               - PRIVOXY_ENABLED=false #(19)
               - UNBOUND_ENABLED=false #(21)
               - UNBOUND_NAMESERVERS #(22)
@@ -160,7 +156,6 @@
             -e VPN_FIREWALL_TYPE="auto" \ #(17)
             -e VPN_HEALTHCHECK_ENABLED="false" \ #(20)
             -e VPN_NAMESERVERS="" \ #(16)
-            -e VPN_BRING_DOWN_ON_TEST_FAILURE="false" \
             -e VPN_PIA_USER="" \ #(11)
             -e VPN_PIA_PASS="" \ #(11)
             -e VPN_PIA_PREFERRED_REGION="" \ #(7)
@@ -196,7 +191,6 @@
               - VPN_FIREWALL_TYPE=auto #(17)
               - VPN_HEALTHCHECK_ENABLED=false #(20)
               - VPN_NAMESERVERS= #(16)
-              - VPN_BRING_DOWN_ON_TEST_FAILURE=
               - VPN_PIA_USER #(11)
               - VPN_PIA_PASS #(11)
               - VPN_PIA_PREFERRED_REGION #(7)
