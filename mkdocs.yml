@@ -93,6 +93,7 @@ nav:
     - hotio/prowlarr: containers/prowlarr.md
     - hotio/qbitmanage: containers/qbitmanage.md
     - hotio/qbittorrent: containers/qbittorrent.md
+    - hotio/qui: containers/qui.md
     - hotio/radarr: containers/radarr.md
     - hotio/requestrr: containers/requestrr.md
     - hotio/rflood: containers/rflood.md
