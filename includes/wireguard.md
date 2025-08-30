@@ -2,7 +2,7 @@
 
 !!! info
 
-    This image includes VPN support. The cli/compose examples below are environment variables and settings complementary to the app image examples, this means you'll have to add/merge the stuff below with the stuff above. In case you are still in need of a VPN, consider using my affiliate links for [Proton VPN](https://hotio.dev/protonvpn){: target=_blank rel="noopener" }, [Proton Mail](https://hotio.dev/protonmail){: target=_blank rel="noopener" }, [Proton Drive](https://hotio.dev/protondrive){: target=_blank rel="noopener" }, [Proton Pass](https://hotio.dev/protonpass){: target=_blank rel="noopener" } or [Private Internet Access](https://hotio.dev/pia){: target=_blank rel="noopener" }.
+    This image includes VPN support. The cli/compose examples below are environment variables and settings complementary to the app image examples, this means you'll have to add/merge the stuff below with the stuff above. In case you are still in need of a VPN, consider using my affiliate links for [Proton VPN](https://hotio.dev/protonvpn){: target=_blank rel="noopener" }, [Proton Unlimited](https://hotio.dev/protonunlimited){: target=_blank rel="noopener" } or [Private Internet Access](https://hotio.dev/pia){: target=_blank rel="noopener" }.
   
 <img src="https://go.getproton.me/aff_i?offer_id=26&aff_id=7223" width="0" height="0" style="position:absolute;visibility:hidden;" border="0" />
 <a href="https://hotio.dev/protonvpn" target="_blank" rel="noopener">
