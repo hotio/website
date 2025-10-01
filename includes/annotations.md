@@ -10,7 +10,7 @@ Affiliate links:
 [Proton Unlimited](https://hotio.dev/protonunlimited){: target=_blank rel="noopener" }  
 [Private Internet Access](https://hotio.dev/pia){: target=_blank rel="noopener" }
 
-5. There needs to be a file `wg0.conf` located in `/config/wireguard` and you need to set the variable `VPN_ENABLED` to `true` for the VPN to start. If you'd like to execute some of your own bash commands you can place two scripts alongside your `wg0.conf`, called `wg0-pre.sh` and `wg0-post.sh`. These will execute right before the check for the existence of a `wg0.conf` file and almost at the end, right before the internet connectivity test.
+5. There needs to be a file `wg0.conf` (for PIA this is done automatically, see `VPN_PROVIDER` variable) located in `/config/wireguard` and you need to set the variable `VPN_ENABLED` to `true` for the VPN to start. If you'd like to execute some of your own bash commands you can place two scripts alongside your `wg0.conf`, called `wg0-pre.sh` and `wg0-post.sh`. These will execute right before the check for the existence of a `wg0.conf` file and almost at the end, right before the internet connectivity test.
 
 6. Auto retrieve a forwarded port and configure the supported app if set to `true` or if you can manually request/set a forwarded port in the VPN provider's web interface, fill in the port number (just the number). Useful website to check for open ports is [YouGetSignal](https://www.yougetsignal.com/tools/open-ports){: target=_blank rel="noopener" } and [ipleak.net](https://ipleak.net){: target=_blank rel="noopener" } to leak test with `.torrent` file.
 
