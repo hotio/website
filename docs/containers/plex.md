@@ -75,6 +75,10 @@ The variables correspond to the below plex network settings.
 
 The variable `PLEX_ADVERTISE_URL` is useful to aid your local clients in discovering your plex server when running in the `bridge` network mode. Most likely you would use something like `http://192.168.0.10:32400`. You could use `PLEX_NO_AUTH_NETWORKS` when you're locked out and need to regain access without providing credentials.
 
+## Hardware Transcoding
+
+All the usual hardware accelerated transcoding is supported.
+
 ## Getting a token
 
 The following command will interactively ask for your credentials and give you a token. If you don't use 2FA, just press enter.
