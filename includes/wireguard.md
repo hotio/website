@@ -33,6 +33,8 @@
             -e UNBOUND_ENABLED="false" \ #(21)
             -e UNBOUND_NAMESERVERS="" \ #(22)
             --cap-add=NET_ADMIN \
+            --sysctl="net.ipv4.conf.all.rp_filter=2" \ #(3)
+            --sysctl="net.ipv6.conf.all.disable_ipv6=1" \ #(9)
             ...
         ```
 
@@ -60,6 +62,9 @@
               - UNBOUND_NAMESERVERS #(22)
             cap_add:
               - NET_ADMIN
+            sysctls:
+              - net.ipv4.conf.all.rp_filter=2 #(3)
+              - net.ipv6.conf.all.disable_ipv6=1 #(9)
             ...
         ```
 
@@ -86,6 +91,8 @@
             -e UNBOUND_ENABLED="false" \ #(21)
             -e UNBOUND_NAMESERVERS="" \ #(22)
             --cap-add=NET_ADMIN \
+            --sysctl="net.ipv4.conf.all.rp_filter=2" \ #(3)
+            --sysctl="net.ipv6.conf.all.disable_ipv6=1" \ #(9)
             ...
         ```
 
@@ -113,6 +120,9 @@
               - UNBOUND_NAMESERVERS #(22)
             cap_add:
               - NET_ADMIN
+            sysctls:
+              - net.ipv4.conf.all.rp_filter=2 #(3)
+              - net.ipv6.conf.all.disable_ipv6=1 #(9)
             ...
         ```
 
@@ -144,6 +154,8 @@
             -e UNBOUND_ENABLED="false" \ #(21)
             -e UNBOUND_NAMESERVERS="" \ #(22)
             --cap-add=NET_ADMIN \
+            --sysctl="net.ipv4.conf.all.rp_filter=2" \ #(3)
+            --sysctl="net.ipv6.conf.all.disable_ipv6=1" \ #(9)
             ...
         ```
 
@@ -176,6 +188,9 @@
               - UNBOUND_NAMESERVERS #(22)
             cap_add:
               - NET_ADMIN
+            sysctls:
+              - net.ipv4.conf.all.rp_filter=2 #(3)
+              - net.ipv6.conf.all.disable_ipv6=1 #(9)
             ...
         ```
 

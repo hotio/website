@@ -2,7 +2,7 @@
 
 2. If you need to expose ports on your LAN you can use `VPN_EXPOSE_PORTS_ON_LAN`. For example `VPN_EXPOSE_PORTS_ON_LAN=7878/tcp,9117/tcp`, will block those ports on the vpn interface, so that there's no risk that they might be exposed to the world and allow access to them from your LAN. Most images also have a `WEBUI_PORTS` environment variable that does basically the same thing already pre-filled with the default ports. Use `WEBUI_PORTS` if you need to change those defaults. The variable `VPN_EXPOSE_PORTS_ON_LAN` is mostly for extra ports, likely used when routing additional containers through this container's VPN connection.
 
-3. NOT USED
+3. If the container fails, you'll have to add this.
 
 4. Possible values are `generic`, `proton` and `pia`.  
 Affiliate links:  
@@ -18,7 +18,7 @@ Affiliate links:
 
 8. With `VPN_CONF` you can set the name used for your WireGuard config.
 
-9. NOT USED
+9. If you have no need for IPv6, add this.
 
 10. DANGEROUS! Don't enable unless you know what you are doing!
 
