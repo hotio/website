@@ -33,8 +33,8 @@
             -e UNBOUND_ENABLED="false" \ #(21)
             -e UNBOUND_NAMESERVERS="" \ #(22)
             --cap-add=NET_ADMIN \
-            --sysctl="net.ipv4.conf.all.rp_filter=2" \ #(3)
-            --sysctl="net.ipv6.conf.all.disable_ipv6=1" \ #(9)
+            --sysctl="net.ipv4.conf.all.rp_filter=2" \ # OPTIONAL(3)
+            --sysctl="net.ipv6.conf.all.disable_ipv6=1" \ # OPTIONAL(9)
             ...
         ```
 
@@ -63,8 +63,8 @@
             cap_add:
               - NET_ADMIN
             sysctls:
-              - net.ipv4.conf.all.rp_filter=2 #(3)
-              - net.ipv6.conf.all.disable_ipv6=1 #(9)
+              - net.ipv4.conf.all.rp_filter=2 # OPTIONAL(3)
+              - net.ipv6.conf.all.disable_ipv6=1 # OPTIONAL(9)
             ...
         ```
 
@@ -91,8 +91,8 @@
             -e UNBOUND_ENABLED="false" \ #(21)
             -e UNBOUND_NAMESERVERS="" \ #(22)
             --cap-add=NET_ADMIN \
-            --sysctl="net.ipv4.conf.all.rp_filter=2" \ #(3)
-            --sysctl="net.ipv6.conf.all.disable_ipv6=1" \ #(9)
+            --sysctl="net.ipv4.conf.all.rp_filter=2" \ # OPTIONAL(3)
+            --sysctl="net.ipv6.conf.all.disable_ipv6=1" \ # OPTIONAL(9)
             ...
         ```
 
@@ -121,8 +121,8 @@
             cap_add:
               - NET_ADMIN
             sysctls:
-              - net.ipv4.conf.all.rp_filter=2 #(3)
-              - net.ipv6.conf.all.disable_ipv6=1 #(9)
+              - net.ipv4.conf.all.rp_filter=2 # OPTIONAL(3)
+              - net.ipv6.conf.all.disable_ipv6=1 # OPTIONAL(9)
             ...
         ```
 
@@ -154,8 +154,8 @@
             -e UNBOUND_ENABLED="false" \ #(21)
             -e UNBOUND_NAMESERVERS="" \ #(22)
             --cap-add=NET_ADMIN \
-            --sysctl="net.ipv4.conf.all.rp_filter=2" \ #(3)
-            --sysctl="net.ipv6.conf.all.disable_ipv6=1" \ #(9)
+            --sysctl="net.ipv4.conf.all.rp_filter=2" \ # OPTIONAL(3)
+            --sysctl="net.ipv6.conf.all.disable_ipv6=1" \ # OPTIONAL(9)
             ...
         ```
 
@@ -189,8 +189,8 @@
             cap_add:
               - NET_ADMIN
             sysctls:
-              - net.ipv4.conf.all.rp_filter=2 #(3)
-              - net.ipv6.conf.all.disable_ipv6=1 #(9)
+              - net.ipv4.conf.all.rp_filter=2 # OPTIONAL(3)
+              - net.ipv6.conf.all.disable_ipv6=1 # OPTIONAL(9)
             ...
         ```
 
