@@ -18,7 +18,7 @@ Affiliate links:
 
 8. With `VPN_CONF` you can set the name used for your WireGuard config.
 
-9. If you have no need for IPv6, add this.
+9. NOT USED
 
 10. DANGEROUS! Don't enable unless you know what you are doing!
 
