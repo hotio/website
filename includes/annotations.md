@@ -38,7 +38,7 @@ Affiliate links:
 
 18. If you want to use container hostnames to connect to other containers within a bridge network, you'll have to use `--hostname` and use `container-name.internal` or `container-name.vpn`. Currently `.vpn` is a non existing TLD, but that can change in the future. The TLD `.internal` should become the standard for internal networks, so it's the safest choice.
 
-19. This will start Privoxy on the default port 8118 when set to `true`. By default Privoxy is not exposed on the LAN, so if you need that, you'll have to add `VPN_EXPOSE_PORTS_ON_LAN=8118/tcp,8118/udp`.
+19. This will start Privoxy on the default port 8118 when set to `true`. By default Privoxy is not exposed on the LAN, so if you need that, you'll have to add `VPN_EXPOSE_PORTS_ON_LAN=8118/tcp`.
 
 20. Enabling this will bring down the container if the connectivity tests fail at the end of the Wireguard init process or for an extended period during the container runtime.
 
