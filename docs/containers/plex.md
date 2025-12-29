@@ -23,7 +23,6 @@ hide:
         -e PLEX_BETA_INSTALL="false" \
         -e PLEX_PURGE_CODECS="false" \
         -v /<host_folder_config>:/config \
-        -v /<host_folder_transcode>:/transcode \
         -v /<host_folder_data>:/data \
         ghcr.io/hotio/plex
     ```
@@ -49,15 +48,10 @@ hide:
           - PLEX_PURGE_CODECS=false
         volumes:
           - /<host_folder_config>:/config
-          - /<host_folder_transcode>:/transcode
           - /<host_folder_data>:/data
     ```
 
 --8<-- "includes/tags.md"
-
-## Volumes
-
-By default the container has 2 volumes defined, the volume `/config` that contains the configuration files and the volume `/transcode` which is used as the default transcode directory.
 
 ## Claim your server
 
