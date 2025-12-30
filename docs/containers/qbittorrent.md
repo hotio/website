@@ -21,7 +21,7 @@ hide:
         -e PGID=1000 \
         -e UMASK=002 \
         -e TZ="Etc/UTC" \
-        -e WEBUI_PORTS="8080/tcp,8080/udp" \
+        -e WEBUI_PORTS="8080/tcp" \
         -e LIBTORRENT="v1" \
         -v /<host_folder_config>:/config \
         -v /<host_folder_data>:/data \
@@ -42,7 +42,7 @@ hide:
           - PGID=1000
           - UMASK=002
           - TZ=Etc/UTC
-          - WEBUI_PORTS=8080/tcp,8080/udp
+          - WEBUI_PORTS=8080/tcp
           - LIBTORRENT=v1
         volumes:
           - /<host_folder_config>:/config
