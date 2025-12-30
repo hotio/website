@@ -82,6 +82,7 @@ hide:
 
     services:
       qbittorrent:
+        hostname: qbittorrent.internal 
         container_name: qbittorrent
         image: hotio/qbittorrent
         ports:
