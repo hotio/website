@@ -89,7 +89,7 @@ hide:
           - "9117:9117"
         environment:
           ...
-          - VPN_EXPOSE_PORTS_ON_LAN=9117/tcp,9117/udp
+          - VPN_EXPOSE_PORTS_ON_LAN=9117/tcp
         ...
 
       jackett:
