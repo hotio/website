@@ -58,7 +58,7 @@ hide:
 
 Possible values for `DETECTION_MODE` are `dig-google.com`, `dig-opendns.com`, `dig-whoami.cloudflare`, `curl-icanhazip.com`, `curl-wtfismyip.com`, `curl-showmyip.ca`, `curl-da.gd`, `curl-seeip.org`, `curl-ifconfig.co` and `curl-ipw.cn`. If you want to get the local ip from a network interface, use something like `local:eth0` as `DETECTION_MODE`.
 
-If you use `CF_APITOKEN` (Permissions: `Zone.DNS`), you can leave `CF_USER` and `CF_APIKEY` empty.
+If you use `CF_APITOKEN` (Permissions: `Zone.DNS - Edit`), you can leave `CF_USER` and `CF_APIKEY` empty.
 
 !!! important
 
