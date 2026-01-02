@@ -19,13 +19,13 @@ hide:
         -e INTERVAL=300 \
         -e DETECTION_MODE="dig-whoami.cloudflare" \
         -e LOG_LEVEL=3 \
+        -e APPRISE="" \
+        -e UPDATE_IPV4="true" \
+        -e UPDATE_IPV6="true" \
         -e CF_USER="your.cf.email@example.com" \
         -e CF_APIKEY="your.global.apikey" \
         -e CF_APITOKEN="" \
-        -e CF_APITOKEN_ZONE="" \
-        -e CF_HOSTS="test.example.com;test.foobar.com;test2.foobar.com" \
-        -e CF_ZONES="example.com;foobar.com;foobar.com" \
-        -e CF_RECORDTYPES="A;A;AAAA" \
+        -e CF_HOSTS="test.example.com,test.foobar.com,*.foobar.com" \
         -v /<host_folder_config>:/config \
         ghcr.io/hotio/cloudflareddns
     ```
@@ -45,114 +45,26 @@ hide:
           - INTERVAL=300
           - DETECTION_MODE=dig-whoami.cloudflare
           - LOG_LEVEL=3
+          - APPRISE
+          - UPDATE_IPV4=true
+          - UPDATE_IPV6=true
           - CF_USER=your.cf.email@example.com
           - CF_APIKEY=your.global.apikey
           - CF_APITOKEN
-          - CF_APITOKEN_ZONE
-          - CF_HOSTS=test.example.com;test.foobar.com;test2.foobar.com
-          - CF_ZONES=example.com;foobar.com;foobar.com
-          - CF_RECORDTYPES=A;A;AAAA
+          - CF_HOSTS=test.example.com,test.foobar.com,*.foobar.com
         volumes:
           - /<host_folder_config>:/config
     ```
 
 Possible values for `DETECTION_MODE` are `dig-google.com`, `dig-opendns.com`, `dig-whoami.cloudflare`, `curl-icanhazip.com`, `curl-wtfismyip.com`, `curl-showmyip.ca`, `curl-da.gd`, `curl-seeip.org`, `curl-ifconfig.co` and `curl-ipw.cn`. If you want to get the local ip from a network interface, use something like `local:eth0` as `DETECTION_MODE`.
 
-Notice that we give 3 values each time for `CF_HOSTS`, `CF_ZONES` and `CF_RECORDTYPES`. In our example, the domain `test.foobar.com` belonging to the zone `foobar.com` will have its A record updated with an ipv4 ip. If you use `CF_APITOKEN`, you can leave `CF_USER` and `CF_APIKEY` empty.
+If you use `CF_APITOKEN` (Permissions: `Zone.DNS`), you can leave `CF_USER` and `CF_APIKEY` empty.
 
 !!! important
 
-    All the domain names in `CF_HOSTS` should have properly configured DNS records on Cloudflare, they will not be created.
+    All the domains in `CF_HOSTS` should have properly configured DNS records on Cloudflare, they will not be created.
 
 --8<-- "includes/tags.md"
-
-## Zone ID
-
-Instead of the `zone_name`, you can also fill in a `zone_id` in `CF_ZONES`. When using a `zone_id`, you can use a scoped token (`CF_APITOKEN`) that only needs the `Zone - DNS - Edit` permissions. This improves security. The configuration could look like the example below.
-
-```shell
--e CF_APITOKEN="azkqvJ86wEScojvSJC8DyY67TwqNwZCtomEVrHwt"
--e CF_HOSTS="example.com;test.foobar.com"
--e CF_ZONES="zbpsi9ceikrdnnym27s2xnp6s5dvj6ep;dccbe6grakumohwwd4amh4o46yupepn8"
--e CF_RECORDTYPES="A;A"
-```
-
-## Seperate API Tokens
-
-If you do not prefer to use a `zone_id`, but prefer some more security, you can use 2 seperate tokens.
-
-`CF_APITOKEN` configured with:
-
-**Permissions**  
-`Zone - DNS - Edit`  
-**Zone Resources**  
-`Include - Specific zone - example.com`  
-`Include - Specific zone - foobar.com`
-
-`CF_APITOKEN_ZONE` configured with:
-
-**Permissions**  
-`Zone - Zone - Read`  
-**Zone Resources**  
-`Include - All zones`
-
-Leaving `CF_APITOKEN_ZONE` blank would mean that only `CF_APITOKEN` will be used and thus that token should have all required permissions. Which usually means that the token could edit all zones or not be able to fetch the `zone_id` from the `zone_name`.
-
-## Configuration combination examples
-
-Below are some example configuration combinations, ordered from most secure to least secure.
-
-* We use a `zone_id` so that our token only needs the permissions `Zone - DNS - Edit`.
-
-```shell
--e CF_APITOKEN="azkqvJ86wEScojvSJC8DyY67TwqNwZCtomEVrHwt"
--e CF_HOSTS="vpn.example.com;test.foobar.com"
--e CF_ZONES="zbpsi9ceikrdnnym27s2xnp6s5dvj6ep;axozor886pyja7nmbcvu5kh7dp9557j4"
--e CF_RECORDTYPES="A;A"
-```
-
-* We use additionally a `CF_APITOKEN_ZONE` with the permissions `Zone - Zone - Read` to query the zones and getting the `zone_id`.
-
-```shell
--e CF_APITOKEN="azkqvJ86wEScojvSJC8DyY67TwqNwZCtomEVrHwt"
--e CF_APITOKEN_ZONE="8m4TxzWb9QHXEpTwQDMugkKuHRavsxoK8qmJ4P7M"
--e CF_HOSTS="vpn.example.com;test.foobar.com"
--e CF_ZONES="example.com;axozor886pyja7nmbcvu5kh7dp9557j4"
--e CF_RECORDTYPES="A;A"
-```
-
-* We use only `CF_APITOKEN`, but with the permissions `Zone - DNS - Edit` and `Zone - Zone - Read`.
-
-```shell
--e CF_APITOKEN="azkqvJ86wEScojvSJC8DyY67TwqNwZCtomEVrHwt"
--e CF_HOSTS="vpn.example.com;test.foobar.com"
--e CF_ZONES="example.com;axozor886pyja7nmbcvu5kh7dp9557j4"
--e CF_RECORDTYPES="A;A"
-```
-
-* We use `CF_USER` and `CF_APIKEY`, basically giving full control over our account.
-
-```shell
--e CF_USER="your.cf.email@example.com"
--e CF_APIKEY="your.global.apikey"
--e CF_HOSTS="vpn.example.com;test.foobar.com"
--e CF_ZONES="example.com;axozor886pyja7nmbcvu5kh7dp9557j4"
--e CF_RECORDTYPES="A;A"
-```
-
-## Example of the log output
-
-```text
-2020-05-17 17:20:54 -    INFO - IPv4 detected by [dig-whoami.cloudflare] is [1.1.1.1].
-2020-05-17 17:20:54 -    INFO - [1/1] [A] [vpn.example.com] Reading zone list from Cloudflare.
-2020-05-17 17:20:54 -    INFO - [1/1] [A] [vpn.example.com] Retrieved zone list from Cloudflare.
-2020-05-17 17:20:54 -    INFO - [1/1] [A] [vpn.example.com] Zone ID [xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx] found for zone [example.com].
-2020-05-17 17:20:54 -    INFO - [1/1] [A] [vpn.example.com] Reading DNS record from Cloudflare.
-2020-05-17 17:20:55 -    INFO - [1/1] [A] [vpn.example.com] Writing DNS record to cache file [/config/cf-ddns-A-vpn.example.com.cache].
-2020-05-17 17:20:55 -    INFO - [1/1] [A] [vpn.example.com] Checking if update is needed.
-2020-05-17 17:20:55 -    INFO - [1/1] [A] [vpn.example.com] No update needed.
-2020-05-17 17:20:55 -    INFO - Going to sleep for [300] seconds...
-```
 
 ## Log levels
 
@@ -199,7 +111,7 @@ You can send notifications when a DNS record gets updated with a new IP using [A
 
 ```shell
 -e APPRISE="pover://user@token"
--e APPRISE="pover://user@token;discord://webhook_id/webhook_token"
+-e APPRISE="pover://user@token,discord://webhook_id/webhook_token"
 ```
 
 --8<-- "includes/wireguard.md"
