@@ -30,8 +30,10 @@ $(function loadJSON() {
                 var tags = "";
                 var tags_code = "";
                 $.each(f.tags, function(i, f) {
-                    tags = tags + ", " + f;
-                    tags_code = tags_code + "<div class=\"tag-decoration\">" + f + "</div><br>";
+                    if (f) {
+                        tags = tags + ", " + f;
+                        tags_code = tags_code + "<div class=\"tag-decoration\">" + f + "</div><br>";
+                    }
                 });
                 tags = tags.replace(/^,/, '');
                 var d = new Date(last_updated);
