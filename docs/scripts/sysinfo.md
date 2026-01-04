@@ -34,4 +34,4 @@ Now execute `sysinfo --help` to see all available options, which you can combine
 
 ## Preview
 
-![sysinfo.sh output](/img/sysinfo.png)
+![sysinfo.sh output](../img/sysinfo.png)

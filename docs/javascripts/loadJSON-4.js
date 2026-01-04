@@ -28,15 +28,17 @@ $(function loadJSON() {
                 }
                 var latest = f.latest;
                 var extraTag = "";
+                var nr = Math.floor(Math.random() * 100);
                 if (latest == true) {
-                    extraTag = "<div class=\"tag-decoration tag-decoration-latest\">latest</div>";
+                    extraTag = "<div id=\"tag" + nr + "\" onclick=\"CopyToClipboard('tag" + nr + "');return false;\" class=\"tag-decoration tag-decoration-latest tooltip69\">latest</div>";
                 }
                 var tags = "";
                 var tags_code = "";
                 $.each(f.tags, function(i, f) {
                     if (f) {
+                        nr = Math.floor(Math.random() * 100);
                         tags = tags + ", " + f;
-                        tags_code = tags_code + "<div class=\"tag-decoration\">" + f + "</div>";
+                        tags_code = tags_code + "<div id=\"tag" + nr + "\" onclick=\"CopyToClipboard('tag" + nr + "');return false;\" class=\"tag-decoration tooltip69\">" + f + "</div>";
                     }
                 });
                 tags = tags.replace(/^,/, '');
