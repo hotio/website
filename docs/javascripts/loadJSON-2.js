@@ -22,6 +22,10 @@ $(function loadJSON() {
                 if (description == undefined) {
                     description = "";
                 }
+                var commit_message = f.commit_message;
+                if (commit_message == undefined) {
+                    commit_message = "";
+                }
                 var latest = f.latest;
                 var extraTag = "";
                 if (latest == true) {
@@ -59,6 +63,7 @@ $(function loadJSON() {
                     <tr>
                     <td style=\"white-space:nowrap;\">${extraTag}${tags_code}</td>
                     <td>${description}</td>
+                    <td>${commit_message}</td>
                     <td style=\"white-space:nowrap;\">${last_updated_string}</td>
                     <td>${days(d, currentDate)}</td>
                     </tr>
