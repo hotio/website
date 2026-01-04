@@ -133,11 +133,11 @@ a.header-icons {
 .tooltip69::after { 
   content: "Click to Copy";
   position: absolute;
-  top: 150%;
+  top: -250%;
   left: 50%;
   transform: translateX(-50%);
   background-color: var(--md-accent-fg-color);
-  color: white;
+  color: var(--md-accent-bg-color);
   padding: 5px 10px;
   border-radius: 5px;
   white-space: nowrap;
@@ -152,7 +152,7 @@ a.header-icons {
   z-index: 1;
 }
 .md-typeset__scrollwrap:hover {
-  overflow: visible;
+  overflow-y: hidden;
 }
 #tags-table:hover {
   overflow: visible;

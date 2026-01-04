@@ -14,7 +14,7 @@ extra:
     name: GitHub
 
 extra_css:
-  - stylesheets/extra-2.css
+  - stylesheets/extra-3.css
 
 plugins:
   - search
