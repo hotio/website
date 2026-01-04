@@ -21,28 +21,30 @@ $(function loadJSON() {
                 var description = f.description;
                 var commit_message = f.commit_message;
                 var commit_sha = f.commit_sha;
+                var latest = f.latest;
+                var tags_list = "";
+                var tags_html = "";
+                var nr = Math.floor(Math.random() * 100);
                 if (description == undefined) {
                     description = "";
                 }
                 if (commit_message == undefined) {
                     commit_message = "";
                 }
-                var latest = f.latest;
-                var extraTag = "";
-                var nr = Math.floor(Math.random() * 100);
-                if (latest == true) {
-                    extraTag = "<div id=\"tag" + nr + "\" onclick=\"CopyToClipboard('tag" + nr + "');return false;\" class=\"tag-decoration tag-decoration-latest tooltip69\">latest</div>";
+                if (commit_sha != undefined) {
+                    commit_message = `<a href="https://github.com/${image}/commit/${commit_sha}" target="_blank">${commit_message}</a>`;
                 }
-                var tags = "";
-                var tags_code = "";
+                if (latest == true) {
+                    tags_list = "latest";
+                    tags_html = `<div title="Copy to clipboard" id="tag${nr}" onclick="CopyToClipboard('tag${nr}');return false;" class="tag-decoration tag-decoration-latest">latest</div>`;
+                }
                 $.each(f.tags, function(i, f) {
                     if (f) {
                         nr = Math.floor(Math.random() * 100);
-                        tags = tags + ", " + f;
-                        tags_code = tags_code + "<div id=\"tag" + nr + "\" onclick=\"CopyToClipboard('tag" + nr + "');return false;\" class=\"tag-decoration tooltip69\">" + f + "</div>";
+                        tags_list += `,${f}`;
+                        tags_html += `<div title="Copy to clipboard" id="tag${nr}" onclick="CopyToClipboard('tag${nr}');return false;" class="tag-decoration">${f}</div>`;
                     }
                 });
-                tags = tags.replace(/^,/, '');
                 var d = new Date(last_updated);
                 var currentDate = new Date();
                 var days = (d, currentDate) =>{
@@ -57,26 +59,22 @@ $(function loadJSON() {
                 }
                 var datestring = d.getFullYear() + "-" + (d.getMonth()+1).toString().padStart(2, '0') + "-" + d.getDate().toString().padStart(2, '0') + " " + d.getHours().toString().padStart(2, '0') + ":" + d.getMinutes().toString().padStart(2, '0') + ":" + d.getSeconds().toString().padStart(2, '0');
                 if (last_updated_url != undefined) {
-                    var last_updated_string = `<a href="${last_updated_url}" target="_blank">${datestring}</a>`;
+                    var last_updated_html = `<a href="${last_updated_url}" target="_blank">${datestring}</a>`;
                 } else {
-                    var last_updated_string = `${datestring}`
+                    var last_updated_html = `${datestring}`
                 }
-                if (commit_sha != undefined) {
-                    var commit_message = `<a href="https://github.com/${image}/commit/${commit_sha}" target="_blank">${commit_message}</a>`;
-                } else {
-                    var commit_message = `${commit_message}`
-                }
-                console.log(`Tags: ${tags}, Last Updated: ${datestring}, Age: ${days(d, currentDate)}`);
                 var tblRow = `
                     <tr>
-                    <td>${extraTag}${tags_code}</td>
+                    <td>${tags_html}</td>
                     <td>${description}</td>
                     <td>${commit_message}</td>
-                    <td style=\"white-space:nowrap;\">${last_updated_string}</td>
+                    <td style=\"white-space:nowrap;\">${last_updated_html}</td>
                     <td>${days(d, currentDate)}</td>
                     </tr>
                 `
                 $(tblRow).appendTo("#tags-table tbody");
+                tags_list = tags_list.replace(/^,/, '');
+                console.log(`Tags: ${tags_list} / Last Updated: ${datestring} / Age: ${days(d, currentDate)}`);
             }
         });
     });

@@ -122,38 +122,3 @@ a.header-icons {
   border-radius: 5px;
   margin-right: 10px;
 }
-#torguardImages {
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-.tooltip69 {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-}
-.tooltip69::after { 
-  content: "Click to Copy";
-  position: absolute;
-  top: -250%;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: var(--md-accent-fg-color);
-  color: var(--md-accent-bg-color);
-  padding: 5px 10px;
-  border-radius: 5px;
-  white-space: nowrap;
-  font-size: 12px;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.5s ease-in-out;
-}
-.tooltip69:hover::after {
-  opacity: 1;
-  visibility: visible;
-  z-index: 1;
-}
-.md-typeset__scrollwrap:hover {
-  overflow-y: hidden;
-}
-#tags-table:hover {
-  overflow: visible;
-}
