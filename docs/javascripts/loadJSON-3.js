@@ -29,14 +29,14 @@ $(function loadJSON() {
                 var latest = f.latest;
                 var extraTag = "";
                 if (latest == true) {
-                    extraTag = "<div class=\"tag-decoration tag-decoration-latest\">latest</div><br>";
+                    extraTag = "<div class=\"tag-decoration tag-decoration-latest\">latest</div>";
                 }
                 var tags = "";
                 var tags_code = "";
                 $.each(f.tags, function(i, f) {
                     if (f) {
                         tags = tags + ", " + f;
-                        tags_code = tags_code + "<div class=\"tag-decoration\">" + f + "</div><br>";
+                        tags_code = tags_code + "<div class=\"tag-decoration\">" + f + "</div>";
                     }
                 });
                 tags = tags.replace(/^,/, '');
@@ -61,7 +61,7 @@ $(function loadJSON() {
                 console.log(`Tags: ${tags}, Last Updated: ${datestring}, Age: ${days(d, currentDate)}`);
                 var tblRow = `
                     <tr>
-                    <td style=\"white-space:nowrap;\">${extraTag}${tags_code}</td>
+                    <td>${extraTag}${tags_code}</td>
                     <td>${description}</td>
                     <td>${commit_message}</td>
                     <td style=\"white-space:nowrap;\">${last_updated_string}</td>
