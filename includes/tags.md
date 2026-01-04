@@ -4,7 +4,7 @@
   <thead>
     <th style="white-space:nowrap;">Tags</th>
     <th style="white-space:nowrap;">Description</th>
-    <th style="white-space:nowrap;">Commit Message</th>
+    <th style="white-space:nowrap;">Commit</th>
     <th style="white-space:nowrap;">Last Updated</th>
     <th style="white-space:nowrap;">Age</th>
   </thead>
@@ -13,7 +13,7 @@
 </table>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script type="text/javascript" src="/javascripts/loadJSON-4.js"></script>
+<script type="text/javascript" src="/javascripts/loadJSON-5.js"></script>
 <script>
 function CopyToClipboard(id) {
   var r = document.createRange();

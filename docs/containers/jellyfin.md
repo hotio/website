@@ -5,6 +5,8 @@ hide:
 
 --8<-- "includes/header-links.md"
 
+--8<-- "includes/tags.md"
+
 ## Starting the container
 
 === "cli"
@@ -40,8 +42,6 @@ hide:
           - /<host_folder_config>:/config
           - /<host_folder_data>:/data
     ```
-
---8<-- "includes/tags.md"
 
 ## Configuration
 

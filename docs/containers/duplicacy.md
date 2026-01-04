@@ -5,6 +5,8 @@ hide:
 
 --8<-- "includes/header-links.md"
 
+--8<-- "includes/tags.md"
+
 ## Starting the container
 
 === "cli"
@@ -48,7 +50,5 @@ hide:
     ```
 
 If you don't want to enter your password every time you restart the container, you can set the environment variable `DWE_PASSWORD` with your password or starting with version 1.4.1 a file `/config/keyring` will be created that stores your password encryted if you click the checkmark on the login page.
-
---8<-- "includes/tags.md"
 
 --8<-- "includes/wireguard.md"

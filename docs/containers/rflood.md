@@ -5,9 +5,7 @@ hide:
 
 --8<-- "includes/header-links.md"
 
-!!! question "What is this?"
-
-    A docker image with rTorrent and the Flood UI, also optional WireGuard VPN support.
+--8<-- "includes/tags.md"
 
 ## Starting the container
 
@@ -51,11 +49,9 @@ hide:
           - /<host_folder_data>:/data
     ```
 
---8<-- "includes/tags.md"
-
 ## Changing the WebUI port
 
-Under certain circumstances it's required to run the WebUI on a different internal port, you can do that by modifying the environment variable `WEBUI_PORTS` accordingly. It should be in the format `xxxx/tcp,xxxx/udp`, take a look at the default with `docker logs` (variable is printed at container start) or `docker inspect`.
+Under certain circumstances it's required to run the WebUI on a different internal port, you can do that by modifying the environment variable `WEBUI_PORTS` accordingly. It should be in the format `xxxx/tcp`, take a look at the default with `docker logs` (variable is printed at container start) or `docker inspect`.
 
 ## XML-RPC / JSON-RPC
 

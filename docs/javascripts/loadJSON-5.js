@@ -19,10 +19,11 @@ $(function loadJSON() {
                 var last_updated = f.last_updated;
                 var last_updated_url = f.last_updated_url;
                 var description = f.description;
+                var commit_message = f.commit_message;
+                var commit_sha = f.commit_sha;
                 if (description == undefined) {
                     description = "";
                 }
-                var commit_message = f.commit_message;
                 if (commit_message == undefined) {
                     commit_message = "";
                 }
@@ -59,6 +60,11 @@ $(function loadJSON() {
                     var last_updated_string = `<a href="${last_updated_url}" target="_blank">${datestring}</a>`;
                 } else {
                     var last_updated_string = `${datestring}`
+                }
+                if (commit_sha != undefined) {
+                    var commit_message = `<a href="https://github.com/${image}/commit/${commit_sha}" target="_blank">${commit_message}</a>`;
+                } else {
+                    var commit_message = `${commit_message}`
                 }
                 console.log(`Tags: ${tags}, Last Updated: ${datestring}, Age: ${days(d, currentDate)}`);
                 var tblRow = `

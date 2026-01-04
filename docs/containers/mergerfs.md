@@ -5,6 +5,8 @@ hide:
 
 --8<-- "includes/header-links.md"
 
+--8<-- "includes/tags.md"
+
 ## Starting the container
 
 === "cli"
@@ -21,8 +23,6 @@ hide:
     ```
 
 The default `ENTRYPOINT` is `mergerfs -f`.
-
---8<-- "includes/tags.md"
 
 ## Using the mergerfs mount on the host
 

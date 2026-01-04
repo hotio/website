@@ -5,6 +5,8 @@ hide:
 
 --8<-- "includes/header-links.md"
 
+--8<-- "includes/tags.md"
+
 ## Starting the container
 
 === "cli"
@@ -40,7 +42,5 @@ hide:
         volumes:
           - /<host_folder_config>:/config
     ```
-
---8<-- "includes/tags.md"
 
 --8<-- "includes/wireguard.md"

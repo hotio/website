@@ -5,6 +5,8 @@ hide:
 
 --8<-- "includes/header-links.md"
 
+--8<-- "includes/tags.md"
+
 ## Starting the container
 
 === "cli"
@@ -37,7 +39,5 @@ hide:
     ```
 
 This image is the base image for all other application images, however it can be used as a standalone VPN image for other images to attach to.
-
---8<-- "includes/tags.md"
 
 --8<-- "includes/wireguard.md"

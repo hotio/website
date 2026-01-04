@@ -5,6 +5,8 @@ hide:
 
 --8<-- "includes/header-links.md"
 
+--8<-- "includes/tags.md"
+
 ## Starting the container
 
 === "cli"
@@ -63,8 +65,6 @@ If you use `CF_APITOKEN` (Permissions: `Zone.DNS - Edit`), you can leave `CF_USE
 !!! important
 
     All the domains in `CF_HOSTS` should have properly configured DNS records on Cloudflare, they will not be created.
-
---8<-- "includes/tags.md"
 
 ## Log levels
 

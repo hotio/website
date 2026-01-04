@@ -5,9 +5,7 @@ hide:
 
 --8<-- "includes/header-links.md"
 
-!!! question "What is this?"
-
-    A docker image with [Caddy 2](https://caddyserver.com){: target=_blank rel="noopener" } (included modules: [caddy-dns/cloudflare](https://github.com/caddy-dns/cloudflare){: target=_blank rel="noopener" }, [mholt/caddy-ratelimit](https://github.com/mholt/caddy-ratelimit){: target=_blank rel="noopener" }). The default config only allows access from private ip ranges.
+--8<-- "includes/tags.md"
 
 ## Starting the container
 
@@ -47,7 +45,9 @@ hide:
           - /<host_folder_config>:/config
     ```
 
---8<-- "includes/tags.md"
+!!! info
+
+    Included modules: [caddy-dns/cloudflare](https://github.com/caddy-dns/cloudflare){: target=_blank rel="noopener" }, [mholt/caddy-ratelimit](https://github.com/mholt/caddy-ratelimit){: target=_blank rel="noopener" }. The default config only allows access from private ip ranges.
 
 ## Custom build
 
