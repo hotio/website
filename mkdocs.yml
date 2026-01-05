@@ -33,6 +33,8 @@ site_author: hotio
 site_description: Documentation for all Docker images maintained by hotio.
 site_name: hotio.dev
 site_url: https://hotio.dev
+site_dir: site
+docs_dir: docs
 
 theme:
   icon:
