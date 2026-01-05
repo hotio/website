@@ -24,6 +24,6 @@ jobs:
       - run: zensical build --clean 
       - uses: actions/upload-pages-artifact@v4
         with:
-          path: site
+          path: .build
       - uses: actions/deploy-pages@v4
         id: deployment
