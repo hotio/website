@@ -42,6 +42,7 @@ docs_dir: docs
 theme:
   icon:
     repo: fontawesome/brands/github
+    annotation: material/information
   favicon: img/favicon.ico
   features:
     - navigation.instant
