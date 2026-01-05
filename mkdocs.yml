@@ -39,7 +39,6 @@ docs_dir: docs
 theme:
   icon:
     repo: fontawesome/brands/github
-  favicon: img/favicon.ico
   features:
     - navigation.instant
     - navigation.tabs
