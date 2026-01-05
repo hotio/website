@@ -46,6 +46,18 @@ a.header-icons {
 }
 .tag-decoration-latest {
   border-color: var(--md-typeset-a-color);
+  color: var(--md-typeset-a-color);
+  cursor: default;
+  border: solid 1px;
+  border-radius: 7px; /* Making border radius */
+  margin-bottom: 5px;
+  margin-right: 5px;
+  width: auto; /* Making auto-sizable width */
+  height: auto; /* Making auto-sizable height */
+  padding: 2px 5px 2px 5px; /* Making space around letters */
+  font-size: .7em; /* Changing font size */
+  display: inline-flex;
+  font-family: "Roboto Mono", SFMono-Regular, Consolas, Menlo, monospace;
 }
 .tag-decoration {
   cursor: pointer;
@@ -61,9 +73,8 @@ a.header-icons {
   font-family: "Roboto Mono", SFMono-Regular, Consolas, Menlo, monospace;
 }
 .tag-decoration:hover {
-  background-color: var(--md-accent-fg-color);
-  border-color: var(--md-accent-fg-color);
-  color: var(--md-accent-bg-color);
+  background-color: var(--md-accent-fg-color--transparent);
+  border-color: var(--md-accent-fg-color--transparent);
 }
 .vpnbanner {
   border-radius: 5px;

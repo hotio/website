@@ -46,7 +46,7 @@ $(function loadJSON() {
                 }
                 if (latest == true) {
                     tags_list = "latest";
-                    tags_html = `<div id="tag${nr}" onclick="CopyToClipboard('tag${nr}');return false;" class="tag-decoration tag-decoration-latest">latest</div>`;
+                    tags_html = `<div class="tag-decoration-latest">latest</div>`;
                 }
                 $.each(f.tags, function(i, f) {
                     if (f) {
