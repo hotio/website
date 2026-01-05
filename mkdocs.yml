@@ -1,4 +1,4 @@
-copyright: Copyright &copy; 2023 hotio<br>Logos based on work by <a href="https://www.flaticon.com/authors/freepik">Freepik</a> from <a href="https://www.flaticon.com">flaticon.com</a> and <a href="https://freeicons.io/profile/6200">Soni Sokell</a> on <a href="https://freeicons.io">freeicons.io</a>
+copyright: Copyright &copy; 2026 hotio<br>Logos based on work by <a href="https://www.flaticon.com/authors/freepik">Freepik</a> from <a href="https://www.flaticon.com">flaticon.com</a> and <a href="https://freeicons.io/profile/6200">Soni Sokell</a> on <a href="https://freeicons.io">freeicons.io</a>
 edit_uri: 'website/edit/master/docs'
 
 extra:
@@ -47,6 +47,8 @@ theme:
     - navigation.footer
     - content.code.copy
     - content.code.annotate
+    - content.tooltips
+    - content.tabs.link
   language: en
   logo: img/hotio.svg
   name: material
@@ -68,6 +70,7 @@ markdown_extensions:
   - toc:
       permalink: true
   - admonition
+  - abbr
 
 nav:
 - Home: index.md
