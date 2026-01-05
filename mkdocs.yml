@@ -4,31 +4,23 @@ edit_uri: 'website/edit/master/docs'
 extra:
   social:
   - icon: fontawesome/solid/heart
-    link: 'https://hotio.dev/donate'
+    link: '/#donations'
     name: Donate
   - icon: fontawesome/brands/discord
-    link: 'https://hotio.dev/discord'
+    link: 'https://discord.gg/FycMN9gTC3'
     name: Discord
   - icon: fontawesome/brands/github
-    link: 'https://hotio.dev/github'
+    link: 'https://github.com/hotio'
     name: GitHub
 
 extra_css:
-  - stylesheets/extra-7.css
+  - stylesheets/extra-8.css
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - javascripts/tablesort.js
 
 plugins:
   - search
-  - redirects:
-      redirect_maps:
-        discord.md: 'https://discord.gg/FycMN9gTC3'
-        github.md: 'https://github.com/hotio'
-        donate.md: 'https://hotio.dev/#donations'
-        pia.md: https://www.privateinternetaccess.com/offer/hotio.dev_hsm018qg
-        protonvpn.md: https://go.getproton.me/aff_c?offer_id=26&aff_id=7223
-        protonunlimited.md: https://go.getproton.me/aff_c?offer_id=42&aff_id=7223&url_id=1194
 
 repo_name: hotio
 repo_url: https://github.com/hotio
@@ -68,6 +60,9 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.highlight
   - pymdownx.tabbed:
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
       alternate_style: true
   - pymdownx.superfences
   - pymdownx.emoji:

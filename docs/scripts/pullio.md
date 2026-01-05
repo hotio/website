@@ -10,7 +10,7 @@ Pullio is a bash script that you execute with cron, a systemd timer or any other
 
 Features:
 
-- Discord notifications (see below for preview)
+- Discord notifications
 - No notifications if you leave the webhook out, it'll run as an updater and script executer
 - Detailed info about what has changed for images that follow the Opencontainers Annotation Keys
 - Execute script before sending notification
@@ -70,13 +70,3 @@ If you need to provide credentials for a Private Registry, this file's content n
 ## Troubleshooting
 
 It can be frustrating to test the script if no docker image updates are available, for that you can do `./pullio.sh --debug` and the script will behave as if an update is available.
-
-## Notification preview
-
-<div class="pullio-preview">
-<img src="/img/pullio-update-1.png" alt="preview"/>
-<img src="/img/pullio-update-2.png" alt="preview"/>
-<img src="/img/pullio-update-3.png" alt="preview"/>
-<img src="/img/pullio-update-4.png" alt="preview"/>
-<img src="/img/pullio-update-5.png" alt="preview"/>
-</div>

@@ -2,15 +2,14 @@
 
 !!! info
 
-    This image includes VPN support. The cli/compose examples below are environment variables and settings complementary to the app image examples, this means you'll have to add/merge the stuff below with the stuff above. Don't forget to click the `+` symbol. In case you are still in need of a VPN, consider using my affiliate links for [Proton VPN](https://hotio.dev/protonvpn){: target=_blank rel="noopener" }, [Proton Unlimited](https://hotio.dev/protonunlimited){: target=_blank rel="noopener" } or [Private Internet Access](https://hotio.dev/pia){: target=_blank rel="noopener" }.
-  
-<img src="https://go.getproton.me/aff_i?offer_id=26&aff_id=7223" width="0" height="0" style="position:absolute;visibility:hidden;" border="0" />
-<a href="https://hotio.dev/protonvpn" target="_blank" rel="noopener">
-  <img id="vpnbanner" src="/img/protonvpn@2x.png" alt="ProtonVPN" width="320" height="50">
-</a>
-<a href="https://hotio.dev/pia" target="_blank" rel="noopener">
-  <img id="vpnbanner" src="/img/piavpn728x90.png" alt="PiaVPN" width="404" height="50">
-</a>
+    This image includes VPN support. The cli/compose examples below are environment variables and settings complementary to the app image examples, this means you'll have to add/merge the stuff below with the stuff above. Don't forget to click the `+` symbol. In case you are still in need of a VPN, consider using my affiliate links for [Proton VPN](https://go.getproton.me/aff_c?offer_id=26&aff_id=7223){: target=_blank rel="noopener" }, [Proton Unlimited](https://go.getproton.me/aff_c?offer_id=42&aff_id=7223&url_id=1194){: target=_blank rel="noopener" } or [Private Internet Access](https://www.privateinternetaccess.com/offer/hotio.dev_hsm018qg){: target=_blank rel="noopener" }.
+
+    <a href="https://go.getproton.me/aff_c?offer_id=26&aff_id=7223" target="_blank" rel="noopener">
+      <img class="vpnbanner" src="/img/protonvpn@2x.png" alt="ProtonVPN" width="320" height="50">
+    </a>
+    <a href="http://www.privateinternetaccess.com/offer/hotio.dev_hsm018qg" target="_blank" rel="noopener">
+      <img class="vpnbanner" src="/img/piavpn728x90.png" alt="PiaVPN" width="404" height="50">
+    </a>
 
 === "generic"
 

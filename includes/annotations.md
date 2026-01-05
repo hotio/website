@@ -6,9 +6,9 @@
 
 4. Possible values are `generic`, `proton` and `pia`.  
 Affiliate links:  
-[Proton VPN](https://hotio.dev/protonvpn){: target=_blank rel="noopener" }  
-[Proton Unlimited](https://hotio.dev/protonunlimited){: target=_blank rel="noopener" }  
-[Private Internet Access](https://hotio.dev/pia){: target=_blank rel="noopener" }
+[Proton VPN](https://go.getproton.me/aff_c?offer_id=26&aff_id=7223){: target=_blank rel="noopener" }  
+[Proton Unlimited](https://go.getproton.me/aff_c?offer_id=42&aff_id=7223&url_id=1194){: target=_blank rel="noopener" }  
+[Private Internet Access](https://www.privateinternetaccess.com/offer/hotio.dev_hsm018qg){: target=_blank rel="noopener" }
 
 5. There needs to be a file `wg0.conf` (for PIA this is done automatically, see `VPN_PROVIDER` variable) located in `/config/wireguard` and you need to set the variable `VPN_ENABLED` to `true` for the VPN to start. If you'd like to execute some of your own bash scripts you can place the scripts alongside your `wg0.conf` file, called `wg0-pre.sh` (before vpn is up), `wg0-post.sh` (after vpn is up) or `wg0-port.sh` (after forwarded port change).
 
