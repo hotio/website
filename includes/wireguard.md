@@ -17,7 +17,7 @@
 
         ```shell linenums="1"
         docker run --rm \
-            --hostname container-name.internal \ #(18)!
+            --hostname="container-name.internal" \ #(18)!
             -e VPN_ENABLED="true" \ #(5)!
             -e VPN_CONF="wg0" \ #(8)!
             -e VPN_PROVIDER="generic" \ #(4)!
@@ -31,7 +31,7 @@
             -e PRIVOXY_ENABLED="false" \ #(19)!
             -e UNBOUND_ENABLED="false" \ #(21)!
             -e UNBOUND_NAMESERVERS="" \ #(22)!
-            --cap-add=NET_ADMIN \
+            --cap-add="NET_ADMIN" \
             ...
         ```
 
@@ -70,7 +70,7 @@
 
         ```shell linenums="1"
         docker run --rm \
-            --hostname container-name.internal \ #(18)!
+            --hostname="container-name.internal" \ #(18)!
             -e VPN_ENABLED="true" \ #(5)!
             -e VPN_CONF="wg0" \ #(8)!
             -e VPN_PROVIDER="proton" \ #(4)!
@@ -84,7 +84,7 @@
             -e PRIVOXY_ENABLED="false" \ #(19)!
             -e UNBOUND_ENABLED="false" \ #(21)!
             -e UNBOUND_NAMESERVERS="" \ #(22)!
-            --cap-add=NET_ADMIN \
+            --cap-add="NET_ADMIN" \
             ...
         ```
 
@@ -123,7 +123,7 @@
 
         ```shell linenums="1"
         docker run --rm \
-            --hostname container-name.internal \ #(18)!
+            --hostname="container-name.internal" \ #(18)!
             -e VPN_ENABLED="true" \ #(5)!
             -e VPN_CONF="wg0" \ #(8)!
             -e VPN_PROVIDER="pia" \ #(4)!
@@ -142,7 +142,7 @@
             -e PRIVOXY_ENABLED="false" \ #(19)!
             -e UNBOUND_ENABLED="false" \ #(21)!
             -e UNBOUND_NAMESERVERS="" \ #(22)!
-            --cap-add=NET_ADMIN \
+            --cap-add="NET_ADMIN" \
             ...
         ```
 
