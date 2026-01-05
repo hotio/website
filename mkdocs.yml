@@ -33,12 +33,13 @@ site_author: hotio
 site_description: Documentation for all Docker images maintained by hotio.
 site_name: hotio.dev
 site_url: https://hotio.dev
-site_dir: site
+site_dir: .build
 docs_dir: docs
 
 theme:
   icon:
     repo: fontawesome/brands/github
+  favicon: img/favicon.ico
   features:
     - navigation.instant
     - navigation.tabs
@@ -55,7 +56,7 @@ theme:
   name: material
   palette:
     scheme: hotio
-  custom_dir: docs/overrides
+  custom_dir: overrides
 
 markdown_extensions:
   - pymdownx.details
