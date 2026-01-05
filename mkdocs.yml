@@ -15,6 +15,9 @@ extra:
 
 extra_css:
   - stylesheets/extra-7.css
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.js
 
 plugins:
   - search
@@ -59,6 +62,7 @@ theme:
   custom_dir: overrides
 
 markdown_extensions:
+  - md_in_html
   - pymdownx.details
   - pymdownx.snippets
   - pymdownx.highlight

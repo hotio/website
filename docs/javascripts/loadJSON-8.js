@@ -12,6 +12,7 @@ $(function loadJSON() {
     const splitImage = image.split("/");
     document.getElementById("github-link").href="https://github.com/" + image;
     document.getElementById("ghcrio-link").href="https://github.com/orgs/" + splitImage[0] + "/packages/container/package/" + splitImage[1];
+    $("#tags-table tbody").empty();
 
     $.getJSON('https://raw.githubusercontent.com/' + image + '/master/links.json', function(data) {
         $.each(data.links, function(i, f) {
@@ -41,17 +42,17 @@ $(function loadJSON() {
                     commit_message = "";
                 }
                 if (commit_sha != undefined) {
-                    commit_message = `<span class="tags-table-links"><a href="https://github.com/${image}/commit/${commit_sha}" target="_blank">${commit_message}</a></span>`;
+                    commit_message = `<a href="https://github.com/${image}/commit/${commit_sha}" target="_blank">${commit_message}</a>`;
                 }
                 if (latest == true) {
                     tags_list = "latest";
-                    tags_html = `<div title="Copy to clipboard" id="tag${nr}" onclick="CopyToClipboard('tag${nr}');return false;" class="tag-decoration tag-decoration-latest">latest</div>`;
+                    tags_html = `<div id="tag${nr}" onclick="CopyToClipboard('tag${nr}');return false;" class="tag-decoration tag-decoration-latest">latest</div>`;
                 }
                 $.each(f.tags, function(i, f) {
                     if (f) {
                         nr = Math.floor(Math.random() * 100);
                         tags_list += `,${f}`;
-                        tags_html += `<div title="Copy to clipboard" id="tag${nr}" onclick="CopyToClipboard('tag${nr}');return false;" class="tag-decoration">${f}</div>`;
+                        tags_html += `<div id="tag${nr}" onclick="CopyToClipboard('tag${nr}');return false;" class="tag-decoration">${f}</div>`;
                     }
                 });
                 var d = new Date(last_updated);
@@ -68,7 +69,7 @@ $(function loadJSON() {
                 }
                 var datestring = d.getFullYear() + "-" + (d.getMonth()+1).toString().padStart(2, '0') + "-" + d.getDate().toString().padStart(2, '0') + " " + d.getHours().toString().padStart(2, '0') + ":" + d.getMinutes().toString().padStart(2, '0') + ":" + d.getSeconds().toString().padStart(2, '0');
                 if (last_updated_url != undefined) {
-                    var last_updated_html = `<span class="tags-table-links"><a href="${last_updated_url}" target="_blank">${datestring}</a></span>`;
+                    var last_updated_html = `<a href="${last_updated_url}" target="_blank">${datestring}</a>`;
                 } else {
                     var last_updated_html = `${datestring}`
                 }
