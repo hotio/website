@@ -13,7 +13,7 @@
 </table>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script type="text/javascript" src="/javascripts/loadJSON-6.js"></script>
+<script type="text/javascript" src="/javascripts/loadJSON-7.js"></script>
 <script>
 function CopyToClipboard(id) {
   var r = document.createRange();

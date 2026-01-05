@@ -32,7 +32,7 @@ $(function loadJSON() {
                     commit_message = "";
                 }
                 if (commit_sha != undefined) {
-                    commit_message = `<a href="https://github.com/${image}/commit/${commit_sha}" target="_blank">${commit_message}</a>`;
+                    commit_message = `<span class="tags-table-links"><a href="https://github.com/${image}/commit/${commit_sha}" target="_blank">${commit_message}</a></span>`;
                 }
                 if (latest == true) {
                     tags_list = "latest";
@@ -59,7 +59,7 @@ $(function loadJSON() {
                 }
                 var datestring = d.getFullYear() + "-" + (d.getMonth()+1).toString().padStart(2, '0') + "-" + d.getDate().toString().padStart(2, '0') + " " + d.getHours().toString().padStart(2, '0') + ":" + d.getMinutes().toString().padStart(2, '0') + ":" + d.getSeconds().toString().padStart(2, '0');
                 if (last_updated_url != undefined) {
-                    var last_updated_html = `<a href="${last_updated_url}" target="_blank">${datestring}</a>`;
+                    var last_updated_html = `<span class="tags-table-links"><a href="${last_updated_url}" target="_blank">${datestring}</a></span>`;
                 } else {
                     var last_updated_html = `${datestring}`
                 }
