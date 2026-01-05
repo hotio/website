@@ -1,6 +1,7 @@
 ---
 hide:
   - navigation
+title: FAQ
 ---
 
 <div class="pullio-banner"><img src="/img/pullio-stick-out-tongue.svg" alt="pullio"/><div class="pullio-banner-text">I'm here if you need me...</div></div>

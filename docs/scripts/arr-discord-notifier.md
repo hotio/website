@@ -1,3 +1,7 @@
+---
+title: Arr Discord Notifier
+---
+
 !!! info "Announcement"
 
     Both Sonarr and Radarr now come with built-in Discord notifications based on this script, so it's no longer bundled with those images. The script still works though if you prefer to use it.

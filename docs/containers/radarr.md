@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+title: hotio/radarr
 ---
 
 --8<-- "includes/header-links.md"

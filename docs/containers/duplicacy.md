@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+title: hotio/duplicacy
 ---
 
 --8<-- "includes/header-links.md"

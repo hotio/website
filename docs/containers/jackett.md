@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+title: hotio/jackett
 ---
 
 --8<-- "includes/header-links.md"

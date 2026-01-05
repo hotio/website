@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+title: hotio/nzbhydra2
 ---
 
 --8<-- "includes/header-links.md"

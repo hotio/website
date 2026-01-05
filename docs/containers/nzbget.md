@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+title: hotio/nzbget
 ---
 
 --8<-- "includes/header-links.md"

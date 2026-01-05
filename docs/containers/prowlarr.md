@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+title: hotio/prowlarr
 ---
 
 --8<-- "includes/header-links.md"
