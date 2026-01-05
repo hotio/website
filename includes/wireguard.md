@@ -51,9 +51,9 @@
               - VPN_LAN_LEAK_ENABLED=false #(10)!
               - VPN_EXPOSE_PORTS_ON_LAN #(2)!
               - VPN_AUTO_PORT_FORWARD=false #(6)!
-              - VPN_PORT_REDIRECTS= #(15)!
+              - VPN_PORT_REDIRECTS #(15)!
               - VPN_HEALTHCHECK_ENABLED=false #(20)!
-              - VPN_NAMESERVERS= #(16)!
+              - VPN_NAMESERVERS #(16)!
               - PRIVOXY_ENABLED=false #(19)!
               - UNBOUND_ENABLED=false #(21)!
               - UNBOUND_NAMESERVERS #(22)!
@@ -104,9 +104,9 @@
               - VPN_LAN_LEAK_ENABLED=false #(10)!
               - VPN_EXPOSE_PORTS_ON_LAN #(2)!
               - VPN_AUTO_PORT_FORWARD=true #(6)!
-              - VPN_PORT_REDIRECTS= #(15)!
+              - VPN_PORT_REDIRECTS #(15)!
               - VPN_HEALTHCHECK_ENABLED=false #(20)!
-              - VPN_NAMESERVERS= #(16)!
+              - VPN_NAMESERVERS #(16)!
               - PRIVOXY_ENABLED=false #(19)!
               - UNBOUND_ENABLED=false #(21)!
               - UNBOUND_NAMESERVERS #(22)!
@@ -162,9 +162,9 @@
               - VPN_LAN_LEAK_ENABLED=false #(10)!
               - VPN_EXPOSE_PORTS_ON_LAN #(2)!
               - VPN_AUTO_PORT_FORWARD=true #(6)!
-              - VPN_PORT_REDIRECTS= #(15)!
+              - VPN_PORT_REDIRECTS #(15)!
               - VPN_HEALTHCHECK_ENABLED=false #(20)!
-              - VPN_NAMESERVERS= #(16)!
+              - VPN_NAMESERVERS #(16)!
               - VPN_PIA_USER #(11)!
               - VPN_PIA_PASS #(11)!
               - VPN_PIA_PREFERRED_REGION #(7)!
