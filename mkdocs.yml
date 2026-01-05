@@ -22,7 +22,7 @@ extra:
     name: GitHub
 
 extra_css:
-  - stylesheets/extra-9.css
+  - stylesheets/extra-10.css
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - javascripts/tablesort.js
