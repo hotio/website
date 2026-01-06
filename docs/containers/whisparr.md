@@ -17,7 +17,9 @@ title: hotio/whisparr
       </tr>
     </thead>
     <tbody id="tags-table-body">
-    </tbody>
+<tr><td><div class="tag-decoration-latest">latest</div><div id="tag31003" onclick="CopyToClipboard('tag31003');return false;" class="tag-decoration">nightly</div><div id="tag17190" onclick="CopyToClipboard('tag17190');return false;" class="tag-decoration">nightly-2.0.0.1953</div><div id="tag6826" onclick="CopyToClipboard('tag6826');return false;" class="tag-decoration">nightly-c1c5ea6</div></td><td>nightly</td><td><a href="https://github.com/hotio/whisparr/commit/null">Upstream image update</a></td><td><a href="https://github.com/hotio/whisparr/actions/runs/20690795678">2026-01-04 09:23:23</a></td></tr>
+<tr><td><div id="tag10738" onclick="CopyToClipboard('tag10738');return false;" class="tag-decoration">v3</div><div id="tag20321" onclick="CopyToClipboard('tag20321');return false;" class="tag-decoration">v3-3.1.0.2055</div><div id="tag10" onclick="CopyToClipboard('tag10');return false;" class="tag-decoration">v3-ff2d77c</div></td><td>eros</td><td><a href="https://github.com/hotio/whisparr/commit/ff2d77c5c4d404de46a07b0c88b64fc6c677fd3c">Version update: 3.1.0.2052 => 3.1.0.2055</a></td><td><a href="https://github.com/hotio/whisparr/actions/runs/20734242740">2026-01-06 01:01:00</a></td></tr>
+</tbody>
   </table>
 </div>
 
