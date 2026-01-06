@@ -87,6 +87,6 @@
   text-decoration-style: dotted;
   color: var(--md-primary-fg-color);
 }
-#tags-table th {
+#tags-table th, #tags-table td:nth-child(4) {
   white-space: nowrap;
 }
