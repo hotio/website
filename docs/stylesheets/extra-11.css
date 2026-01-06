@@ -46,11 +46,6 @@
   animation: heart 1000ms infinite;
   color: #e91e63;
 }
-a.header-icons {
-  text-decoration-line: underline;
-  text-decoration-style: dotted;
-  color: var(--md-primary-fg-color);
-}
 .tag-decoration-latest {
   border-color: var(--md-typeset-a-color);
   color: var(--md-typeset-a-color);
@@ -87,7 +82,7 @@ a.header-icons {
   border-radius: 5px;
   margin-right: 10px;
 }
-#tags-table a, #donate-grid a {
+#tags-table a, #donate-grid a, a.header-icons {
   text-decoration-line: underline;
   text-decoration-style: dotted;
   color: var(--md-primary-fg-color);
