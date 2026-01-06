@@ -8,6 +8,9 @@ title: hotio/whisparr
 
 --8<-- "includes/tags.md"
 
+<div id="tags-table">
+</div>
+
 ## Starting the container
 
 === "cli"
