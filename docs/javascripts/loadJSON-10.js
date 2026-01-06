@@ -70,7 +70,6 @@ $(function loadJSON() {
                     <td>${description}</td>
                     <td>${commit_message}</td>
                     <td style=\"white-space:nowrap;\">${last_updated_html}</td>
-                    <td>${days(d, currentDate)}</td>
                     </tr>
                 `
                 $(tblRow).appendTo("#tags-table tbody");
