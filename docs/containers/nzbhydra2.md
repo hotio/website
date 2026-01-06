@@ -17,7 +17,9 @@ title: hotio/nzbhydra2
       </tr>
     </thead>
     <tbody id="tags-table-body">
-    </tbody>
+<tr><td><div class="tag-decoration-latest">latest</div><div id="tag4536" onclick="CopyToClipboard('tag4536');return false;" class="tag-decoration">release</div><div id="tag29840" onclick="CopyToClipboard('tag29840');return false;" class="tag-decoration">release-8.2.0</div><div id="tag7570" onclick="CopyToClipboard('tag7570');return false;" class="tag-decoration">release-924b6fa</div><div id="tag18366" onclick="CopyToClipboard('tag18366');return false;" class="tag-decoration">release-v8</div><div id="tag15449" onclick="CopyToClipboard('tag15449');return false;" class="tag-decoration">release-v8.2</div><div id="tag8678" onclick="CopyToClipboard('tag8678');return false;" class="tag-decoration">release-v8.2.0</div></td><td>Releases</td><td><a href="https://github.com/hotio/nzbhydra2/commit/924b6fa7bd25d89c246b5c41ee801949c44e7cbd" target="_blank">Version update: 8.1.2 => 8.2.0</a></td><td><a href="https://github.com/hotio/nzbhydra2/actions/runs/20712999011" target="_blank">2026-01-05 10:48:20</a></td></tr>
+<tr><td><div id="tag3854" onclick="CopyToClipboard('tag3854');return false;" class="tag-decoration">testing</div><div id="tag18589" onclick="CopyToClipboard('tag18589');return false;" class="tag-decoration">testing-8.2.1</div><div id="tag6101" onclick="CopyToClipboard('tag6101');return false;" class="tag-decoration">testing-fd81e39</div><div id="tag15347" onclick="CopyToClipboard('tag15347');return false;" class="tag-decoration">testing-v8</div><div id="tag32043" onclick="CopyToClipboard('tag32043');return false;" class="tag-decoration">testing-v8.2</div><div id="tag3317" onclick="CopyToClipboard('tag3317');return false;" class="tag-decoration">testing-v8.2.1</div></td><td>Pre-releases</td><td><a href="https://github.com/hotio/nzbhydra2/commit/fd81e399bb733f4ec6e0da4835b70912463dcc7d" target="_blank">Version update: 8.2.0 => 8.2.1</a></td><td><a href="https://github.com/hotio/nzbhydra2/actions/runs/20760779282" target="_blank">2026-01-06 20:14:12</a></td></tr>
+</tbody>
   </table>
 </div>
 
