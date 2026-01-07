@@ -1,0 +1,19 @@
+{
+  "release": {
+    "commit_message": "Upstream image update",
+    "commit_sha": "7be71d40156f66b2a779974050691f47c29290ac",
+    "description": "Stable",
+    "hide": false,
+    "last_updated": "2026-01-07T03:57:33.000Z",
+    "last_updated_url": "https://github.com/hotio/plex/actions/runs/20770102132",
+    "latest": true,
+    "tags": [
+      "release",
+      "release-1.42.2.10156-f737b826c",
+      "release-7be71d4",
+      "",
+      "",
+      ""
+    ]
+  }
+}

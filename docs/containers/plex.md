@@ -20,7 +20,8 @@ title: hotio/plex
       </tr>
     </thead>
     <tbody id="tags-table-body">
-    </tbody>
+<tr><td><div class="tag-decoration-latest">latest</div><div id="tag12680" onclick="CopyToClipboard('tag12680');return false;" class="tag-decoration">release</div><div id="tag17125" onclick="CopyToClipboard('tag17125');return false;" class="tag-decoration">release-1.42.2.10156-f737b826c</div><div id="tag228" onclick="CopyToClipboard('tag228');return false;" class="tag-decoration">release-7be71d4</div></td><td>Stable</td><td><a href="https://github.com/hotio/plex/commit/7be71d40156f66b2a779974050691f47c29290ac" target="_blank">Upstream image update</a></td><td><a href="https://github.com/hotio/plex/actions/runs/20770102132" target="_blank">2026-01-07 03:57:33</a></td></tr>
+</tbody>
   </table>
 </div>
 
