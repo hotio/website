@@ -2,7 +2,7 @@ site_name: hotio.dev
 site_url: https://hotio.dev
 site_author: hotio
 site_description: Documentation for all Docker images maintained by hotio.
-copyright: Copyright &copy; 2026 hotio<br>Logos based on work by <a href="https://www.flaticon.com/authors/freepik" target="_blank" rel="noopener">Freepik</a> and <a href="https://freeicons.io/profile/6200" target="_blank" rel="noopener">Soni Sokell</a>
+copyright: '&copy; 2026 hotio<br>Logos based on work by <a href="https://www.flaticon.com/authors/freepik" target="_blank" rel="noopener">Freepik</a> and <a href="https://freeicons.io/profile/6200" target="_blank" rel="noopener">Soni Sokell</a>'
 repo_name: hotio
 repo_url: https://github.com/hotio
 edit_uri: 'website/edit/master/docs'
