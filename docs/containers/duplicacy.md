@@ -20,7 +20,9 @@ title: hotio/duplicacy
       </tr>
     </thead>
     <tbody id="tags-table-body">
-    </tbody>
+<tr><td><div class="tag-decoration-latest">latest</div><div id="tag12465" onclick="CopyToClipboard('tag12465');return false;" class="tag-decoration">release</div><div id="tag3607" onclick="CopyToClipboard('tag3607');return false;" class="tag-decoration">release-1.8.0</div><div id="tag11009" onclick="CopyToClipboard('tag11009');return false;" class="tag-decoration">release-59411ff</div><div id="tag19000" onclick="CopyToClipboard('tag19000');return false;" class="tag-decoration">release-v1</div><div id="tag15430" onclick="CopyToClipboard('tag15430');return false;" class="tag-decoration">release-v1.8</div><div id="tag29073" onclick="CopyToClipboard('tag29073');return false;" class="tag-decoration">release-v1.8.0</div></td><td>Stable</td><td><a href="https://github.com/hotio/duplicacy/commit/59411ff6ea022c3621dff6e07e0d115903dd99f3" target="_blank">Upstream image update</a></td><td><a href="https://github.com/hotio/duplicacy/actions/runs/20770097861" target="_blank">2026-01-07 03:57:16</a></td></tr>
+<tr><td><div id="tag19319" onclick="CopyToClipboard('tag19319');return false;" class="tag-decoration">testing</div><div id="tag27491" onclick="CopyToClipboard('tag27491');return false;" class="tag-decoration">testing-1.8.3</div><div id="tag5106" onclick="CopyToClipboard('tag5106');return false;" class="tag-decoration">testing-448e367</div><div id="tag7553" onclick="CopyToClipboard('tag7553');return false;" class="tag-decoration">testing-v1</div><div id="tag19006" onclick="CopyToClipboard('tag19006');return false;" class="tag-decoration">testing-v1.8</div><div id="tag16256" onclick="CopyToClipboard('tag16256');return false;" class="tag-decoration">testing-v1.8.3</div></td><td>Latest</td><td>Upstream image update</td><td><a href="https://github.com/hotio/duplicacy/actions/runs/20690822339" target="_blank">2026-01-04 09:25:39</a></td></tr>
+</tbody>
   </table>
 </div>
 
