@@ -18,7 +18,8 @@ title: hotio/cloudflareddns
       </tr>
     </thead>
     <tbody id="tags-table-body">
-    </tbody>
+<tr><td><div class="tag-decoration-latest">latest</div><div id="tag13643" onclick="CopyToClipboard('tag13643');return false;" class="tag-decoration">release</div><div id="tag23756" onclick="CopyToClipboard('tag23756');return false;" class="tag-decoration">release-4852606--1.9.6</div><div id="tag29663" onclick="CopyToClipboard('tag29663');return false;" class="tag-decoration">release-70a394c</div></td><td></td><td><a href="https://github.com/hotio/cloudflareddns/commit/70a394cd8352a8b52178a6b3bee2fac6f2c8e5f3" target="_blank">Upstream image update</a></td><td><a href="https://github.com/hotio/cloudflareddns/actions/runs/20770097111" target="_blank">2026-01-07 03:57:13</a></td></tr>
+</tbody>
   </table>
 </div>
 
