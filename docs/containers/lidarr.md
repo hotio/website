@@ -20,7 +20,10 @@ title: hotio/lidarr
       </tr>
     </thead>
     <tbody id="tags-table-body">
-    </tbody>
+<tr><td><div id="tag24933" onclick="CopyToClipboard('tag24933');return false;" class="tag-decoration">nightly</div><div id="tag21109" onclick="CopyToClipboard('tag21109');return false;" class="tag-decoration">nightly-3.1.2.4902</div><div id="tag14388" onclick="CopyToClipboard('tag14388');return false;" class="tag-decoration">nightly-2c96bea</div></td><td>nightly</td><td><a href="https://github.com/hotio/lidarr/commit/2c96bea9c413ac84a83264a5bafe404c672c621f" target="_blank">Upstream image update</a></td><td><a href="https://github.com/hotio/lidarr/actions/runs/20770099636" target="_blank">2026-01-07 03:57:23</a></td></tr>
+<tr><td><div class="tag-decoration-latest">latest</div><div id="tag14378" onclick="CopyToClipboard('tag14378');return false;" class="tag-decoration">release</div><div id="tag22303" onclick="CopyToClipboard('tag22303');return false;" class="tag-decoration">release-3.1.0.4875</div><div id="tag23992" onclick="CopyToClipboard('tag23992');return false;" class="tag-decoration">release-92e3e29</div></td><td>master</td><td>Upstream image update</td><td><a href="https://github.com/hotio/lidarr/actions/runs/20690826005" target="_blank">2026-01-04 09:25:55</a></td></tr>
+<tr><td><div id="tag10510" onclick="CopyToClipboard('tag10510');return false;" class="tag-decoration">testing</div><div id="tag24141" onclick="CopyToClipboard('tag24141');return false;" class="tag-decoration">testing-3.1.1.4900</div><div id="tag22224" onclick="CopyToClipboard('tag22224');return false;" class="tag-decoration">testing-05f057d</div></td><td>develop</td><td>Upstream image update</td><td><a href="https://github.com/hotio/lidarr/actions/runs/20690826531" target="_blank">2026-01-04 09:25:57</a></td></tr>
+</tbody>
   </table>
 </div>
 
