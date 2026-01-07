@@ -20,7 +20,9 @@ title: hotio/sonarr
       </tr>
     </thead>
     <tbody id="tags-table-body">
-    </tbody>
+<tr><td><div id="tag7890" onclick="CopyToClipboard('tag7890');return false;" class="tag-decoration">nightly</div><div id="tag15649" onclick="CopyToClipboard('tag15649');return false;" class="tag-decoration">nightly-4.0.16.2946</div><div id="tag28821" onclick="CopyToClipboard('tag28821');return false;" class="tag-decoration">nightly-611cdd9</div></td><td>develop/v4-nightly</td><td><a href="https://github.com/hotio/sonarr/commit/611cdd981d80e75b3d7695c15c726ab4a3452d07" target="_blank">Upstream image update</a></td><td><a href="https://github.com/hotio/sonarr/actions/runs/20770108559" target="_blank">2026-01-07 03:57:56</a></td></tr>
+<tr><td><div class="tag-decoration-latest">latest</div><div id="tag15446" onclick="CopyToClipboard('tag15446');return false;" class="tag-decoration">release</div><div id="tag5506" onclick="CopyToClipboard('tag5506');return false;" class="tag-decoration">release-4.0.16.2944</div><div id="tag26299" onclick="CopyToClipboard('tag26299');return false;" class="tag-decoration">release-bd86720</div></td><td>main/v4-stable</td><td>Upstream image update</td><td><a href="https://github.com/hotio/sonarr/actions/runs/20690839323" target="_blank">2026-01-04 09:27:04</a></td></tr>
+</tbody>
   </table>
 </div>
 
