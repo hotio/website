@@ -77,37 +77,37 @@ nav:
 - Home: index.md
 - Containers:
   - Base:
-    - hotio/base: containers/base.md
+    - containers/base.md
   - Apps:
-    - hotio/autoscan: containers/autoscan.md
-    - hotio/bazarr: containers/bazarr.md
-    - hotio/caddy: containers/caddy.md
-    - hotio/cloudflareddns: containers/cloudflareddns.md
-    - hotio/doplarr: containers/doplarr.md
-    - hotio/duplicacy: containers/duplicacy.md
-    - hotio/jackett: containers/jackett.md
-    - hotio/jellyfin: containers/jellyfin.md
-    - hotio/lidarr: containers/lidarr.md
-    - hotio/mergerfs: containers/mergerfs.md
-    - hotio/nzbget: containers/nzbget.md
-    - hotio/nzbhydra2: containers/nzbhydra2.md
-    - hotio/plex: containers/plex.md
-    - hotio/prowlarr: containers/prowlarr.md
-    - hotio/qbitmanage: containers/qbitmanage.md
-    - hotio/qbittorrent: containers/qbittorrent.md
-    - hotio/qui: containers/qui.md
-    - hotio/radarr: containers/radarr.md
-    - hotio/requestrr: containers/requestrr.md
-    - hotio/rflood: containers/rflood.md
-    - hotio/sabnzbd: containers/sabnzbd.md
-    - hotio/seerr: containers/seerr.md
-    - hotio/sonarr: containers/sonarr.md
-    - hotio/stash: containers/stash.md
-    - hotio/tautulli: containers/tautulli.md
-    - hotio/unpackerr: containers/unpackerr.md
-    - hotio/whisparr: containers/whisparr.md
+    - containers/autoscan.md
+    - containers/bazarr.md
+    - containers/caddy.md
+    - containers/cloudflareddns.md
+    - containers/doplarr.md
+    - containers/duplicacy.md
+    - containers/jackett.md
+    - containers/jellyfin.md
+    - containers/lidarr.md
+    - containers/mergerfs.md
+    - containers/nzbget.md
+    - containers/nzbhydra2.md
+    - containers/plex.md
+    - containers/prowlarr.md
+    - containers/qbitmanage.md
+    - containers/qbittorrent.md
+    - containers/qui.md
+    - containers/radarr.md
+    - containers/requestrr.md
+    - containers/rflood.md
+    - containers/sabnzbd.md
+    - containers/seerr.md
+    - containers/sonarr.md
+    - containers/stash.md
+    - containers/tautulli.md
+    - containers/unpackerr.md
+    - containers/whisparr.md
 - Scripts:
-  - SysInfo: scripts/sysinfo.md
-  - Pullio: scripts/pullio.md
-  - Arr Discord Notifier: scripts/arr-discord-notifier.md
+  - scripts/sysinfo.md
+  - scripts/pullio.md
+  - scripts/arr-discord-notifier.md
 - FAQ: faq.md
