@@ -20,7 +20,9 @@ title: hotio/autoscan
       </tr>
     </thead>
     <tbody id="tags-table-body">
-    </tbody>
+<tr><td><div id="tag31217" onclick="CopyToClipboard('tag31217');return false;" class="tag-decoration">nightly</div><div id="tag18835" onclick="CopyToClipboard('tag18835');return false;" class="tag-decoration">nightly-1d41f4b47ede7531ecc24944bfcaf88db10c2ba7</div><div id="tag3764" onclick="CopyToClipboard('tag3764');return false;" class="tag-decoration">nightly-8fb4727</div></td><td>Every commit to master</td><td><a href="https://github.com/hotio/autoscan/commit/8fb47271ed98e4295c8272f5969eebaeac5f944e" target="_blank">Upstream image update</a></td><td><a href="https://github.com/hotio/autoscan/actions/runs/20770095083" target="_blank">2026-01-07 03:57:07</a></td></tr>
+<tr><td><div class="tag-decoration-latest">latest</div><div id="tag6034" onclick="CopyToClipboard('tag6034');return false;" class="tag-decoration">release</div><div id="tag3128" onclick="CopyToClipboard('tag3128');return false;" class="tag-decoration">release-1.4.0</div><div id="tag14764" onclick="CopyToClipboard('tag14764');return false;" class="tag-decoration">release-56804b5</div><div id="tag21755" onclick="CopyToClipboard('tag21755');return false;" class="tag-decoration">release-v1</div><div id="tag22195" onclick="CopyToClipboard('tag22195');return false;" class="tag-decoration">release-v1.4</div><div id="tag31850" onclick="CopyToClipboard('tag31850');return false;" class="tag-decoration">release-v1.4.0</div></td><td>Releases</td><td>Upstream image update</td><td><a href="https://github.com/hotio/autoscan/actions/runs/20690818826" target="_blank">2026-01-04 09:25:20</a></td></tr>
+</tbody>
   </table>
 </div>
 
