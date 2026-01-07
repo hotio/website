@@ -1,0 +1,52 @@
+{
+  "nightly": {
+    "commit_message": "Upstream image update",
+    "commit_sha": "a2f2f4cbe0c6a2019f02578d53533e7afdb9627a",
+    "description": "Every commit to master",
+    "hide": false,
+    "last_updated": "2026-01-07T03:58:04.000Z",
+    "last_updated_url": "https://github.com/hotio/unpackerr/actions/runs/20770110587",
+    "latest": false,
+    "tags": [
+      "nightly",
+      "nightly-1b830500d18707e639f56d6d0d17cf059f74feca",
+      "nightly-a2f2f4c",
+      "",
+      "",
+      ""
+    ]
+  },
+  "release": {
+    "commit_message": "Upstream image update",
+    "commit_sha": "622df4232c28e1a6d2fa7883594a5b336292c277",
+    "description": "Releases",
+    "hide": false,
+    "last_updated": "2026-01-07T03:58:05.000Z",
+    "last_updated_url": "https://github.com/hotio/unpackerr/actions/runs/20770110788",
+    "latest": true,
+    "tags": [
+      "release",
+      "release-0.14.5",
+      "release-622df42",
+      "release-v0",
+      "release-v0.14",
+      "release-v0.14.5"
+    ]
+  },
+  "testing": {
+    "commit_message": "Upstream image update",
+    "description": "Pre-releases",
+    "hide": false,
+    "last_updated": "2026-01-04T09:27:18.000Z",
+    "last_updated_url": "https://github.com/hotio/unpackerr/actions/runs/20690842610",
+    "latest": false,
+    "tags": [
+      "testing",
+      "testing-0.14.5",
+      "testing-7efdf6f",
+      "testing-v0",
+      "testing-v0.14",
+      "testing-v0.14.5"
+    ]
+  }
+}
