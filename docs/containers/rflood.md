@@ -21,7 +21,8 @@ title: hotio/rflood
       </tr>
     </thead>
     <tbody id="tags-table-body">
-    </tbody>
+<tr><td><div class="tag-decoration-latest">latest</div><div id="tag6751" onclick="CopyToClipboard('tag6751');return false;" class="tag-decoration">release</div><div id="tag29931" onclick="CopyToClipboard('tag29931');return false;" class="tag-decoration">release-0.16.6--4.11.0</div><div id="tag15321" onclick="CopyToClipboard('tag15321');return false;" class="tag-decoration">release-5025ace</div><div id="tag3988" onclick="CopyToClipboard('tag3988');return false;" class="tag-decoration">release-v0</div><div id="tag27441" onclick="CopyToClipboard('tag27441');return false;" class="tag-decoration">release-v0.16</div><div id="tag32472" onclick="CopyToClipboard('tag32472');return false;" class="tag-decoration">release-v0.16.6</div></td><td>Releases</td><td><a href="https://github.com/hotio/rflood/commit/5025acee1eeca2aae23a92c4655b7e5eac1865b0" target="_blank">Upstream image update</a></td><td><a href="https://github.com/hotio/rflood/actions/runs/20770106852" target="_blank">2026-01-07 03:57:50</a></td></tr>
+</tbody>
   </table>
 </div>
 
