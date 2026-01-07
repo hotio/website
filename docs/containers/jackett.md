@@ -20,7 +20,9 @@ title: hotio/jackett
       </tr>
     </thead>
     <tbody id="tags-table-body">
-    </tbody>
+<tr><td><div class="tag-decoration-latest">latest</div><div id="tag29607" onclick="CopyToClipboard('tag29607');return false;" class="tag-decoration">release</div><div id="tag24885" onclick="CopyToClipboard('tag24885');return false;" class="tag-decoration">release-0.24.739</div><div id="tag7285" onclick="CopyToClipboard('tag7285');return false;" class="tag-decoration">release-4a93143</div><div id="tag21089" onclick="CopyToClipboard('tag21089');return false;" class="tag-decoration">release-v0</div><div id="tag30419" onclick="CopyToClipboard('tag30419');return false;" class="tag-decoration">release-v0.24</div><div id="tag9255" onclick="CopyToClipboard('tag9255');return false;" class="tag-decoration">release-v0.24.739</div></td><td>Releases</td><td><a href="https://github.com/hotio/jackett/commit/4a931434307c5b2a91a809f92050432b428e3a10" target="_blank">Upstream image update</a></td><td><a href="https://github.com/hotio/jackett/actions/runs/20770098424" target="_blank">2026-01-07 03:57:18</a></td></tr>
+<tr><td><div id="tag10924" onclick="CopyToClipboard('tag10924');return false;" class="tag-decoration">testing</div><div id="tag1183" onclick="CopyToClipboard('tag1183');return false;" class="tag-decoration">testing-0.24.739</div><div id="tag3190" onclick="CopyToClipboard('tag3190');return false;" class="tag-decoration">testing-26e5dfa</div><div id="tag10640" onclick="CopyToClipboard('tag10640');return false;" class="tag-decoration">testing-v0</div><div id="tag14820" onclick="CopyToClipboard('tag14820');return false;" class="tag-decoration">testing-v0.24</div><div id="tag15837" onclick="CopyToClipboard('tag15837');return false;" class="tag-decoration">testing-v0.24.739</div></td><td>Pre-releases</td><td><a href="https://github.com/hotio/jackett/commit/26e5dfa8801cf123f87d7dbbc163cdc1fb426e09" target="_blank">Version update: 0.24.726 => 0.24.739</a></td><td><a href="https://github.com/hotio/jackett/actions/runs/20739381106" target="_blank">2026-01-06 05:45:55</a></td></tr>
+</tbody>
   </table>
 </div>
 
