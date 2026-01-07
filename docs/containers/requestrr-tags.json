@@ -1,0 +1,19 @@
+{
+  "release": {
+    "commit_message": "Upstream image update",
+    "commit_sha": "2963a1229dbc9507f5b6c1a996c31e80ed165464",
+    "description": "Releases",
+    "hide": false,
+    "last_updated": "2026-01-07T03:57:49.000Z",
+    "last_updated_url": "https://github.com/hotio/requestrr/actions/runs/20770106460",
+    "latest": true,
+    "tags": [
+      "release",
+      "release-2.1.9",
+      "release-2963a12",
+      "release-v2",
+      "release-v2.1",
+      "release-v2.1.9"
+    ]
+  }
+}

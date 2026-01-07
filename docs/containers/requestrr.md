@@ -20,7 +20,8 @@ title: hotio/requestrr
       </tr>
     </thead>
     <tbody id="tags-table-body">
-    </tbody>
+<tr><td><div class="tag-decoration-latest">latest</div><div id="tag21548" onclick="CopyToClipboard('tag21548');return false;" class="tag-decoration">release</div><div id="tag17429" onclick="CopyToClipboard('tag17429');return false;" class="tag-decoration">release-2.1.9</div><div id="tag28989" onclick="CopyToClipboard('tag28989');return false;" class="tag-decoration">release-2963a12</div><div id="tag4826" onclick="CopyToClipboard('tag4826');return false;" class="tag-decoration">release-v2</div><div id="tag7729" onclick="CopyToClipboard('tag7729');return false;" class="tag-decoration">release-v2.1</div><div id="tag1959" onclick="CopyToClipboard('tag1959');return false;" class="tag-decoration">release-v2.1.9</div></td><td>Releases</td><td><a href="https://github.com/hotio/requestrr/commit/2963a1229dbc9507f5b6c1a996c31e80ed165464" target="_blank">Upstream image update</a></td><td><a href="https://github.com/hotio/requestrr/actions/runs/20770106460" target="_blank">2026-01-07 03:57:49</a></td></tr>
+</tbody>
   </table>
 </div>
 
