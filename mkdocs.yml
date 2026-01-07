@@ -82,6 +82,7 @@ markdown_extensions:
   - admonition
   - abbr
   - pymdownx.blocks.caption
+  - tables
 
 nav:
 - Home: index.md
