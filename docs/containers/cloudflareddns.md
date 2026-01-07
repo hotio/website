@@ -22,9 +22,6 @@ title: hotio/cloudflareddns
   </table>
 </div>
 
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script type="text/javascript" src="/javascripts/loadJSON-12.js"></script>
-
 ## Starting the container
 
 === "cli"
