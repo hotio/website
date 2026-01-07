@@ -20,7 +20,9 @@ title: hotio/seerr
       </tr>
     </thead>
     <tbody id="tags-table-body">
-    </tbody>
+<tr><td><div id="tag2523" onclick="CopyToClipboard('tag2523');return false;" class="tag-decoration">nightly</div><div id="tag14081" onclick="CopyToClipboard('tag14081');return false;" class="tag-decoration">nightly-f91a26befeb4d676a81e9be467510a002c628041</div><div id="tag7936" onclick="CopyToClipboard('tag7936');return false;" class="tag-decoration">nightly-96c58f8</div></td><td>Every commit to develop</td><td><a href="https://github.com/hotio/seerr/commit/96c58f8000288991c584abd36aec6f7cac43c542" target="_blank">Upstream image update</a></td><td><a href="https://github.com/hotio/seerr/actions/runs/20770107900" target="_blank">2026-01-07 03:57:54</a></td></tr>
+<tr><td><div class="tag-decoration-latest">latest</div><div id="tag15590" onclick="CopyToClipboard('tag15590');return false;" class="tag-decoration">release</div><div id="tag12095" onclick="CopyToClipboard('tag12095');return false;" class="tag-decoration">release-2.7.3</div><div id="tag12897" onclick="CopyToClipboard('tag12897');return false;" class="tag-decoration">release-3a8438b</div><div id="tag14075" onclick="CopyToClipboard('tag14075');return false;" class="tag-decoration">release-v2</div><div id="tag4109" onclick="CopyToClipboard('tag4109');return false;" class="tag-decoration">release-v2.7</div><div id="tag4309" onclick="CopyToClipboard('tag4309');return false;" class="tag-decoration">release-v2.7.3</div></td><td>Releases</td><td>Upstream image update</td><td><a href="https://github.com/hotio/seerr/actions/runs/20690838215" target="_blank">2026-01-04 09:26:59</a></td></tr>
+</tbody>
   </table>
 </div>
 

@@ -1,0 +1,35 @@
+{
+  "nightly": {
+    "commit_message": "Upstream image update",
+    "commit_sha": "96c58f8000288991c584abd36aec6f7cac43c542",
+    "description": "Every commit to develop",
+    "hide": false,
+    "last_updated": "2026-01-07T03:57:54.000Z",
+    "last_updated_url": "https://github.com/hotio/seerr/actions/runs/20770107900",
+    "latest": false,
+    "tags": [
+      "nightly",
+      "nightly-f91a26befeb4d676a81e9be467510a002c628041",
+      "nightly-96c58f8",
+      "",
+      "",
+      ""
+    ]
+  },
+  "release": {
+    "commit_message": "Upstream image update",
+    "description": "Releases",
+    "hide": false,
+    "last_updated": "2026-01-04T09:26:59.000Z",
+    "last_updated_url": "https://github.com/hotio/seerr/actions/runs/20690838215",
+    "latest": true,
+    "tags": [
+      "release",
+      "release-2.7.3",
+      "release-3a8438b",
+      "release-v2",
+      "release-v2.7",
+      "release-v2.7.3"
+    ]
+  }
+}
