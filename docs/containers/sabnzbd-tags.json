@@ -1,0 +1,51 @@
+{
+  "nightly": {
+    "commit_message": "Upstream image update",
+    "commit_sha": "06d62706dd7ae22f149b371a11e55181d20d8234",
+    "description": "Every commit to develop",
+    "hide": false,
+    "last_updated": "2026-01-07T03:57:51.000Z",
+    "last_updated_url": "https://github.com/hotio/sabnzbd/actions/runs/20770107036",
+    "latest": false,
+    "tags": [
+      "nightly",
+      "nightly-17dcff49b25aaf3988bbc28f46175981908f9211",
+      "nightly-06d6270",
+      "",
+      "",
+      ""
+    ]
+  },
+  "release": {
+    "commit_message": "Upstream image update",
+    "description": "Releases",
+    "hide": false,
+    "last_updated": "2026-01-04T09:26:53.000Z",
+    "last_updated_url": "https://github.com/hotio/sabnzbd/actions/runs/20690836938",
+    "latest": true,
+    "tags": [
+      "release",
+      "release-4.5.5",
+      "release-9dd869c",
+      "release-v4",
+      "release-v4.5",
+      "release-v4.5.5"
+    ]
+  },
+  "testing": {
+    "commit_message": "Upstream image update",
+    "description": "Pre-releases",
+    "hide": false,
+    "last_updated": "2026-01-04T09:26:55.000Z",
+    "last_updated_url": "https://github.com/hotio/sabnzbd/actions/runs/20690837366",
+    "latest": false,
+    "tags": [
+      "testing",
+      "testing-4.6.0Beta2",
+      "testing-78037c8",
+      "",
+      "",
+      ""
+    ]
+  }
+}
