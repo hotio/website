@@ -20,7 +20,8 @@ title: hotio/caddy
       </tr>
     </thead>
     <tbody id="tags-table-body">
-    </tbody>
+<tr><td><div class="tag-decoration-latest">latest</div><div id="tag24819" onclick="CopyToClipboard('tag24819');return false;" class="tag-decoration">release</div><div id="tag13568" onclick="CopyToClipboard('tag13568');return false;" class="tag-decoration">release-2.10.2</div><div id="tag9361" onclick="CopyToClipboard('tag9361');return false;" class="tag-decoration">release-29d501e</div><div id="tag301" onclick="CopyToClipboard('tag301');return false;" class="tag-decoration">release-v2</div><div id="tag5839" onclick="CopyToClipboard('tag5839');return false;" class="tag-decoration">release-v2.10</div><div id="tag30786" onclick="CopyToClipboard('tag30786');return false;" class="tag-decoration">release-v2.10.2</div></td><td>Releases</td><td><a href="https://github.com/hotio/caddy/commit/29d501e9858ea196a639479992063d996de29561" target="_blank">Upstream image update</a></td><td><a href="https://github.com/hotio/caddy/actions/runs/20770096793" target="_blank">2026-01-07 03:57:12</a></td></tr>
+</tbody>
   </table>
 </div>
 
