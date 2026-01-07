@@ -24,7 +24,9 @@ title: hotio/qbittorrent
       </tr>
     </thead>
     <tbody id="tags-table-body">
-    </tbody>
+<tr><td><div id="tag26691" onclick="CopyToClipboard('tag26691');return false;" class="tag-decoration">legacy</div><div id="tag19202" onclick="CopyToClipboard('tag19202');return false;" class="tag-decoration">legacy-4.3.9</div><div id="tag14294" onclick="CopyToClipboard('tag14294');return false;" class="tag-decoration">legacy-cf3f31d</div><div id="tag23756" onclick="CopyToClipboard('tag23756');return false;" class="tag-decoration">legacy-v4</div><div id="tag4095" onclick="CopyToClipboard('tag4095');return false;" class="tag-decoration">legacy-v4.3</div><div id="tag28136" onclick="CopyToClipboard('tag28136');return false;" class="tag-decoration">legacy-v4.3.9</div></td><td>Fixed to v4.3.9</td><td><a href="https://github.com/hotio/qbittorrent/commit/cf3f31d2e89895ef27dc8d6c7543dd54efd64e46" target="_blank">Upstream image update</a></td><td><a href="https://github.com/hotio/qbittorrent/actions/runs/20770104015" target="_blank">2026-01-07 03:57:41</a></td></tr>
+<tr><td><div class="tag-decoration-latest">latest</div><div id="tag23293" onclick="CopyToClipboard('tag23293');return false;" class="tag-decoration">release</div><div id="tag13297" onclick="CopyToClipboard('tag13297');return false;" class="tag-decoration">release-5.1.4</div><div id="tag18687" onclick="CopyToClipboard('tag18687');return false;" class="tag-decoration">release-8db4658</div><div id="tag5957" onclick="CopyToClipboard('tag5957');return false;" class="tag-decoration">release-v5</div><div id="tag32256" onclick="CopyToClipboard('tag32256');return false;" class="tag-decoration">release-v5.1</div><div id="tag10200" onclick="CopyToClipboard('tag10200');return false;" class="tag-decoration">release-v5.1.4</div></td><td>Releases</td><td>Upstream image update</td><td><a href="https://github.com/hotio/qbittorrent/actions/runs/20690833038" target="_blank">2026-01-04 09:26:31</a></td></tr>
+</tbody>
   </table>
 </div>
 
