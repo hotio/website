@@ -2,7 +2,7 @@
 title: Pullio
 ---
 
-:material-github: [GitHub](https://github.com/hotio/pullio){: .header-icons target=_blank rel="noopener" }  
+[:octicons-mark-github-16: GitHub](https://github.com/hotio/pullio){ class="header-links" target="_blank" rel="noopener" }  
 
 Updating your docker containers the easy way.
 

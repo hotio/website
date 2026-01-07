@@ -2,7 +2,7 @@
 title: SysInfo
 ---
 
-:material-github: [GitHub](https://github.com/hotio/sysinfo){: .header-icons target=_blank rel="noopener" }  
+[:octicons-mark-github-16: GitHub](https://github.com/hotio/sysinfo){ class="header-links" target="_blank" rel="noopener" }  
 
 Get a quick system overview from the terminal, an ideal replacement for web based dashboards.
 

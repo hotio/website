@@ -4,7 +4,10 @@ hide:
 title: hotio/caddy
 ---
 
---8<-- "includes/header-links.md"
+[:octicons-mark-github-16: GitHub](https://github.com/hotio/caddy){ class=header-links }  
+[:octicons-container-16: ghcr.io](https://github.com/orgs/hotio/packages/container/package/caddy){ class=header-links }  
+
+[:octicons-link-16: Upstream Project](https://caddyserver.com){ class=header-links }  
 
 <div id="tags-table">
   <table>
@@ -22,7 +25,7 @@ title: hotio/caddy
 </div>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script type="text/javascript" src="/javascripts/loadJSON-11.js"></script>
+<script type="text/javascript" src="/javascripts/loadJSON-12.js"></script>
 
 ## Starting the container
 
@@ -64,10 +67,10 @@ title: hotio/caddy
 
 !!! info
 
-    Included modules: [caddy-dns/cloudflare](https://github.com/caddy-dns/cloudflare){: target=_blank rel="noopener" }, [mholt/caddy-ratelimit](https://github.com/mholt/caddy-ratelimit){: target=_blank rel="noopener" }. The default config only allows access from private ip ranges.
+    Included modules: [caddy-dns/cloudflare](https://github.com/caddy-dns/cloudflare){ target="_blank" rel="noopener" }, [mholt/caddy-ratelimit](https://github.com/mholt/caddy-ratelimit){ target="_blank" rel="noopener" }. The default config only allows access from private ip ranges.
 
 ## Custom build
 
-If you set the environment variable `CUSTOM_BUILD` to a file location like for example `/config/caddy_linux_amd64_custom`, an attempt is made to start Caddy with that binary. The custom build can be obtained from the Caddy [download](https://caddyserver.com/download){: target=_blank rel="noopener" } page. This is particularly useful if you need extra modules.
+If you set the environment variable `CUSTOM_BUILD` to a file location like for example `/config/caddy_linux_amd64_custom`, an attempt is made to start Caddy with that binary. The custom build can be obtained from the Caddy [download](https://caddyserver.com/download){ target="_blank" rel="noopener" } page. This is particularly useful if you need extra modules.
 
 --8<-- "includes/wireguard.md"

@@ -4,7 +4,10 @@ hide:
 title: hotio/unpackerr
 ---
 
---8<-- "includes/header-links.md"
+[:octicons-mark-github-16: GitHub](https://github.com/hotio/unpackerr){ class=header-links }  
+[:octicons-container-16: ghcr.io](https://github.com/orgs/hotio/packages/container/package/unpackerr){ class=header-links }  
+
+[:octicons-link-16: Upstream Project](https://github.com/davidnewhall/unpackerr){ class=header-links }  
 
 <div id="tags-table">
   <table>
@@ -22,7 +25,7 @@ title: hotio/unpackerr
 </div>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script type="text/javascript" src="/javascripts/loadJSON-11.js"></script>
+<script type="text/javascript" src="/javascripts/loadJSON-12.js"></script>
 
 ## Starting the container
 
@@ -59,6 +62,6 @@ title: hotio/unpackerr
 
 ## Configuration
 
-You can use docker environment variables or a configuration file that should be stored in `/config/unpackerr.conf`. Take a look at the [upstream](https://github.com/davidnewhall/unpackerr){: target=_blank rel="noopener" } project page for info on how to configure Unpackerr.
+You can use docker environment variables or a configuration file that should be stored in `/config/unpackerr.conf`. Take a look at the [upstream](https://github.com/davidnewhall/unpackerr){ target="_blank" rel="noopener" } project page for info on how to configure Unpackerr.
 
 --8<-- "includes/wireguard.md"

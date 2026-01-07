@@ -4,7 +4,11 @@ hide:
 title: hotio/rflood
 ---
 
---8<-- "includes/header-links.md"
+[:octicons-mark-github-16: GitHub](https://github.com/hotio/rflood){ class=header-links }  
+[:octicons-container-16: ghcr.io](https://github.com/orgs/hotio/packages/container/package/rflood){ class=header-links }  
+
+[:octicons-link-16: Upstream Project 1](https://github.com/rakshasa/rtorrent){ class=header-links }  
+[:octicons-link-16: Upstream Project 2](https://github.com/jesec/flood){ class=header-links }  
 
 <div id="tags-table">
   <table>
@@ -22,7 +26,7 @@ title: hotio/rflood
 </div>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script type="text/javascript" src="/javascripts/loadJSON-11.js"></script>
+<script type="text/javascript" src="/javascripts/loadJSON-12.js"></script>
 
 ## Starting the container
 

@@ -4,7 +4,8 @@ hide:
 title: hotio/cloudflareddns
 ---
 
---8<-- "includes/header-links.md"
+[:octicons-mark-github-16: GitHub](https://github.com/hotio/cloudflareddns){ class=header-links }  
+[:octicons-container-16: ghcr.io](https://github.com/orgs/hotio/packages/container/package/cloudflareddns){ class=header-links }  
 
 <div id="tags-table">
   <table>
@@ -22,7 +23,7 @@ title: hotio/cloudflareddns
 </div>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script type="text/javascript" src="/javascripts/loadJSON-11.js"></script>
+<script type="text/javascript" src="/javascripts/loadJSON-12.js"></script>
 
 ## Starting the container
 
@@ -109,7 +110,7 @@ UPDATE, WARNING, ERROR, INFO, DEBUG
 
 ## JSON log
 
-Every IP update is also logged to `/config/cf-ddns-updates.json`. This can be used with the [Telegraf JSON parser](https://github.com/influxdata/telegraf/tree/master/plugins/parsers/json){: target=_blank rel="noopener" } and the `tail` input, to get your domain updates into InfluxDB. Example output below.
+Every IP update is also logged to `/config/cf-ddns-updates.json`. This can be used with the [Telegraf JSON parser](https://github.com/influxdata/telegraf/tree/master/plugins/parsers/json){ target="_blank" rel="noopener" } and the `tail` input, to get your domain updates into InfluxDB. Example output below.
 
 ```json
 {"domain":"vpn.example.com","recordtype":"A","ip":"1.1.1.1","timestamp":"2020-05-17T20:27:14Z"}
@@ -124,7 +125,7 @@ The proxy setting (orange cloud) and TTL is also cached and re-set based on the 
 
 ## Sending notifications
 
-You can send notifications when a DNS record gets updated with a new IP using [Apprise](https://github.com/caronc/apprise/blob/master/README.md){: target=_blank rel="noopener" }. Use the environment variable `APPRISE` to configure notifications, see below for some examples.
+You can send notifications when a DNS record gets updated with a new IP using [Apprise](https://github.com/caronc/apprise/blob/master/README.md){ target="_blank" rel="noopener" }. Use the environment variable `APPRISE` to configure notifications, see below for some examples.
 
 ```shell
 -e APPRISE="pover://user@token"

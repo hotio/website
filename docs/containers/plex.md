@@ -4,7 +4,10 @@ hide:
 title: hotio/plex
 ---
 
---8<-- "includes/header-links.md"
+[:octicons-mark-github-16: GitHub](https://github.com/hotio/plex){ class=header-links }  
+[:octicons-container-16: ghcr.io](https://github.com/orgs/hotio/packages/container/package/plex){ class=header-links }  
+
+[:octicons-link-16: Upstream Project](https://www.plex.tv){ class=header-links }  
 
 <div id="tags-table">
   <table>
@@ -22,7 +25,7 @@ title: hotio/plex
 </div>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script type="text/javascript" src="/javascripts/loadJSON-11.js"></script>
+<script type="text/javascript" src="/javascripts/loadJSON-12.js"></script>
 
 ## Starting the container
 
@@ -72,7 +75,7 @@ title: hotio/plex
 
 ## Claim your server
 
-When running Plex on a docker `bridge` network, you can't just get to the webui and start configuring it, you'll need to claim it first. Go to [plex.tv/claim](https://www.plex.tv/claim){: target=_blank rel="noopener" } and login with your account, copy the claim token and add it to the environment variable like this `-e PLEX_CLAIM_TOKEN="claim-xxxxxxxxxxxxxxxxxxxx"`. When starting the new plex server for the first time, the server will be added to your account.
+When running Plex on a docker `bridge` network, you can't just get to the webui and start configuring it, you'll need to claim it first. Go to [plex.tv/claim](https://www.plex.tv/claim){ target="_blank" rel="noopener" } and login with your account, copy the claim token and add it to the environment variable like this `-e PLEX_CLAIM_TOKEN="claim-xxxxxxxxxxxxxxxxxxxx"`. When starting the new plex server for the first time, the server will be added to your account.
 
 ## Plex Beta
 
@@ -82,7 +85,7 @@ If you are a Plex Pass subscriber, you can enable the install of beta builds wit
 
 The variables correspond to the below plex network settings.
 
-![Plex settings](../img/plex_settings.png "Plex settings")
+![Plex settings](../img/plex_settings.png)
 
 The variable `PLEX_ADVERTISE_URL` is useful to aid your local clients in discovering your plex server when running in the `bridge` network mode. Most likely you would use something like `http://192.168.0.10:32400`. You could use `PLEX_NO_AUTH_NETWORKS` when you're locked out and need to regain access without providing credentials.
 

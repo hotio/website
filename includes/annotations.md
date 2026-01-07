@@ -6,13 +6,13 @@
 
 4. Possible values are `generic`, `proton` and `pia`.  
 Affiliate links:  
-[Proton VPN](https://go.getproton.me/aff_c?offer_id=26&aff_id=7223){: target=_blank rel="noopener" }  
-[Proton Unlimited](https://go.getproton.me/aff_c?offer_id=42&aff_id=7223&url_id=1194){: target=_blank rel="noopener" }  
-[Private Internet Access](https://www.privateinternetaccess.com/offer/hotio.dev_hsm018qg){: target=_blank rel="noopener" }
+[Proton VPN](https://go.getproton.me/aff_c?offer_id=26&aff_id=7223){ target="_blank" rel="noopener" }  
+[Proton Unlimited](https://go.getproton.me/aff_c?offer_id=42&aff_id=7223&url_id=1194){ target="_blank" rel="noopener" }  
+[Private Internet Access](https://www.privateinternetaccess.com/offer/hotio.dev_hsm018qg){ target="_blank" rel="noopener" }
 
 5. There needs to be a file `wg0.conf` (for PIA this is done automatically, see `VPN_PROVIDER` variable) located in `/config/wireguard` and you need to set the variable `VPN_ENABLED` to `true` for the VPN to start. If you'd like to execute some of your own bash scripts you can place the scripts alongside your `wg0.conf` file, called `wg0-pre.sh` (before vpn is up), `wg0-post.sh` (after vpn is up) or `wg0-port.sh` (after forwarded port change).
 
-6. Auto retrieve a forwarded port and configure the supported app if set to `true` and `VPN_PROVIDER=proton` or `VPN_PROVIDER=pia`. If you can manually request/set a forwarded port in the VPN provider's web interface, fill in the port number (just the number). If you set it to `true` and you've got `VPN_PROVIDER=generic`, you can manually create and manipulate the file `/config/wireguard/forwarded_port`. Useful website to check for open ports is [YouGetSignal](https://www.yougetsignal.com/tools/open-ports){: target=_blank rel="noopener" } and [ipleak.net](https://ipleak.net){: target=_blank rel="noopener" } to leak test with `.torrent` file.
+6. Auto retrieve a forwarded port and configure the supported app if set to `true` and `VPN_PROVIDER=proton` or `VPN_PROVIDER=pia`. If you can manually request/set a forwarded port in the VPN provider's web interface, fill in the port number (just the number). If you set it to `true` and you've got `VPN_PROVIDER=generic`, you can manually create and manipulate the file `/config/wireguard/forwarded_port`. Useful website to check for open ports is [YouGetSignal](https://www.yougetsignal.com/tools/open-ports){ target="_blank" rel="noopener" } and [ipleak.net](https://ipleak.net){ target="_blank" rel="noopener" } to leak test with `.torrent` file.
 
 7. By default a random server is used, but if you prefer a certain region you can fill in the region id. A list of available regions can be found in `/config/wireguard` after the first start. If you're seeing an error message `shuf: getrandom: Function not implemented`, you can't let it pick one randomly and are forced to fill in a region id.
 

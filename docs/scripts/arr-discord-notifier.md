@@ -6,7 +6,7 @@ title: Arr Discord Notifier
 
     Both Sonarr and Radarr now come with built-in Discord notifications based on this script, so it's no longer bundled with those images. The script still works though if you prefer to use it.
 
-:material-github: [GitHub](https://github.com/hotio/arr-discord-notifier){: .header-icons target=_blank rel="noopener" }  
+[:octicons-mark-github-16: GitHub](https://github.com/hotio/arr-discord-notifier){ class="header-links" target="_blank" rel="noopener" }  
 
 Arr Discord Notifier sends pretty notifications to a discord webhook. The Radarr and Sonarr v3 (only v3 is supported) docker images come bundled with this script, but it can also be used on its own.
 
@@ -14,7 +14,7 @@ Arr Discord Notifier sends pretty notifications to a discord webhook. The Radarr
 
 Add a `Custom Script` to the `Connect` settings in Sonarr/Radarr as seen below.  
 
-<img src="/img/arr-discord-notifier-config.png" alt="config-screen" height="500" width="500" style="border: 1px solid #6c5d53;">
+![config-screen](../img/arr-discord-notifier-config.png){ style="border: 1px solid #6c5d53;" width="500" }
 
 Then add the environment variable `DISCORD_WEBHOOK` with your webhook url provided by Discord to the container. After that hit the `Test` button and you should see a notification appear in your discord channel.  
 
@@ -28,5 +28,5 @@ By default the hostname is used as the Author of the notification, you can modif
 
 ## Sample images
 
-<img src="/img/arr-discord-notifier-sample1.png" alt="sample-screen" width="300">
-<img src="/img/arr-discord-notifier-sample2.png" alt="sample-screen" width="300">
+![sample-screen](../img/arr-discord-notifier-sample1.png){ width="300" }
+![sample-screen](../img/arr-discord-notifier-sample2.png){ width="300" }

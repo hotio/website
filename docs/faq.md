@@ -14,13 +14,13 @@ title: FAQ
     docker run --rm -v /var/run/docker.sock:/var/run/docker.sock:ro ghcr.io/red5d/docker-autocompose <container-name-or-id> [<additional-names-or-ids>]
     ```
 
-    Now you should upload this to [logs.notifiarr.com](https://logs.notifiarr.com){: target=_blank rel="noopener" } after removing personal details and passwords.
+    Now you should upload this to [logs.notifiarr.com](https://logs.notifiarr.com){ target="_blank" rel="noopener" } after removing personal details and passwords.
 
 ## Installation
 
 ??? question "Installing Docker, how and where?"
 
-    I'd have a look at the official [Docker Engine](https://docs.docker.com/engine/install/){: target=_blank rel="noopener" } installation instructions.
+    I'd have a look at the official [Docker Engine](https://docs.docker.com/engine/install/){ target="_blank" rel="noopener" } installation instructions.
 
 ## Guides
 
@@ -101,8 +101,8 @@ title: FAQ
 
 ??? question "Got any Docker guides?"
 
-    Take a look [here](https://wiki.servarr.com/Docker_Guide){: target=_blank rel="noopener" } for an extensive guide on best practises from the *arr team.
+    Take a look [here](https://wiki.servarr.com/Docker_Guide){ target="_blank" rel="noopener" } for an extensive guide on best practises from the *arr team.
 
 ??? question "But, but, how do I configure all this stuff?"
 
-    Maybe TRaSH from [TRaSH Guides](https://trash-guides.info){: target=_blank rel="noopener" } can help...
+    Maybe TRaSH from [TRaSH Guides](https://trash-guides.info){ target="_blank" rel="noopener" } can help...

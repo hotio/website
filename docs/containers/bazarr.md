@@ -4,7 +4,10 @@ hide:
 title: hotio/bazarr
 ---
 
---8<-- "includes/header-links.md"
+[:octicons-mark-github-16: GitHub](https://github.com/hotio/bazarr){ class=header-links }  
+[:octicons-container-16: ghcr.io](https://github.com/orgs/hotio/packages/container/package/bazarr){ class=header-links }  
+
+[:octicons-link-16: Upstream Project](https://github.com/morpheus65535/bazarr){ class=header-links }  
 
 <div id="tags-table">
   <table>
@@ -22,7 +25,7 @@ title: hotio/bazarr
 </div>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script type="text/javascript" src="/javascripts/loadJSON-11.js"></script>
+<script type="text/javascript" src="/javascripts/loadJSON-12.js"></script>
 
 ## Starting the container
 
