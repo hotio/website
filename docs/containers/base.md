@@ -18,7 +18,7 @@ title: hotio/base
       </tr>
     </thead>
     <tbody id="tags-table-body">
-<tr><td><div id="tag20074" onclick="CopyToClipboard('tag20074');return false;" class="tag-decoration"></div></td><td></td><td><a href="https://github.com/hotio/base/commit/" target="_blank"></a></td><td><a href="" target="_blank">2026-01-07 00:00:00</a></td></tr>
+<tr><td><div id="tag27709" onclick="CopyToClipboard('tag27709');return false;" class="tag-decoration"></div></td><td></td><td><a href="https://github.com/hotio/base/commit/" target="_blank"></a></td><td><a href="" target="_blank">2026-01-07 00:00:00</a></td></tr>
 </tbody>
   </table>
 </div>
