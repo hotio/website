@@ -4,11 +4,11 @@ hide:
 title: hotio/rflood
 ---
 
-[:octicons-mark-github-16: GitHub](https://github.com/hotio/rflood){ class=header-links }  
-[:octicons-container-16: ghcr.io](https://github.com/orgs/hotio/packages/container/package/rflood){ class=header-links }  
+[:octicons-mark-github-16: GitHub](https://github.com/hotio/rflood){ class="header-links" target="_blank" rel="noopener" }  
+[:octicons-container-16: ghcr.io](https://github.com/orgs/hotio/packages/container/package/rflood){ class="header-links" target="_blank" rel="noopener" }  
 
-[:octicons-link-16: Upstream Project 1](https://github.com/rakshasa/rtorrent){ class=header-links }  
-[:octicons-link-16: Upstream Project 2](https://github.com/jesec/flood){ class=header-links }  
+[:octicons-link-16: Upstream Project 1](https://github.com/rakshasa/rtorrent){ class="header-links" target="_blank" rel="noopener" }  
+[:octicons-link-16: Upstream Project 2](https://github.com/jesec/flood){ class="header-links" target="_blank" rel="noopener" }  
 
 <div id="tags-table">
   <table>

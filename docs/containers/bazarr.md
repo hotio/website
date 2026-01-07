@@ -4,10 +4,10 @@ hide:
 title: hotio/bazarr
 ---
 
-[:octicons-mark-github-16: GitHub](https://github.com/hotio/bazarr){ class=header-links }  
-[:octicons-container-16: ghcr.io](https://github.com/orgs/hotio/packages/container/package/bazarr){ class=header-links }  
+[:octicons-mark-github-16: GitHub](https://github.com/hotio/bazarr){ class="header-links" target="_blank" rel="noopener" }  
+[:octicons-container-16: ghcr.io](https://github.com/orgs/hotio/packages/container/package/bazarr){ class="header-links" target="_blank" rel="noopener" }  
 
-[:octicons-link-16: Upstream Project](https://github.com/morpheus65535/bazarr){ class=header-links }  
+[:octicons-link-16: Upstream Project](https://github.com/morpheus65535/bazarr){ class="header-links" target="_blank" rel="noopener" }  
 
 <div id="tags-table">
   <table>
