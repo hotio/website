@@ -20,7 +20,8 @@ title: hotio/mergerfs
       </tr>
     </thead>
     <tbody id="tags-table-body">
-    </tbody>
+<tr><td><div class="tag-decoration-latest">latest</div><div id="tag9727" onclick="CopyToClipboard('tag9727');return false;" class="tag-decoration">release</div><div id="tag21577" onclick="CopyToClipboard('tag21577');return false;" class="tag-decoration">release-2.41.1</div><div id="tag9032" onclick="CopyToClipboard('tag9032');return false;" class="tag-decoration">release-22314e1</div><div id="tag11352" onclick="CopyToClipboard('tag11352');return false;" class="tag-decoration">release-v2</div><div id="tag21538" onclick="CopyToClipboard('tag21538');return false;" class="tag-decoration">release-v2.41</div><div id="tag22174" onclick="CopyToClipboard('tag22174');return false;" class="tag-decoration">release-v2.41.1</div></td><td>Releases</td><td><a href="https://github.com/hotio/mergerfs/commit/22314e1c05d4576b7c1257553dd9d363ce846711" target="_blank"></a></td><td><a href="https://github.com/hotio/mergerfs/actions/runs/20691128205" target="_blank">2025-12-20 07:15:59</a></td></tr>
+</tbody>
   </table>
 </div>
 
