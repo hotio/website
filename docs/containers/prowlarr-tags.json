@@ -466,17 +466,17 @@
     ]
   },
   "testing": {
-    "commit_message": "Upstream image update",
-    "commit_sha": "7c7f6825d346fe97031c5cb05d8e6a59a25bdaa2",
+    "commit_message": "Version update: 2.3.1.5238 => 2.3.2.5245",
+    "commit_sha": "3824951267a8680ed38dd47d5000ef8cd89d3ec7",
     "description": "develop",
     "hide": false,
-    "last_updated": "2026-01-07T03:57:37.000Z",
-    "last_updated_url": "https://github.com/hotio/prowlarr/actions/runs/20770103133",
+    "last_updated": "2026-01-07T09:41:05.000Z",
+    "last_updated_url": "https://github.com/hotio/prowlarr/actions/runs/20777119670",
     "latest": false,
     "tags": [
       "testing",
-      "testing-2.3.1.5238",
-      "testing-7c7f682",
+      "testing-2.3.2.5245",
+      "testing-3824951",
       "",
       "",
       ""

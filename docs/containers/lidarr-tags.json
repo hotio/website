@@ -490,17 +490,17 @@
     ]
   },
   "testing": {
-    "commit_message": "Upstream image update",
-    "commit_sha": "5d5874c0030528af74de0a2dedc254bf0a091c6d",
+    "commit_message": "Version update: 3.1.1.4900 => 3.1.2.4902",
+    "commit_sha": "d375125dff8c5ebcacc497c048026efdbb640f8e",
     "description": "develop",
     "hide": false,
-    "last_updated": "2026-01-07T03:57:26.000Z",
-    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/20770100339",
+    "last_updated": "2026-01-07T09:40:47.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/20777111360",
     "latest": false,
     "tags": [
       "testing",
-      "testing-3.1.1.4900",
-      "testing-5d5874c",
+      "testing-3.1.2.4902",
+      "testing-d375125",
       "",
       "",
       ""
