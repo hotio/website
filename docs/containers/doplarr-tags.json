@@ -1,0 +1,19 @@
+{
+  "release": {
+    "commit_message": "Upstream image update",
+    "commit_sha": "13897a04ecfe24f6eaff1c0102015c7d5327dee4",
+    "description": "Releases",
+    "hide": false,
+    "last_updated": "2026-01-07T03:57:15.000Z",
+    "last_updated_url": "https://github.com/hotio/doplarr/actions/runs/20770097421",
+    "latest": true,
+    "tags": [
+      "release",
+      "release-3.7.0",
+      "release-13897a0",
+      "release-v3",
+      "release-v3.7",
+      "release-v3.7.0"
+    ]
+  }
+}

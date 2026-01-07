@@ -20,7 +20,8 @@ title: hotio/doplarr
       </tr>
     </thead>
     <tbody id="tags-table-body">
-    </tbody>
+<tr><td><div class="tag-decoration-latest">latest</div><div id="tag20557" onclick="CopyToClipboard('tag20557');return false;" class="tag-decoration">release</div><div id="tag7504" onclick="CopyToClipboard('tag7504');return false;" class="tag-decoration">release-3.7.0</div><div id="tag14028" onclick="CopyToClipboard('tag14028');return false;" class="tag-decoration">release-13897a0</div><div id="tag1933" onclick="CopyToClipboard('tag1933');return false;" class="tag-decoration">release-v3</div><div id="tag8529" onclick="CopyToClipboard('tag8529');return false;" class="tag-decoration">release-v3.7</div><div id="tag9953" onclick="CopyToClipboard('tag9953');return false;" class="tag-decoration">release-v3.7.0</div></td><td>Releases</td><td><a href="https://github.com/hotio/doplarr/commit/13897a04ecfe24f6eaff1c0102015c7d5327dee4" target="_blank">Upstream image update</a></td><td><a href="https://github.com/hotio/doplarr/actions/runs/20770097421" target="_blank">2026-01-07 03:57:15</a></td></tr>
+</tbody>
   </table>
 </div>
 
