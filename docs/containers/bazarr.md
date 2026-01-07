@@ -20,7 +20,9 @@ title: hotio/bazarr
       </tr>
     </thead>
     <tbody id="tags-table-body">
-    </tbody>
+<tr><td><div id="tag26995" onclick="CopyToClipboard('tag26995');return false;" class="tag-decoration">nightly</div><div id="tag6022" onclick="CopyToClipboard('tag6022');return false;" class="tag-decoration">nightly-1.5.5-beta.1</div><div id="tag27786" onclick="CopyToClipboard('tag27786');return false;" class="tag-decoration">nightly-c6f3878</div><div id="tag23083" onclick="CopyToClipboard('tag23083');return false;" class="tag-decoration">nightly-v1</div><div id="tag350" onclick="CopyToClipboard('tag350');return false;" class="tag-decoration">nightly-v1.5</div><div id="tag25288" onclick="CopyToClipboard('tag25288');return false;" class="tag-decoration">nightly-v1.5.5</div></td><td>Pre-releases</td><td><a href="https://github.com/hotio/bazarr/commit/c6f3878ac99da7589a0bb62e40f294bf65ae2baa" target="_blank">Upstream image update</a></td><td><a href="https://github.com/hotio/bazarr/actions/runs/20770096225" target="_blank">2026-01-07 03:57:10</a></td></tr>
+<tr><td><div class="tag-decoration-latest">latest</div><div id="tag16741" onclick="CopyToClipboard('tag16741');return false;" class="tag-decoration">release</div><div id="tag24792" onclick="CopyToClipboard('tag24792');return false;" class="tag-decoration">release-1.5.4</div><div id="tag30039" onclick="CopyToClipboard('tag30039');return false;" class="tag-decoration">release-4a80df9</div><div id="tag31627" onclick="CopyToClipboard('tag31627');return false;" class="tag-decoration">release-v1</div><div id="tag17000" onclick="CopyToClipboard('tag17000');return false;" class="tag-decoration">release-v1.5</div><div id="tag26182" onclick="CopyToClipboard('tag26182');return false;" class="tag-decoration">release-v1.5.4</div></td><td>Releases</td><td><a href="https://github.com/hotio/bazarr/commit/4a80df99b140b53f97c4aa37d39f669c2cc5dce4" target="_blank">Version update: 1.5.3 => 1.5.4</a></td><td><a href="https://github.com/hotio/bazarr/actions/runs/20700327080" target="_blank">2026-01-04 22:50:39</a></td></tr>
+</tbody>
   </table>
 </div>
 
