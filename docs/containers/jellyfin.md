@@ -32,7 +32,7 @@ title: hotio/jellyfin
 
     ```shell linenums="1"
     docker run --rm \
-        --name jellyfin \
+        --name="jellyfin" \
         -p 8096:8096 \
         -e PUID=1000 \
         -e PGID=1000 \

@@ -32,7 +32,7 @@ title: hotio/rflood
 
     ```shell linenums="1"
     docker run --rm \
-        --name rflood \
+        --name="rflood" \
         -p 3000:3000 \
         -e PUID=1000 \
         -e PGID=1000 \

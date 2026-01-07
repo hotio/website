@@ -31,7 +31,7 @@ title: hotio/caddy
 
     ```shell linenums="1"
     docker run --rm \
-        --name caddy \
+        --name="caddy" \
         -p 80:8080 \
         -p 443:8443 \
         -e PUID=1000 \

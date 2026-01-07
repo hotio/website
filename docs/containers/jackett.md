@@ -32,7 +32,7 @@ title: hotio/jackett
 
     ```shell linenums="1"
     docker run --rm \
-        --name jackett \
+        --name="jackett" \
         -p 9117:9117 \
         -e PUID=1000 \
         -e PGID=1000 \

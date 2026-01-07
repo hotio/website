@@ -32,7 +32,7 @@ title: hotio/bazarr
 
     ```shell linenums="1"
     docker run --rm \
-        --name bazarr \
+        --name="bazarr" \
         -p 6767:6767 \
         -e PUID=1000 \
         -e PGID=1000 \

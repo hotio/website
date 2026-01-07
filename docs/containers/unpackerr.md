@@ -33,7 +33,7 @@ title: hotio/unpackerr
 
     ```shell linenums="1"
     docker run --rm \
-        --name unpackerr \
+        --name="unpackerr" \
         -e PUID=1000 \
         -e PGID=1000 \
         -e UMASK=002 \

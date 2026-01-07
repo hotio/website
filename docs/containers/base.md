@@ -30,7 +30,7 @@ title: hotio/base
 
     ```shell linenums="1"
     docker run --rm \
-        --name base \
+        --name="base" \
         -e PUID=1000 \
         -e PGID=1000 \
         -e UMASK=002 \

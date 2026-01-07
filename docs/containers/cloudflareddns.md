@@ -29,7 +29,7 @@ title: hotio/cloudflareddns
 
     ```shell linenums="1"
     docker run --rm \
-        --name cloudflareddns \
+        --name="cloudflareddns" \
         -e PUID=1000 \
         -e PGID=1000 \
         -e UMASK=002 \

@@ -33,7 +33,7 @@ title: hotio/lidarr
 
     ```shell linenums="1"
     docker run --rm \
-        --name lidarr \
+        --name="lidarr" \
         -p 8686:8686 \
         -e PUID=1000 \
         -e PGID=1000 \

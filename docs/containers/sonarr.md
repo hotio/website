@@ -32,7 +32,7 @@ title: hotio/sonarr
 
     ```shell linenums="1"
     docker run --rm \
-        --name sonarr \
+        --name="sonarr" \
         -p 8989:8989 \
         -e PUID=1000 \
         -e PGID=1000 \

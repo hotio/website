@@ -36,7 +36,7 @@ title: hotio/qbittorrent
 
     ```shell linenums="1"
     docker run --rm \
-        --name qbittorrent \
+        --name="qbittorrent" \
         -p 8080:8080 \
         -e PUID=1000 \
         -e PGID=1000 \

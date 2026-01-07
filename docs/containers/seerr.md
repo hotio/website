@@ -32,7 +32,7 @@ title: hotio/seerr
 
     ```shell linenums="1"
     docker run --rm \
-        --name seerr \
+        --name="seerr" \
         -p 5055:5055 \
         -e PUID=1000 \
         -e PGID=1000 \

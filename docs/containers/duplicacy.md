@@ -32,8 +32,8 @@ title: hotio/duplicacy
 
     ```shell linenums="1"
     docker run --rm \
-        --name duplicacy \
-        --hostname duplicacy \
+        --name="duplicacy" \
+        --hostname="duplicacy" \
         -p 3875:3875 \
         -e PUID=1000 \
         -e PGID=1000 \

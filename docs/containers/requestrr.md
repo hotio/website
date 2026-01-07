@@ -31,7 +31,7 @@ title: hotio/requestrr
 
     ```shell linenums="1"
     docker run --rm \
-        --name requestrr \
+        --name="requestrr" \
         -p 4545:4545 \
         -e PUID=1000 \
         -e PGID=1000 \

@@ -31,7 +31,7 @@ title: hotio/qui
 
     ```shell linenums="1"
     docker run --rm \
-        --name qui \
+        --name="qui" \
         -p 7476:7476 \
         -e PUID=1000 \
         -e PGID=1000 \

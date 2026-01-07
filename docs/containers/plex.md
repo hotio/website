@@ -31,7 +31,7 @@ title: hotio/plex
 
     ```shell linenums="1"
     docker run --rm \
-        --name plex \
+        --name="plex" \
         -p 32400:32400 \
         -e PUID=1000 \
         -e PGID=1000 \

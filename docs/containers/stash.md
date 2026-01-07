@@ -32,7 +32,7 @@ title: hotio/stash
 
     ```shell linenums="1"
     docker run --rm \
-        --name stash \
+        --name="stash" \
         -p 9999:9999 \
         -e PUID=1000 \
         -e PGID=1000 \

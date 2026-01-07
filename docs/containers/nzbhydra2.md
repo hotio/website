@@ -32,7 +32,7 @@ title: hotio/nzbhydra2
 
     ```shell linenums="1"
     docker run --rm \
-        --name nzbhydra2 \
+        --name="nzbhydra2" \
         -p 5076:5076 \
         -e PUID=1000 \
         -e PGID=1000 \

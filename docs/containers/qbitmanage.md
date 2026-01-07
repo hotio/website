@@ -32,7 +32,7 @@ title: hotio/qbitmanage
 
     ```shell linenums="1"
     docker run --rm \
-        --name qbitmanage \
+        --name="qbitmanage" \
         -p 8080:8080 \
         -e PUID=1000 \
         -e PGID=1000 \

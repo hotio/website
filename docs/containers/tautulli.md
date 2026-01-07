@@ -32,7 +32,7 @@ title: hotio/tautulli
 
     ```shell linenums="1"
     docker run --rm \
-        --name tautulli \
+        --name="tautulli" \
         -p 8181:8181 \
         -e PUID=1000 \
         -e PGID=1000 \

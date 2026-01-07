@@ -33,7 +33,7 @@ title: hotio/sabnzbd
 
     ```shell linenums="1"
     docker run --rm \
-        --name sabnzbd \
+        --name="sabnzbd" \
         -p 8080:8080 \
         -e PUID=1000 \
         -e PGID=1000 \

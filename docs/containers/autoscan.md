@@ -32,7 +32,7 @@ title: hotio/autoscan
 
     ```shell linenums="1"
     docker run --rm \
-        --name autoscan \
+        --name="autoscan" \
         -p 3030:3030 \
         -e PUID=1000 \
         -e PGID=1000 \

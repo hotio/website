@@ -33,7 +33,7 @@ title: hotio/prowlarr
 
     ```shell linenums="1"
     docker run --rm \
-        --name prowlarr \
+        --name="prowlarr" \
         -p 9696:9696 \
         -e PUID=1000 \
         -e PGID=1000 \

@@ -32,7 +32,7 @@ title: hotio/whisparr
 
     ```shell linenums="1"
     docker run --rm \
-        --name whisparr \
+        --name="whisparr" \
         -p 6969:6969 \
         -e PUID=1000 \
         -e PGID=1000 \
