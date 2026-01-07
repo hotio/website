@@ -20,7 +20,10 @@ title: hotio/prowlarr
       </tr>
     </thead>
     <tbody id="tags-table-body">
-    </tbody>
+<tr><td><div id="tag21965" onclick="CopyToClipboard('tag21965');return false;" class="tag-decoration">nightly</div><div id="tag13974" onclick="CopyToClipboard('tag13974');return false;" class="tag-decoration">nightly-2.3.2.5245</div><div id="tag25274" onclick="CopyToClipboard('tag25274');return false;" class="tag-decoration">nightly-ec0a820</div></td><td>nightly</td><td><a href="https://github.com/hotio/prowlarr/commit/ec0a8203f5b53d7981680d4428789e682fcf54ed" target="_blank">Upstream image update</a></td><td><a href="https://github.com/hotio/prowlarr/actions/runs/20770102489" target="_blank">2026-01-07 03:57:34</a></td></tr>
+<tr><td><div class="tag-decoration-latest">latest</div><div id="tag7907" onclick="CopyToClipboard('tag7907');return false;" class="tag-decoration">release</div><div id="tag23624" onclick="CopyToClipboard('tag23624');return false;" class="tag-decoration">release-2.3.0.5236</div><div id="tag29578" onclick="CopyToClipboard('tag29578');return false;" class="tag-decoration">release-8c66280</div></td><td>master</td><td><a href="https://github.com/hotio/prowlarr/commit/8c66280a8c6e1d830f7adb8700f3d8b4f1797eb4" target="_blank">Upstream image update</a></td><td><a href="https://github.com/hotio/prowlarr/actions/runs/20770102990" target="_blank">2026-01-07 03:57:36</a></td></tr>
+<tr><td><div id="tag17376" onclick="CopyToClipboard('tag17376');return false;" class="tag-decoration">testing</div><div id="tag22208" onclick="CopyToClipboard('tag22208');return false;" class="tag-decoration">testing-2.3.1.5238</div><div id="tag25429" onclick="CopyToClipboard('tag25429');return false;" class="tag-decoration">testing-4ebe84b</div></td><td>develop</td><td>Upstream image update</td><td><a href="https://github.com/hotio/prowlarr/actions/runs/20690831657" target="_blank">2026-01-04 09:26:22</a></td></tr>
+</tbody>
   </table>
 </div>
 
