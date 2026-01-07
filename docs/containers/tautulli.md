@@ -20,7 +20,9 @@ title: hotio/tautulli
       </tr>
     </thead>
     <tbody id="tags-table-body">
-    </tbody>
+<tr><td><div class="tag-decoration-latest">latest</div><div id="tag25692" onclick="CopyToClipboard('tag25692');return false;" class="tag-decoration">release</div><div id="tag8607" onclick="CopyToClipboard('tag8607');return false;" class="tag-decoration">release-2.16.0</div><div id="tag21823" onclick="CopyToClipboard('tag21823');return false;" class="tag-decoration">release-1bd4d6d</div><div id="tag20016" onclick="CopyToClipboard('tag20016');return false;" class="tag-decoration">release-v2</div><div id="tag7074" onclick="CopyToClipboard('tag7074');return false;" class="tag-decoration">release-v2.16</div><div id="tag22123" onclick="CopyToClipboard('tag22123');return false;" class="tag-decoration">release-v2.16.0</div></td><td>Releases</td><td><a href="https://github.com/hotio/tautulli/commit/1bd4d6d5033f2687ba9b85a180f9e1ce04b78310" target="_blank">Upstream image update</a></td><td><a href="https://github.com/hotio/tautulli/actions/runs/20770109965" target="_blank">2026-01-07 03:58:01</a></td></tr>
+<tr><td><div id="tag30122" onclick="CopyToClipboard('tag30122');return false;" class="tag-decoration">testing</div><div id="tag18475" onclick="CopyToClipboard('tag18475');return false;" class="tag-decoration">testing-2.16.0</div><div id="tag760" onclick="CopyToClipboard('tag760');return false;" class="tag-decoration">testing-cd20e3b</div><div id="tag7129" onclick="CopyToClipboard('tag7129');return false;" class="tag-decoration">testing-v2</div><div id="tag413" onclick="CopyToClipboard('tag413');return false;" class="tag-decoration">testing-v2.16</div><div id="tag14186" onclick="CopyToClipboard('tag14186');return false;" class="tag-decoration">testing-v2.16.0</div></td><td>Pre-releases</td><td>Upstream image update</td><td><a href="https://github.com/hotio/tautulli/actions/runs/20690840915" target="_blank">2026-01-04 09:27:11</a></td></tr>
+</tbody>
   </table>
 </div>
 
