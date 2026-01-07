@@ -20,7 +20,10 @@ title: hotio/radarr
       </tr>
     </thead>
     <tbody id="tags-table-body">
-    </tbody>
+<tr><td><div id="tag2176" onclick="CopyToClipboard('tag2176');return false;" class="tag-decoration">nightly</div><div id="tag14797" onclick="CopyToClipboard('tag14797');return false;" class="tag-decoration">nightly-6.1.1.10317</div><div id="tag22021" onclick="CopyToClipboard('tag22021');return false;" class="tag-decoration">nightly-be48842</div></td><td>nightly</td><td><a href="https://github.com/hotio/radarr/commit/be488424dc9c04b70b8669ecfd34d8f0011d115d" target="_blank">Upstream image update</a></td><td><a href="https://github.com/hotio/radarr/actions/runs/20770105261" target="_blank">2026-01-07 03:57:44</a></td></tr>
+<tr><td><div class="tag-decoration-latest">latest</div><div id="tag22837" onclick="CopyToClipboard('tag22837');return false;" class="tag-decoration">release</div><div id="tag19633" onclick="CopyToClipboard('tag19633');return false;" class="tag-decoration">release-6.0.4.10291</div><div id="tag8929" onclick="CopyToClipboard('tag8929');return false;" class="tag-decoration">release-64001a2</div></td><td>master</td><td>Upstream image update</td><td><a href="https://github.com/hotio/radarr/actions/runs/20690834703" target="_blank">2026-01-04 09:26:42</a></td></tr>
+<tr><td><div id="tag16065" onclick="CopyToClipboard('tag16065');return false;" class="tag-decoration">testing</div><div id="tag26050" onclick="CopyToClipboard('tag26050');return false;" class="tag-decoration">testing-6.1.0.10316</div><div id="tag3455" onclick="CopyToClipboard('tag3455');return false;" class="tag-decoration">testing-652533d</div></td><td>develop</td><td>Upstream image update</td><td><a href="https://github.com/hotio/radarr/actions/runs/20690835107" target="_blank">2026-01-04 09:26:44</a></td></tr>
+</tbody>
   </table>
 </div>
 
