@@ -20,7 +20,8 @@ title: hotio/qui
       </tr>
     </thead>
     <tbody id="tags-table-body">
-    </tbody>
+<tr><td><div class="tag-decoration-latest">latest</div><div id="tag18070" onclick="CopyToClipboard('tag18070');return false;" class="tag-decoration">release</div><div id="tag13727" onclick="CopyToClipboard('tag13727');return false;" class="tag-decoration">release-1.12.0</div><div id="tag3416" onclick="CopyToClipboard('tag3416');return false;" class="tag-decoration">release-df33c0b</div><div id="tag8135" onclick="CopyToClipboard('tag8135');return false;" class="tag-decoration">release-v1</div><div id="tag17651" onclick="CopyToClipboard('tag17651');return false;" class="tag-decoration">release-v1.12</div><div id="tag385" onclick="CopyToClipboard('tag385');return false;" class="tag-decoration">release-v1.12.0</div></td><td>Releases</td><td><a href="https://github.com/hotio/qui/commit/df33c0bc5f1cc9f5af61b4fa70f7d25a13429906" target="_blank">Upstream image update</a></td><td><a href="https://github.com/hotio/qui/actions/runs/20770104608" target="_blank">2026-01-07 03:57:43</a></td></tr>
+</tbody>
   </table>
 </div>
 
