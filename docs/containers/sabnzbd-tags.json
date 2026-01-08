@@ -1,16 +1,16 @@
 {
   "nightly": {
-    "commit_message": "Upstream image update",
-    "commit_sha": "06d62706dd7ae22f149b371a11e55181d20d8234",
+    "commit_message": "Version update: 17dcff49b25aaf3988bbc28f46175981908f9211 => 4d73c3e9c03b7e79ce408bdcf05fce03ca7a059f",
+    "commit_sha": "e1eac666b233bdaa2a9346375529e35f3bdf2764",
     "description": "Every commit to develop",
     "hide": false,
-    "last_updated": "2026-01-07T03:57:51.000Z",
-    "last_updated_url": "https://github.com/hotio/sabnzbd/actions/runs/20770107036",
+    "last_updated": "2026-01-08T14:30:54.000Z",
+    "last_updated_url": "https://github.com/hotio/sabnzbd/actions/runs/20820292327",
     "latest": false,
     "tags": [
       "nightly",
-      "nightly-17dcff49b25aaf3988bbc28f46175981908f9211",
-      "nightly-06d6270",
+      "nightly-4d73c3e9c03b7e79ce408bdcf05fce03ca7a059f",
+      "nightly-e1eac66",
       "",
       "",
       ""
