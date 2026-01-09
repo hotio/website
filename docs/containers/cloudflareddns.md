@@ -19,7 +19,7 @@ title: hotio/cloudflareddns
       </tr>
     </thead>
     <tbody id="tags-table-body">
-<tr><td><div class="tag-decoration-latest">latest</div><div id="tag18653" onclick="CopyToClipboard('tag18653');return false;" class="tag-decoration">release</div><div id="tag20756" onclick="CopyToClipboard('tag20756');return false;" class="tag-decoration">release-18c1358</div></td><td></td><td><a href="https://github.com/hotio/cloudflareddns/commit/18c13586d14b493cfb82d82102679159f7d62a66" target="_blank">Update upstream tag SHA and improve error handling in scripts</a></td><td><a href="https://github.com/hotio/cloudflareddns/actions/runs/20844784760" target="_blank">2026-01-09 07:38:32</a></td></tr>
+<tr><td><div class="tag-decoration-latest">latest</div><div id="tag7305" onclick="CopyToClipboard('tag7305');return false;" class="tag-decoration">release</div><div id="tag11077" onclick="CopyToClipboard('tag11077');return false;" class="tag-decoration">release-9b00747</div></td><td></td><td><a href="https://github.com/hotio/cloudflareddns/commit/9b007475ecac0cb4b4c83ba2ef0e8b101b76986c" target="_blank">Upstream update: alpinevpn-c1be17f => alpinevpn-0904450</a></td><td><a href="https://github.com/hotio/cloudflareddns/actions/runs/20850328889" target="_blank">2026-01-09 11:22:37</a></td></tr>
 </tbody>
   </table>
 </div>
