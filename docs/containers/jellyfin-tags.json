@@ -1,16 +1,16 @@
 {
   "nightly": {
-    "commit_message": "enable arm64 smoketest",
-    "commit_sha": "7ede83b2c6568d7df03f75327bc40d1a2738e9b5",
+    "commit_message": "Upstream update: null => noblevpn-d461e72",
+    "commit_sha": "81f6a965c2cb237eb11af65386f4651f863e0f0f",
     "description": "Unstable",
     "hide": false,
-    "last_updated": "2026-01-09T01:32:18.000Z",
-    "last_updated_url": "https://github.com/hotio/jellyfin/actions/runs/20838089493",
+    "last_updated": "2026-01-09T05:40:39.000Z",
+    "last_updated_url": "https://github.com/hotio/jellyfin/actions/runs/20842470086",
     "latest": false,
     "tags": [
       "nightly",
       "nightly-2026010505",
-      "nightly-7ede83b",
+      "nightly-81f6a96",
       "",
       "",
       ""
