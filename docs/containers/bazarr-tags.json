@@ -1,16 +1,16 @@
 {
   "nightly": {
-    "commit_message": "Upstream update: null => alpinevpn-30708ff",
-    "commit_sha": "32bbe50f5e3c6852932507039d4d4ea1ad563d18",
+    "commit_message": "Update upstream tag SHA and improve error handling in update scripts",
+    "commit_sha": "4cc3d6e80a82aaab93d18a208cc40763a216c813",
     "description": "Pre-releases",
     "hide": false,
-    "last_updated": "2026-01-09T05:40:30.000Z",
-    "last_updated_url": "https://github.com/hotio/bazarr/actions/runs/20842467465",
+    "last_updated": "2026-01-09T07:35:50.000Z",
+    "last_updated_url": "https://github.com/hotio/bazarr/actions/runs/20844727974",
     "latest": false,
     "tags": [
       "nightly",
       "nightly-1.5.5-beta.2",
-      "nightly-32bbe50",
+      "nightly-4cc3d6e",
       "nightly-v1",
       "nightly-v1.5",
       "nightly-v1.5.5"
