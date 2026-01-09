@@ -6,6 +6,7 @@ title: hotio/nzbget
 
 [:octicons-mark-github-16: GitHub](https://github.com/hotio/nzbget){ class="header-links" target="_blank" rel="noopener" }  
 [:octicons-container-16: ghcr.io](https://github.com/orgs/hotio/packages/container/package/nzbget){ class="header-links" target="_blank" rel="noopener" }  
+[:octicons-container-16: docker.io](https://hub.docker.com/r/hotio/nzbget/tags){ class="header-links" target="_blank" rel="noopener" }  
 
 [:octicons-link-16: Upstream Project](https://github.com/nzbgetcom/nzbget){ class="header-links" target="_blank" rel="noopener" }  
 

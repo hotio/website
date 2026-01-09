@@ -6,6 +6,7 @@ title: hotio/duplicacy
 
 [:octicons-mark-github-16: GitHub](https://github.com/hotio/duplicacy){ class="header-links" target="_blank" rel="noopener" }  
 [:octicons-container-16: ghcr.io](https://github.com/orgs/hotio/packages/container/package/duplicacy){ class="header-links" target="_blank" rel="noopener" }  
+[:octicons-container-16: docker.io](https://hub.docker.com/r/hotio/duplicacy/tags){ class="header-links" target="_blank" rel="noopener" }  
 
 [:octicons-link-16: Upstream Project](https://duplicacy.com){ class="header-links" target="_blank" rel="noopener" }  
 

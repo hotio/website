@@ -6,6 +6,7 @@ title: hotio/jackett
 
 [:octicons-mark-github-16: GitHub](https://github.com/hotio/jackett){ class="header-links" target="_blank" rel="noopener" }  
 [:octicons-container-16: ghcr.io](https://github.com/orgs/hotio/packages/container/package/jackett){ class="header-links" target="_blank" rel="noopener" }  
+[:octicons-container-16: docker.io](https://hub.docker.com/r/hotio/jackett/tags){ class="header-links" target="_blank" rel="noopener" }  
 
 [:octicons-link-16: Upstream Project](https://github.com/jackett/jackett){ class="header-links" target="_blank" rel="noopener" }  
 
