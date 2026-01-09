@@ -17,17 +17,17 @@
     ]
   },
   "testing": {
-    "commit_message": "Version update: 0.24.766 => 0.24.790",
-    "commit_sha": "e80e4b4ee2d1d552e7e63ba521ed58b78c29db78",
+    "commit_message": "Update upstream tag SHA and improve error handling in update scripts",
+    "commit_sha": "5cb8b379835686ca4e6c2b11fdc44939c27f8846",
     "description": "Pre-releases",
     "hide": false,
-    "last_updated": "2026-01-09T06:48:59.000Z",
-    "last_updated_url": "https://github.com/hotio/jackett/actions/runs/20843773477",
+    "last_updated": "2026-01-09T07:43:05.000Z",
+    "last_updated_url": "https://github.com/hotio/jackett/actions/runs/20844879338",
     "latest": false,
     "tags": [
       "testing",
       "testing-0.24.790",
-      "testing-e80e4b4",
+      "testing-5cb8b37",
       "testing-v0",
       "testing-v0.24",
       "testing-v0.24.790"
