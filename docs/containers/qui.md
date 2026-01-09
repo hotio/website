@@ -2,6 +2,7 @@
 hide:
   - toc
 title: hotio/qui
+status: new
 ---
 
 [:octicons-mark-github-16: GitHub](https://github.com/hotio/qui){ class="header-links" target="_blank" rel="noopener" }  

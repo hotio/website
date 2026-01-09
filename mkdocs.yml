@@ -20,6 +20,9 @@ extra:
   - icon: fontawesome/brands/github
     link: 'https://github.com/hotio'
     name: GitHub
+  status:
+    deprecated: This image is no longer receiving updates
+    new: This image has recently been added
 
 extra_css:
   - stylesheets/extra-13.css
@@ -102,6 +105,7 @@ nav:
     - containers/mergerfs.md
     - containers/nzbget.md
     - containers/nzbhydra2.md
+    - containers/overseerr.md
     - containers/plex.md
     - containers/prowlarr.md
     - containers/qbitmanage.md
