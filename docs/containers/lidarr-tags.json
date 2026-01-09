@@ -17,17 +17,17 @@
     ]
   },
   "release": {
-    "commit_message": "Update upstream tag SHA and improve error handling in update scripts",
-    "commit_sha": "a2f9a48afeaa8ba2d551bb33527fe0b82dc518d3",
+    "commit_message": "Upstream update: alpinevpn-c1be17f => alpinevpn-0904450",
+    "commit_sha": "5a5f3dce4d52331a8384bc8120eb475a511eadb7",
     "description": "master",
     "hide": false,
-    "last_updated": "2026-01-09T07:46:34.000Z",
-    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/20844952078",
+    "last_updated": "2026-01-09T11:22:51.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/20850335075",
     "latest": true,
     "tags": [
       "release",
       "release-3.1.0.4875",
-      "release-a2f9a48",
+      "release-5a5f3dc",
       "",
       "",
       ""
