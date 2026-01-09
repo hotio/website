@@ -18,7 +18,7 @@ title: hotio/cloudflareddns
       </tr>
     </thead>
     <tbody id="tags-table-body">
-<tr><td><div class="tag-decoration-latest">latest</div><div id="tag30101" onclick="CopyToClipboard('tag30101');return false;" class="tag-decoration">release</div><div id="tag18632" onclick="CopyToClipboard('tag18632');return false;" class="tag-decoration">release-6fe9de0</div></td><td></td><td><a href="https://github.com/hotio/cloudflareddns/commit/6fe9de0204b6b1a5b3396cf6fb2151dd80e37d61" target="_blank">remove version field</a></td><td><a href="https://github.com/hotio/cloudflareddns/actions/runs/20843938822" target="_blank">2026-01-09 06:57:49</a></td></tr>
+<tr><td><div class="tag-decoration-latest">latest</div><div id="tag18653" onclick="CopyToClipboard('tag18653');return false;" class="tag-decoration">release</div><div id="tag20756" onclick="CopyToClipboard('tag20756');return false;" class="tag-decoration">release-18c1358</div></td><td></td><td><a href="https://github.com/hotio/cloudflareddns/commit/18c13586d14b493cfb82d82102679159f7d62a66" target="_blank">Update upstream tag SHA and improve error handling in scripts</a></td><td><a href="https://github.com/hotio/cloudflareddns/actions/runs/20844784760" target="_blank">2026-01-09 07:38:32</a></td></tr>
 </tbody>
   </table>
 </div>

@@ -1,16 +1,16 @@
 {
   "release": {
-    "commit_message": "remove version field",
-    "commit_sha": "6fe9de0204b6b1a5b3396cf6fb2151dd80e37d61",
+    "commit_message": "Update upstream tag SHA and improve error handling in scripts",
+    "commit_sha": "18c13586d14b493cfb82d82102679159f7d62a66",
     "description": "",
     "hide": false,
-    "last_updated": "2026-01-09T06:57:49.000Z",
-    "last_updated_url": "https://github.com/hotio/cloudflareddns/actions/runs/20843938822",
+    "last_updated": "2026-01-09T07:38:32.000Z",
+    "last_updated_url": "https://github.com/hotio/cloudflareddns/actions/runs/20844784760",
     "latest": true,
     "tags": [
       "release",
       "",
-      "release-6fe9de0",
+      "release-18c1358",
       "",
       "",
       ""
