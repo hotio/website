@@ -17,17 +17,17 @@
     ]
   },
   "release": {
-    "commit_message": "enable arm64 smoketest",
-    "commit_sha": "83dfab7365dda7606d9f9eb58546d36d9e2239f0",
+    "commit_message": "Upstream update: null => alpinevpn-30708ff",
+    "commit_sha": "50d4b1cb21caf230b031cfe357f48adbebcbe903",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-01-09T01:37:47.000Z",
-    "last_updated_url": "https://github.com/hotio/bazarr/actions/runs/20838191745",
+    "last_updated": "2026-01-09T05:40:31.000Z",
+    "last_updated_url": "https://github.com/hotio/bazarr/actions/runs/20842467558",
     "latest": true,
     "tags": [
       "release",
       "release-1.5.4",
-      "release-83dfab7",
+      "release-50d4b1c",
       "release-v1",
       "release-v1.5",
       "release-v1.5.4"
