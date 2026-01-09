@@ -18,7 +18,7 @@ title: hotio/cloudflareddns
       </tr>
     </thead>
     <tbody id="tags-table-body">
-<tr><td><div class="tag-decoration-latest">latest</div><div id="tag26053" onclick="CopyToClipboard('tag26053');return false;" class="tag-decoration">release</div><div id="tag11610" onclick="CopyToClipboard('tag11610');return false;" class="tag-decoration">release-4852606--1.9.6</div><div id="tag15256" onclick="CopyToClipboard('tag15256');return false;" class="tag-decoration">release-fcca78c</div></td><td></td><td><a href="https://github.com/hotio/cloudflareddns/commit/fcca78c6b9c941f7111f49b57b78e636e3290f5c" target="_blank">Upstream update: null => alpinevpn-30708ff</a></td><td><a href="https://github.com/hotio/cloudflareddns/actions/runs/20842468249" target="_blank">2026-01-09 05:40:33</a></td></tr>
+<tr><td><div class="tag-decoration-latest">latest</div><div id="tag9042" onclick="CopyToClipboard('tag9042');return false;" class="tag-decoration">release</div><div id="tag5076" onclick="CopyToClipboard('tag5076');return false;" class="tag-decoration"></div><div id="tag20229" onclick="CopyToClipboard('tag20229');return false;" class="tag-decoration">release-6fe9de0</div></td><td></td><td><a href="https://github.com/hotio/cloudflareddns/commit/6fe9de0204b6b1a5b3396cf6fb2151dd80e37d61" target="_blank">remove version field</a></td><td><a href="https://github.com/hotio/cloudflareddns/actions/runs/20843938822" target="_blank">2026-01-09 06:57:49</a></td></tr>
 </tbody>
   </table>
 </div>
