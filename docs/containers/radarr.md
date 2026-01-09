@@ -6,7 +6,6 @@ title: hotio/radarr
 
 [:octicons-mark-github-16: GitHub](https://github.com/hotio/radarr){ class="header-links" target="_blank" rel="noopener" }  
 [:octicons-container-16: ghcr.io](https://github.com/orgs/hotio/packages/container/package/radarr){ class="header-links" target="_blank" rel="noopener" }  
-[:octicons-container-16: docker.io](https://hub.docker.com/r/hotio/radarr/tags){ class="header-links" target="_blank" rel="noopener" }  
 
 [:octicons-link-16: Upstream Project](https://github.com/radarr/radarr){ class="header-links" target="_blank" rel="noopener" }  
 

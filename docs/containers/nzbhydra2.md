@@ -6,7 +6,6 @@ title: hotio/nzbhydra2
 
 [:octicons-mark-github-16: GitHub](https://github.com/hotio/nzbhydra2){ class="header-links" target="_blank" rel="noopener" }  
 [:octicons-container-16: ghcr.io](https://github.com/orgs/hotio/packages/container/package/nzbhydra2){ class="header-links" target="_blank" rel="noopener" }  
-[:octicons-container-16: docker.io](https://hub.docker.com/r/hotio/nzbhydra2/tags){ class="header-links" target="_blank" rel="noopener" }  
 
 [:octicons-link-16: Upstream Project](https://github.com/theotherp/nzbhydra2){ class="header-links" target="_blank" rel="noopener" }  
 

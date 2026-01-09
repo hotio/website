@@ -6,7 +6,6 @@ title: hotio/base
 
 [:octicons-mark-github-16: GitHub](https://github.com/hotio/base){ class="header-links" target="_blank" rel="noopener" }  
 [:octicons-container-16: ghcr.io](https://github.com/orgs/hotio/packages/container/package/base){ class="header-links" target="_blank" rel="noopener" }  
-[:octicons-container-16: docker.io](https://hub.docker.com/r/hotio/base/tags){ class="header-links" target="_blank" rel="noopener" }  
 
 <div id="tags-table">
   <table>

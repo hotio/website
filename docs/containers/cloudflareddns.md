@@ -6,7 +6,6 @@ title: hotio/cloudflareddns
 
 [:octicons-mark-github-16: GitHub](https://github.com/hotio/cloudflareddns){ class="header-links" target="_blank" rel="noopener" }  
 [:octicons-container-16: ghcr.io](https://github.com/orgs/hotio/packages/container/package/cloudflareddns){ class="header-links" target="_blank" rel="noopener" }  
-[:octicons-container-16: docker.io](https://hub.docker.com/r/hotio/cloudflareddns/tags){ class="header-links" target="_blank" rel="noopener" }  
 
 <div id="tags-table">
   <table>
