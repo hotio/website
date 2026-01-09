@@ -1,16 +1,16 @@
 {
   "nightly": {
-    "commit_message": "enable arm64 smoketest",
-    "commit_sha": "b4da7b8229c18234de20e781cde38f0714bb73a2",
+    "commit_message": "Upstream update: null => alpinevpn-30708ff",
+    "commit_sha": "32bbe50f5e3c6852932507039d4d4ea1ad563d18",
     "description": "Pre-releases",
     "hide": false,
-    "last_updated": "2026-01-09T01:38:05.000Z",
-    "last_updated_url": "https://github.com/hotio/bazarr/actions/runs/20838196796",
+    "last_updated": "2026-01-09T05:40:30.000Z",
+    "last_updated_url": "https://github.com/hotio/bazarr/actions/runs/20842467465",
     "latest": false,
     "tags": [
       "nightly",
       "nightly-1.5.5-beta.2",
-      "nightly-b4da7b8",
+      "nightly-32bbe50",
       "nightly-v1",
       "nightly-v1.5",
       "nightly-v1.5.5"
