@@ -1,16 +1,16 @@
 {
   "release": {
-    "commit_message": "Upstream update: alpinevpn-30708ff => alpinevpn-c1be17f",
-    "commit_sha": "da6239e72c9cca4cacb57b2f8473d4849974ee9a",
+    "commit_message": "Upstream update: alpinevpn-c1be17f => alpinevpn-0904450",
+    "commit_sha": "cc49b33ab9fa9e48ae989ccf86fa53dbfffb707f",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-01-09T08:22:46.000Z",
-    "last_updated_url": "https://github.com/hotio/tautulli/actions/runs/20845771444",
+    "last_updated": "2026-01-09T11:23:37.000Z",
+    "last_updated_url": "https://github.com/hotio/tautulli/actions/runs/20850354124",
     "latest": true,
     "tags": [
       "release",
       "release-2.16.0",
-      "release-da6239e",
+      "release-cc49b33",
       "release-v2",
       "release-v2.16",
       "release-v2.16.0"
