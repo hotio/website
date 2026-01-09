@@ -17,17 +17,17 @@
     ]
   },
   "testing": {
-    "commit_message": "enable arm64 smoketest",
-    "commit_sha": "a9fc61c19f6a8071db8525e0480c664564fff0eb",
+    "commit_message": "Upstream update: null => alpinevpn-30708ff",
+    "commit_sha": "861e24e7d8f3289b444f1d2dfa3b6f38acb3371a",
     "description": "Pre-releases",
     "hide": false,
-    "last_updated": "2026-01-09T01:36:09.000Z",
-    "last_updated_url": "https://github.com/hotio/jackett/actions/runs/20838161453",
+    "last_updated": "2026-01-09T05:40:38.000Z",
+    "last_updated_url": "https://github.com/hotio/jackett/actions/runs/20842469681",
     "latest": false,
     "tags": [
       "testing",
       "testing-0.24.766",
-      "testing-a9fc61c",
+      "testing-861e24e",
       "testing-v0",
       "testing-v0.24",
       "testing-v0.24.766"
