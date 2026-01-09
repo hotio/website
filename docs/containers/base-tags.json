@@ -1,16 +1,16 @@
 {
   "alpinevpn": {
-    "commit_message": "improve pia port forward logging",
-    "commit_sha": "30708ffdcd5f5468e0989dc4602bb846825eadfb",
+    "commit_message": "refactor: streamline version handling in scripts",
+    "commit_sha": "c1be17fe9abfd4fadfb097f742c8debd12a90215",
     "description": "Alpine 3.22",
     "hide": false,
-    "last_updated": "2025-12-31T16:42:36.000Z",
-    "last_updated_url": "https://github.com/hotio/base/actions/runs/20623195696",
+    "last_updated": "2026-01-09T07:31:51.000Z",
+    "last_updated_url": "https://github.com/hotio/base/actions/runs/20844647052",
     "latest": false,
     "tags": [
       "alpinevpn",
-      "alpinevpn-3.2.1.0",
-      "alpinevpn-30708ff",
+      "",
+      "alpinevpn-c1be17f",
       "",
       "",
       ""
