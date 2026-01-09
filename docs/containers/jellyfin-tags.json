@@ -17,17 +17,17 @@
     ]
   },
   "release": {
-    "commit_message": "Update upstream tag SHA and improve error handling in update scripts",
-    "commit_sha": "d041df0dc9aea942063e400578c3cc48a11ac158",
+    "commit_message": "Upstream update: noblevpn-5c07a3a => noblevpn-d932ed0",
+    "commit_sha": "82e8dad8684bfd613c0771f762e158eb38a26a7e",
     "description": "Stable",
     "hide": false,
-    "last_updated": "2026-01-09T07:45:00.000Z",
-    "last_updated_url": "https://github.com/hotio/jellyfin/actions/runs/20844919766",
+    "last_updated": "2026-01-09T11:22:47.000Z",
+    "last_updated_url": "https://github.com/hotio/jellyfin/actions/runs/20850333052",
     "latest": true,
     "tags": [
       "release",
       "release-10.11.5",
-      "release-d041df0",
+      "release-82e8dad",
       "release-v10",
       "release-v10.11",
       "release-v10.11.5"
