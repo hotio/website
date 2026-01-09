@@ -1,16 +1,16 @@
 {
   "release": {
-    "commit_message": "Upstream image update",
-    "commit_sha": "86b3a638fc522aa699a2696939b5d44918858e12",
+    "commit_message": "update",
+    "commit_sha": "83800a66b36a73ef029de687ae0f2fbca52478e4",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-01-07T03:57:27.000Z",
-    "last_updated_url": "https://github.com/hotio/nzbget/actions/runs/20770100826",
+    "last_updated": "2026-01-09T07:51:44.000Z",
+    "last_updated_url": "https://github.com/hotio/nzbget/actions/runs/20845063901",
     "latest": true,
     "tags": [
       "release",
       "release-25.4",
-      "release-86b3a63",
+      "release-83800a6",
       "",
       "",
       ""
