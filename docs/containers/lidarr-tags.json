@@ -1,16 +1,16 @@
 {
   "nightly": {
-    "commit_message": "Update upstream tag SHA and improve error handling in update scripts",
-    "commit_sha": "57c0de8ab08c2e22ec1ff7c534e2f4bdf2c346af",
+    "commit_message": "Upstream update: alpinevpn-c1be17f => alpinevpn-0904450",
+    "commit_sha": "bae97d924d9de11faf6603816db5cf5c0d20fc1d",
     "description": "nightly",
     "hide": false,
-    "last_updated": "2026-01-09T07:49:15.000Z",
-    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/20845009589",
+    "last_updated": "2026-01-09T11:22:48.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/20850334008",
     "latest": false,
     "tags": [
       "nightly",
       "nightly-3.1.2.4902",
-      "nightly-57c0de8",
+      "nightly-bae97d9",
       "",
       "",
       ""
