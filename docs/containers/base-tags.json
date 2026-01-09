@@ -17,17 +17,17 @@
     ]
   },
   "noblevpn": {
-    "commit_message": "refactor: streamline version handling in scripts and remove unused version field",
-    "commit_sha": "5c07a3a46587dbd86ca34cd0f2f5b3e1452bb4e6",
+    "commit_message": "update .dockerignore",
+    "commit_sha": "d932ed07a9381b48cb39543c376baa947c320919",
     "description": "Ubuntu 24.04",
     "hide": false,
-    "last_updated": "2026-01-09T07:33:19.000Z",
-    "last_updated_url": "https://github.com/hotio/base/actions/runs/20844677876",
+    "last_updated": "2026-01-09T11:17:51.000Z",
+    "last_updated_url": "https://github.com/hotio/base/actions/runs/20850214363",
     "latest": false,
     "tags": [
       "noblevpn",
       "",
-      "noblevpn-5c07a3a",
+      "noblevpn-d932ed0",
       "",
       "",
       ""
