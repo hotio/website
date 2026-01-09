@@ -1,16 +1,16 @@
 {
   "nightly": {
-    "commit_message": "Merge branch 'nightly' of https://github.com/hotio/stash into nightly",
-    "commit_sha": "96afdbc02299d531cdc5bcff6d275950043870ff",
+    "commit_message": "Upstream update: noblevpn-5c07a3a => noblevpn-d932ed0",
+    "commit_sha": "7a2283d3834977b7b527a910090cca6e4a383f6d",
     "description": "Unstable",
     "hide": false,
-    "last_updated": "2026-01-09T08:24:28.000Z",
-    "last_updated_url": "https://github.com/hotio/stash/actions/runs/20845810635",
+    "last_updated": "2026-01-09T11:23:34.000Z",
+    "last_updated_url": "https://github.com/hotio/stash/actions/runs/20850352935",
     "latest": false,
     "tags": [
       "nightly",
       "nightly-9b709ef61457b9efb38cdb7f6f8401595855947a",
-      "nightly-96afdbc",
+      "nightly-7a2283d",
       "",
       "",
       ""
