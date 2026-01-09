@@ -17,17 +17,17 @@
     ]
   },
   "testing": {
-    "commit_message": "Upstream update: null => alpinevpn-30708ff",
-    "commit_sha": "a3c2f96357a64a997af968ef4fa347871f51bd10",
+    "commit_message": "Update upstream tag SHA and improve error handling in update scripts",
+    "commit_sha": "016d6032486b4cddda3bd2e9529cdebaa7146aff",
     "description": "Latest",
     "hide": false,
-    "last_updated": "2026-01-09T05:40:36.000Z",
-    "last_updated_url": "https://github.com/hotio/duplicacy/actions/runs/20842469003",
+    "last_updated": "2026-01-09T07:40:44.000Z",
+    "last_updated_url": "https://github.com/hotio/duplicacy/actions/runs/20844831547",
     "latest": false,
     "tags": [
       "testing",
       "testing-1.8.3",
-      "testing-a3c2f96",
+      "testing-016d603",
       "testing-v1",
       "testing-v1.8",
       "testing-v1.8.3"
