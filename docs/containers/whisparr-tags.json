@@ -1,16 +1,16 @@
 {
   "nightly": {
-    "commit_message": "Version update: 2.0.0.2075 => 2.0.0.2081",
-    "commit_sha": "1d2285299c36c18935127a2bf738809d8cce632d",
+    "commit_message": "use tag instead of digest",
+    "commit_sha": "e294e0f99e3dbb9713d1a2e0bbb3e7d3571bea3b",
     "description": "nightly",
     "hide": false,
-    "last_updated": "2026-01-08T06:49:18.000Z",
-    "last_updated_url": "https://github.com/hotio/whisparr/actions/runs/20808263266",
+    "last_updated": "2026-01-09T03:20:39.000Z",
+    "last_updated_url": "https://github.com/hotio/whisparr/actions/runs/20840057079",
     "latest": true,
     "tags": [
       "nightly",
       "nightly-2.0.0.2081",
-      "nightly-1d22852",
+      "nightly-e294e0f",
       "",
       "",
       ""
