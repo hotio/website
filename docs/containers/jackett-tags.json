@@ -1,16 +1,16 @@
 {
   "release": {
-    "commit_message": "Update upstream tag SHA and improve error handling in update scripts",
-    "commit_sha": "b626516d37db5f14373c2b4f55dcc9bf66f84549",
+    "commit_message": "Upstream update: alpinevpn-c1be17f => alpinevpn-0904450",
+    "commit_sha": "1906b0d5a80b5c7b497fb174cfd36721d96ea659",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-01-09T07:42:16.000Z",
-    "last_updated_url": "https://github.com/hotio/jackett/actions/runs/20844862988",
+    "last_updated": "2026-01-09T11:22:42.000Z",
+    "last_updated_url": "https://github.com/hotio/jackett/actions/runs/20850331013",
     "latest": true,
     "tags": [
       "release",
       "release-0.24.790",
-      "release-b626516",
+      "release-1906b0d",
       "release-v0",
       "release-v0.24",
       "release-v0.24.790"
