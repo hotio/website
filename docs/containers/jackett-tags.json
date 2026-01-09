@@ -1,16 +1,16 @@
 {
   "release": {
-    "commit_message": "Version update: 0.24.766 => 0.24.790",
-    "commit_sha": "492a4ad65b44c745c976279b79d5c20070571338",
+    "commit_message": "Update upstream tag SHA and improve error handling in update scripts",
+    "commit_sha": "b626516d37db5f14373c2b4f55dcc9bf66f84549",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-01-09T06:48:57.000Z",
-    "last_updated_url": "https://github.com/hotio/jackett/actions/runs/20843772921",
+    "last_updated": "2026-01-09T07:42:16.000Z",
+    "last_updated_url": "https://github.com/hotio/jackett/actions/runs/20844862988",
     "latest": true,
     "tags": [
       "release",
       "release-0.24.790",
-      "release-492a4ad",
+      "release-b626516",
       "release-v0",
       "release-v0.24",
       "release-v0.24.790"
