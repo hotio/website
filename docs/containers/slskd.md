@@ -21,6 +21,7 @@ status: new
       </tr>
     </thead>
     <tbody id="tags-table-body">
+<tr><td><div class="tag-decoration-latest">latest</div><div id="tag15065" onclick="CopyToClipboard('tag15065');return false;" class="tag-decoration">release</div><div id="tag17936" onclick="CopyToClipboard('tag17936');return false;" class="tag-decoration">release-0.24.1</div><div id="tag10312" onclick="CopyToClipboard('tag10312');return false;" class="tag-decoration">release-76a179b</div><div id="tag4249" onclick="CopyToClipboard('tag4249');return false;" class="tag-decoration">release-v0</div><div id="tag9935" onclick="CopyToClipboard('tag9935');return false;" class="tag-decoration">release-v0.24</div><div id="tag5211" onclick="CopyToClipboard('tag5211');return false;" class="tag-decoration">release-v0.24.1</div></td><td>Releases</td><td><a href="https://github.com/hotio/slskd/commit/76a179bad56dce5387608a17e87d248e88cfd68c" target="_blank">release slskd</a></td><td><a href="https://github.com/hotio/slskd/actions/runs/20888132401" target="_blank">2026-01-11 02:30:03</a></td></tr>
 </tbody>
   </table>
 </div>
