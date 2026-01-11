@@ -1,16 +1,16 @@
 {
   "release": {
-    "commit_message": "delay app start until port forward is done",
-    "commit_sha": "c08df04b4464490d675c37fe98dba97138ccac0f",
+    "commit_message": "remove piped output",
+    "commit_sha": "ec404355b293f24cc9a5a8a08537ffdcc5917a88",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-01-11T07:06:05.000Z",
-    "last_updated_url": "https://github.com/hotio/slskd/actions/runs/20891233332",
+    "last_updated": "2026-01-11T07:29:17.000Z",
+    "last_updated_url": "https://github.com/hotio/slskd/actions/runs/20891512180",
     "latest": true,
     "tags": [
       "release",
       "release-0.24.1",
-      "release-c08df04",
+      "release-ec40435",
       "release-v0",
       "release-v0.24",
       "release-v0.24.1"
