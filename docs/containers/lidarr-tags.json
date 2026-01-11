@@ -1,16 +1,16 @@
 {
   "nightly": {
-    "commit_message": "Upstream update: alpinevpn-5b650ae => alpinevpn-b4dc175",
-    "commit_sha": "22df3a314a6c63a0f36c65071492260325f217dd",
+    "commit_message": "Upstream update: alpinevpn-b4dc175 => alpinevpn-9c717da",
+    "commit_sha": "30524b3446d2590d581dce4b4d7f8a1b0dcef1bd",
     "description": "nightly",
     "hide": false,
-    "last_updated": "2026-01-11T12:28:51.000Z",
-    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/20895140594",
+    "last_updated": "2026-01-11T16:17:16.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/20898159474",
     "latest": false,
     "tags": [
       "nightly",
       "nightly-3.1.2.4902",
-      "nightly-22df3a3",
+      "nightly-30524b3",
       "",
       "",
       ""
