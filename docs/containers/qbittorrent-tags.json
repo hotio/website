@@ -1,16 +1,16 @@
 {
   "legacy": {
-    "commit_message": "Upstream update: alpinevpn-0904450 => alpinevpn-5b650ae",
-    "commit_sha": "097e6592e899370fab55994094bb09f1ccaa896f",
+    "commit_message": "Upstream update: alpinevpn-5b650ae => alpinevpn-b4dc175",
+    "commit_sha": "764b7ebe0a6dd38a115645a13515cdb7af50c874",
     "description": "Fixed to v4.3.9",
     "hide": false,
-    "last_updated": "2026-01-11T08:19:47.000Z",
-    "last_updated_url": "https://github.com/hotio/qbittorrent/actions/runs/20892088053",
+    "last_updated": "2026-01-11T12:29:08.000Z",
+    "last_updated_url": "https://github.com/hotio/qbittorrent/actions/runs/20895143913",
     "latest": false,
     "tags": [
       "legacy",
       "legacy-4.3.9",
-      "legacy-097e659",
+      "legacy-764b7eb",
       "legacy-v4",
       "legacy-v4.3",
       "legacy-v4.3.9"
