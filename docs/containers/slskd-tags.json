@@ -1,16 +1,16 @@
 {
   "release": {
-    "commit_message": "update to new port update logic",
-    "commit_sha": "16cd55d48e22a09920f13ed6f246afede3e07cd4",
+    "commit_message": "remove yq dep",
+    "commit_sha": "091774dec2d47987d3f1583bd381a2c2308b3565",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-01-11T14:22:02.000Z",
-    "last_updated_url": "https://github.com/hotio/slskd/actions/runs/20896629637",
+    "last_updated": "2026-01-11T14:45:52.000Z",
+    "last_updated_url": "https://github.com/hotio/slskd/actions/runs/20896944956",
     "latest": true,
     "tags": [
       "release",
       "release-0.24.1",
-      "release-16cd55d",
+      "release-091774d",
       "release-v0",
       "release-v0.24",
       "release-v0.24.1"
