@@ -17,17 +17,17 @@
     ]
   },
   "v3": {
-    "commit_message": "Upstream update: alpinevpn-0904450 => alpinevpn-5b650ae",
-    "commit_sha": "6b5bcb725de1e1cda9039fae8997ee9a341de619",
+    "commit_message": "Upstream update: alpinevpn-5b650ae => alpinevpn-b4dc175",
+    "commit_sha": "a577f1707077654701710184d2bdddcc371c37ee",
     "description": "eros",
     "hide": false,
-    "last_updated": "2026-01-11T08:20:13.000Z",
-    "last_updated_url": "https://github.com/hotio/whisparr/actions/runs/20892093201",
+    "last_updated": "2026-01-11T12:29:34.000Z",
+    "last_updated_url": "https://github.com/hotio/whisparr/actions/runs/20895149537",
     "latest": false,
     "tags": [
       "v3",
       "v3-3.1.0.2093",
-      "v3-6b5bcb7",
+      "v3-a577f17",
       "",
       "",
       ""
