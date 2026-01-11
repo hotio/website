@@ -17,17 +17,17 @@
     ]
   },
   "v3": {
-    "commit_message": "Version update: 3.1.0.2066 => 3.1.0.2089",
-    "commit_sha": "8621aabb0976e48dd2722006a97f3026a5b77abd",
+    "commit_message": "Version update: 3.1.0.2089 => 3.1.0.2093",
+    "commit_sha": "e1534fb01733192e29374694828fa2a4460e8224",
     "description": "eros",
     "hide": false,
-    "last_updated": "2026-01-09T08:38:20.000Z",
-    "last_updated_url": "https://github.com/hotio/whisparr/actions/runs/20846123177",
+    "last_updated": "2026-01-10T06:38:01.000Z",
+    "last_updated_url": "https://github.com/hotio/whisparr/actions/runs/20874353243",
     "latest": false,
     "tags": [
       "v3",
-      "v3-3.1.0.2089",
-      "v3-8621aab",
+      "v3-3.1.0.2093",
+      "v3-e1534fb",
       "",
       "",
       ""

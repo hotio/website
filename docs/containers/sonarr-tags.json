@@ -1,33 +1,33 @@
 {
   "nightly": {
-    "commit_message": "Upstream update: alpinevpn-30708ff => alpinevpn-c1be17f",
-    "commit_sha": "e2b79e9b269dd0b37231dc754bed3a415934a8ec",
+    "commit_message": "Upstream update: alpinevpn-c1be17f => alpinevpn-0904450",
+    "commit_sha": "f03fe02e6f3d4df0f1add33258d2c6ad504d247a",
     "description": "develop/v4-nightly",
     "hide": false,
-    "last_updated": "2026-01-09T08:22:42.000Z",
-    "last_updated_url": "https://github.com/hotio/sonarr/actions/runs/20845769878",
+    "last_updated": "2026-01-09T11:23:32.000Z",
+    "last_updated_url": "https://github.com/hotio/sonarr/actions/runs/20850352152",
     "latest": false,
     "tags": [
       "nightly",
       "nightly-4.0.16.2946",
-      "nightly-e2b79e9",
+      "nightly-f03fe02",
       "",
       "",
       ""
     ]
   },
   "release": {
-    "commit_message": "Upstream update: alpinevpn-30708ff => alpinevpn-c1be17f",
-    "commit_sha": "644c6d60cebe5d49d786bdb35a823a8de247823e",
+    "commit_message": "Upstream update: alpinevpn-c1be17f => alpinevpn-0904450",
+    "commit_sha": "98313364ec21b4e7b08632e1918f13ca9c0fba5d",
     "description": "main/v4-stable",
     "hide": false,
-    "last_updated": "2026-01-09T08:22:43.000Z",
-    "last_updated_url": "https://github.com/hotio/sonarr/actions/runs/20845770153",
+    "last_updated": "2026-01-09T11:23:33.000Z",
+    "last_updated_url": "https://github.com/hotio/sonarr/actions/runs/20850352395",
     "latest": true,
     "tags": [
       "release",
       "release-4.0.16.2944",
-      "release-644c6d6",
+      "release-9831336",
       "",
       "",
       ""
