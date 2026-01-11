@@ -17,17 +17,17 @@
     ]
   },
   "noblevpn": {
-    "commit_message": "update service-forwarder with touch",
-    "commit_sha": "c55f8d5dea4652aff1fc6b25513d0756fde85936",
+    "commit_message": "tweak service-forwarder",
+    "commit_sha": "b820b9e4681d0f9028a615b12f2e6b4814757b2b",
     "description": "Ubuntu 24.04",
     "hide": false,
-    "last_updated": "2026-01-11T07:46:42.000Z",
-    "last_updated_url": "https://github.com/hotio/base/actions/runs/20891711497",
+    "last_updated": "2026-01-11T12:20:25.000Z",
+    "last_updated_url": "https://github.com/hotio/base/actions/runs/20895031637",
     "latest": false,
     "tags": [
       "noblevpn",
       "",
-      "noblevpn-c55f8d5",
+      "noblevpn-b820b9e",
       "",
       "",
       ""
