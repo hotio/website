@@ -1,16 +1,16 @@
 {
   "release": {
-    "commit_message": "remove piped output",
-    "commit_sha": "ec404355b293f24cc9a5a8a08537ffdcc5917a88",
+    "commit_message": "fix restart",
+    "commit_sha": "2bb742059486b39b3244457f0d8b67b5d5bf3f3c",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-01-11T07:29:17.000Z",
-    "last_updated_url": "https://github.com/hotio/slskd/actions/runs/20891512180",
+    "last_updated": "2026-01-11T07:49:37.000Z",
+    "last_updated_url": "https://github.com/hotio/slskd/actions/runs/20891746788",
     "latest": true,
     "tags": [
       "release",
       "release-0.24.1",
-      "release-ec40435",
+      "release-2bb7420",
       "release-v0",
       "release-v0.24",
       "release-v0.24.1"
