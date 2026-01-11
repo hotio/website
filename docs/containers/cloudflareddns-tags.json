@@ -1,16 +1,16 @@
 {
   "release": {
-    "commit_message": "Upstream update: alpinevpn-0904450 => alpinevpn-5b650ae",
-    "commit_sha": "7779033bce772668467cfbdc35d4e737d23f6c1d",
+    "commit_message": "Upstream update: alpinevpn-5b650ae => alpinevpn-b4dc175",
+    "commit_sha": "846a5d59495acf44bfbdb90ab46270386767467e",
     "description": "",
     "hide": false,
-    "last_updated": "2026-01-11T08:19:21.000Z",
-    "last_updated_url": "https://github.com/hotio/cloudflareddns/actions/runs/20892083736",
+    "last_updated": "2026-01-11T12:28:42.000Z",
+    "last_updated_url": "https://github.com/hotio/cloudflareddns/actions/runs/20895139118",
     "latest": true,
     "tags": [
       "release",
       "",
-      "release-7779033",
+      "release-846a5d5",
       "",
       "",
       ""
