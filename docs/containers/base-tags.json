@@ -1,16 +1,16 @@
 {
   "alpinevpn": {
-    "commit_message": "Merge branch 'alpinevpn' of https://github.com/hotio/base into alpinevpn",
-    "commit_sha": "75469e020d3280e5210d990be07d8895dff6817b",
+    "commit_message": "undo",
+    "commit_sha": "9c717dabe71dd85381d83ba36259fced6f4cb943",
     "description": "Alpine 3.22",
     "hide": false,
-    "last_updated": "2026-01-11T13:50:51.000Z",
-    "last_updated_url": "https://github.com/hotio/base/actions/runs/20896215555",
+    "last_updated": "2026-01-11T13:52:51.000Z",
+    "last_updated_url": "https://github.com/hotio/base/actions/runs/20896242516",
     "latest": false,
     "tags": [
       "alpinevpn",
       "",
-      "alpinevpn-75469e0",
+      "alpinevpn-9c717da",
       "",
       "",
       ""
