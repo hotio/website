@@ -1,16 +1,16 @@
 {
   "alpinevpn": {
     "commit_message": "tweak service-forwarder",
-    "commit_sha": "b4dc17534165ad9293a275329a80079d3be7d316",
+    "commit_sha": "db1f8eedea0e1cb29cf3f65a7429ff2fd0e40f59",
     "description": "Alpine 3.22",
     "hide": false,
-    "last_updated": "2026-01-11T12:20:46.000Z",
-    "last_updated_url": "https://github.com/hotio/base/actions/runs/20895035731",
+    "last_updated": "2026-01-11T13:35:14.000Z",
+    "last_updated_url": "https://github.com/hotio/base/actions/runs/20896014515",
     "latest": false,
     "tags": [
       "alpinevpn",
       "",
-      "alpinevpn-b4dc175",
+      "alpinevpn-db1f8ee",
       "",
       "",
       ""
