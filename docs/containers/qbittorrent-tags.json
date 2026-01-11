@@ -17,17 +17,17 @@
     ]
   },
   "release": {
-    "commit_message": "Merge branch 'release' of https://github.com/hotio/qbittorrent into release",
-    "commit_sha": "92d5974b28eb405813a070748ef1ccd8ab84773a",
+    "commit_message": "no need to check in config for old port",
+    "commit_sha": "3cd94aa26f6801faeb8b81816af1c73a0b6cff76",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-01-11T12:42:00.000Z",
-    "last_updated_url": "https://github.com/hotio/qbittorrent/actions/runs/20895308259",
+    "last_updated": "2026-01-11T14:00:26.000Z",
+    "last_updated_url": "https://github.com/hotio/qbittorrent/actions/runs/20896330986",
     "latest": true,
     "tags": [
       "release",
       "release-5.1.4",
-      "release-92d5974",
+      "release-3cd94aa",
       "release-v5",
       "release-v5.1",
       "release-v5.1.4"
