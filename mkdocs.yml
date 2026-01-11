@@ -116,6 +116,7 @@ nav:
     - containers/rflood.md
     - containers/sabnzbd.md
     - containers/seerr.md
+    - containers/slskd.md
     - containers/sonarr.md
     - containers/stash.md
     - containers/tautulli.md
