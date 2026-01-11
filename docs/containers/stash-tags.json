@@ -17,17 +17,17 @@
     ]
   },
   "release": {
-    "commit_message": "Upstream update: noblevpn-5c07a3a => noblevpn-d932ed0",
-    "commit_sha": "3a47afd224024aafe42bd9d5d59576092511b0c1",
+    "commit_message": "Upstream update: noblevpn-d932ed0 => noblevpn-c55f8d5",
+    "commit_sha": "3d0bbcb78b856e47d3187f768745135ddec94a2a",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-01-09T11:23:36.000Z",
-    "last_updated_url": "https://github.com/hotio/stash/actions/runs/20850353435",
+    "last_updated": "2026-01-11T08:20:05.000Z",
+    "last_updated_url": "https://github.com/hotio/stash/actions/runs/20892091540",
     "latest": true,
     "tags": [
       "release",
       "release-0.30.1",
-      "release-3a47afd",
+      "release-3d0bbcb",
       "release-v0",
       "release-v0.30",
       "release-v0.30.1"
