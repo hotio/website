@@ -1,16 +1,16 @@
 {
   "release": {
-    "commit_message": "release slskd",
-    "commit_sha": "76a179bad56dce5387608a17e87d248e88cfd68c",
+    "commit_message": "add https port to WEBUI_PORTS",
+    "commit_sha": "f54b7015fa4abbfa394ae6249508d3534226b830",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-01-11T02:30:03.000Z",
-    "last_updated_url": "https://github.com/hotio/slskd/actions/runs/20888132401",
+    "last_updated": "2026-01-11T03:58:49.000Z",
+    "last_updated_url": "https://github.com/hotio/slskd/actions/runs/20889125485",
     "latest": true,
     "tags": [
       "release",
       "release-0.24.1",
-      "release-76a179b",
+      "release-f54b701",
       "release-v0",
       "release-v0.24",
       "release-v0.24.1"
