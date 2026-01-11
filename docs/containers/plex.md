@@ -20,7 +20,7 @@ title: hotio/plex
       </tr>
     </thead>
     <tbody id="tags-table-body">
-<tr><td><div class="tag-decoration-latest">latest</div><div id="tag16787" onclick="CopyToClipboard('tag16787');return false;" class="tag-decoration">release</div><div id="tag250" onclick="CopyToClipboard('tag250');return false;" class="tag-decoration">release-1.42.2.10156-f737b826c</div><div id="tag7408" onclick="CopyToClipboard('tag7408');return false;" class="tag-decoration">release-115c1e9</div></td><td>Stable</td><td><a href="https://github.com/hotio/plex/commit/115c1e9d69f81aeca6d87ef26b6742c505977b94" target="_blank">Upstream update: noblevpn-5c07a3a => noblevpn-d932ed0</a></td><td><a href="https://github.com/hotio/plex/actions/runs/20850340256" target="_blank">2026-01-09 11:23:02</a></td></tr>
+<tr><td><div class="tag-decoration-latest">latest</div><div id="tag17930" onclick="CopyToClipboard('tag17930');return false;" class="tag-decoration">release</div><div id="tag6060" onclick="CopyToClipboard('tag6060');return false;" class="tag-decoration">release-1.42.2.10156-f737b826c</div><div id="tag31433" onclick="CopyToClipboard('tag31433');return false;" class="tag-decoration">release-94b6db2</div></td><td>Stable</td><td><a href="https://github.com/hotio/plex/commit/94b6db20e69544a78579596c51de4f41c22c65b9" target="_blank">Upstream update: noblevpn-d932ed0 => noblevpn-c55f8d5</a></td><td><a href="https://github.com/hotio/plex/actions/runs/20892086655" target="_blank">2026-01-11 08:19:40</a></td></tr>
 </tbody>
   </table>
 </div>
