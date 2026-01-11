@@ -39,6 +39,7 @@ status: new
         -e UMASK=002 \
         -e TZ="Etc/UTC" \
         -v /<host_folder_config>:/config \
+        -v /<host_folder_data>:/data \
         ghcr.io/hotio/slskd
     ```
 
@@ -58,6 +59,7 @@ status: new
           - TZ=Etc/UTC
         volumes:
           - /<host_folder_config>:/config
+          - /<host_folder_data>:/data
     ```
 
 --8<-- "includes/wireguard.md"
