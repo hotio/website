@@ -17,17 +17,17 @@
     ]
   },
   "release": {
-    "commit_message": "Upstream update: alpinevpn-0904450 => alpinevpn-5b650ae",
-    "commit_sha": "49920771708a1fc23c0530e110c8a85f8e7a2cf6",
+    "commit_message": "Upstream update: alpinevpn-5b650ae => alpinevpn-b4dc175",
+    "commit_sha": "5ab6625d59579f06f29df482009bea8bb57a30c6",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-01-11T08:19:39.000Z",
-    "last_updated_url": "https://github.com/hotio/overseerr/actions/runs/20892086458",
+    "last_updated": "2026-01-11T12:29:00.000Z",
+    "last_updated_url": "https://github.com/hotio/overseerr/actions/runs/20895142206",
     "latest": true,
     "tags": [
       "release",
       "release-1.34.0",
-      "release-4992077",
+      "release-5ab6625",
       "release-v1",
       "release-v1.34",
       "release-v1.34.0"
