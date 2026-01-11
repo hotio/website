@@ -34,6 +34,7 @@ status: new
     docker run --rm \
         --name="slskd" \
         -p 5030:5030 \
+        -p 5031:5031 \
         -e PUID=1000 \
         -e PGID=1000 \
         -e UMASK=002 \
@@ -52,6 +53,7 @@ status: new
         image: ghcr.io/hotio/slskd
         ports:
           - "5030:5030"
+          - "5031:5031"
         environment:
           - PUID=1000
           - PGID=1000
