@@ -17,17 +17,17 @@
     ]
   },
   "release": {
-    "commit_message": "no need to check in config for old port",
-    "commit_sha": "3cd94aa26f6801faeb8b81816af1c73a0b6cff76",
+    "commit_message": "rename var to avoid future confusion",
+    "commit_sha": "91bdfb6dd8437022a0a5160b6792e5ad7c0175b5",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-01-11T14:00:26.000Z",
-    "last_updated_url": "https://github.com/hotio/qbittorrent/actions/runs/20896330986",
+    "last_updated": "2026-01-11T14:49:02.000Z",
+    "last_updated_url": "https://github.com/hotio/qbittorrent/actions/runs/20896985359",
     "latest": true,
     "tags": [
       "release",
       "release-5.1.4",
-      "release-3cd94aa",
+      "release-91bdfb6",
       "release-v5",
       "release-v5.1",
       "release-v5.1.4"
