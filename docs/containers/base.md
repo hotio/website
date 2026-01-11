@@ -18,8 +18,8 @@ title: hotio/base
       </tr>
     </thead>
     <tbody id="tags-table-body">
-<tr><td><div id="tag31540" onclick="CopyToClipboard('tag31540');return false;" class="tag-decoration">alpinevpn</div><div id="tag30317" onclick="CopyToClipboard('tag30317');return false;" class="tag-decoration">alpinevpn-9c717da</div></td><td>Alpine 3.22</td><td><a href="https://github.com/hotio/base/commit/9c717dabe71dd85381d83ba36259fced6f4cb943" target="_blank">undo</a></td><td><a href="https://github.com/hotio/base/actions/runs/20896242516" target="_blank">2026-01-11 13:52:51</a></td></tr>
-<tr><td><div id="tag12880" onclick="CopyToClipboard('tag12880');return false;" class="tag-decoration">noblevpn</div><div id="tag15923" onclick="CopyToClipboard('tag15923');return false;" class="tag-decoration">noblevpn-d1131f3</div></td><td>Ubuntu 24.04</td><td><a href="https://github.com/hotio/base/commit/d1131f3181e9522bd750f165f6f3274173f44d0b" target="_blank">tweak service-forwarder</a></td><td><a href="https://github.com/hotio/base/actions/runs/20896026435" target="_blank">2026-01-11 13:36:07</a></td></tr>
+<tr><td><div id="tag4244" onclick="CopyToClipboard('tag4244');return false;" class="tag-decoration">alpinevpn</div><div id="tag86" onclick="CopyToClipboard('tag86');return false;" class="tag-decoration">alpinevpn-9c717da</div></td><td>Alpine 3.22</td><td><a href="https://github.com/hotio/base/commit/9c717dabe71dd85381d83ba36259fced6f4cb943" target="_blank">undo</a></td><td><a href="https://github.com/hotio/base/actions/runs/20896242516" target="_blank">2026-01-11 13:52:51</a></td></tr>
+<tr><td><div id="tag26967" onclick="CopyToClipboard('tag26967');return false;" class="tag-decoration">noblevpn</div><div id="tag5366" onclick="CopyToClipboard('tag5366');return false;" class="tag-decoration">noblevpn-6a934c2</div></td><td>Ubuntu 24.04</td><td><a href="https://github.com/hotio/base/commit/6a934c2f00a6bd19504cdc1aa46c927beec6277b" target="_blank">undo</a></td><td><a href="https://github.com/hotio/base/actions/runs/20896246685" target="_blank">2026-01-11 13:53:09</a></td></tr>
 </tbody>
   </table>
 </div>
