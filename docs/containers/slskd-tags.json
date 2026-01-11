@@ -1,16 +1,16 @@
 {
   "release": {
-    "commit_message": "fix restart",
-    "commit_sha": "2bb742059486b39b3244457f0d8b67b5d5bf3f3c",
+    "commit_message": "fix no start",
+    "commit_sha": "0d5ce08dc49108134f4483abc6762a6a68edfa4e",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-01-11T07:49:37.000Z",
-    "last_updated_url": "https://github.com/hotio/slskd/actions/runs/20891746788",
+    "last_updated": "2026-01-11T10:37:06.000Z",
+    "last_updated_url": "https://github.com/hotio/slskd/actions/runs/20893761878",
     "latest": true,
     "tags": [
       "release",
       "release-0.24.1",
-      "release-2bb7420",
+      "release-0d5ce08",
       "release-v0",
       "release-v0.24",
       "release-v0.24.1"
