@@ -17,17 +17,17 @@
     ]
   },
   "release": {
-    "commit_message": "rename var to avoid future confusion",
-    "commit_sha": "91bdfb6dd8437022a0a5160b6792e5ad7c0175b5",
+    "commit_message": "do not install default config file",
+    "commit_sha": "4c0781ab57be56f4b32b79068b1bb2185e8c7943",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-01-11T14:49:02.000Z",
-    "last_updated_url": "https://github.com/hotio/qbittorrent/actions/runs/20896985359",
+    "last_updated": "2026-01-11T16:54:37.000Z",
+    "last_updated_url": "https://github.com/hotio/qbittorrent/actions/runs/20898635122",
     "latest": true,
     "tags": [
       "release",
       "release-5.1.4",
-      "release-91bdfb6",
+      "release-4c0781a",
       "release-v5",
       "release-v5.1",
       "release-v5.1.4"
