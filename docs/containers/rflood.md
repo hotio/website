@@ -38,8 +38,8 @@ title: hotio/rflood
         -e PGID=1000 \
         -e UMASK=002 \
         -e TZ="Etc/UTC" \
+        -e WEBUI_PORTS="3000/tcp" \ #(3)!
         -e FLOOD_AUTH="false" \
-        -e ARGS="" \
         -e FLOOD_ARGS="" \
         -v /<host_folder_config>:/config \
         -v /<host_folder_data>:/data \
@@ -60,8 +60,8 @@ title: hotio/rflood
           - PGID=1000
           - UMASK=002
           - TZ=Etc/UTC
+          - WEBUI_PORTS=3000/tcp #(3)!
           - FLOOD_AUTH=false
-          - ARGS
           - FLOOD_ARGS
         volumes:
           - /<host_folder_config>:/config

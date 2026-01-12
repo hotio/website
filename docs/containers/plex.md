@@ -37,6 +37,7 @@ title: hotio/plex
         -e PGID=1000 \
         -e UMASK=002 \
         -e TZ="Etc/UTC" \
+        -e WEBUI_PORTS="32400/tcp" \ #(3)!
         -e PLEX_CLAIM_TOKEN="" \
         -e PLEX_ADVERTISE_URL="" \
         -e PLEX_NO_AUTH_NETWORKS="" \
@@ -61,6 +62,7 @@ title: hotio/plex
           - PGID=1000
           - UMASK=002
           - TZ=Etc/UTC
+          - WEBUI_PORTS=32400/tcp #(3)!
           - PLEX_CLAIM_TOKEN
           - PLEX_ADVERTISE_URL
           - PLEX_NO_AUTH_NETWORKS

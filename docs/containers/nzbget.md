@@ -37,6 +37,7 @@ title: hotio/nzbget
         -e PGID=1000 \
         -e UMASK=002 \
         -e TZ="Etc/UTC" \
+        -e WEBUI_PORTS="6789/tcp" \ #(3)!
         -v /<host_folder_config>:/config \
         -v /<host_folder_data>:/data \
         ghcr.io/hotio/nzbget
@@ -56,6 +57,7 @@ title: hotio/nzbget
           - PGID=1000
           - UMASK=002
           - TZ=Etc/UTC
+          - WEBUI_PORTS=6789/tcp #(3)!
         volumes:
           - /<host_folder_config>:/config
           - /<host_folder_data>:/data

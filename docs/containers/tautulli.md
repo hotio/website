@@ -38,7 +38,7 @@ title: hotio/tautulli
         -e PGID=1000 \
         -e UMASK=002 \
         -e TZ="Etc/UTC" \
-        -e WEBUI_PORTS="8181/tcp" \
+        -e WEBUI_PORTS="8181/tcp" \ #(3)!
         -v /<host_folder_config>:/config \
         ghcr.io/hotio/tautulli
     ```
@@ -57,7 +57,7 @@ title: hotio/tautulli
           - PGID=1000
           - UMASK=002
           - TZ=Etc/UTC
-          - WEBUI_PORTS=8181/tcp
+          - WEBUI_PORTS=8181/tcp #(3)!
         volumes:
           - /<host_folder_config>:/config
     ```

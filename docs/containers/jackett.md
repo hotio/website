@@ -38,6 +38,7 @@ title: hotio/jackett
         -e PGID=1000 \
         -e UMASK=002 \
         -e TZ="Etc/UTC" \
+        -e WEBUI_PORTS="9117/tcp" \ #(3)!
         -v /<host_folder_config>:/config \
         ghcr.io/hotio/jackett
     ```
@@ -56,6 +57,7 @@ title: hotio/jackett
           - PGID=1000
           - UMASK=002
           - TZ=Etc/UTC
+          - WEBUI_PORTS=9117/tcp #(3)!
         volumes:
           - /<host_folder_config>:/config
     ```

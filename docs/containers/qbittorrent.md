@@ -42,7 +42,7 @@ title: hotio/qbittorrent
         -e PGID=1000 \
         -e UMASK=002 \
         -e TZ="Etc/UTC" \
-        -e WEBUI_PORTS="8080/tcp" \
+        -e WEBUI_PORTS="8080/tcp" \ #(3)!
         -e LIBTORRENT="v1" \
         -v /<host_folder_config>:/config \
         -v /<host_folder_data>:/data \
@@ -63,7 +63,7 @@ title: hotio/qbittorrent
           - PGID=1000
           - UMASK=002
           - TZ=Etc/UTC
-          - WEBUI_PORTS=8080/tcp
+          - WEBUI_PORTS=8080/tcp #(3)!
           - LIBTORRENT=v1
         volumes:
           - /<host_folder_config>:/config

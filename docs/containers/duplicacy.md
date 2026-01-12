@@ -39,6 +39,7 @@ title: hotio/duplicacy
         -e PGID=1000 \
         -e UMASK=002 \
         -e TZ="Etc/UTC" \
+        -e WEBUI_PORTS="3875/tcp" \ #(3)!
         -v /<host_folder_config>:/config \
         -v /<host_folder_cache>:/cache \
         -v /<host_folder_logs>:/logs \
@@ -61,6 +62,7 @@ title: hotio/duplicacy
           - PGID=1000
           - UMASK=002
           - TZ=Etc/UTC
+          - WEBUI_PORTS=3875/tcp #(3)!
         volumes:
           - /<host_folder_config>:/config
           - /<host_folder_cache>:/cache

@@ -38,7 +38,7 @@ title: hotio/sabnzbd
         -e PUID=1000 \
         -e PGID=1000 \
         -e UMASK=002 \
-        -e WEBUI_PORTS="8080/tcp" \
+        -e WEBUI_PORTS="8080/tcp" \ #(3)!
         -e ARGS="" \
         -e TZ="Etc/UTC" \
         -v /<host_folder_config>:/config \
@@ -60,7 +60,7 @@ title: hotio/sabnzbd
           - PGID=1000
           - UMASK=002
           - TZ=Etc/UTC
-          - WEBUI_PORTS=8080/tcp
+          - WEBUI_PORTS=8080/tcp #(3)!
           - ARGS
         volumes:
           - /<host_folder_config>:/config

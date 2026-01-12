@@ -38,6 +38,7 @@ title: hotio/jellyfin
         -e PGID=1000 \
         -e UMASK=002 \
         -e TZ="Etc/UTC" \
+        -e WEBUI_PORTS="8096/tcp" \ #(3)!
         -v /<host_folder_config>:/config \
         -v /<host_folder_data>:/data \
         ghcr.io/hotio/jellyfin
@@ -57,6 +58,7 @@ title: hotio/jellyfin
           - PGID=1000
           - UMASK=002
           - TZ=Etc/UTC
+          - WEBUI_PORTS=8096/tcp #(3)!
         volumes:
           - /<host_folder_config>:/config
           - /<host_folder_data>:/data

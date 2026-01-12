@@ -2,7 +2,7 @@
 
 2. If you need to expose ports on your LAN you can use `VPN_EXPOSE_PORTS_ON_LAN`. For example `VPN_EXPOSE_PORTS_ON_LAN=7878/tcp,9117/tcp`, will block those ports on the vpn interface, so that there's no risk that they might be exposed to the world and allow access to them from your LAN. Most images also have a `WEBUI_PORTS` environment variable that does basically the same thing already pre-filled with the default ports. Use `WEBUI_PORTS` if you need to change those defaults. The variable `VPN_EXPOSE_PORTS_ON_LAN` is mostly for extra ports, likely used when routing additional containers through this container's VPN connection.
 
-3. NOT USED
+3. The variable `WEBUI_PORTS` is mostly used when setting up the firewall rules for the VPN feature. For a few images it's also the best way to change the port on which the app runs.
 
 4. Possible values are `generic`, `proton` and `pia`.  
 Affiliate links:  

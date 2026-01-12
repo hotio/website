@@ -38,7 +38,7 @@ title: hotio/qbitmanage
         -e PGID=1000 \
         -e UMASK=002 \
         -e TZ="Etc/UTC" \
-        -e WEBUI_PORTS="8080/tcp" \
+        -e WEBUI_PORTS="8080/tcp" \ #(3)!
         -e ARGS="" \
         -v /<host_folder_config>:/config \
         -v /<host_folder_data>:/data \
@@ -59,7 +59,7 @@ title: hotio/qbitmanage
           - PGID=1000
           - UMASK=002
           - TZ=Etc/UTC
-          - WEBUI_PORTS=8080/tcp
+          - WEBUI_PORTS=8080/tcp #(3)!
           - ARGS
         volumes:
           - /<host_folder_config>:/config
