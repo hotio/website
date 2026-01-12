@@ -6,7 +6,6 @@
     "hide": false,
     "last_updated": "2026-01-11T17:24:20.000Z",
     "last_updated_url": "https://github.com/hotio/prowlarr/actions/runs/20899026757",
-    "latest": false,
     "tags": [
       "nightly",
       "nightly-2.3.2.5251",
@@ -23,7 +22,6 @@
     "hide": false,
     "last_updated": "2026-01-11T16:17:31.000Z",
     "last_updated_url": "https://github.com/hotio/prowlarr/actions/runs/20898162400",
-    "latest": true,
     "tags": [
       "release",
       "release-2.3.0.5236",
@@ -40,7 +38,6 @@
     "hide": false,
     "last_updated": "2026-01-11T16:17:32.000Z",
     "last_updated_url": "https://github.com/hotio/prowlarr/actions/runs/20898162621",
-    "latest": false,
     "tags": [
       "testing",
       "testing-2.3.2.5245",

@@ -6,7 +6,6 @@
     "hide": false,
     "last_updated": "2026-01-11T16:17:08.000Z",
     "last_updated_url": "https://github.com/hotio/duplicacy/actions/runs/20898158324",
-    "latest": true,
     "tags": [
       "release",
       "release-1.8.0",
@@ -23,7 +22,6 @@
     "hide": false,
     "last_updated": "2026-01-11T16:17:09.000Z",
     "last_updated_url": "https://github.com/hotio/duplicacy/actions/runs/20898158450",
-    "latest": false,
     "tags": [
       "testing",
       "testing-1.8.3",

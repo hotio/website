@@ -6,7 +6,6 @@
     "hide": false,
     "last_updated": "2026-01-11T16:17:23.000Z",
     "last_updated_url": "https://github.com/hotio/nzbhydra2/actions/runs/20898160757",
-    "latest": true,
     "tags": [
       "release",
       "release-8.2.2",
@@ -23,7 +22,6 @@
     "hide": false,
     "last_updated": "2026-01-11T16:17:24.000Z",
     "last_updated_url": "https://github.com/hotio/nzbhydra2/actions/runs/20898161006",
-    "latest": false,
     "tags": [
       "testing",
       "testing-8.2.2",

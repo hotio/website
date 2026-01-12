@@ -6,7 +6,6 @@
     "hide": false,
     "last_updated": "2026-01-11T18:35:39.000Z",
     "last_updated_url": "https://github.com/hotio/seerr/actions/runs/20899957590",
-    "latest": false,
     "tags": [
       "nightly",
       "nightly-e0a81038cd62bcea91e298b516892ecd34a5a0b0",
@@ -23,7 +22,6 @@
     "hide": false,
     "last_updated": "2026-01-11T16:17:49.000Z",
     "last_updated_url": "https://github.com/hotio/seerr/actions/runs/20898166763",
-    "latest": true,
     "tags": [
       "release",
       "release-2.7.3",

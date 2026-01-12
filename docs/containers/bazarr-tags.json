@@ -6,7 +6,6 @@
     "hide": false,
     "last_updated": "2026-01-12T06:44:04.000Z",
     "last_updated_url": "https://github.com/hotio/bazarr/actions/runs/20910400589",
-    "latest": false,
     "tags": [
       "nightly",
       "nightly-1.5.5-beta.4",
@@ -23,7 +22,6 @@
     "hide": false,
     "last_updated": "2026-01-11T16:17:02.000Z",
     "last_updated_url": "https://github.com/hotio/bazarr/actions/runs/20898157213",
-    "latest": true,
     "tags": [
       "release",
       "release-1.5.4",

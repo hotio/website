@@ -6,7 +6,6 @@
     "hide": false,
     "last_updated": "2026-01-11T16:17:55.000Z",
     "last_updated_url": "https://github.com/hotio/tautulli/actions/runs/20898168290",
-    "latest": true,
     "tags": [
       "release",
       "release-2.16.0",
@@ -23,7 +22,6 @@
     "hide": false,
     "last_updated": "2026-01-11T16:17:56.000Z",
     "last_updated_url": "https://github.com/hotio/tautulli/actions/runs/20898168498",
-    "latest": false,
     "tags": [
       "testing",
       "testing-2.16.0",

@@ -6,7 +6,6 @@
     "hide": false,
     "last_updated": "2026-01-11T16:17:50.000Z",
     "last_updated_url": "https://github.com/hotio/sonarr/actions/runs/20898167103",
-    "latest": false,
     "tags": [
       "nightly",
       "nightly-4.0.16.2946",
@@ -23,7 +22,6 @@
     "hide": false,
     "last_updated": "2026-01-11T16:17:51.000Z",
     "last_updated_url": "https://github.com/hotio/sonarr/actions/runs/20898167274",
-    "latest": true,
     "tags": [
       "release",
       "release-4.0.16.2944",

@@ -6,7 +6,6 @@
     "hide": false,
     "last_updated": "2026-01-11T16:17:33.000Z",
     "last_updated_url": "https://github.com/hotio/qbitmanage/actions/runs/20898163119",
-    "latest": false,
     "tags": [
       "nightly",
       "nightly-8c6880b24e9aba738948fcd03eb874210e0d5b05",
@@ -23,7 +22,6 @@
     "hide": false,
     "last_updated": "2026-01-11T16:17:34.000Z",
     "last_updated_url": "https://github.com/hotio/qbitmanage/actions/runs/20898163249",
-    "latest": true,
     "tags": [
       "release",
       "release-4.6.5",

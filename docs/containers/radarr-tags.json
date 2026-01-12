@@ -6,7 +6,6 @@
     "hide": false,
     "last_updated": "2026-01-11T16:17:37.000Z",
     "last_updated_url": "https://github.com/hotio/radarr/actions/runs/20898164136",
-    "latest": false,
     "tags": [
       "nightly",
       "nightly-6.1.1.10317",
@@ -23,7 +22,6 @@
     "hide": false,
     "last_updated": "2026-01-11T16:17:40.000Z",
     "last_updated_url": "https://github.com/hotio/radarr/actions/runs/20898164589",
-    "latest": true,
     "tags": [
       "release",
       "release-6.0.4.10291",
@@ -40,7 +38,6 @@
     "hide": false,
     "last_updated": "2026-01-11T16:17:41.000Z",
     "last_updated_url": "https://github.com/hotio/radarr/actions/runs/20898164813",
-    "latest": false,
     "tags": [
       "testing",
       "testing-6.1.1.10317",

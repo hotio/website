@@ -6,7 +6,6 @@
     "hide": false,
     "last_updated": "2026-01-11T16:17:16.000Z",
     "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/20898159474",
-    "latest": false,
     "tags": [
       "nightly",
       "nightly-3.1.2.4902",
@@ -23,7 +22,6 @@
     "hide": false,
     "last_updated": "2026-01-11T16:17:18.000Z",
     "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/20898159868",
-    "latest": true,
     "tags": [
       "release",
       "release-3.1.0.4875",
@@ -40,7 +38,6 @@
     "hide": false,
     "last_updated": "2026-01-11T16:17:20.000Z",
     "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/20898160146",
-    "latest": false,
     "tags": [
       "testing",
       "testing-3.1.2.4902",

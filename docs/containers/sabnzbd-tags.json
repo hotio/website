@@ -6,7 +6,6 @@
     "hide": false,
     "last_updated": "2026-01-12T04:03:18.000Z",
     "last_updated_url": "https://github.com/hotio/sabnzbd/actions/runs/20907686366",
-    "latest": false,
     "tags": [
       "nightly",
       "nightly-5594d4d6ebd107ab91333a57bf7d9b651000409c",
@@ -23,7 +22,6 @@
     "hide": false,
     "last_updated": "2026-01-11T16:17:45.000Z",
     "last_updated_url": "https://github.com/hotio/sabnzbd/actions/runs/20898165839",
-    "latest": true,
     "tags": [
       "release",
       "release-4.5.5",
@@ -40,7 +38,6 @@
     "hide": false,
     "last_updated": "2026-01-11T16:17:46.000Z",
     "last_updated_url": "https://github.com/hotio/sabnzbd/actions/runs/20898166217",
-    "latest": false,
     "tags": [
       "testing",
       "testing-4.6.0Beta2",
