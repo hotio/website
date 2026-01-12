@@ -7,9 +7,10 @@
     "last_updated": "2026-01-11T16:18:01.000Z",
     "last_updated_url": "https://github.com/hotio/whisparr/actions/runs/20898169752",
     "tags": [
+      "latest",
       "nightly",
-      "nightly-2.0.0.2081",
       "nightly-83008ba",
+      "nightly-2.0.0.2081",
       "",
       "",
       ""
