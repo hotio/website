@@ -24,9 +24,10 @@
     "last_updated": "2026-01-11T16:17:49.000Z",
     "last_updated_url": "https://github.com/hotio/seerr/actions/runs/20898166763",
     "tags": [
+      "latest",
       "release",
-      "release-2.7.3",
       "release-f8ae145",
+      "release-2.7.3",
       "release-v2",
       "release-v2.7",
       "release-v2.7.3"
