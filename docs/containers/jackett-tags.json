@@ -7,6 +7,7 @@
     "last_updated": "2026-01-12T06:44:08.000Z",
     "last_updated_url": "https://github.com/hotio/jackett/actions/runs/20910401565",
     "tags": [
+      "latest",
       "release",
       "release-0.24.824",
       "release-f3cd546",

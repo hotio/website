@@ -23,6 +23,7 @@
     "last_updated": "2026-01-11T16:17:15.000Z",
     "last_updated_url": "https://github.com/hotio/jellyfin/actions/runs/20898159231",
     "tags": [
+      "latest",
       "release",
       "release-10.11.5",
       "release-71d6186",

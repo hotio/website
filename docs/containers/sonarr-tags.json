@@ -23,6 +23,7 @@
     "last_updated": "2026-01-11T16:17:51.000Z",
     "last_updated_url": "https://github.com/hotio/sonarr/actions/runs/20898167274",
     "tags": [
+      "latest",
       "release",
       "release-4.0.16.2944",
       "release-cec18ca",
