@@ -45,6 +45,8 @@ title: hotio/qbitmanage
         ghcr.io/hotio/qbitmanage
     ```
 
+    --8<-- "includes/annotations.md"
+
 === "compose"
 
     ```yaml linenums="1"
@@ -65,5 +67,7 @@ title: hotio/qbitmanage
           - /<host_folder_config>:/config
           - /<host_folder_data>:/data
     ```
+
+    --8<-- "includes/annotations.md"
 
 --8<-- "includes/wireguard.md"

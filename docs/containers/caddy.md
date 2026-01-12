@@ -44,6 +44,8 @@ title: hotio/caddy
         ghcr.io/hotio/caddy
     ```
 
+    --8<-- "includes/annotations.md"
+
 === "compose"
 
     ```yaml linenums="1"
@@ -64,6 +66,8 @@ title: hotio/caddy
         volumes:
           - /<host_folder_config>:/config
     ```
+
+    --8<-- "includes/annotations.md"
 
 !!! info
 

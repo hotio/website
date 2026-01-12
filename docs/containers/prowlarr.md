@@ -44,6 +44,8 @@ title: hotio/prowlarr
         ghcr.io/hotio/prowlarr
     ```
 
+    --8<-- "includes/annotations.md"
+
 === "compose"
 
     ```yaml linenums="1"
@@ -62,5 +64,7 @@ title: hotio/prowlarr
         volumes:
           - /<host_folder_config>:/config
     ```
+
+    --8<-- "includes/annotations.md"
 
 --8<-- "includes/wireguard.md"

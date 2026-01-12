@@ -46,6 +46,8 @@ title: hotio/sabnzbd
         ghcr.io/hotio/sabnzbd
     ```
 
+    --8<-- "includes/annotations.md"
+
 === "compose"
 
     ```yaml linenums="1"
@@ -66,5 +68,7 @@ title: hotio/sabnzbd
           - /<host_folder_config>:/config
           - /<host_folder_data>:/data
     ```
+
+    --8<-- "includes/annotations.md"
 
 --8<-- "includes/wireguard.md"

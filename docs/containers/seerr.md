@@ -47,6 +47,8 @@ status: new
         ghcr.io/hotio/seerr
     ```
 
+    --8<-- "includes/annotations.md"
+
 === "compose"
 
     ```yaml linenums="1"
@@ -65,5 +67,7 @@ status: new
         volumes:
           - /<host_folder_config>:/config
     ```
+
+    --8<-- "includes/annotations.md"
 
 --8<-- "includes/wireguard.md"

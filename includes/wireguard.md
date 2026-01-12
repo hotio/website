@@ -31,7 +31,7 @@
             ...
         ```
 
-        --8<-- "includes/annotations.md"
+        --8<-- "includes/annotations-wg.md"
 
     === "compose"
 
@@ -58,7 +58,7 @@
             ...
         ```
 
-        --8<-- "includes/annotations.md"
+        --8<-- "includes/annotations-wg.md"
 
 === "proton"
 
@@ -84,7 +84,7 @@
             ...
         ```
 
-        --8<-- "includes/annotations.md"
+        --8<-- "includes/annotations-wg.md"
 
     === "compose"
 
@@ -111,7 +111,7 @@
             ...
         ```
 
-        --8<-- "includes/annotations.md"
+        --8<-- "includes/annotations-wg.md"
 
 === "pia"
 
@@ -142,7 +142,7 @@
             ...
         ```
 
-        --8<-- "includes/annotations.md"
+        --8<-- "includes/annotations-wg.md"
 
     === "compose"
 
@@ -174,4 +174,4 @@
             ...
         ```
 
-        --8<-- "includes/annotations.md"
+        --8<-- "includes/annotations-wg.md"

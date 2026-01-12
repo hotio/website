@@ -44,6 +44,8 @@ status: deprecated
         ghcr.io/hotio/overseerr
     ```
 
+    --8<-- "includes/annotations.md"
+
 === "compose"
 
     ```yaml linenums="1"
@@ -62,5 +64,7 @@ status: deprecated
         volumes:
           - /<host_folder_config>:/config
     ```
+
+    --8<-- "includes/annotations.md"
 
 --8<-- "includes/wireguard.md"

@@ -42,6 +42,8 @@ title: hotio/qui
         ghcr.io/hotio/qui
     ```
 
+    --8<-- "includes/annotations.md"
+
 === "compose"
 
     ```yaml linenums="1"
@@ -60,5 +62,7 @@ title: hotio/qui
         volumes:
           - /<host_folder_config>:/config
     ```
+
+    --8<-- "includes/annotations.md"
 
 --8<-- "includes/wireguard.md"

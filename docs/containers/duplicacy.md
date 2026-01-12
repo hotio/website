@@ -47,6 +47,8 @@ title: hotio/duplicacy
         ghcr.io/hotio/duplicacy
     ```
 
+    --8<-- "includes/annotations.md"
+
 === "compose"
 
     ```yaml linenums="1"
@@ -69,6 +71,8 @@ title: hotio/duplicacy
           - /<host_folder_logs>:/logs
           - /<host_folder_data>:/data
     ```
+
+    --8<-- "includes/annotations.md"
 
 If you don't want to enter your password every time you restart the container, you can set the environment variable `DWE_PASSWORD` with your password or starting with version 1.4.1 a file `/config/keyring` will be created that stores your password encryted if you click the checkmark on the login page.
 

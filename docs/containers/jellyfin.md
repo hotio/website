@@ -44,6 +44,8 @@ title: hotio/jellyfin
         ghcr.io/hotio/jellyfin
     ```
 
+    --8<-- "includes/annotations.md"
+
 === "compose"
 
     ```yaml linenums="1"
@@ -63,6 +65,8 @@ title: hotio/jellyfin
           - /<host_folder_config>:/config
           - /<host_folder_data>:/data
     ```
+
+    --8<-- "includes/annotations.md"
 
 ## Configuration
 

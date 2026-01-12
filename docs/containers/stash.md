@@ -44,6 +44,8 @@ title: hotio/stash
         ghcr.io/hotio/stash
     ```
 
+    --8<-- "includes/annotations.md"
+
 === "compose"
 
     ```yaml linenums="1"
@@ -63,5 +65,7 @@ title: hotio/stash
           - /<host_folder_config>:/config
           - /<host_folder_data>:/data
     ```
+
+    --8<-- "includes/annotations.md"
 
 --8<-- "includes/wireguard.md"

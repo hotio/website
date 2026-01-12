@@ -45,6 +45,8 @@ title: hotio/radarr
         ghcr.io/hotio/radarr
     ```
 
+    --8<-- "includes/annotations.md"
+
 === "compose"
 
     ```yaml linenums="1"
@@ -64,5 +66,7 @@ title: hotio/radarr
           - /<host_folder_config>:/config
           - /<host_folder_data>:/data
     ```
+
+    --8<-- "includes/annotations.md"
 
 --8<-- "includes/wireguard.md"

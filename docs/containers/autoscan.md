@@ -44,6 +44,8 @@ title: hotio/autoscan
         ghcr.io/hotio/autoscan
     ```
 
+    --8<-- "includes/annotations.md"
+
 === "compose"
 
     ```yaml linenums="1"
@@ -63,5 +65,7 @@ title: hotio/autoscan
           - /<host_folder_config>:/config
           - /<host_folder_data>:/data
     ```
+
+    --8<-- "includes/annotations.md"
 
 --8<-- "includes/wireguard.md"

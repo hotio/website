@@ -46,6 +46,8 @@ title: hotio/rflood
         ghcr.io/hotio/rflood
     ```
 
+    --8<-- "includes/annotations.md"
+
 === "compose"
 
     ```yaml linenums="1"
@@ -68,9 +70,7 @@ title: hotio/rflood
           - /<host_folder_data>:/data
     ```
 
-## Changing the WebUI port
-
-Under certain circumstances it's required to run the WebUI on a different internal port, you can do that by modifying the environment variable `WEBUI_PORTS` accordingly. It should be in the format `xxxx/tcp`, take a look at the default with `docker logs` (variable is printed at container start) or `docker inspect`.
+    --8<-- "includes/annotations.md"
 
 ## XML-RPC / JSON-RPC
 

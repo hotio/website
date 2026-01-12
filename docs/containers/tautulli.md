@@ -43,6 +43,8 @@ title: hotio/tautulli
         ghcr.io/hotio/tautulli
     ```
 
+    --8<-- "includes/annotations.md"
+
 === "compose"
 
     ```yaml linenums="1"
@@ -61,5 +63,7 @@ title: hotio/tautulli
         volumes:
           - /<host_folder_config>:/config
     ```
+
+    --8<-- "includes/annotations.md"
 
 --8<-- "includes/wireguard.md"
