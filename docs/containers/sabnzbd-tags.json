@@ -4,12 +4,13 @@
     "commit_sha": "4c91dc3d14b64136b3edeb8452eb6cc9123b1012",
     "description": "Every commit to develop",
     "hide": false,
-    "last_updated": "2026-01-12T04:03:18.000Z",
-    "last_updated_url": "https://github.com/hotio/sabnzbd/actions/runs/20907686366",
+    "last_updated": "2026-01-12T09:04:40.000Z",
+    "last_updated_url": "https://github.com/hotio/sabnzbd/actions/runs/20913590510",
     "tags": [
+      "",
       "nightly",
-      "nightly-3e7dcce3657f92f09b5f1ea80a7c942d5d855b05",
       "nightly-4c91dc3",
+      "nightly-3e7dcce3657f92f09b5f1ea80a7c942d5d855b05",
       "",
       "",
       ""
