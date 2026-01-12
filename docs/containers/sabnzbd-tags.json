@@ -23,9 +23,10 @@
     "last_updated": "2026-01-11T16:17:45.000Z",
     "last_updated_url": "https://github.com/hotio/sabnzbd/actions/runs/20898165839",
     "tags": [
+      "latest",
       "release",
-      "release-4.5.5",
       "release-6c0f6de",
+      "release-4.5.5",
       "release-v4",
       "release-v4.5",
       "release-v4.5.5"
