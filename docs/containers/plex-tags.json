@@ -1,16 +1,16 @@
 {
   "release": {
-    "commit_message": "tweak forwarded port update logic",
-    "commit_sha": "3d312f990028967b07c23386cdfe9bbbe1229bca",
+    "commit_message": "detect arch with uname",
+    "commit_sha": "6c5eb569825c31f0fa2847071284b41e0d5ba482",
     "description": "Stable",
     "hide": false,
-    "last_updated": "2026-01-11T15:01:37.000Z",
-    "last_updated_url": "https://github.com/hotio/plex/actions/runs/20897141319",
+    "last_updated": "2026-01-13T12:04:45.000Z",
+    "last_updated_url": "https://github.com/hotio/plex/actions/runs/20956041167",
     "tags": [
       "latest",
       "release",
+      "release-6c5eb56",
       "release-1.42.2.10156-f737b826c",
-      "release-3d312f9",
       "",
       "",
       ""
