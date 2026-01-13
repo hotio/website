@@ -1,15 +1,16 @@
 {
   "nightly": {
-    "commit_message": "Version update: 2.3.2.5250 => 2.3.2.5251",
-    "commit_sha": "255a6cfd2e1eaf1c1bd0e8dd37c6cca3db51dabc",
+    "commit_message": "Upstream update: alpinevpn-9c717da => alpinevpn-9c717da",
+    "commit_sha": "e8e698ddd90d3c2a1d65d46fcabf8c8d9c29273d",
     "description": "nightly",
     "hide": false,
-    "last_updated": "2026-01-11T17:24:20.000Z",
-    "last_updated_url": "https://github.com/hotio/prowlarr/actions/runs/20899026757",
+    "last_updated": "2026-01-13T08:22:14.000Z",
+    "last_updated_url": "https://github.com/hotio/prowlarr/actions/runs/20949709503",
     "tags": [
+      "",
       "nightly",
+      "nightly-e8e698d",
       "nightly-2.3.2.5251",
-      "nightly-255a6cf",
       "",
       "",
       ""
