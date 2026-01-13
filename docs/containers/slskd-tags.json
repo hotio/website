@@ -1,19 +1,19 @@
 {
   "release": {
-    "commit_message": "rename var",
-    "commit_sha": "8d933427e68f4c0eadf0bd7cff400a9cfd6cff41",
+    "commit_message": "Update to version: 0.24.2",
+    "commit_sha": "56e4cfd04af6ea0ea21117b0e067ae344c6229f1",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-01-11T15:31:15.000Z",
-    "last_updated_url": "https://github.com/hotio/slskd/actions/runs/20897550901",
+    "last_updated": "2026-01-13T08:41:10.000Z",
+    "last_updated_url": "https://github.com/hotio/slskd/actions/runs/20950212862",
     "tags": [
       "latest",
       "release",
-      "release-0.24.1",
-      "release-8d93342",
+      "release-56e4cfd",
+      "release-0.24.2",
       "release-v0",
       "release-v0.24",
-      "release-v0.24.1"
+      "release-v0.24.2"
     ]
   }
 }
