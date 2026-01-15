@@ -1,4 +1,20 @@
 {
+  "nightly": {
+    "commit_message": "use correct name for url",
+    "commit_sha": "5e5d8601478c0c249d09af2f69b94ce6afb5f399",
+    "description": "Releases",
+    "last_updated": "2026-01-15T09:27:42.000Z",
+    "last_updated_url": "https://github.com/hotio/slskd/actions/runs/21026259186",
+    "tags": [
+      "latest",
+      "nightly",
+      "nightly-5e5d860",
+      "nightly-0.24.2.65534-35fb847f",
+      "",
+      "",
+      ""
+    ]
+  },
   "release": {
     "commit_message": "Update to version: 0.24.2",
     "commit_sha": "56e4cfd04af6ea0ea21117b0e067ae344c6229f1",
