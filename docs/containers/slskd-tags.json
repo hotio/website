@@ -1,14 +1,14 @@
 {
   "nightly": {
-    "commit_message": "use token",
-    "commit_sha": "cc2835ed236c05586fa14b797ea1d1e6cf102f32",
+    "commit_message": "use GIT_AUTH_TOKEN",
+    "commit_sha": "ed1a2fe434a8c57bd2d92f94a33f21cf73442847",
     "description": "Releases",
-    "last_updated": "2026-01-15T09:32:07.000Z",
-    "last_updated_url": "https://github.com/hotio/slskd/actions/runs/21026386179",
+    "last_updated": "2026-01-15T09:39:43.000Z",
+    "last_updated_url": "https://github.com/hotio/slskd/actions/runs/21026619353",
     "tags": [
       "latest",
       "nightly",
-      "nightly-cc2835e",
+      "nightly-ed1a2fe",
       "nightly-0.24.2.65534-35fb847f",
       "",
       "",
