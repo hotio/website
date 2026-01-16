@@ -16,16 +16,16 @@
     ]
   },
   "release": {
-    "commit_message": "Revert \"add license to meta.json\"\n\nThis reverts commit 1ebe292c8116e30e6b43724af2a18b9bbf0a2e0b.",
-    "commit_sha": "59dd552b3d0719099f9b7cbd575b0cccdd51f5c7",
+    "commit_message": "Upstream update: alpinevpn-c4f8fae => alpinevpn-d6f9da1",
+    "commit_sha": "677804addda52360488b280f439682615f7df6ad",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-01-16T11:09:05.000Z",
-    "last_updated_url": "https://github.com/hotio/slskd/actions/runs/21064655267",
+    "last_updated": "2026-01-16T11:19:01.000Z",
+    "last_updated_url": "https://github.com/hotio/slskd/actions/runs/21064910857",
     "tags": [
       "latest",
       "release",
-      "release-59dd552",
+      "release-677804a",
       "release-0.24.3",
       "release-v0",
       "release-v0.24",
