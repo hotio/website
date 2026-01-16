@@ -16,16 +16,16 @@
     ]
   },
   "release": {
-    "commit_message": "Version update: 0.24.2 => 0.24.3",
-    "commit_sha": "db021908c9b2497cd874adba18921eaa214bb188",
+    "commit_message": "add license to meta.json",
+    "commit_sha": "1ebe292c8116e30e6b43724af2a18b9bbf0a2e0b",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-01-15T14:55:36.000Z",
-    "last_updated_url": "https://github.com/hotio/slskd/actions/runs/21035576993",
+    "last_updated": "2026-01-16T07:23:38.000Z",
+    "last_updated_url": "https://github.com/hotio/slskd/actions/runs/21058970105",
     "tags": [
       "latest",
       "release",
-      "release-db02190",
+      "release-1ebe292",
       "release-0.24.3",
       "release-v0",
       "release-v0.24",
