@@ -1,15 +1,15 @@
 {
   "nightly": {
-    "commit_message": "Upstream update: alpinevpn-156b37c => alpinevpn-c4f8fae",
-    "commit_sha": "a907ea60337c9e1452c6008302fa2ff2fbe4c681",
+    "commit_message": "Upstream update: alpinevpn-c4f8fae => alpinevpn-d6f9da1",
+    "commit_sha": "b57fda2c9e087ba7daa407801f78bedb4d61b3a1",
     "description": "Every commit to master",
     "hide": false,
-    "last_updated": "2026-01-16T10:16:40.000Z",
-    "last_updated_url": "https://github.com/hotio/autoscan/actions/runs/21063268753",
+    "last_updated": "2026-01-16T11:17:56.000Z",
+    "last_updated_url": "https://github.com/hotio/autoscan/actions/runs/21064882952",
     "tags": [
       "",
       "nightly",
-      "nightly-a907ea6",
+      "nightly-b57fda2",
       "nightly-1d41f4b47ede7531ecc24944bfcaf88db10c2ba7",
       "",
       "",
