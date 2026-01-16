@@ -1,14 +1,14 @@
 {
   "nightly": {
-    "commit_message": "add license to meta.json",
-    "commit_sha": "75e82fed87e915b4ca78ff8f3ec73872e0ca7f99",
+    "commit_message": "Upstream update: alpinevpn-9c717da => alpinevpn-e7368e6",
+    "commit_sha": "b0da4551e004c2e2057a615edf124077e1fad8c2",
     "description": "Canary releases",
-    "last_updated": "2026-01-16T07:25:14.000Z",
-    "last_updated_url": "https://github.com/hotio/slskd/actions/runs/21059003754",
+    "last_updated": "2026-01-16T07:55:44.000Z",
+    "last_updated_url": "https://github.com/hotio/slskd/actions/runs/21059656830",
     "tags": [
       "",
       "nightly",
-      "nightly-75e82fe",
+      "nightly-b0da455",
       "nightly-0.24.2.65534-35fb847f",
       "",
       "",
