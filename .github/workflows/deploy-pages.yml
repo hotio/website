@@ -1,7 +1,6 @@
 name: Deploy Website
 concurrency:
   group: ${{ github.repository }}
-  cancel-in-progress: true
 on:
   push:
     branches:
