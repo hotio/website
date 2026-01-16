@@ -1,14 +1,14 @@
 {
   "nightly": {
-    "commit_message": "Upstream update: alpinevpn-9c717da => alpinevpn-e7368e6",
-    "commit_sha": "b0da4551e004c2e2057a615edf124077e1fad8c2",
+    "commit_message": "Upstream update: alpinevpn-e7368e6 => alpinevpn-156b37c",
+    "commit_sha": "a1fb82f6829a97a549e4206e87f66e17ade316fe",
     "description": "Canary releases",
-    "last_updated": "2026-01-16T07:55:44.000Z",
-    "last_updated_url": "https://github.com/hotio/slskd/actions/runs/21059656830",
+    "last_updated": "2026-01-16T08:34:04.000Z",
+    "last_updated_url": "https://github.com/hotio/slskd/actions/runs/21060553485",
     "tags": [
       "",
       "nightly",
-      "nightly-b0da455",
+      "nightly-a1fb82f",
       "nightly-0.24.2.65534-35fb847f",
       "",
       "",
