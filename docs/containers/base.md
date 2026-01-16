@@ -18,8 +18,8 @@ title: hotio/base
       </tr>
     </thead>
     <tbody id="tags-table-body">
-<tr><td><div id="tag4244" onclick="CopyToClipboard('tag4244');return false;" class="tag-decoration">alpinevpn</div><div id="tag86" onclick="CopyToClipboard('tag86');return false;" class="tag-decoration">alpinevpn-9c717da</div></td><td>Alpine 3.22</td><td><a href="https://github.com/hotio/base/commit/9c717dabe71dd85381d83ba36259fced6f4cb943" target="_blank">undo</a></td><td><a href="https://github.com/hotio/base/actions/runs/20896242516" target="_blank">2026-01-11 13:52:51</a></td></tr>
-<tr><td><div id="tag26967" onclick="CopyToClipboard('tag26967');return false;" class="tag-decoration">noblevpn</div><div id="tag5366" onclick="CopyToClipboard('tag5366');return false;" class="tag-decoration">noblevpn-6a934c2</div></td><td>Ubuntu 24.04</td><td><a href="https://github.com/hotio/base/commit/6a934c2f00a6bd19504cdc1aa46c927beec6277b" target="_blank">undo</a></td><td><a href="https://github.com/hotio/base/actions/runs/20896246685" target="_blank">2026-01-11 13:53:09</a></td></tr>
+<tr><td><div id="tag16330" onclick="CopyToClipboard('tag16330');return false;" class="tag-decoration">alpinevpn</div><div id="tag26547" onclick="CopyToClipboard('tag26547');return false;" class="tag-decoration">alpinevpn-9c717da</div></td><td>Alpine 3.22</td><td><a href="https://github.com/hotio/base/commit/9c717dabe71dd85381d83ba36259fced6f4cb943" target="_blank">undo</a></td><td><a href="https://github.com/hotio/base/actions/runs/20896242516" target="_blank">2026-01-11 13:52:51</a></td></tr>
+<tr><td><div id="tag18513" onclick="CopyToClipboard('tag18513');return false;" class="tag-decoration">noblevpn</div><div id="tag15525" onclick="CopyToClipboard('tag15525');return false;" class="tag-decoration">noblevpn-f45b9a9</div></td><td>Ubuntu 24.04</td><td><a href="https://github.com/hotio/base/commit/f45b9a95958a02c4c53f003b12925a7d94de9d8e" target="_blank">Upstream digest update</a></td><td><a href="https://github.com/hotio/base/actions/runs/21052073620" target="_blank">2026-01-16 01:10:32</a></td></tr>
 </tbody>
   </table>
 </div>
