@@ -34,16 +34,16 @@
     ]
   },
   "testing": {
-    "commit_message": "Upstream update: alpinevpn-156b37c => alpinevpn-c4f8fae",
-    "commit_sha": "9c8cad259bca59aaf0f2642f43d1cbca831097d9",
+    "commit_message": "Upstream update: alpinevpn-c4f8fae => alpinevpn-d6f9da1",
+    "commit_sha": "74488ad9b03a2ddaa6a4ec1407fa1baadfcf198c",
     "description": "develop",
     "hide": false,
-    "last_updated": "2026-01-16T10:17:13.000Z",
-    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/21063282154",
+    "last_updated": "2026-01-16T11:18:22.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/21064893533",
     "tags": [
       "",
       "testing",
-      "testing-9c8cad2",
+      "testing-74488ad",
       "testing-3.1.2.4902",
       "",
       "",
