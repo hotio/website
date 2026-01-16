@@ -17,16 +17,16 @@
     ]
   },
   "noblevpn": {
-    "commit_message": "fix bug introduced for testing",
-    "commit_sha": "311995b5cb596f4b028f3c33e82fd1e3ab8e868e",
+    "commit_message": "this is silly",
+    "commit_sha": "b3fe62506ef35252ce1d872d1026842715b2fb58",
     "description": "Ubuntu 24.04",
     "hide": false,
-    "last_updated": "2026-01-16T10:02:49.000Z",
-    "last_updated_url": "https://github.com/hotio/base/actions/runs/21062885828",
+    "last_updated": "2026-01-16T11:12:56.000Z",
+    "last_updated_url": "https://github.com/hotio/base/actions/runs/21064755730",
     "tags": [
       "",
       "noblevpn",
-      "noblevpn-311995b",
+      "noblevpn-b3fe625",
       "",
       "",
       "",
