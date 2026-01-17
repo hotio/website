@@ -32,5 +32,21 @@
       "v3-v3.2",
       "v3-v3.2.0"
     ]
+  },
+  "v3-develop": {
+    "commit_message": "eros-develop branch builds",
+    "commit_sha": "da29d13821df4a3e8bf04b7f2d819b9e2ff5f2e2",
+    "description": "eros-develop",
+    "last_updated": "2026-01-17T16:27:55.000Z",
+    "last_updated_url": "https://github.com/hotio/whisparr/actions/runs/21097403016",
+    "tags": [
+      "",
+      "v3-develop",
+      "v3-develop-da29d13",
+      "v3-develop-3.2.0-develop.31",
+      "v3-develop-v3",
+      "v3-develop-v3.2",
+      "v3-develop-v3.2.0"
+    ]
   }
 }
