@@ -1,15 +1,15 @@
 {
   "nightly": {
-    "commit_message": "Version update: 2.0.0.2125 => 2.0.0.2130",
-    "commit_sha": "459450367dd28104cc5d3efb792f583c48ee6176",
+    "commit_message": "Upstream update: alpinevpn-3043df9 => alpinevpn-c2217dd",
+    "commit_sha": "48b62e8d897cc1f5d2e5b00f328b812a374f1457",
     "description": "nightly",
     "hide": false,
-    "last_updated": "2026-01-17T02:08:25.000Z",
-    "last_updated_url": "https://github.com/hotio/whisparr/actions/runs/21086684538",
+    "last_updated": "2026-01-17T07:02:02.000Z",
+    "last_updated_url": "https://github.com/hotio/whisparr/actions/runs/21090401908",
     "tags": [
       "latest",
       "nightly",
-      "nightly-4594503",
+      "nightly-48b62e8",
       "nightly-2.0.0.2130",
       "",
       "",
