@@ -34,16 +34,16 @@
     ]
   },
   "testing": {
-    "commit_message": "Upstream update: alpinevpn-d6f9da1 => alpinevpn-3043df9",
-    "commit_sha": "36975e58ada199369ae6a59d27d7ebc9cee432e2",
+    "commit_message": "Upstream update: alpinevpn-3043df9 => alpinevpn-c2217dd",
+    "commit_sha": "2af22256351a3bec28330abda45f4e50027a1baa",
     "description": "Pre-releases",
     "hide": false,
-    "last_updated": "2026-01-16T11:52:57.000Z",
-    "last_updated_url": "https://github.com/hotio/sabnzbd/actions/runs/21065741683",
+    "last_updated": "2026-01-17T07:01:46.000Z",
+    "last_updated_url": "https://github.com/hotio/sabnzbd/actions/runs/21090398251",
     "tags": [
       "",
       "testing",
-      "testing-36975e5",
+      "testing-2af2225",
       "testing-4.6.0Beta2",
       "",
       "",
