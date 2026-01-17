@@ -16,6 +16,22 @@
       ""
     ]
   },
+  "v2": {
+    "commit_message": "v2",
+    "commit_sha": "ab04a1047cfb64e77ab60fbb7ae7f686cfc39a55",
+    "description": "v2",
+    "last_updated": "2026-01-17T16:33:31.000Z",
+    "last_updated_url": "https://github.com/hotio/whisparr/actions/runs/21097472201",
+    "tags": [
+      "latest",
+      "v2",
+      "v2-ab04a10",
+      "v2-2.0.0.2130",
+      "",
+      "",
+      ""
+    ]
+  },
   "v3": {
     "commit_message": "use new binary locations",
     "commit_sha": "07f5eacc59d2a649e33eb325549af74defcd26f6",
