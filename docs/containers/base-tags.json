@@ -17,16 +17,16 @@
     ]
   },
   "noblevpn": {
-    "commit_message": "Make iface prefixes configurable with VPN_INTERFACE_PREFIXES, thx to salty from Saltbox",
-    "commit_sha": "7d9e72c678b93c05e46e2d5d8cf47b28ae4120f3",
+    "commit_message": "add disclaimer",
+    "commit_sha": "9c33abd43e6307b7349d3cedf6bc5e1561880a25",
     "description": "Ubuntu 24.04",
     "hide": false,
-    "last_updated": "2026-01-16T11:47:07.000Z",
-    "last_updated_url": "https://github.com/hotio/base/actions/runs/21065600457",
+    "last_updated": "2026-01-17T06:54:25.000Z",
+    "last_updated_url": "https://github.com/hotio/base/actions/runs/21090304413",
     "tags": [
       "",
       "noblevpn",
-      "noblevpn-7d9e72c",
+      "noblevpn-9c33abd",
       "",
       "",
       "",
