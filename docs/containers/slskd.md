@@ -10,6 +10,9 @@ status: new
 
 [:octicons-link-16: Upstream Project (GNU AGPL-3.0 license)](https://github.com/slskd/slskd){ class="header-links" target="_blank" rel="noopener" }  
 
+!!! question
+    If the community feels that we should switch to the more feature rich fork [slskdn](https://github.com/snapetech/slskdn), feel free to join the discord server and let your opinion be heard.
+
 <div id="tags-table">
   <table>
     <thead>
