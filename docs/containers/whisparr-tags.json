@@ -1,14 +1,14 @@
 {
   "v2": {
-    "commit_message": "v2",
-    "commit_sha": "ab04a1047cfb64e77ab60fbb7ae7f686cfc39a55",
+    "commit_message": "Upstream update: alpinevpn-c2217dd => alpinevpn-6480c7b",
+    "commit_sha": "43667ed220d9f82b7a4dea3a11465368e81f8c00",
     "description": "v2",
-    "last_updated": "2026-01-17T16:33:31.000Z",
-    "last_updated_url": "https://github.com/hotio/whisparr/actions/runs/21097472201",
+    "last_updated": "2026-01-18T14:57:44.000Z",
+    "last_updated_url": "https://github.com/hotio/whisparr/actions/runs/21113703673",
     "tags": [
       "latest",
       "v2",
-      "v2-ab04a10",
+      "v2-43667ed",
       "v2-2.0.0.2130",
       "",
       "",
