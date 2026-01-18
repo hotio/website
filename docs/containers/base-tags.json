@@ -1,15 +1,15 @@
 {
   "alpinevpn": {
-    "commit_message": "add disclaimer",
-    "commit_sha": "c2217dd69ca2776b58e014ad304cfee4147ab570",
+    "commit_message": "add open port check",
+    "commit_sha": "6480c7ba596e74c586e5399209d717b09ac06acf",
     "description": "Alpine 3.22",
     "hide": false,
-    "last_updated": "2026-01-17T06:53:55.000Z",
-    "last_updated_url": "https://github.com/hotio/base/actions/runs/21090298128",
+    "last_updated": "2026-01-18T14:46:51.000Z",
+    "last_updated_url": "https://github.com/hotio/base/actions/runs/21113568515",
     "tags": [
       "",
       "alpinevpn",
-      "alpinevpn-c2217dd",
+      "alpinevpn-6480c7b",
       "",
       "",
       "",
