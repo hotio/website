@@ -1,15 +1,15 @@
 {
   "alpinevpn": {
-    "commit_message": "add env var",
-    "commit_sha": "d93cbb4cddc3322f6d61fafb03312372e29d8efa",
+    "commit_message": "add Exiting... to log output",
+    "commit_sha": "5657af0874d7bfbc7f95b95ea8a2a7ffd8c02a31",
     "description": "Alpine 3.22",
     "hide": false,
-    "last_updated": "2026-01-19T08:09:02.000Z",
-    "last_updated_url": "https://github.com/hotio/base/actions/runs/21129911217",
+    "last_updated": "2026-01-19T08:15:18.000Z",
+    "last_updated_url": "https://github.com/hotio/base/actions/runs/21130074897",
     "tags": [
       "",
       "alpinevpn",
-      "alpinevpn-d93cbb4",
+      "alpinevpn-5657af0",
       "",
       "",
       "",

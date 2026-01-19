@@ -18,8 +18,8 @@ title: hotio/base
       </tr>
     </thead>
     <tbody id="tags-table-body">
-<tr><td><div id="tag22435" onclick="CopyToClipboard('tag22435');return false;" class="tag-decoration">alpinevpn</div><div id="tag27863" onclick="CopyToClipboard('tag27863');return false;" class="tag-decoration">alpinevpn-d93cbb4</div></td><td>Alpine 3.22</td><td><a href="https://github.com/hotio/base/commit/d93cbb4cddc3322f6d61fafb03312372e29d8efa" target="_blank">add env var</a></td><td><a href="https://github.com/hotio/base/actions/runs/21129911217" target="_blank">2026-01-19 08:09:02</a></td></tr>
-<tr><td><div id="tag13651" onclick="CopyToClipboard('tag13651');return false;" class="tag-decoration">noblevpn</div><div id="tag7238" onclick="CopyToClipboard('tag7238');return false;" class="tag-decoration">noblevpn-aede5a1</div></td><td>Ubuntu 24.04</td><td><a href="https://github.com/hotio/base/commit/aede5a1c9f3ab2c80c81250af202b392330749ed" target="_blank">add env var</a></td><td><a href="https://github.com/hotio/base/actions/runs/21129917314" target="_blank">2026-01-19 08:09:17</a></td></tr>
+<tr><td><div id="tag9356" onclick="CopyToClipboard('tag9356');return false;" class="tag-decoration">alpinevpn</div><div id="tag12522" onclick="CopyToClipboard('tag12522');return false;" class="tag-decoration">alpinevpn-5657af0</div></td><td>Alpine 3.22</td><td><a href="https://github.com/hotio/base/commit/5657af0874d7bfbc7f95b95ea8a2a7ffd8c02a31" target="_blank">add Exiting... to log output</a></td><td><a href="https://github.com/hotio/base/actions/runs/21130074897" target="_blank">2026-01-19 08:15:18</a></td></tr>
+<tr><td><div id="tag13269" onclick="CopyToClipboard('tag13269');return false;" class="tag-decoration">noblevpn</div><div id="tag9097" onclick="CopyToClipboard('tag9097');return false;" class="tag-decoration">noblevpn-aede5a1</div></td><td>Ubuntu 24.04</td><td><a href="https://github.com/hotio/base/commit/aede5a1c9f3ab2c80c81250af202b392330749ed" target="_blank">add env var</a></td><td><a href="https://github.com/hotio/base/actions/runs/21129917314" target="_blank">2026-01-19 08:09:17</a></td></tr>
 </tbody>
   </table>
 </div>
