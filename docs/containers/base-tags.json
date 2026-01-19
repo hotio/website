@@ -17,16 +17,16 @@
     ]
   },
   "noblevpn": {
-    "commit_message": "cleanup how fw rules are added",
-    "commit_sha": "1fa1a6dea1808bd198e38dfefc5953d4ee684680",
+    "commit_message": "rename redirects var",
+    "commit_sha": "130f95b3d2078714c157da11bd4aa3b35b9c1288",
     "description": "Ubuntu 24.04",
     "hide": false,
-    "last_updated": "2026-01-19T09:03:11.000Z",
-    "last_updated_url": "https://github.com/hotio/base/actions/runs/21131401010",
+    "last_updated": "2026-01-19T09:11:58.000Z",
+    "last_updated_url": "https://github.com/hotio/base/actions/runs/21131663791",
     "tags": [
       "",
       "noblevpn",
-      "noblevpn-1fa1a6d",
+      "noblevpn-130f95b",
       "",
       "",
       "",
