@@ -1,15 +1,15 @@
 {
   "alpinevpn": {
-    "commit_message": "cleanup how fw rules are added",
-    "commit_sha": "34cdc69bfc6664debb6cf49d6f39c7da34afd37b",
+    "commit_message": "rename redirects var",
+    "commit_sha": "7a36f8070728de8cd2a35a9ec4b4c6173377276a",
     "description": "Alpine 3.22",
     "hide": false,
-    "last_updated": "2026-01-19T09:02:45.000Z",
-    "last_updated_url": "https://github.com/hotio/base/actions/runs/21131391923",
+    "last_updated": "2026-01-19T09:11:40.000Z",
+    "last_updated_url": "https://github.com/hotio/base/actions/runs/21131654569",
     "tags": [
       "",
       "alpinevpn",
-      "alpinevpn-34cdc69",
+      "alpinevpn-7a36f80",
       "",
       "",
       "",
