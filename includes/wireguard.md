@@ -24,6 +24,7 @@
             -e VPN_PORT_REDIRECTS="" \ #(15)!
             -e VPN_HEALTHCHECK_ENABLED="false" \ #(20)!
             -e VPN_NAMESERVERS="" \ #(16)!
+            -e VPN_INTERFACE_PREFIXES="" \ #(9)!
             -e PRIVOXY_ENABLED="false" \ #(19)!
             -e UNBOUND_ENABLED="false" \ #(21)!
             -e UNBOUND_NAMESERVERS="" \ #(22)!
@@ -50,6 +51,7 @@
               - VPN_PORT_REDIRECTS #(15)!
               - VPN_HEALTHCHECK_ENABLED=false #(20)!
               - VPN_NAMESERVERS #(16)!
+              - VPN_INTERFACE_PREFIXES #(9)!
               - PRIVOXY_ENABLED=false #(19)!
               - UNBOUND_ENABLED=false #(21)!
               - UNBOUND_NAMESERVERS #(22)!
@@ -77,6 +79,7 @@
             -e VPN_PORT_REDIRECTS="" \ #(15)!
             -e VPN_HEALTHCHECK_ENABLED="false" \ #(20)!
             -e VPN_NAMESERVERS="" \ #(16)!
+            -e VPN_INTERFACE_PREFIXES="" \ #(9)!
             -e PRIVOXY_ENABLED="false" \ #(19)!
             -e UNBOUND_ENABLED="false" \ #(21)!
             -e UNBOUND_NAMESERVERS="" \ #(22)!
@@ -103,6 +106,7 @@
               - VPN_PORT_REDIRECTS #(15)!
               - VPN_HEALTHCHECK_ENABLED=false #(20)!
               - VPN_NAMESERVERS #(16)!
+              - VPN_INTERFACE_PREFIXES #(9)!
               - PRIVOXY_ENABLED=false #(19)!
               - UNBOUND_ENABLED=false #(21)!
               - UNBOUND_NAMESERVERS #(22)!
@@ -130,6 +134,7 @@
             -e VPN_PORT_REDIRECTS="" \ #(15)!
             -e VPN_HEALTHCHECK_ENABLED="false" \ #(20)!
             -e VPN_NAMESERVERS="" \ #(16)!
+            -e VPN_INTERFACE_PREFIXES="" \ #(9)!
             -e VPN_PIA_USER="" \ #(11)!
             -e VPN_PIA_PASS="" \ #(11)!
             -e VPN_PIA_PREFERRED_REGION="" \ #(7)!
@@ -161,6 +166,7 @@
               - VPN_PORT_REDIRECTS #(15)!
               - VPN_HEALTHCHECK_ENABLED=false #(20)!
               - VPN_NAMESERVERS #(16)!
+              - VPN_INTERFACE_PREFIXES #(9)!
               - VPN_PIA_USER #(11)!
               - VPN_PIA_PASS #(11)!
               - VPN_PIA_PREFERRED_REGION #(7)!

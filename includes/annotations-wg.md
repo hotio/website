@@ -18,7 +18,7 @@ Affiliate links:
 
 8. With `VPN_CONF` you can set the name used for your WireGuard config.
 
-9. NOT USED
+9. By default the prefixes list `eth,enp` is used to determine what the local docker networks are. If your setup uses another prefix, you can override the list with this variable.
 
 10. DANGEROUS! Don't enable unless you know what you are doing!
 
