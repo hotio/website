@@ -17,16 +17,16 @@
     ]
   },
   "noblevpn": {
-    "commit_message": "add open port check",
-    "commit_sha": "db01928d0a4c26d72811a995df16a047cf3ae7ed",
+    "commit_message": "validate ports on startup",
+    "commit_sha": "a3516fa9f66d809fe461ae0f63019603d07a6663",
     "description": "Ubuntu 24.04",
     "hide": false,
-    "last_updated": "2026-01-18T14:47:11.000Z",
-    "last_updated_url": "https://github.com/hotio/base/actions/runs/21113574422",
+    "last_updated": "2026-01-19T03:10:07.000Z",
+    "last_updated_url": "https://github.com/hotio/base/actions/runs/21123984040",
     "tags": [
       "",
       "noblevpn",
-      "noblevpn-db01928",
+      "noblevpn-a3516fa",
       "",
       "",
       "",
