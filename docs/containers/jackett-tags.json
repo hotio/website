@@ -17,16 +17,16 @@
     ]
   },
   "testing": {
-    "commit_message": "Upstream update: alpinevpn-c2217dd => alpinevpn-6480c7b",
-    "commit_sha": "f81cea2d35eda37350d2c21c975026532dc01ad5",
+    "commit_message": "Upstream update: alpinevpn-6480c7b => alpinevpn-5063227",
+    "commit_sha": "f5df6ef70c64aee296128f57df462cfc7a792edf",
     "description": "Pre-releases",
     "hide": false,
-    "last_updated": "2026-01-18T14:56:52.000Z",
-    "last_updated_url": "https://github.com/hotio/jackett/actions/runs/21113694119",
+    "last_updated": "2026-01-19T03:13:12.000Z",
+    "last_updated_url": "https://github.com/hotio/jackett/actions/runs/21124037102",
     "tags": [
       "",
       "testing",
-      "testing-f81cea2",
+      "testing-f5df6ef",
       "testing-0.24.879",
       "testing-v0",
       "testing-v0.24",
