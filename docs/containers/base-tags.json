@@ -1,15 +1,15 @@
 {
   "alpinevpn": {
-    "commit_message": "add Exiting... to log output",
-    "commit_sha": "5657af0874d7bfbc7f95b95ea8a2a7ffd8c02a31",
+    "commit_message": "cleanup how fw rules are added",
+    "commit_sha": "34cdc69bfc6664debb6cf49d6f39c7da34afd37b",
     "description": "Alpine 3.22",
     "hide": false,
-    "last_updated": "2026-01-19T08:15:18.000Z",
-    "last_updated_url": "https://github.com/hotio/base/actions/runs/21130074897",
+    "last_updated": "2026-01-19T09:02:45.000Z",
+    "last_updated_url": "https://github.com/hotio/base/actions/runs/21131391923",
     "tags": [
       "",
       "alpinevpn",
-      "alpinevpn-5657af0",
+      "alpinevpn-34cdc69",
       "",
       "",
       "",
