@@ -17,16 +17,16 @@
     ]
   },
   "release": {
-    "commit_message": "Upstream update: alpinevpn-6480c7b => alpinevpn-5063227",
-    "commit_sha": "b829f887ef3e4926b5c30391861e08fe3300e70d",
+    "commit_message": "Upstream update: alpinevpn-5063227 => alpinevpn-7a36f80",
+    "commit_sha": "60f85177788aa7157d0dbaeeb80f9a8164681732",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-01-19T03:13:45.000Z",
-    "last_updated_url": "https://github.com/hotio/qbitmanage/actions/runs/21124046438",
+    "last_updated": "2026-01-19T09:30:53.000Z",
+    "last_updated_url": "https://github.com/hotio/qbitmanage/actions/runs/21132228750",
     "tags": [
       "latest",
       "release",
-      "release-b829f88",
+      "release-60f8517",
       "release-4.6.5",
       "release-v4",
       "release-v4.6",
