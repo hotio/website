@@ -18,7 +18,7 @@ title: hotio/cloudflareddns
       </tr>
     </thead>
     <tbody id="tags-table-body">
-<tr><td><div class="tag-decoration-latest">latest</div><div id="tag29212" onclick="CopyToClipboard('tag29212');return false;" class="tag-decoration">release</div><div id="tag25239" onclick="CopyToClipboard('tag25239');return false;" class="tag-decoration">release-388df74</div></td><td></td><td><a href="https://github.com/hotio/cloudflareddns/commit/388df74c2165854c58b793b54ea0eb2e08461e5d" target="_blank">Version update</a></td><td><a href="https://github.com/hotio/cloudflareddns/actions/runs/21183360806" target="_blank">2026-01-20 18:45:20</a></td></tr>
+<tr><td><div class="tag-decoration-latest">latest</div><div id="tag14203" onclick="CopyToClipboard('tag14203');return false;" class="tag-decoration">release</div><div id="tag13974" onclick="CopyToClipboard('tag13974');return false;" class="tag-decoration">release-b351a83</div></td><td></td><td><a href="https://github.com/hotio/cloudflareddns/commit/b351a83ea6a4c980b30f23c846638420778bacce" target="_blank">fix bug, not getting correct zone id if cache was present</a></td><td><a href="https://github.com/hotio/cloudflareddns/actions/runs/21191058188" target="_blank">2026-01-20 23:25:32</a></td></tr>
 </tbody>
   </table>
 </div>
