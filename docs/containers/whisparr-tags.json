@@ -33,16 +33,16 @@
     ]
   },
   "v3-develop": {
-    "commit_message": "Upstream update: alpinevpn-5063227 => alpinevpn-7a36f80",
-    "commit_sha": "5d91cb47be798ef36aef78e72543a2c37507a86b",
+    "commit_message": "Version update: 3.2.1-develop.60 => 3.2.1-develop.67",
+    "commit_sha": "594adf26fb708a7f1bfc4111a183b15dcee48a62",
     "description": "eros-develop",
-    "last_updated": "2026-01-19T09:31:21.000Z",
-    "last_updated_url": "https://github.com/hotio/whisparr/actions/runs/21132243627",
+    "last_updated": "2026-01-20T06:52:54.000Z",
+    "last_updated_url": "https://github.com/hotio/whisparr/actions/runs/21162273957",
     "tags": [
       "",
       "v3-develop",
-      "v3-develop-5d91cb4",
-      "v3-develop-3.2.1-develop.60",
+      "v3-develop-594adf2",
+      "v3-develop-3.2.1-develop.67",
       "v3-develop-v3",
       "v3-develop-v3.2",
       "v3-develop-v3.2.1"
