@@ -16,16 +16,16 @@
     ]
   },
   "release": {
-    "commit_message": "Upstream update: alpinevpn-7a36f80 => alpinevpn-1d9f62f",
-    "commit_sha": "45808e9b2e2113530a2337ca8f955b3e87b0f4f3",
+    "commit_message": "Upstream update: alpinevpn-1d9f62f => alpinevpn-2c8fbe3",
+    "commit_sha": "1a2b97c7a819e3ab5a50a2540ba588ca79ef36f9",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-01-21T05:38:09.000Z",
-    "last_updated_url": "https://github.com/hotio/slskd/actions/runs/21198608103",
+    "last_updated": "2026-01-21T06:58:14.000Z",
+    "last_updated_url": "https://github.com/hotio/slskd/actions/runs/21200275703",
     "tags": [
       "latest",
       "release",
-      "release-45808e9",
+      "release-1a2b97c",
       "release-0.24.3",
       "release-v0",
       "release-v0.24",
