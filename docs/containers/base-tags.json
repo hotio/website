@@ -1,15 +1,15 @@
 {
   "alpinevpn": {
-    "commit_message": "rename redirects var",
-    "commit_sha": "7a36f8070728de8cd2a35a9ec4b4c6173377276a",
+    "commit_message": "write forwarded_port_validated earlier",
+    "commit_sha": "7f0f6dc073b32f499e018b6d292853c66219a5a7",
     "description": "Alpine 3.22",
     "hide": false,
-    "last_updated": "2026-01-19T09:11:40.000Z",
-    "last_updated_url": "https://github.com/hotio/base/actions/runs/21131654569",
+    "last_updated": "2026-01-21T04:05:15.000Z",
+    "last_updated_url": "https://github.com/hotio/base/actions/runs/21196814644",
     "tags": [
       "",
       "alpinevpn",
-      "alpinevpn-7a36f80",
+      "alpinevpn-7f0f6dc",
       "",
       "",
       "",
