@@ -1,15 +1,15 @@
 {
   "release": {
-    "commit_message": "fix bug, not getting correct zone id if cache was present",
-    "commit_sha": "b351a83ea6a4c980b30f23c846638420778bacce",
+    "commit_message": "do PATCH instead of PUT and add User-Agent",
+    "commit_sha": "4d7b84ed113452e2e03072b2e6d952666d632629",
     "description": "",
     "hide": false,
-    "last_updated": "2026-01-20T23:25:32.000Z",
-    "last_updated_url": "https://github.com/hotio/cloudflareddns/actions/runs/21191058188",
+    "last_updated": "2026-01-21T03:19:02.000Z",
+    "last_updated_url": "https://github.com/hotio/cloudflareddns/actions/runs/21195964664",
     "tags": [
       "latest",
       "release",
-      "release-b351a83",
+      "release-4d7b84e",
       "",
       "",
       "",

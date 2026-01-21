@@ -18,7 +18,7 @@ title: hotio/cloudflareddns
       </tr>
     </thead>
     <tbody id="tags-table-body">
-<tr><td><div class="tag-decoration-latest">latest</div><div id="tag14203" onclick="CopyToClipboard('tag14203');return false;" class="tag-decoration">release</div><div id="tag13974" onclick="CopyToClipboard('tag13974');return false;" class="tag-decoration">release-b351a83</div></td><td></td><td><a href="https://github.com/hotio/cloudflareddns/commit/b351a83ea6a4c980b30f23c846638420778bacce" target="_blank">fix bug, not getting correct zone id if cache was present</a></td><td><a href="https://github.com/hotio/cloudflareddns/actions/runs/21191058188" target="_blank">2026-01-20 23:25:32</a></td></tr>
+<tr><td><div class="tag-decoration-latest">latest</div><div id="tag14190" onclick="CopyToClipboard('tag14190');return false;" class="tag-decoration">release</div><div id="tag18893" onclick="CopyToClipboard('tag18893');return false;" class="tag-decoration">release-4d7b84e</div></td><td></td><td><a href="https://github.com/hotio/cloudflareddns/commit/4d7b84ed113452e2e03072b2e6d952666d632629" target="_blank">do PATCH instead of PUT and add User-Agent</a></td><td><a href="https://github.com/hotio/cloudflareddns/actions/runs/21195964664" target="_blank">2026-01-21 03:19:02</a></td></tr>
 </tbody>
   </table>
 </div>
