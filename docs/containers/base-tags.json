@@ -17,16 +17,16 @@
     ]
   },
   "noblevpn": {
-    "commit_message": "tweak proton port forwarding loops",
-    "commit_sha": "6eb95033b279aa2c0c8b252d4462178c58d3f5e3",
+    "commit_message": "update port regex",
+    "commit_sha": "4c01d7f25899fba957c5c232637e1dee809d4ca4",
     "description": "Ubuntu 24.04",
     "hide": false,
-    "last_updated": "2026-01-21T05:02:01.000Z",
-    "last_updated_url": "https://github.com/hotio/base/actions/runs/21197888274",
+    "last_updated": "2026-01-21T06:44:36.000Z",
+    "last_updated_url": "https://github.com/hotio/base/actions/runs/21199989709",
     "tags": [
       "",
       "noblevpn",
-      "noblevpn-6eb9503",
+      "noblevpn-4c01d7f",
       "",
       "",
       "",
