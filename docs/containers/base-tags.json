@@ -17,16 +17,16 @@
     ]
   },
   "noblevpn": {
-    "commit_message": "rename redirects var",
-    "commit_sha": "130f95b3d2078714c157da11bd4aa3b35b9c1288",
+    "commit_message": "write forwarded_port_validated earlier",
+    "commit_sha": "ba61d1f14d6bb9fec7fe9e51f28ebfd53dd55d16",
     "description": "Ubuntu 24.04",
     "hide": false,
-    "last_updated": "2026-01-19T09:11:58.000Z",
-    "last_updated_url": "https://github.com/hotio/base/actions/runs/21131663791",
+    "last_updated": "2026-01-21T04:05:34.000Z",
+    "last_updated_url": "https://github.com/hotio/base/actions/runs/21196821090",
     "tags": [
       "",
       "noblevpn",
-      "noblevpn-130f95b",
+      "noblevpn-ba61d1f",
       "",
       "",
       "",
