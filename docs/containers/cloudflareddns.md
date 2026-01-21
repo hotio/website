@@ -18,7 +18,7 @@ title: hotio/cloudflareddns
       </tr>
     </thead>
     <tbody id="tags-table-body">
-<tr><td><div class="tag-decoration-latest">latest</div><div id="tag13200" onclick="CopyToClipboard('tag13200');return false;" class="tag-decoration">release</div><div id="tag16787" onclick="CopyToClipboard('tag16787');return false;" class="tag-decoration">release-f1a91df</div></td><td></td><td><a href="https://github.com/hotio/cloudflareddns/commit/f1a91dfb81d997544c704635920580615ebc953e" target="_blank">Upstream update: alpinevpn-7a36f80 => alpinevpn-7f0f6dc</a></td><td><a href="https://github.com/hotio/cloudflareddns/actions/runs/21197448531" target="_blank">2026-01-21 04:39:06</a></td></tr>
+<tr><td><div class="tag-decoration-latest">latest</div><div id="tag30812" onclick="CopyToClipboard('tag30812');return false;" class="tag-decoration">release</div><div id="tag13769" onclick="CopyToClipboard('tag13769');return false;" class="tag-decoration">release-f1bb6fd</div></td><td></td><td><a href="https://github.com/hotio/cloudflareddns/commit/f1bb6fdbaefc499877ece03f846c90e66134fae8" target="_blank">Upstream update: alpinevpn-7f0f6dc => alpinevpn-1d9f62f</a></td><td><a href="https://github.com/hotio/cloudflareddns/actions/runs/21198325244" target="_blank">2026-01-21 05:23:58</a></td></tr>
 </tbody>
   </table>
 </div>
