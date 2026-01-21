@@ -1,15 +1,15 @@
 {
   "nightly": {
-    "commit_message": "Upstream update: noblevpn-130f95b => noblevpn-6eb9503",
-    "commit_sha": "27ec59b61c717b3b94bebbea8cb6f3902d5acca3",
+    "commit_message": "Upstream update: noblevpn-6eb9503 => noblevpn-4c01d7f",
+    "commit_sha": "877c800de55161ddbf3e61e8440555233e1f92ee",
     "description": "Unstable",
     "hide": false,
-    "last_updated": "2026-01-21T05:38:15.000Z",
-    "last_updated_url": "https://github.com/hotio/stash/actions/runs/21198611043",
+    "last_updated": "2026-01-21T06:58:19.000Z",
+    "last_updated_url": "https://github.com/hotio/stash/actions/runs/21200277952",
     "tags": [
       "",
       "nightly",
-      "nightly-27ec59b",
+      "nightly-877c800",
       "nightly-5b3785f16490e8bd603dbe71915a6233379e72e1",
       "",
       "",
