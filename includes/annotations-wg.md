@@ -1,8 +1,8 @@
-1. The environment variable `VPN_LAN_NETWORK` can be set to for example `192.168.1.0/24`, `192.168.1.0/24,192.168.44.0/24` or `192.168.1.33`, so you can get access to the webui or other additional ports (see below). If for example you were to pick `192.168.0.0/24`, every device with an ip in the range `192.168.0.0 - 192.168.0.255` on your LAN is allowed access to the webui. On MacOS set it to `192.168.65.0/24` (Verify with your settings [Resources > Network > Docker subnet]), you might also need to do `-p 127.0.0.1:PORT:PORT` (don't ask me why, Docker on Mac quirks I guess). Do not add the docker bridge networks in this variable!
+1. The environment variable `VPN_LAN_NETWORK` can be set to for example `192.168.1.0/24`, `192.168.1.0/24,192.168.44.0/24` or `192.168.1.33`, so you can get access to the webui or other ports from your LAN. If for example you were to pick `192.168.0.0/24`, every device with an ip in the range `192.168.0.0 - 192.168.0.255` on your LAN is allowed access to the webui. On MacOS set it to `192.168.65.0/24` (Verify with your settings [Resources > Network > Docker subnet]), you might also need to do `-p 127.0.0.1:PORT:PORT` (don't ask me why, Docker on Mac quirks I guess). Do not add the docker bridge networks in this variable!
 
-2. If you need to expose ports on your LAN you can use `VPN_EXPOSE_PORTS_ON_LAN`. For example `VPN_EXPOSE_PORTS_ON_LAN=7878/tcp,9117/tcp`, will block those ports on the vpn interface, so that there's no risk that they might be exposed to the world and allow access to them from your LAN. Most images also have a `WEBUI_PORTS` environment variable that does basically the same thing already pre-filled with the default ports. Use `WEBUI_PORTS` if you need to change those defaults. The variable `VPN_EXPOSE_PORTS_ON_LAN` is mostly for extra ports, likely used when routing additional containers through this container's VPN connection.
+2. If you need to expose ports on your LAN you can use `VPN_EXPOSE_PORTS_ON_LAN`. For example `VPN_EXPOSE_PORTS_ON_LAN=7878/tcp,9117/tcp`, will allow access to them from your LAN. Most images also have a `WEBUI_PORTS` environment variable that does basically the same thing already pre-filled with the default ports. Use `WEBUI_PORTS` if you need to change those defaults. The variable `VPN_EXPOSE_PORTS_ON_LAN` is mostly for extra ports, likely used when routing additional containers through this container's VPN connection.
 
-3. The variable `WEBUI_PORTS` is mostly used when setting up the firewall rules for the VPN feature. For a few images it's also the best way to change the port on which the app runs.
+3. NOT USED
 
 4. Possible values are `generic`, `proton` and `pia`.  
 Affiliate links:  
@@ -12,7 +12,7 @@ Affiliate links:
 
 5. There needs to be a file `wg0.conf` (for PIA this is done automatically, see `VPN_PROVIDER` variable) located in `/config/wireguard` and you need to set the variable `VPN_ENABLED` to `true` for the VPN to start. If you'd like to execute some of your own bash scripts you can place the scripts alongside your `wg0.conf` file, called `wg0-pre.sh` (before vpn is up), `wg0-post.sh` (after vpn is up) or `wg0-port.sh` (after forwarded port change).
 
-6. Auto retrieve a forwarded port and configure the supported app if set to `true` and `VPN_PROVIDER=proton` or `VPN_PROVIDER=pia`. If you can manually request/set a forwarded port in the VPN provider's web interface, fill in the port number (just the number). If you set it to `true` and you've got `VPN_PROVIDER=generic`, you can manually create and manipulate the file `/config/wireguard/forwarded_port`. Useful website to check for open ports is [portchecker.io](https://portchecker.io){ target="_blank" rel="noopener" } and [ipleak.net](https://ipleak.net){ target="_blank" rel="noopener" } to leak test with a `.torrent` file.
+6. Auto retrieve a forwarded port and configure the supported app if set to `true` and `VPN_PROVIDER=proton` or `VPN_PROVIDER=pia`. If you can manually request/set a forwarded port in the VPN provider's web interface, fill in the port number (just the number). If you set it to `true` and you've got `VPN_PROVIDER=generic`, you can manually create and manipulate the file `/config/wireguard/forwarded_port`.
 
 7. By default a random server is used, but if you prefer a certain region you can fill in the region id. A list of available regions can be found in `/config/wireguard` after the first start. If you're seeing an error message `shuf: getrandom: Function not implemented`, you can't let it pick one randomly and are forced to fill in a region id.
 
@@ -20,7 +20,7 @@ Affiliate links:
 
 9. By default the prefixes list `eth,enp` is used to determine what the local docker networks are. If your setup uses another prefix, you can override the list with this variable.
 
-10. DANGEROUS! Don't enable unless you know what you are doing!
+10. DANGEROUS! Don't enable unless you know what you are doing! This will allow all traffic meant for `VPN_LAN_NETWORK` configured networks to leave, instead of just the exposed ports. Possible usecase is using your own nameserver.
 
 11. When using `VPN_PROVIDER=pia`, fill in your username and password. A `wg0.conf` will be automatically downloaded.
 
