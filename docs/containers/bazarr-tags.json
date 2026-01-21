@@ -17,16 +17,16 @@
     ]
   },
   "release": {
-    "commit_message": "Upstream update: alpinevpn-7f0f6dc => alpinevpn-1d9f62f",
-    "commit_sha": "bb153d39a4b5f6148166482b973d459f89ab9286",
+    "commit_message": "Upstream update: alpinevpn-1d9f62f => alpinevpn-2c8fbe3",
+    "commit_sha": "a9ccae6ed688d7395b75be124e3b12e9cae5db32",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-01-21T05:23:54.000Z",
-    "last_updated_url": "https://github.com/hotio/bazarr/actions/runs/21198323926",
+    "last_updated": "2026-01-21T06:57:03.000Z",
+    "last_updated_url": "https://github.com/hotio/bazarr/actions/runs/21200251150",
     "tags": [
       "latest",
       "release",
-      "release-bb153d3",
+      "release-a9ccae6",
       "release-1.5.4",
       "release-v1",
       "release-v1.5",
