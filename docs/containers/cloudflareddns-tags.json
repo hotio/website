@@ -1,15 +1,15 @@
 {
   "release": {
-    "commit_message": "do PATCH instead of PUT and add User-Agent",
-    "commit_sha": "4d7b84ed113452e2e03072b2e6d952666d632629",
+    "commit_message": "Upstream update: alpinevpn-7a36f80 => alpinevpn-7f0f6dc",
+    "commit_sha": "f1a91dfb81d997544c704635920580615ebc953e",
     "description": "",
     "hide": false,
-    "last_updated": "2026-01-21T03:19:02.000Z",
-    "last_updated_url": "https://github.com/hotio/cloudflareddns/actions/runs/21195964664",
+    "last_updated": "2026-01-21T04:39:06.000Z",
+    "last_updated_url": "https://github.com/hotio/cloudflareddns/actions/runs/21197448531",
     "tags": [
       "latest",
       "release",
-      "release-4d7b84e",
+      "release-f1a91df",
       "",
       "",
       "",
