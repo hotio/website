@@ -1,15 +1,15 @@
 {
   "nightly": {
-    "commit_message": "Upstream update: alpinevpn-2c8fbe3 => alpinevpn-6f109b5",
-    "commit_sha": "b4333931f7579645bc4a26c621a26ce91636e39a",
+    "commit_message": "Upstream update: alpinevpn-6f109b5 => alpinevpn-489d5d6",
+    "commit_sha": "d4e6656833af30c09c67e3d59e4f94ec88e54eaf",
     "description": "nightly",
     "hide": false,
-    "last_updated": "2026-01-22T06:03:16.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/21237951802",
+    "last_updated": "2026-01-22T09:51:52.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/21243862952",
     "tags": [
       "",
       "nightly",
-      "nightly-b433393",
+      "nightly-d4e6656",
       "nightly-6.1.1.10317",
       "",
       "",
