@@ -17,16 +17,16 @@
     ]
   },
   "noblevpn": {
-    "commit_message": "fix apps starting too soon",
-    "commit_sha": "6fa044b570b6e437a801165705487102a4ee2af9",
+    "commit_message": "tweak port check loop",
+    "commit_sha": "d8eefef7e93db9503ecce6df14c50f12b172e3de",
     "description": "Ubuntu 24.04",
     "hide": false,
-    "last_updated": "2026-01-22T05:56:44.000Z",
-    "last_updated_url": "https://github.com/hotio/base/actions/runs/21237812936",
+    "last_updated": "2026-01-22T09:26:40.000Z",
+    "last_updated_url": "https://github.com/hotio/base/actions/runs/21243088889",
     "tags": [
       "",
       "noblevpn",
-      "noblevpn-6fa044b",
+      "noblevpn-d8eefef",
       "",
       "",
       "",
