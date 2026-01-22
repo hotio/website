@@ -1,15 +1,15 @@
 {
   "alpinevpn": {
-    "commit_message": "update port regex",
-    "commit_sha": "2c8fbe3832ce23777d8587b759dc9fffd5cbd2e3",
+    "commit_message": "fix apps starting too soon",
+    "commit_sha": "6f109b519293a1c9a6620d90c07d6f40180cccf5",
     "description": "Alpine 3.22",
     "hide": false,
-    "last_updated": "2026-01-21T06:44:15.000Z",
-    "last_updated_url": "https://github.com/hotio/base/actions/runs/21199983876",
+    "last_updated": "2026-01-22T05:56:27.000Z",
+    "last_updated_url": "https://github.com/hotio/base/actions/runs/21237805956",
     "tags": [
       "",
       "alpinevpn",
-      "alpinevpn-2c8fbe3",
+      "alpinevpn-6f109b5",
       "",
       "",
       "",
