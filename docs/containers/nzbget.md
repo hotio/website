@@ -20,7 +20,7 @@ title: hotio/nzbget
       </tr>
     </thead>
     <tbody id="tags-table-body">
-<tr><td><div class="tag-decoration-latest">latest</div><div id="tag15059" onclick="CopyToClipboard('tag15059');return false;" class="tag-decoration">release</div><div id="tag28790" onclick="CopyToClipboard('tag28790');return false;" class="tag-decoration">release-f8256f8</div><div id="tag30217" onclick="CopyToClipboard('tag30217');return false;" class="tag-decoration">release-25.4</div></td><td>Releases</td><td><a href="https://github.com/hotio/nzbget/commit/f8256f8c916833c75bc4117c51bfce5a11417419" target="_blank">Upstream update: alpinevpn-6f109b5 => alpinevpn-489d5d6</a></td><td><a href="https://github.com/hotio/nzbget/actions/runs/21243354993" target="_blank">2026-01-22 09:35:09</a></td></tr>
+<tr><td><div class="tag-decoration-latest">latest</div><div id="tag30553" onclick="CopyToClipboard('tag30553');return false;" class="tag-decoration">release</div><div id="tag239" onclick="CopyToClipboard('tag239');return false;" class="tag-decoration">release-35cac61</div><div id="tag23097" onclick="CopyToClipboard('tag23097');return false;" class="tag-decoration">release-25.4</div></td><td>Releases</td><td><a href="https://github.com/hotio/nzbget/commit/35cac616470983a11044275f7314a1ddf95b23a6" target="_blank">Upstream update: alpinevpn-489d5d6 => alpinevpn-5648cae</a></td><td><a href="https://github.com/hotio/nzbget/actions/runs/21244700618" target="_blank">2026-01-22 10:19:12</a></td></tr>
 </tbody>
   </table>
 </div>
