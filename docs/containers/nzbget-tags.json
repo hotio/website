@@ -1,15 +1,15 @@
 {
   "release": {
-    "commit_message": "Upstream update: alpinevpn-2c8fbe3 => alpinevpn-6f109b5",
-    "commit_sha": "afd1a50ddcb6234164e67b76eb20221f5f5c0ace",
+    "commit_message": "Upstream update: alpinevpn-6f109b5 => alpinevpn-489d5d6",
+    "commit_sha": "f8256f8c916833c75bc4117c51bfce5a11417419",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-01-22T06:02:59.000Z",
-    "last_updated_url": "https://github.com/hotio/nzbget/actions/runs/21237944883",
+    "last_updated": "2026-01-22T09:35:09.000Z",
+    "last_updated_url": "https://github.com/hotio/nzbget/actions/runs/21243354993",
     "tags": [
       "latest",
       "release",
-      "release-afd1a50",
+      "release-f8256f8",
       "release-25.4",
       "",
       "",
