@@ -17,16 +17,16 @@
     ]
   },
   "noblevpn": {
-    "commit_message": "partial revert previous commit",
-    "commit_sha": "021f84840af401d38a267ba484038105625f8249",
+    "commit_message": "remove validated file from base",
+    "commit_sha": "2aef8115ab1308743bdfef397753a61362fc7901",
     "description": "Ubuntu 24.04",
     "hide": false,
-    "last_updated": "2026-01-22T10:15:34.000Z",
-    "last_updated_url": "https://github.com/hotio/base/actions/runs/21244590159",
+    "last_updated": "2026-01-22T11:25:07.000Z",
+    "last_updated_url": "https://github.com/hotio/base/actions/runs/21246646488",
     "tags": [
       "",
       "noblevpn",
-      "noblevpn-021f848",
+      "noblevpn-2aef811",
       "",
       "",
       "",
