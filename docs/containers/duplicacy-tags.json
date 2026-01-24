@@ -17,16 +17,16 @@
     ]
   },
   "testing": {
-    "commit_message": "Upstream update: alpinevpn-5648cae => alpinevpn-3f254df",
-    "commit_sha": "00d3ea952f20b9ee831b135fe9ba138d55fac43d",
+    "commit_message": "Upstream update: alpinevpn-3f254df => alpinevpn-d7cd40a",
+    "commit_sha": "429541b52d3cb47f5a2fc5885c3100a12fff40c4",
     "description": "Latest",
     "hide": false,
-    "last_updated": "2026-01-22T11:28:50.000Z",
-    "last_updated_url": "https://github.com/hotio/duplicacy/actions/runs/21246748905",
+    "last_updated": "2026-01-24T22:14:10.000Z",
+    "last_updated_url": "https://github.com/hotio/duplicacy/actions/runs/21322447592",
     "tags": [
       "",
       "testing",
-      "testing-00d3ea9",
+      "testing-429541b",
       "testing-1.8.3",
       "testing-v1",
       "testing-v1.8",
