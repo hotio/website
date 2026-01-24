@@ -1,15 +1,15 @@
 {
   "alpinevpn": {
-    "commit_message": "remove validated file from base",
-    "commit_sha": "3f254df549557e4b62f8d141039603fbf6598f27",
+    "commit_message": "Version update",
+    "commit_sha": "d7cd40aa00bdc73ccdfe304bffe5d4dc7c8a52ab",
     "description": "Alpine 3.22",
     "hide": false,
-    "last_updated": "2026-01-22T11:24:49.000Z",
-    "last_updated_url": "https://github.com/hotio/base/actions/runs/21246638051",
+    "last_updated": "2026-01-24T21:22:27.000Z",
+    "last_updated_url": "https://github.com/hotio/base/actions/runs/21321822378",
     "tags": [
       "",
       "alpinevpn",
-      "alpinevpn-3f254df",
+      "alpinevpn-d7cd40a",
       "",
       "",
       "",
