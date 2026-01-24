@@ -1,15 +1,15 @@
 {
   "release": {
-    "commit_message": "Upstream update: alpinevpn-5648cae => alpinevpn-3f254df",
-    "commit_sha": "4a5b18d41ba35424076c290e96f0d514134df6ad",
+    "commit_message": "Upstream update: alpinevpn-3f254df => alpinevpn-d7cd40a",
+    "commit_sha": "9286cac71ef43de1ec54dc24fca8fb2a9e554bb3",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-01-22T11:28:47.000Z",
-    "last_updated_url": "https://github.com/hotio/doplarr/actions/runs/21246747933",
+    "last_updated": "2026-01-24T22:14:07.000Z",
+    "last_updated_url": "https://github.com/hotio/doplarr/actions/runs/21322446844",
     "tags": [
       "latest",
       "release",
-      "release-4a5b18d",
+      "release-9286cac",
       "release-3.7.0",
       "release-v3",
       "release-v3.7",
