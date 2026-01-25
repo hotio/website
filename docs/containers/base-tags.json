@@ -1,15 +1,15 @@
 {
   "alpinevpn": {
-    "commit_message": "Version update",
-    "commit_sha": "d7cd40aa00bdc73ccdfe304bffe5d4dc7c8a52ab",
+    "commit_message": "fix VPN_INTERFACE_PREFIXES due to change in S6 behaviour",
+    "commit_sha": "46fe99f24b86f8bc52d57192209b56aa1161e38c",
     "description": "Alpine 3.22",
     "hide": false,
-    "last_updated": "2026-01-24T21:22:27.000Z",
-    "last_updated_url": "https://github.com/hotio/base/actions/runs/21321822378",
+    "last_updated": "2026-01-25T01:26:02.000Z",
+    "last_updated_url": "https://github.com/hotio/base/actions/runs/21324760925",
     "tags": [
       "",
       "alpinevpn",
-      "alpinevpn-d7cd40a",
+      "alpinevpn-46fe99f",
       "",
       "",
       "",
