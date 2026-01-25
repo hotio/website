@@ -17,16 +17,16 @@
     ]
   },
   "noblevpn": {
-    "commit_message": "Version update",
-    "commit_sha": "83546e7f7aff63a5c23d4615830f028d94586805",
+    "commit_message": "fix VPN_INTERFACE_PREFIXES due to change in S6 behaviour",
+    "commit_sha": "aac85c0310995534b3d7e2d1bfa9b7eee28df58e",
     "description": "Ubuntu 24.04",
     "hide": false,
-    "last_updated": "2026-01-24T21:22:29.000Z",
-    "last_updated_url": "https://github.com/hotio/base/actions/runs/21321822683",
+    "last_updated": "2026-01-25T01:26:24.000Z",
+    "last_updated_url": "https://github.com/hotio/base/actions/runs/21324765025",
     "tags": [
       "",
       "noblevpn",
-      "noblevpn-83546e7",
+      "noblevpn-aac85c0",
       "",
       "",
       "",
