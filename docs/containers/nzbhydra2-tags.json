@@ -17,16 +17,16 @@
     ]
   },
   "testing": {
-    "commit_message": "Upstream update: noblevpn-83546e7 => noblevpn-aac85c0",
-    "commit_sha": "4886b6ec3e0256cdb43fac4cb40f4c95b1de8039",
+    "commit_message": "Upstream update: noblevpn-aac85c0 => noblevpn-8ba830a",
+    "commit_sha": "1964e3e48a583f18a09d64cf33fb3afd7ceafbba",
     "description": "Pre-releases",
     "hide": false,
-    "last_updated": "2026-01-25T01:32:52.000Z",
-    "last_updated_url": "https://github.com/hotio/nzbhydra2/actions/runs/21324840266",
+    "last_updated": "2026-01-26T10:20:30.000Z",
+    "last_updated_url": "https://github.com/hotio/nzbhydra2/actions/runs/21354169715",
     "tags": [
       "",
       "testing",
-      "testing-4886b6e",
+      "testing-1964e3e",
       "testing-8.3.0",
       "testing-v8",
       "testing-v8.3",
