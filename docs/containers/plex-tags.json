@@ -1,15 +1,15 @@
 {
   "release": {
-    "commit_message": "Upstream update: noblevpn-83546e7 => noblevpn-aac85c0",
-    "commit_sha": "0ffd2934b9c83b08944ee0b0ef0f3c0e894f446d",
+    "commit_message": "Upstream update: noblevpn-aac85c0 => noblevpn-8ba830a",
+    "commit_sha": "aec6a5f659094b98bdb06ab0d0c87a00d9577a08",
     "description": "Stable",
     "hide": false,
-    "last_updated": "2026-01-25T01:55:18.000Z",
-    "last_updated_url": "https://github.com/hotio/plex/actions/runs/21325101053",
+    "last_updated": "2026-01-26T10:20:33.000Z",
+    "last_updated_url": "https://github.com/hotio/plex/actions/runs/21354171424",
     "tags": [
       "latest",
       "release",
-      "release-0ffd293",
+      "release-aec6a5f",
       "release-1.42.2.10156-f737b826c",
       "",
       "",
