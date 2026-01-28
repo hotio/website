@@ -17,16 +17,16 @@
     ]
   },
   "release": {
-    "commit_message": "Upstream update: noblevpn-aac85c0 => noblevpn-8ba830a",
-    "commit_sha": "f0be321300b300da7363248217b580ed4f592370",
+    "commit_message": "Upstream update: noblevpn-8ba830a => noblevpn-b1148ef",
+    "commit_sha": "64e2517688330415d9b6b5f8e09b12273d17f0df",
     "description": "Stable",
     "hide": false,
-    "last_updated": "2026-01-26T10:20:21.000Z",
-    "last_updated_url": "https://github.com/hotio/jellyfin/actions/runs/21354165848",
+    "last_updated": "2026-01-28T07:14:30.000Z",
+    "last_updated_url": "https://github.com/hotio/jellyfin/actions/runs/21428844236",
     "tags": [
       "latest",
       "release",
-      "release-f0be321",
+      "release-64e2517",
       "release-10.11.6",
       "release-v10",
       "release-v10.11",
