@@ -17,16 +17,16 @@
     ]
   },
   "release": {
-    "commit_message": "Upstream update: alpinevpn-7ce2a5c => alpinevpn-24b1ed4",
-    "commit_sha": "e8fa3524f8a266a77d82cb2a9a4ae7d4a7c4f86d",
+    "commit_message": "Upstream update: alpinevpn-24b1ed4 => alpinevpn-e5bbee4",
+    "commit_sha": "be8dbeb260746ea2bede1e064d21c5acddf2534d",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-01-28T05:23:49.000Z",
-    "last_updated_url": "https://github.com/hotio/unpackerr/actions/runs/21426218825",
+    "last_updated": "2026-01-28T07:15:42.000Z",
+    "last_updated_url": "https://github.com/hotio/unpackerr/actions/runs/21428875994",
     "tags": [
       "latest",
       "release",
-      "release-e8fa352",
+      "release-be8dbeb",
       "release-0.14.5",
       "release-v0",
       "release-v0.14",
