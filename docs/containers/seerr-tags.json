@@ -1,15 +1,15 @@
 {
   "nightly": {
-    "commit_message": "Version update: 127a91ca9c8048a4cbafe5c5d1cbc18706bfd820 => 5bd31040c06e555e3a7c93c3af526dd70699974f",
-    "commit_sha": "56a59745b6834b1f90fa87ff6f6d086d0f77442c",
+    "commit_message": "Upstream update: alpinevpn-7ce2a5c => alpinevpn-24b1ed4",
+    "commit_sha": "959a7ad3070934882d6938a7e4868f85c96ff7c4",
     "description": "Every commit to develop",
     "hide": false,
-    "last_updated": "2026-01-27T22:27:48.000Z",
-    "last_updated_url": "https://github.com/hotio/seerr/actions/runs/21416683007",
+    "last_updated": "2026-01-28T05:23:37.000Z",
+    "last_updated_url": "https://github.com/hotio/seerr/actions/runs/21426214362",
     "tags": [
       "",
       "nightly",
-      "nightly-56a5974",
+      "nightly-959a7ad",
       "nightly-5bd31040c06e555e3a7c93c3af526dd70699974f",
       "",
       "",
