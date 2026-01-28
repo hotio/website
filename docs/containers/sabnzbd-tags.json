@@ -17,16 +17,16 @@
     ]
   },
   "release": {
-    "commit_message": "Upstream update: alpinevpn-46fe99f => alpinevpn-7ce2a5c",
-    "commit_sha": "9fe17d263a677e133380a75b7f672e943c6b7036",
+    "commit_message": "Upstream update: alpinevpn-7ce2a5c => alpinevpn-24b1ed4",
+    "commit_sha": "3212861922fab87a0a840343b98c5e528fbcc22a",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-01-26T10:20:52.000Z",
-    "last_updated_url": "https://github.com/hotio/sabnzbd/actions/runs/21354180383",
+    "last_updated": "2026-01-28T05:23:35.000Z",
+    "last_updated_url": "https://github.com/hotio/sabnzbd/actions/runs/21426213731",
     "tags": [
       "latest",
       "release",
-      "release-9fe17d2",
+      "release-3212861",
       "release-4.5.5",
       "release-v4",
       "release-v4.5",
