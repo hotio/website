@@ -1,15 +1,15 @@
 {
   "alpinevpn": {
-    "commit_message": "Upstream digest update",
-    "commit_sha": "24b1ed4f245e40d4af0df4570102583984d88fab",
+    "commit_message": "fix: jq not seeing not exported env var",
+    "commit_sha": "e5bbee4e7ad4d8d3de6a84988fa92045a0b9962d",
     "description": "Alpine 3.22",
     "hide": false,
-    "last_updated": "2026-01-28T04:39:08.000Z",
-    "last_updated_url": "https://github.com/hotio/base/actions/runs/21425263457",
+    "last_updated": "2026-01-28T07:09:12.000Z",
+    "last_updated_url": "https://github.com/hotio/base/actions/runs/21428696079",
     "tags": [
       "",
       "alpinevpn",
-      "alpinevpn-24b1ed4",
+      "alpinevpn-e5bbee4",
       "",
       "",
       "",
