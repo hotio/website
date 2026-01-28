@@ -1,16 +1,16 @@
 {
   "release": {
-    "commit_message": "",
-    "commit_sha": "22314e1c05d4576b7c1257553dd9d363ce846711",
+    "commit_message": "Upstream digest update",
+    "commit_sha": "ea9e99cc931e95d1ce78bcb2fbeca09344133461",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2025-12-20T07:15:59.000Z",
-    "last_updated_url": "https://github.com/hotio/mergerfs/actions/runs/20691128205",
+    "last_updated": "2026-01-28T04:39:15.000Z",
+    "last_updated_url": "https://github.com/hotio/mergerfs/actions/runs/21425265559",
     "tags": [
       "latest",
       "release",
+      "release-ea9e99c",
       "release-2.41.1",
-      "release-22314e1",
       "release-v2",
       "release-v2.41",
       "release-v2.41.1"
