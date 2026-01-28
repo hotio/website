@@ -17,16 +17,16 @@
     ]
   },
   "release": {
-    "commit_message": "Upstream update: alpinevpn-46fe99f => alpinevpn-7ce2a5c",
-    "commit_sha": "05ef9c399b294d342f9dcd11cfb516430cb59d80",
+    "commit_message": "Upstream update: alpinevpn-7ce2a5c => alpinevpn-24b1ed4",
+    "commit_sha": "dc207d9d4e94d2246500a8ef297ca4ec5c52064b",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-01-26T10:20:56.000Z",
-    "last_updated_url": "https://github.com/hotio/seerr/actions/runs/21354181861",
+    "last_updated": "2026-01-28T05:23:38.000Z",
+    "last_updated_url": "https://github.com/hotio/seerr/actions/runs/21426215099",
     "tags": [
       "latest",
       "release",
-      "release-05ef9c3",
+      "release-dc207d9",
       "release-2.7.3",
       "release-v2",
       "release-v2.7",
