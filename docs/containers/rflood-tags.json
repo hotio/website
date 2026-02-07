@@ -1,15 +1,15 @@
 {
   "release": {
-    "commit_message": "Upstream update: alpinevpn-24b1ed4 => alpinevpn-e5bbee4",
-    "commit_sha": "7e3e20882d47cc336928edd40ef13cc3985964ab",
+    "commit_message": "Version update: 0.16.6 => 0.16.6",
+    "commit_sha": "ec52ddf36ca6a53dd5da4b6c65498365a77b9386",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-01-28T07:15:16.000Z",
-    "last_updated_url": "https://github.com/hotio/rflood/actions/runs/21428864567",
+    "last_updated": "2026-02-07T08:38:45.000Z",
+    "last_updated_url": "https://github.com/hotio/rflood/actions/runs/21777310778",
     "tags": [
       "latest",
       "release",
-      "release-7e3e208",
+      "release-ec52ddf",
       "release-0.16.6",
       "release-v0",
       "release-v0.16",
