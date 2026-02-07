@@ -1,20 +1,4 @@
 {
-  "legacy": {
-    "commit_message": "FINAL UPDATE",
-    "commit_sha": "3adbd92f33b962f7e616331b0884a0edc375403a",
-    "description": "Fixed to v4.3.9",
-    "hide": false,
-    "last_updated": "2026-01-11T14:11:19.000Z",
-    "last_updated_url": "https://github.com/hotio/qbittorrent/actions/runs/20896485456",
-    "tags": [
-      "legacy",
-      "legacy-4.3.9",
-      "legacy-3adbd92",
-      "legacy-v4",
-      "legacy-v4.3",
-      "legacy-v4.3.9"
-    ]
-  },
   "release": {
     "commit_message": "Version update: 5.1.4 => 5.1.4",
     "commit_sha": "f7e0f9eca1124095eb0e455e495b71e64a77a461",
