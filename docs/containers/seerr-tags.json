@@ -17,20 +17,20 @@
     ]
   },
   "release": {
-    "commit_message": "Version update: 3.0.0 => 2.7.3",
-    "commit_sha": "cc619ca6fd33e14bf7ef2e2df0bc2d801abab3b2",
+    "commit_message": "Merge pull request #1 from ineednewpajamas/pnpm_bump\n\nBump pnpm to 10",
+    "commit_sha": "dd2cc609dbdff03b4a0438321335a3e6be0bd143",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-02-14T18:00:43.000Z",
-    "last_updated_url": "https://github.com/hotio/seerr/actions/runs/22021840671",
+    "last_updated": "2026-02-15T00:07:51.000Z",
+    "last_updated_url": "https://github.com/hotio/seerr/actions/runs/22026546446",
     "tags": [
       "latest",
       "release",
-      "release-cc619ca",
-      "release-2.7.3",
-      "release-v2",
-      "release-v2.7",
-      "release-v2.7.3"
+      "release-dd2cc60",
+      "release-3.0.1",
+      "release-v3",
+      "release-v3.0",
+      "release-v3.0.1"
     ]
   }
 }
