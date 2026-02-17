@@ -17,16 +17,16 @@
     ]
   },
   "noblevpn": {
-    "commit_message": "fix: jq not seeing not exported env var",
-    "commit_sha": "b1148ef2388abc75a231992bd71ddf03ae75d0da",
+    "commit_message": "Upstream digest update",
+    "commit_sha": "f921142fbbc8828fcc4322c59c2be68481aaf406",
     "description": "Ubuntu 24.04",
     "hide": false,
-    "last_updated": "2026-01-28T07:09:37.000Z",
-    "last_updated_url": "https://github.com/hotio/base/actions/runs/21428705743",
+    "last_updated": "2026-02-17T21:28:39.000Z",
+    "last_updated_url": "https://github.com/hotio/base/actions/runs/22116393045",
     "tags": [
       "",
       "noblevpn",
-      "noblevpn-b1148ef",
+      "noblevpn-f921142",
       "",
       "",
       "",
