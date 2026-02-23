@@ -1,15 +1,15 @@
 {
   "alpinevpn": {
-    "commit_message": "fix: jq not seeing not exported env var",
-    "commit_sha": "e5bbee4e7ad4d8d3de6a84988fa92045a0b9962d",
+    "commit_message": "shutdown container if PIA port forwarding request fails multiple times",
+    "commit_sha": "3cc2763aac7c0fa43be909b07459cfd6b240c132",
     "description": "Alpine 3.22",
     "hide": false,
-    "last_updated": "2026-01-28T07:09:12.000Z",
-    "last_updated_url": "https://github.com/hotio/base/actions/runs/21428696079",
+    "last_updated": "2026-02-23T03:25:01.000Z",
+    "last_updated_url": "https://github.com/hotio/base/actions/runs/22291812029",
     "tags": [
       "",
       "alpinevpn",
-      "alpinevpn-e5bbee4",
+      "alpinevpn-3cc2763",
       "",
       "",
       "",
