@@ -17,16 +17,16 @@
     ]
   },
   "release": {
-    "commit_message": "Merge pull request #1 from ineednewpajamas/pnpm_bump\n\nBump pnpm to 10",
-    "commit_sha": "dd2cc609dbdff03b4a0438321335a3e6be0bd143",
+    "commit_message": "Upstream update: alpinevpn-e5bbee4 => alpinevpn-9abb66b",
+    "commit_sha": "ee64b067380776071f115c0f1cee0d61a9960005",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-02-15T00:07:51.000Z",
-    "last_updated_url": "https://github.com/hotio/seerr/actions/runs/22026546446",
+    "last_updated": "2026-02-23T03:44:23.000Z",
+    "last_updated_url": "https://github.com/hotio/seerr/actions/runs/22292138291",
     "tags": [
       "latest",
       "release",
-      "release-dd2cc60",
+      "release-ee64b06",
       "release-3.0.1",
       "release-v3",
       "release-v3.0",
