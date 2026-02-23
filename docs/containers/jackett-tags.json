@@ -1,19 +1,19 @@
 {
   "release": {
-    "commit_message": "Upstream update: alpinevpn-e5bbee4 => alpinevpn-9abb66b",
-    "commit_sha": "034f702cd2a0b0ef7fa487d0d4a0ee29689812de",
+    "commit_message": "Version update: 0.24.1178 => 0.24.1184",
+    "commit_sha": "c2a1ba4e7a2dec5392c1f6e1362ed070ae8b881a",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-02-23T03:43:26.000Z",
-    "last_updated_url": "https://github.com/hotio/jackett/actions/runs/22292121545",
+    "last_updated": "2026-02-23T06:17:12.000Z",
+    "last_updated_url": "https://github.com/hotio/jackett/actions/runs/22295084944",
     "tags": [
       "latest",
       "release",
-      "release-034f702",
-      "release-0.24.1178",
+      "release-c2a1ba4",
+      "release-0.24.1184",
       "release-v0",
       "release-v0.24",
-      "release-v0.24.1178"
+      "release-v0.24.1184"
     ]
   },
   "testing": {
