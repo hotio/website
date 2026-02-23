@@ -1,15 +1,15 @@
 {
   "release": {
-    "commit_message": "Upstream update: noblevpn-b1148ef => noblevpn-f921142",
-    "commit_sha": "490dba96881850cbe362d85189ccd9d25939ab15",
+    "commit_message": "Upstream update: noblevpn-f921142 => noblevpn-c3daa84",
+    "commit_sha": "4e3ce4fabe3da14902a964c151aa54b54b223c93",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-02-17T22:24:03.000Z",
-    "last_updated_url": "https://github.com/hotio/nzbhydra2/actions/runs/22118117643",
+    "last_updated": "2026-02-23T03:43:44.000Z",
+    "last_updated_url": "https://github.com/hotio/nzbhydra2/actions/runs/22292126863",
     "tags": [
       "latest",
       "release",
-      "release-490dba9",
+      "release-4e3ce4f",
       "release-8.5.1",
       "release-v8",
       "release-v8.5",
