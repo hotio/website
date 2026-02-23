@@ -17,16 +17,16 @@
     ]
   },
   "noblevpn": {
-    "commit_message": "Upstream digest update",
-    "commit_sha": "f921142fbbc8828fcc4322c59c2be68481aaf406",
+    "commit_message": "shutdown container if PIA port forwarding request fails multiple times",
+    "commit_sha": "ce3e763dc13c5169c4b01d8395f2b582872758f7",
     "description": "Ubuntu 24.04",
     "hide": false,
-    "last_updated": "2026-02-17T21:28:39.000Z",
-    "last_updated_url": "https://github.com/hotio/base/actions/runs/22116393045",
+    "last_updated": "2026-02-23T03:25:20.000Z",
+    "last_updated_url": "https://github.com/hotio/base/actions/runs/22291816295",
     "tags": [
       "",
       "noblevpn",
-      "noblevpn-f921142",
+      "noblevpn-ce3e763",
       "",
       "",
       "",
