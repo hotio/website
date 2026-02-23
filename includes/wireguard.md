@@ -2,7 +2,7 @@
 
 !!! info
 
-    This image includes VPN support. The cli/compose examples below are environment variables and settings complementary to the app image examples, this means you'll have to add/merge the stuff below with the stuff above, if you need VPN support (otherwise ignore). Don't forget to click the :material-information: symbol for more info.
+    This image includes VPN support. The cli/compose examples below are environment variables and settings complementary to the app image examples. This means you'll have to add/merge the stuff below with the stuff above, if you need VPN support (otherwise ignore). Don't forget to click the :material-information: symbol for more info.
     
     Useful website to check for open ports is [portchecker.io](https://portchecker.io){ target="_blank" rel="noopener" } and [ipleak.net](https://ipleak.net){ target="_blank" rel="noopener" } to leak test with a `.torrent` file.
     
