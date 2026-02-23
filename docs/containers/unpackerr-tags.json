@@ -1,15 +1,15 @@
 {
   "nightly": {
-    "commit_message": "Version update: 407c550dc565191a62b9c8ed3bd2dc651c52c6d1 => 1939b48abc8630a0f832381f5f83f508d3ed815b",
-    "commit_sha": "8cb277c81285b85937d12561f399130adebba21f",
+    "commit_message": "Upstream update: alpinevpn-e5bbee4 => alpinevpn-9abb66b",
+    "commit_sha": "20bf2a80e0d4a17152b980ea744c5458bab09b36",
     "description": "Every commit to master",
     "hide": false,
-    "last_updated": "2026-02-20T07:16:07.000Z",
-    "last_updated_url": "https://github.com/hotio/unpackerr/actions/runs/22215082536",
+    "last_updated": "2026-02-23T03:44:39.000Z",
+    "last_updated_url": "https://github.com/hotio/unpackerr/actions/runs/22292142691",
     "tags": [
       "",
       "nightly",
-      "nightly-8cb277c",
+      "nightly-20bf2a8",
       "nightly-1939b48abc8630a0f832381f5f83f508d3ed815b",
       "",
       "",
