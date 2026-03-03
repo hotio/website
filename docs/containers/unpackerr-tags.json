@@ -1,16 +1,16 @@
 {
   "nightly": {
-    "commit_message": "Version update: d83d76922f52da31f8d6be926b838aaa0166c10b => 7b1894597a719e807de9d3a6650c928e6a5e85ae",
-    "commit_sha": "404b238d51eb8dd36109c6c00b8566e1c954a86f",
+    "commit_message": "Version update: 7b1894597a719e807de9d3a6650c928e6a5e85ae => 297636534e4685c942868bc6a2b8ba52abba0127",
+    "commit_sha": "ab7358793f13dfd368afe753d69bcedcf47b5275",
     "description": "Every commit to master",
     "hide": false,
-    "last_updated": "2026-03-03T22:35:27.000Z",
-    "last_updated_url": "https://github.com/hotio/unpackerr/actions/runs/22645911495",
+    "last_updated": "2026-03-03T23:37:30.000Z",
+    "last_updated_url": "https://github.com/hotio/unpackerr/actions/runs/22647835158",
     "tags": [
       "",
       "nightly",
-      "nightly-404b238",
-      "nightly-7b1894597a719e807de9d3a6650c928e6a5e85ae",
+      "nightly-ab73587",
+      "nightly-297636534e4685c942868bc6a2b8ba52abba0127",
       "",
       "",
       ""
