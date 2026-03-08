@@ -34,20 +34,20 @@
     ]
   },
   "testing": {
-    "commit_message": "Version update: 0.14.5 => 0.15.0",
-    "commit_sha": "9a7bc55e1bd9c99839c9f52e4cd5adeee1498b35",
+    "commit_message": "Version update: 0.15.0 => 0.15.2",
+    "commit_sha": "5845218ff998138f18abf6857a6b8952b1a41b81",
     "description": "Pre-releases",
     "hide": false,
-    "last_updated": "2026-03-02T05:39:58.000Z",
-    "last_updated_url": "https://github.com/hotio/unpackerr/actions/runs/22563010421",
+    "last_updated": "2026-03-08T20:33:33.000Z",
+    "last_updated_url": "https://github.com/hotio/unpackerr/actions/runs/22829298045",
     "tags": [
       "",
       "testing",
-      "testing-9a7bc55",
-      "testing-0.15.0",
+      "testing-5845218",
+      "testing-0.15.2",
       "testing-v0",
       "testing-v0.15",
-      "testing-v0.15.0"
+      "testing-v0.15.2"
     ]
   }
 }
