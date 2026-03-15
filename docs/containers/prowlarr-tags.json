@@ -34,17 +34,17 @@
     ]
   },
   "testing": {
-    "commit_message": "Version update: 2.3.2.5245 => 2.3.3.5296",
-    "commit_sha": "01f488e25c5c0b01b3d053fc51fe5d751620bb2e",
+    "commit_message": "Version update: 2.3.3.5296 => 2.3.4.5307",
+    "commit_sha": "930acb075125bea28117e3b2e3618da3219357bd",
     "description": "develop",
     "hide": false,
-    "last_updated": "2026-03-08T18:49:07.000Z",
-    "last_updated_url": "https://github.com/hotio/prowlarr/actions/runs/22827497172",
+    "last_updated": "2026-03-15T13:57:58.000Z",
+    "last_updated_url": "https://github.com/hotio/prowlarr/actions/runs/23111836145",
     "tags": [
       "",
       "testing",
-      "testing-01f488e",
-      "testing-2.3.3.5296",
+      "testing-930acb0",
+      "testing-2.3.4.5307",
       "",
       "",
       ""
