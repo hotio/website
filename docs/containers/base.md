@@ -18,8 +18,8 @@ title: hotio/base
       </tr>
     </thead>
     <tbody id="tags-table-body">
-<tr><td><div id="tag2917" onclick="CopyToClipboard('tag2917');return false;" class="tag-decoration">alpinevpn</div><div id="tag27770" onclick="CopyToClipboard('tag27770');return false;" class="tag-decoration">alpinevpn-9abb66b</div></td><td>Alpine 3.22</td><td><a href="https://github.com/hotio/base/commit/9abb66b6e23413cb593e776304f2f3ca25ace926" target="_blank">use 4 spaces</a></td><td><a href="https://github.com/hotio/base/actions/runs/22291864406" target="_blank">2026-02-23 03:28:06</a></td></tr>
-<tr><td><div id="tag265" onclick="CopyToClipboard('tag265');return false;" class="tag-decoration">noblevpn</div><div id="tag16013" onclick="CopyToClipboard('tag16013');return false;" class="tag-decoration">noblevpn-c3daa84</div></td><td>Ubuntu 24.04</td><td><a href="https://github.com/hotio/base/commit/c3daa8449b580081384179a9d4b67f93ce1f00ad" target="_blank">use 4 spaces</a></td><td><a href="https://github.com/hotio/base/actions/runs/22291858571" target="_blank">2026-02-23 03:27:45</a></td></tr>
+<tr><td><div id="tag4787" onclick="CopyToClipboard('tag4787');return false;" class="tag-decoration">alpinevpn</div><div id="tag11005" onclick="CopyToClipboard('tag11005');return false;" class="tag-decoration">alpinevpn-9abb66b</div></td><td>Alpine 3.22</td><td><a href="https://github.com/hotio/base/commit/9abb66b6e23413cb593e776304f2f3ca25ace926" target="_blank">use 4 spaces</a></td><td><a href="https://github.com/hotio/base/actions/runs/22291864406" target="_blank">2026-02-23 03:28:06</a></td></tr>
+<tr><td><div id="tag3100" onclick="CopyToClipboard('tag3100');return false;" class="tag-decoration">noblevpn</div><div id="tag10352" onclick="CopyToClipboard('tag10352');return false;" class="tag-decoration">noblevpn-3867c07</div></td><td>Ubuntu 24.04</td><td><a href="https://github.com/hotio/base/commit/3867c07a6a29cb2b5456dc500fb58ecdcad1f992" target="_blank">Upstream digest update</a></td><td><a href="https://github.com/hotio/base/actions/runs/23178040487" target="_blank">2026-03-17 04:11:22</a></td></tr>
 </tbody>
   </table>
 </div>

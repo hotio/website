@@ -17,16 +17,16 @@
     ]
   },
   "noblevpn": {
-    "commit_message": "use 4 spaces",
-    "commit_sha": "c3daa8449b580081384179a9d4b67f93ce1f00ad",
+    "commit_message": "Upstream digest update",
+    "commit_sha": "3867c07a6a29cb2b5456dc500fb58ecdcad1f992",
     "description": "Ubuntu 24.04",
     "hide": false,
-    "last_updated": "2026-02-23T03:27:45.000Z",
-    "last_updated_url": "https://github.com/hotio/base/actions/runs/22291858571",
+    "last_updated": "2026-03-17T04:11:22.000Z",
+    "last_updated_url": "https://github.com/hotio/base/actions/runs/23178040487",
     "tags": [
       "",
       "noblevpn",
-      "noblevpn-c3daa84",
+      "noblevpn-3867c07",
       "",
       "",
       "",
