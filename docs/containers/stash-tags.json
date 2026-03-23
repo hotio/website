@@ -1,16 +1,16 @@
 {
   "nightly": {
-    "commit_message": "Version update: 2bb1df84437d09775cf859644826aacafc9de99e => b4c7ad4b8120f28364ae9d7d6a5858cf5994d8f0",
-    "commit_sha": "22f984fa9eb9a094a04baaf7e91968ce5b387d69",
+    "commit_message": "Version update: b4c7ad4b8120f28364ae9d7d6a5858cf5994d8f0 => 2e48dbfc634b29805e7a784fc095db0c1815a70b",
+    "commit_sha": "ee3790eb33c9f821afdb50ac333b485e3809e81e",
     "description": "Unstable",
     "hide": false,
-    "last_updated": "2026-03-23T05:41:58.000Z",
-    "last_updated_url": "https://github.com/hotio/stash/actions/runs/23423220105",
+    "last_updated": "2026-03-23T06:52:18.000Z",
+    "last_updated_url": "https://github.com/hotio/stash/actions/runs/23425116206",
     "tags": [
       "",
       "nightly",
-      "nightly-22f984f",
-      "nightly-b4c7ad4b8120f28364ae9d7d6a5858cf5994d8f0",
+      "nightly-ee3790e",
+      "nightly-2e48dbfc634b29805e7a784fc095db0c1815a70b",
       "",
       "",
       ""
