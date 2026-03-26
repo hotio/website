@@ -34,17 +34,17 @@
     ]
   },
   "testing": {
-    "commit_message": "Upstream update: alpinevpn-e5bbee4 => alpinevpn-9abb66b",
-    "commit_sha": "f4e2c5963c4fa163790fdbd24e5666619e279755",
+    "commit_message": "Version update: 6.1.1.10317 => 6.1.2.10359",
+    "commit_sha": "54aa31a3b98c33b0d0533a66c2a6fb4c0e08f904",
     "description": "develop",
     "hide": false,
-    "last_updated": "2026-02-23T03:44:10.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/22292134580",
+    "last_updated": "2026-03-26T12:03:15.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/23593274772",
     "tags": [
       "",
       "testing",
-      "testing-f4e2c59",
-      "testing-6.1.1.10317",
+      "testing-54aa31a",
+      "testing-6.1.2.10359",
       "",
       "",
       ""
