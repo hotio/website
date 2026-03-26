@@ -1,16 +1,16 @@
 {
   "nightly": {
-    "commit_message": "Version update: 02c8d247fb7285cd0d6ee774f191413c12c55abb => f754c43e8217990dd1372c1477b46c269a6d4bf1",
-    "commit_sha": "064818244bb0586d0c6347bb581d044f8d56e1fe",
+    "commit_message": "Version update: f754c43e8217990dd1372c1477b46c269a6d4bf1 => 723724d19db9a78381b1d6f3eb5124fbd73c22e7",
+    "commit_sha": "fd1ccbfaf4310d7a79890d6819a7f37cd6dacf96",
     "description": "Every commit to develop",
     "hide": false,
-    "last_updated": "2026-03-26T12:03:07.000Z",
-    "last_updated_url": "https://github.com/hotio/qbitmanage/actions/runs/23593269282",
+    "last_updated": "2026-03-26T14:00:29.000Z",
+    "last_updated_url": "https://github.com/hotio/qbitmanage/actions/runs/23598400005",
     "tags": [
       "",
       "nightly",
-      "nightly-0648182",
-      "nightly-f754c43e8217990dd1372c1477b46c269a6d4bf1",
+      "nightly-fd1ccbf",
+      "nightly-723724d19db9a78381b1d6f3eb5124fbd73c22e7",
       "",
       "",
       ""
