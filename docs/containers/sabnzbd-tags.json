@@ -1,16 +1,16 @@
 {
   "nightly": {
-    "commit_message": "Version update: 706dddcac9424ec07fac14e3114c3ddec45282a7 => 4ea496ea6fc8f2edc8fa99ef63babf61f493ad9f",
-    "commit_sha": "06a887a3ae3e948f7d1466fef22c34e1caee4dbd",
+    "commit_message": "Version update: 4ea496ea6fc8f2edc8fa99ef63babf61f493ad9f => 2d6880cff34f33e1bbd57f10673be873f3ca4589",
+    "commit_sha": "b8709239a586a5dfca2491aaa8f841ce828163cf",
     "description": "Every commit to develop",
     "hide": false,
-    "last_updated": "2026-04-03T13:39:24.000Z",
-    "last_updated_url": "https://github.com/hotio/sabnzbd/actions/runs/23948176658",
+    "last_updated": "2026-04-06T07:52:08.000Z",
+    "last_updated_url": "https://github.com/hotio/sabnzbd/actions/runs/24023820081",
     "tags": [
       "",
       "nightly",
-      "nightly-06a887a",
-      "nightly-4ea496ea6fc8f2edc8fa99ef63babf61f493ad9f",
+      "nightly-b870923",
+      "nightly-2d6880cff34f33e1bbd57f10673be873f3ca4589",
       "",
       "",
       ""
