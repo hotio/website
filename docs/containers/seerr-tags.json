@@ -1,16 +1,16 @@
 {
   "nightly": {
-    "commit_message": "Version update: a1339307e18647c936e8eccbb2f6c842f771e7ed => 9c4c674dc9e4eb8e63ddbc58c03817d8a5dfdc9f",
-    "commit_sha": "fb56f51bd9582f297116cb40fb96be57ed50083f",
+    "commit_message": "Version update: 9c4c674dc9e4eb8e63ddbc58c03817d8a5dfdc9f => 891265fbfe75d01c492c15cb0892a20c0b92b85a",
+    "commit_sha": "6ea783f1cd755b13a4903d6b25a457266385dda5",
     "description": "Every commit to develop",
     "hide": false,
-    "last_updated": "2026-04-13T17:09:19.000Z",
-    "last_updated_url": "https://github.com/hotio/seerr/actions/runs/24356436193",
+    "last_updated": "2026-04-13T22:03:38.000Z",
+    "last_updated_url": "https://github.com/hotio/seerr/actions/runs/24369238746",
     "tags": [
       "",
       "nightly",
-      "nightly-fb56f51",
-      "nightly-9c4c674dc9e4eb8e63ddbc58c03817d8a5dfdc9f",
+      "nightly-6ea783f",
+      "nightly-891265fbfe75d01c492c15cb0892a20c0b92b85a",
       "",
       "",
       ""
