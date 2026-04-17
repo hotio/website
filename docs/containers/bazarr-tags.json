@@ -1,15 +1,15 @@
 {
   "nightly": {
-    "commit_message": "Version update: 1.5.7-beta.21 => 1.5.7-beta.22",
-    "commit_sha": "df391f43e5688d76aaeb1363df241e09346d5e65",
+    "commit_message": "Upstream update: alpinevpn-9abb66b => alpinevpn-b1ea9d4",
+    "commit_sha": "3882e71c6be33fe24abe1609deca8edd9f27b125",
     "description": "Pre-releases",
     "hide": false,
-    "last_updated": "2026-04-13T07:03:13.000Z",
-    "last_updated_url": "https://github.com/hotio/bazarr/actions/runs/24330217204",
+    "last_updated": "2026-04-17T06:53:39.000Z",
+    "last_updated_url": "https://github.com/hotio/bazarr/actions/runs/24552116941",
     "tags": [
       "",
       "nightly",
-      "nightly-df391f4",
+      "nightly-3882e71",
       "nightly-1.5.7-beta.22",
       "nightly-v1",
       "nightly-v1.5",
