@@ -1,15 +1,15 @@
 {
   "release": {
-    "commit_message": "Version update: 1.16.0 => 1.16.1",
-    "commit_sha": "952eee2ab20f507fa206326c00dd8b614993ac7c",
+    "commit_message": "Upstream update: alpinevpn-9abb66b => alpinevpn-b1ea9d4",
+    "commit_sha": "e79786f85fb74910e136dc114456296978f80a1f",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-04-08T19:59:49.000Z",
-    "last_updated_url": "https://github.com/hotio/qui/actions/runs/24155741786",
+    "last_updated": "2026-04-17T06:54:17.000Z",
+    "last_updated_url": "https://github.com/hotio/qui/actions/runs/24552137133",
     "tags": [
       "latest",
       "release",
-      "release-952eee2",
+      "release-e79786f",
       "release-1.16.1",
       "release-v1",
       "release-v1.16",
