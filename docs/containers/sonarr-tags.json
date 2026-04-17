@@ -1,15 +1,15 @@
 {
   "nightly": {
-    "commit_message": "Version update: 4.0.17.2950 => 4.0.17.2953",
-    "commit_sha": "7ae9e6f3a170640d3662ed172ce32d985d031d08",
+    "commit_message": "Upstream update: alpinevpn-9abb66b => alpinevpn-b1ea9d4",
+    "commit_sha": "709e96a313ecd75dc5b883f549c89cad818a6ba8",
     "description": "develop/v4-nightly",
     "hide": false,
-    "last_updated": "2026-03-25T16:14:46.000Z",
-    "last_updated_url": "https://github.com/hotio/sonarr/actions/runs/23551468123",
+    "last_updated": "2026-04-17T06:54:34.000Z",
+    "last_updated_url": "https://github.com/hotio/sonarr/actions/runs/24552146986",
     "tags": [
       "",
       "nightly",
-      "nightly-7ae9e6f",
+      "nightly-709e96a",
       "nightly-4.0.17.2953",
       "",
       "",
