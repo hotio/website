@@ -17,16 +17,16 @@
     ]
   },
   "release": {
-    "commit_message": "Version update: 4.0.16.2944 => 4.0.17.2952",
-    "commit_sha": "76eaaa7a76f5949dd5d3be2d8712fff15b9fe199",
+    "commit_message": "Upstream update: alpinevpn-9abb66b => alpinevpn-b1ea9d4",
+    "commit_sha": "32b5f441d5064df318993267ced24433433af5e3",
     "description": "main/v4-stable",
     "hide": false,
-    "last_updated": "2026-03-19T15:27:57.000Z",
-    "last_updated_url": "https://github.com/hotio/sonarr/actions/runs/23302619028",
+    "last_updated": "2026-04-17T06:54:36.000Z",
+    "last_updated_url": "https://github.com/hotio/sonarr/actions/runs/24552147236",
     "tags": [
       "latest",
       "release",
-      "release-76eaaa7",
+      "release-32b5f44",
       "release-4.0.17.2952",
       "",
       "",
