@@ -1,15 +1,15 @@
 {
   "release": {
-    "commit_message": "Version update: 5.1.4 => 5.1.4",
-    "commit_sha": "2794f4209a11f6937c72a72ebe44a0de19ed1763",
+    "commit_message": "Upstream update: alpinevpn-9abb66b => alpinevpn-b1ea9d4",
+    "commit_sha": "0cc82fd7245654358e261fea02448f7338b2a048",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-04-08T09:37:26.000Z",
-    "last_updated_url": "https://github.com/hotio/qbittorrent/actions/runs/24128634999",
+    "last_updated": "2026-04-17T06:54:14.000Z",
+    "last_updated_url": "https://github.com/hotio/qbittorrent/actions/runs/24552135903",
     "tags": [
       "latest",
       "release",
-      "release-2794f42",
+      "release-0cc82fd",
       "release-5.1.4",
       "release-v5",
       "release-v5.1",
