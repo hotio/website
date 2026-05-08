@@ -1,19 +1,19 @@
 {
   "release": {
-    "commit_message": "Upstream digest update",
-    "commit_sha": "9feb0e30f137ee85213ad864ea305d5f6b4fd78f",
+    "commit_message": "Version update: 2.41.1 => 2.42.0",
+    "commit_sha": "f84182576f9914b66c8199310e27547436643d3b",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-04-17T04:46:03.000Z",
-    "last_updated_url": "https://github.com/hotio/mergerfs/actions/runs/24548168644",
+    "last_updated": "2026-05-08T16:18:10.000Z",
+    "last_updated_url": "https://github.com/hotio/mergerfs/actions/runs/25566500676",
     "tags": [
       "latest",
       "release",
-      "release-9feb0e3",
-      "release-2.41.1",
+      "release-f841825",
+      "release-2.42.0",
       "release-v2",
-      "release-v2.41",
-      "release-v2.41.1"
+      "release-v2.42",
+      "release-v2.42.0"
     ]
   }
 }
