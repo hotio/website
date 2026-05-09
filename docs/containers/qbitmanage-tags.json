@@ -1,15 +1,15 @@
 {
   "nightly": {
-    "commit_message": "Version update: 2b06b9a5350c3c714efbd1b29156a8ed303667dc => f1be2582a9bf3dd6be1b589591195d864f2a40ac",
-    "commit_sha": "c0d6dcd8f4944ffc491f083a50a9b7901a96883d",
+    "commit_message": "Upstream update: alpinevpn-b1ea9d4 => alpinevpn-0fe4477",
+    "commit_sha": "cf757998668f5e72b7acf277751734fec55b2d9d",
     "description": "Every commit to develop",
     "hide": false,
-    "last_updated": "2026-05-09T04:51:28.000Z",
-    "last_updated_url": "https://github.com/hotio/qbitmanage/actions/runs/25592161304",
+    "last_updated": "2026-05-09T15:43:47.000Z",
+    "last_updated_url": "https://github.com/hotio/qbitmanage/actions/runs/25605054586",
     "tags": [
       "",
       "nightly",
-      "nightly-c0d6dcd",
+      "nightly-cf75799",
       "nightly-f1be2582a9bf3dd6be1b589591195d864f2a40ac",
       "",
       "",
