@@ -1,16 +1,16 @@
 {
   "nightly": {
-    "commit_message": "Upstream update: alpinevpn-0fe4477 => alpinevpn-4ed63ea",
-    "commit_sha": "b090d9ac9fc5f9e178c7509424e599f54d1e383c",
+    "commit_message": "Version update: 7abb39d02d7833cc929e1379b0be6e9bfe7d5bd7 => 90798e5e4dcbd2e45bc0aa36f95de482e08b8cea",
+    "commit_sha": "120839f20705fb7bc628c62d94fadbaa7faab00e",
     "description": "Every commit to develop",
     "hide": false,
-    "last_updated": "2026-05-11T10:24:39.000Z",
-    "last_updated_url": "https://github.com/hotio/sabnzbd/actions/runs/25664511373",
+    "last_updated": "2026-05-11T15:41:28.000Z",
+    "last_updated_url": "https://github.com/hotio/sabnzbd/actions/runs/25680511392",
     "tags": [
       "",
       "nightly",
-      "nightly-b090d9a",
-      "nightly-7abb39d02d7833cc929e1379b0be6e9bfe7d5bd7",
+      "nightly-120839f",
+      "nightly-90798e5e4dcbd2e45bc0aa36f95de482e08b8cea",
       "",
       "",
       ""
