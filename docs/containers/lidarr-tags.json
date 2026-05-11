@@ -1,15 +1,15 @@
 {
   "nightly": {
-    "commit_message": "Upstream/Packages update",
-    "commit_sha": "6b2516f3f72766af87ba84db8399415583f9337e",
+    "commit_message": "Upstream/Package update",
+    "commit_sha": "11f52e5d00b191b1a067ded7e9bdd77e49406730",
     "description": "nightly",
     "hide": false,
-    "last_updated": "2026-05-11T21:38:16.000Z",
-    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/25698844717",
+    "last_updated": "2026-05-11T22:10:12.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/25700281856",
     "tags": [
       "",
       "nightly",
-      "nightly-6b2516f",
+      "nightly-11f52e5",
       "nightly-3.1.2.4939",
       "",
       "",
