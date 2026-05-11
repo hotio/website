@@ -17,16 +17,16 @@
     ]
   },
   "noblevpn": {
-    "commit_message": "use apt-get instead of apt",
-    "commit_sha": "7f0bd15688063f20e338c0e30049ed7e3642d74f",
+    "commit_message": "fix var display",
+    "commit_sha": "3725bcf7d4a32f61d63fbc2b16bb5ed9b4368f32",
     "description": "Ubuntu 24.04",
     "hide": false,
-    "last_updated": "2026-05-11T10:12:01.000Z",
-    "last_updated_url": "https://github.com/hotio/base/actions/runs/25663958202",
+    "last_updated": "2026-05-11T10:19:24.000Z",
+    "last_updated_url": "https://github.com/hotio/base/actions/runs/25664274761",
     "tags": [
       "",
       "noblevpn",
-      "noblevpn-7f0bd15",
+      "noblevpn-3725bcf",
       "",
       "",
       "",
