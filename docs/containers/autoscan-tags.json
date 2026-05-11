@@ -1,15 +1,15 @@
 {
   "nightly": {
-    "commit_message": "Upstream/Packages update",
-    "commit_sha": "71cbfa37cd0e08c2044ba200175fdc128975dcf1",
+    "commit_message": "Upstream/Package update",
+    "commit_sha": "a041e778e3ee40d74ba0940cf7d4f8c8db6eeb09",
     "description": "Every commit to master",
     "hide": false,
-    "last_updated": "2026-05-11T21:36:29.000Z",
-    "last_updated_url": "https://github.com/hotio/autoscan/actions/runs/25698762127",
+    "last_updated": "2026-05-11T22:08:13.000Z",
+    "last_updated_url": "https://github.com/hotio/autoscan/actions/runs/25700195649",
     "tags": [
       "",
       "nightly",
-      "nightly-71cbfa3",
+      "nightly-a041e77",
       "nightly-1d41f4b47ede7531ecc24944bfcaf88db10c2ba7",
       "",
       "",
