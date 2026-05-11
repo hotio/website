@@ -16,15 +16,15 @@
     ]
   },
   "v2-develop": {
-    "commit_message": "Upstream update: alpinevpn-0fe4477 => alpinevpn-4ed63ea",
-    "commit_sha": "95cb02722f32e164d4280c36e79b80eebb97a3c7",
+    "commit_message": "Upstream/Package update",
+    "commit_sha": "a6288917ef0995e0dedc3bf1207162c59d9a60bb",
     "description": "v2-develop",
-    "last_updated": "2026-05-11T10:25:21.000Z",
-    "last_updated_url": "https://github.com/hotio/whisparr/actions/runs/25664543679",
+    "last_updated": "2026-05-11T22:19:45.000Z",
+    "last_updated_url": "https://github.com/hotio/whisparr/actions/runs/25700680195",
     "tags": [
       "",
       "v2-develop",
-      "v2-develop-95cb027",
+      "v2-develop-a628891",
       "v2-develop-2.2.0-develop.115",
       "v2-develop-v2",
       "v2-develop-v2.2",
