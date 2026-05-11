@@ -1,15 +1,15 @@
 {
   "nightly": {
-    "commit_message": "Version update: 2026050514 => 2026051106",
-    "commit_sha": "ec01c2844cb8e97f39a37460f8041e9dd4f52be2",
+    "commit_message": "Upstream update: noblevpn-72951af => noblevpn-3725bcf",
+    "commit_sha": "fcc464d90a0206eea69b10bbb8f9e67fafb44f12",
     "description": "Unstable",
     "hide": false,
-    "last_updated": "2026-05-11T08:47:45.000Z",
-    "last_updated_url": "https://github.com/hotio/jellyfin/actions/runs/25659963133",
+    "last_updated": "2026-05-11T10:23:30.000Z",
+    "last_updated_url": "https://github.com/hotio/jellyfin/actions/runs/25664459637",
     "tags": [
       "",
       "nightly",
-      "nightly-ec01c28",
+      "nightly-fcc464d",
       "nightly-2026051106",
       "",
       "",
