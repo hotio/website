@@ -17,16 +17,16 @@
     ]
   },
   "release": {
-    "commit_message": "Upstream update: alpinevpn-0fe4477 => alpinevpn-4ed63ea",
-    "commit_sha": "c870b347a941ce61ca01af47ca5ba9d0ba21d934",
+    "commit_message": "Upstream/Package update",
+    "commit_sha": "419e69b0fcab4dd1eeb2d2cfce0616e1ef891ba2",
     "description": "master",
     "hide": false,
-    "last_updated": "2026-05-11T10:24:04.000Z",
-    "last_updated_url": "https://github.com/hotio/prowlarr/actions/runs/25664484417",
+    "last_updated": "2026-05-11T22:15:56.000Z",
+    "last_updated_url": "https://github.com/hotio/prowlarr/actions/runs/25700524883",
     "tags": [
       "latest",
       "release",
-      "release-c870b34",
+      "release-419e69b",
       "release-2.3.5.5327",
       "",
       "",
