@@ -17,16 +17,16 @@
     ]
   },
   "release": {
-    "commit_message": "Upstream/Package update",
-    "commit_sha": "7722fb1f2603843fd8707e7c5d4c21180a7d5a16",
+    "commit_message": "Upstream or Packages update",
+    "commit_sha": "3f112c9d01bd39b22a874317e86af7c4eeff1823",
     "description": "master",
     "hide": false,
-    "last_updated": "2026-05-11T22:46:32.000Z",
-    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/25701812599",
+    "last_updated": "2026-05-12T01:15:02.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/25707164628",
     "tags": [
       "latest",
       "release",
-      "release-7722fb1",
+      "release-3f112c9",
       "release-3.1.0.4875",
       "",
       "",
