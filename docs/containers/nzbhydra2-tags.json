@@ -1,15 +1,15 @@
 {
   "release": {
-    "commit_message": "Upstream/Package update",
-    "commit_sha": "e4ce016d3cf02da0e1f40783be24c3040448c125",
+    "commit_message": "Upstream or Packages File update",
+    "commit_sha": "f2ea9c5248ea4d8de2bab85bcaa807e173eb372a",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-05-11T22:46:58.000Z",
-    "last_updated_url": "https://github.com/hotio/nzbhydra2/actions/runs/25701829328",
+    "last_updated": "2026-05-12T05:16:17.000Z",
+    "last_updated_url": "https://github.com/hotio/nzbhydra2/actions/runs/25714944301",
     "tags": [
       "latest",
       "release",
-      "release-e4ce016",
+      "release-f2ea9c5",
       "release-8.8.1",
       "release-v8",
       "release-v8.8",
