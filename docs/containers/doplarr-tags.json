@@ -1,15 +1,15 @@
 {
   "release": {
-    "commit_message": "Upstream or Packages update",
-    "commit_sha": "14c861709af8a2f14d2f4d702385e271af4d7c82",
+    "commit_message": "Upstream or Packages File update",
+    "commit_sha": "819a162f1bba148478ec0ef83ddc8997b59659dc",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-05-12T01:50:42.000Z",
-    "last_updated_url": "https://github.com/hotio/doplarr/actions/runs/25708360560",
+    "last_updated": "2026-05-12T05:15:05.000Z",
+    "last_updated_url": "https://github.com/hotio/doplarr/actions/runs/25714905427",
     "tags": [
       "latest",
       "release",
-      "release-14c8617",
+      "release-819a162",
       "release-3.7.0",
       "release-v3",
       "release-v3.7",
