@@ -17,16 +17,16 @@
     ]
   },
   "release": {
-    "commit_message": "Upstream/Package update",
-    "commit_sha": "edd1fdd6fa06d38c6a11e810fdceb6fc27901b80",
+    "commit_message": "add auth for github api",
+    "commit_sha": "e9a1e8ab80ac8232aa57b54f4ad47bdcb95f9d3d",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-05-11T22:19:20.000Z",
-    "last_updated_url": "https://github.com/hotio/stash/actions/runs/25700663159",
+    "last_updated": "2026-05-12T05:36:20.000Z",
+    "last_updated_url": "https://github.com/hotio/stash/actions/runs/25715635776",
     "tags": [
       "latest",
       "release",
-      "release-edd1fdd",
+      "release-e9a1e8a",
       "release-0.31.1",
       "release-v0",
       "release-v0.31",
