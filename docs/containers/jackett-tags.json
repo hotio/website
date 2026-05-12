@@ -1,15 +1,15 @@
 {
   "release": {
-    "commit_message": "Upstream/Package update",
-    "commit_sha": "bca3470e5fbdd959e4abbced2489f52660ab35ce",
+    "commit_message": "Upstream or Packages update",
+    "commit_sha": "0880634d69fc20cfa3d8dd1c058e3d9b77ee6ca9",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-05-11T22:45:31.000Z",
-    "last_updated_url": "https://github.com/hotio/jackett/actions/runs/25701773849",
+    "last_updated": "2026-05-12T01:14:04.000Z",
+    "last_updated_url": "https://github.com/hotio/jackett/actions/runs/25707133006",
     "tags": [
       "latest",
       "release",
-      "release-bca3470",
+      "release-0880634",
       "release-0.24.1841",
       "release-v0",
       "release-v0.24",
