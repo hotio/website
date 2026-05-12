@@ -16,16 +16,16 @@
     ]
   },
   "release": {
-    "commit_message": "Upstream or Packages update",
-    "commit_sha": "e686d426f23d9c1d5fc742ebe16f719875d65e5c",
+    "commit_message": "Upstream or Packages File update",
+    "commit_sha": "1150bd87b87ebfa354af2a6bb07d3703efe1d502",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-05-12T01:19:03.000Z",
-    "last_updated_url": "https://github.com/hotio/slskd/actions/runs/25707294653",
+    "last_updated": "2026-05-12T05:18:58.000Z",
+    "last_updated_url": "https://github.com/hotio/slskd/actions/runs/25715029971",
     "tags": [
       "latest",
       "release",
-      "release-e686d42",
+      "release-1150bd8",
       "release-0.25.1",
       "release-v0",
       "release-v0.25",
