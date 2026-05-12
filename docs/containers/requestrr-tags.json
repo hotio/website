@@ -1,15 +1,15 @@
 {
   "release": {
-    "commit_message": "Upstream/Package update",
-    "commit_sha": "b3b4ad85274a409dba75d7d82bb6f72988d24602",
+    "commit_message": "Upstream or Packages update",
+    "commit_sha": "49cb43779d6ac2fbd49ceb9179a68726e69f8392",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-05-11T22:48:35.000Z",
-    "last_updated_url": "https://github.com/hotio/requestrr/actions/runs/25701894219",
+    "last_updated": "2026-05-12T01:07:14.000Z",
+    "last_updated_url": "https://github.com/hotio/requestrr/actions/runs/25706896200",
     "tags": [
       "latest",
       "release",
-      "release-b3b4ad8",
+      "release-49cb437",
       "release-2.1.9",
       "release-v2",
       "release-v2.1",
