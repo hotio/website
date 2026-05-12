@@ -1,15 +1,15 @@
 {
   "nightly": {
-    "commit_message": "Upstream or Packages update",
-    "commit_sha": "1d06e0fc98d8238c8b4d194d9051fdb1665b8b2a",
+    "commit_message": "Upstream or Packages File update",
+    "commit_sha": "4ee32e191c972b0b6eb45c2ea6aaa31c82b30472",
     "description": "Every commit to master",
     "hide": false,
-    "last_updated": "2026-05-12T01:20:06.000Z",
-    "last_updated_url": "https://github.com/hotio/unpackerr/actions/runs/25707329515",
+    "last_updated": "2026-05-12T05:19:46.000Z",
+    "last_updated_url": "https://github.com/hotio/unpackerr/actions/runs/25715055411",
     "tags": [
       "",
       "nightly",
-      "nightly-1d06e0f",
+      "nightly-4ee32e1",
       "nightly-d6fdf16efdfc29fd22543ba74c8aad6f2d06ee59",
       "",
       "",
