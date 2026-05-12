@@ -1,14 +1,14 @@
 {
   "v2": {
-    "commit_message": "Upstream or Packages update",
-    "commit_sha": "ba950514f371adcc2aa8b4d33e9170a69324fa39",
+    "commit_message": "Upstream or Packages File update",
+    "commit_sha": "f5681079493172e77f97b091fe3638da1641a183",
     "description": "v2",
-    "last_updated": "2026-05-12T01:20:29.000Z",
-    "last_updated_url": "https://github.com/hotio/whisparr/actions/runs/25707343188",
+    "last_updated": "2026-05-12T05:19:58.000Z",
+    "last_updated_url": "https://github.com/hotio/whisparr/actions/runs/25715061311",
     "tags": [
       "latest",
       "v2",
-      "v2-ba95051",
+      "v2-f568107",
       "v2-2.2.0-release.108",
       "v2-v2",
       "v2-v2.2",
