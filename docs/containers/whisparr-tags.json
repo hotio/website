@@ -49,15 +49,15 @@
     ]
   },
   "v3-develop": {
-    "commit_message": "Upstream or Packages File update",
-    "commit_sha": "74323f5706ccfc9ae6ff2f109e9ad4852813dbbe",
+    "commit_message": "test build",
+    "commit_sha": "5c1a10c95c9efa5658b027e01bb7bd5ae60df374",
     "description": "eros-develop",
-    "last_updated": "2026-05-12T05:20:02.000Z",
-    "last_updated_url": "https://github.com/hotio/whisparr/actions/runs/25715064250",
+    "last_updated": "2026-05-12T06:41:56.000Z",
+    "last_updated_url": "https://github.com/hotio/whisparr/actions/runs/25718085189",
     "tags": [
       "",
       "v3-develop",
-      "v3-develop-74323f5",
+      "v3-develop-5c1a10c",
       "v3-develop-3.3.3-develop.736",
       "v3-develop-v3",
       "v3-develop-v3.3",
