@@ -32,16 +32,16 @@
     ]
   },
   "v3": {
-    "commit_message": "Upstream or Packages update",
-    "commit_sha": "4140480c2ce34f60534ffc64ab7471f14ad44ac2",
+    "commit_message": "Upstream or Packages File update",
+    "commit_sha": "5ea215c2a03d2332fa3a6a08b1fe5d46c3d10389",
     "description": "eros",
     "hide": false,
-    "last_updated": "2026-05-12T01:20:42.000Z",
-    "last_updated_url": "https://github.com/hotio/whisparr/actions/runs/25707351361",
+    "last_updated": "2026-05-12T05:20:07.000Z",
+    "last_updated_url": "https://github.com/hotio/whisparr/actions/runs/25715068861",
     "tags": [
       "",
       "v3",
-      "v3-4140480",
+      "v3-5ea215c",
       "v3-3.3.3-release.683",
       "v3-v3",
       "v3-v3.3",
