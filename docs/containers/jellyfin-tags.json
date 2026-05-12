@@ -1,15 +1,15 @@
 {
   "nightly": {
-    "commit_message": "Upstream/Package update",
-    "commit_sha": "663d4a8098571214dc032487d25b7279db273e99",
+    "commit_message": "Upstream or Packages File update",
+    "commit_sha": "029bc9f35c1c1e59a512c0cf02febe2f1d146a54",
     "description": "Unstable",
     "hide": false,
-    "last_updated": "2026-05-11T22:45:57.000Z",
-    "last_updated_url": "https://github.com/hotio/jellyfin/actions/runs/25701791613",
+    "last_updated": "2026-05-12T05:15:35.000Z",
+    "last_updated_url": "https://github.com/hotio/jellyfin/actions/runs/25714921580",
     "tags": [
       "",
       "nightly",
-      "nightly-663d4a8",
+      "nightly-029bc9f",
       "nightly-2026051106",
       "",
       "",
