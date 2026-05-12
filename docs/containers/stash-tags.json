@@ -1,15 +1,15 @@
 {
   "nightly": {
-    "commit_message": "Upstream or Packages File update",
-    "commit_sha": "6ab80181d832e14e3bfa4064be400368913dd868",
+    "commit_message": "add auth for github api",
+    "commit_sha": "27c819f7d9e0f98f507a58e66eb108330e273d61",
     "description": "Unstable",
     "hide": false,
-    "last_updated": "2026-05-12T05:19:21.000Z",
-    "last_updated_url": "https://github.com/hotio/stash/actions/runs/25715042295",
+    "last_updated": "2026-05-12T05:36:47.000Z",
+    "last_updated_url": "https://github.com/hotio/stash/actions/runs/25715652974",
     "tags": [
       "",
       "nightly",
-      "nightly-6ab8018",
+      "nightly-27c819f",
       "nightly-80df250e36036fa351307a7eefd912ff0e431b5b",
       "",
       "",
