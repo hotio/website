@@ -1,15 +1,15 @@
 {
   "release": {
-    "commit_message": "Upstream or Packages update",
-    "commit_sha": "81d8dfb0d4d06a74286b47a1bd8a2ef03fa544e9",
+    "commit_message": "Upstream or Packages File update",
+    "commit_sha": "e230603810c5c407dbce8c71bad23510321f18af",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-05-12T01:51:48.000Z",
-    "last_updated_url": "https://github.com/hotio/nzbget/actions/runs/25708396049",
+    "last_updated": "2026-05-12T05:16:10.000Z",
+    "last_updated_url": "https://github.com/hotio/nzbget/actions/runs/25714940614",
     "tags": [
       "latest",
       "release",
-      "release-81d8dfb",
+      "release-e230603",
       "release-26.1",
       "",
       "",
