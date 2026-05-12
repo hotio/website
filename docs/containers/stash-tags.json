@@ -1,15 +1,15 @@
 {
   "nightly": {
-    "commit_message": "add auth for github api",
-    "commit_sha": "27c819f7d9e0f98f507a58e66eb108330e273d61",
+    "commit_message": "Version update: 80df250e36036fa351307a7eefd912ff0e431b5b => 80df250e36036fa351307a7eefd912ff0e431b5b",
+    "commit_sha": "99a04260785aa3520aef3ca4f4374c6d955b5420",
     "description": "Unstable",
     "hide": false,
-    "last_updated": "2026-05-12T05:36:47.000Z",
-    "last_updated_url": "https://github.com/hotio/stash/actions/runs/25715652974",
+    "last_updated": "2026-05-12T19:22:34.000Z",
+    "last_updated_url": "https://github.com/hotio/stash/actions/runs/25756993407",
     "tags": [
       "",
       "nightly",
-      "nightly-27c819f",
+      "nightly-99a0426",
       "nightly-80df250e36036fa351307a7eefd912ff0e431b5b",
       "",
       "",
