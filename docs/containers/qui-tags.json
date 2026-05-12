@@ -1,15 +1,15 @@
 {
   "release": {
     "commit_message": "Upstream or Packages update",
-    "commit_sha": "9862c506662599cbd75b4e68d4b9610080646508",
+    "commit_sha": "a2e84929661484c734c87e4fb89c00f28a3dbe7c",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-05-12T01:06:39.000Z",
-    "last_updated_url": "https://github.com/hotio/qui/actions/runs/25706877603",
+    "last_updated": "2026-05-12T01:16:34.000Z",
+    "last_updated_url": "https://github.com/hotio/qui/actions/runs/25707214705",
     "tags": [
       "latest",
       "release",
-      "release-9862c50",
+      "release-a2e8492",
       "release-1.18.0",
       "release-v1",
       "release-v1.18",
