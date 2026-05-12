@@ -17,16 +17,16 @@
     ]
   },
   "release": {
-    "commit_message": "Upstream/Package update",
-    "commit_sha": "ccee18a55e48f8316775356fdcfc1326c1276954",
+    "commit_message": "Upstream or Packages update",
+    "commit_sha": "a9c79fb8549abd4f3ba8fd74b9780c75d0ee9e3d",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-05-11T22:47:52.000Z",
-    "last_updated_url": "https://github.com/hotio/qbitmanage/actions/runs/25701864385",
+    "last_updated": "2026-05-12T01:06:22.000Z",
+    "last_updated_url": "https://github.com/hotio/qbitmanage/actions/runs/25706866859",
     "tags": [
       "latest",
       "release",
-      "release-ccee18a",
+      "release-a9c79fb",
       "release-4.7.0",
       "release-v4",
       "release-v4.7",
