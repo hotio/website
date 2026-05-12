@@ -1,15 +1,15 @@
 {
   "release": {
     "commit_message": "Upstream or Packages update",
-    "commit_sha": "4c69e3bf05c2e14604344b61621c7ba1a62c7edf",
+    "commit_sha": "dd2ddeb0fda54f0869c926722a9e86ba7bea6518",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-05-12T01:06:27.000Z",
-    "last_updated_url": "https://github.com/hotio/qbittorrent/actions/runs/25706870157",
+    "last_updated": "2026-05-12T01:16:25.000Z",
+    "last_updated_url": "https://github.com/hotio/qbittorrent/actions/runs/25707209633",
     "tags": [
       "latest",
       "release",
-      "release-4c69e3b",
+      "release-dd2ddeb",
       "release-5.2.0",
       "release-v5",
       "release-v5.2",
