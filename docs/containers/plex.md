@@ -20,7 +20,7 @@ title: hotio/plex
       </tr>
     </thead>
     <tbody id="tags-table-body">
-<tr><td><div class="tag-decoration-latest">latest</div><div id="tag12790" onclick="CopyToClipboard('tag12790');return false;" class="tag-decoration">release</div><div id="tag8863" onclick="CopyToClipboard('tag8863');return false;" class="tag-decoration">release-6f1d258</div><div id="tag25018" onclick="CopyToClipboard('tag25018');return false;" class="tag-decoration">release-1.43.1.10611-1e34174b1</div></td><td>Stable</td><td><a href="https://github.com/hotio/plex/commit/6f1d2584a08ba5972696dd9394094be9d02afdea" target="_blank">Upstream or Packages File update</a></td><td><a href="https://github.com/hotio/plex/actions/runs/25714952353" target="_blank">2026-05-12 05:16:32</a></td></tr>
+<tr><td><div class="tag-decoration-latest">latest</div><div id="tag17173" onclick="CopyToClipboard('tag17173');return false;" class="tag-decoration">release</div><div id="tag9194" onclick="CopyToClipboard('tag9194');return false;" class="tag-decoration">release-a0a70e4</div><div id="tag31924" onclick="CopyToClipboard('tag31924');return false;" class="tag-decoration">release-1.43.1.10611-1e34174b1</div></td><td>Stable</td><td><a href="https://github.com/hotio/plex/commit/a0a70e43a93c30da85798d89bd0f139fc93a040f" target="_blank">don't fail if Codecs folder isn't found</a></td><td><a href="https://github.com/hotio/plex/actions/runs/25900451062" target="_blank">2026-05-15 04:35:13</a></td></tr>
 </tbody>
   </table>
 </div>
