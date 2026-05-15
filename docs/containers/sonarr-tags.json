@@ -17,16 +17,16 @@
     ]
   },
   "release": {
-    "commit_message": "Upstream or Packages File update",
-    "commit_sha": "0638d2124544186e7cf699b549a0eb21fe90e9ea",
+    "commit_message": "Version, Upstream or Packages update",
+    "commit_sha": "b20bc96f5161b0d012fcf5e31f675dd6995d8d6c",
     "description": "main/v4-stable",
     "hide": false,
-    "last_updated": "2026-05-12T05:19:06.000Z",
-    "last_updated_url": "https://github.com/hotio/sonarr/actions/runs/25715033812",
+    "last_updated": "2026-05-15T16:07:52.000Z",
+    "last_updated_url": "https://github.com/hotio/sonarr/actions/runs/25928112788",
     "tags": [
       "latest",
       "release",
-      "release-0638d21",
+      "release-b20bc96",
       "release-4.0.17.2952",
       "",
       "",
