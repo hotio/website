@@ -16,15 +16,15 @@
     ]
   },
   "v2-develop": {
-    "commit_message": "Upstream or Packages File update",
-    "commit_sha": "96c3c5b88907831087ce3d3c478d1584b625b720",
+    "commit_message": "Version, Upstream or Packages update",
+    "commit_sha": "2d9661dbe6017cee3ba05f6b38b08e23761ff9d7",
     "description": "v2-develop",
-    "last_updated": "2026-05-12T05:19:55.000Z",
-    "last_updated_url": "https://github.com/hotio/whisparr/actions/runs/25715059618",
+    "last_updated": "2026-05-15T15:55:16.000Z",
+    "last_updated_url": "https://github.com/hotio/whisparr/actions/runs/25927511014",
     "tags": [
       "",
       "v2-develop",
-      "v2-develop-96c3c5b",
+      "v2-develop-2d9661d",
       "v2-develop-2.2.0-develop.115",
       "v2-develop-v2",
       "v2-develop-v2.2",
