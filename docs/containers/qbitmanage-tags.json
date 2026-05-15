@@ -1,15 +1,15 @@
 {
   "nightly": {
     "commit_message": "Version, Upstream or Packages update",
-    "commit_sha": "bcc265df8b2ece58954393affd620c67c22fe97d",
+    "commit_sha": "223af4249dd90d15f0736eb8b10d03b9167ec244",
     "description": "Every commit to develop",
     "hide": false,
-    "last_updated": "2026-05-15T11:51:00.000Z",
-    "last_updated_url": "https://github.com/hotio/qbitmanage/actions/runs/25916292164",
+    "last_updated": "2026-05-15T16:02:13.000Z",
+    "last_updated_url": "https://github.com/hotio/qbitmanage/actions/runs/25927847563",
     "tags": [
       "",
       "nightly",
-      "nightly-bcc265d",
+      "nightly-223af42",
       "nightly-42790d3d4817a12013a49b1e6b92ee7d9d3d90de",
       "",
       "",
