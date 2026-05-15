@@ -17,16 +17,16 @@
     ]
   },
   "testing": {
-    "commit_message": "",
-    "commit_sha": "c975691562a459ff0d01c63b98c905e8f914c9de",
+    "commit_message": "Version, Upstream or Packages update",
+    "commit_sha": "4f07ee6bf476fe0beb0a585c628140667303bafd",
     "description": "Pre-releases",
     "hide": false,
-    "last_updated": "2026-05-15T06:26:33.000Z",
-    "last_updated_url": "https://github.com/hotio/jackett/actions/runs/25916106959",
+    "last_updated": "2026-05-15T15:58:41.000Z",
+    "last_updated_url": "https://github.com/hotio/jackett/actions/runs/25927677237",
     "tags": [
       "",
       "testing",
-      "testing-c975691",
+      "testing-4f07ee6",
       "testing-0.24.1866",
       "testing-v0",
       "testing-v0.24",
