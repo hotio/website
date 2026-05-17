@@ -1,15 +1,15 @@
 {
   "release": {
-    "commit_message": "don't fail if Codecs folder isn't found",
-    "commit_sha": "a0a70e43a93c30da85798d89bd0f139fc93a040f",
+    "commit_message": "Version, Upstream or Packages update",
+    "commit_sha": "3083e598b700c429198914a1729b6d341af4a228",
     "description": "Stable",
     "hide": false,
-    "last_updated": "2026-05-15T04:35:13.000Z",
-    "last_updated_url": "https://github.com/hotio/plex/actions/runs/25900451062",
+    "last_updated": "2026-05-17T09:29:08.000Z",
+    "last_updated_url": "https://github.com/hotio/plex/actions/runs/25987121412",
     "tags": [
       "latest",
       "release",
-      "release-a0a70e4",
+      "release-3083e59",
       "release-1.43.1.10611-1e34174b1",
       "",
       "",
