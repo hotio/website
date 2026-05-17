@@ -1,15 +1,15 @@
 {
   "nightly": {
     "commit_message": "Version, Upstream or Packages update",
-    "commit_sha": "4d0d5e9d8f90cb898934858d4b6c6f9347b16474",
+    "commit_sha": "e6acecc6c3b3fd374dae1155a27e45a861db8b23",
     "description": "Every commit to develop",
     "hide": false,
-    "last_updated": "2026-05-16T11:06:35.000Z",
-    "last_updated_url": "https://github.com/hotio/seerr/actions/runs/25960358208",
+    "last_updated": "2026-05-17T09:51:29.000Z",
+    "last_updated_url": "https://github.com/hotio/seerr/actions/runs/25987580528",
     "tags": [
       "",
       "nightly",
-      "nightly-4d0d5e9",
+      "nightly-e6acecc",
       "nightly-08b7bd4f461f51191d5fd4d5aad5252d630781ec",
       "",
       "",
