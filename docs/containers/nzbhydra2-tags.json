@@ -17,16 +17,16 @@
     ]
   },
   "testing": {
-    "commit_message": "Version, Upstream or Packages update",
-    "commit_sha": "bf09ac48d251b9ca824f2897dc0eb9d18977b278",
+    "commit_message": "Modified: meta.json, packages.txt",
+    "commit_sha": "779ef5fbb0e4768c78eb813293b8cda431371729",
     "description": "Pre-releases",
     "hide": false,
-    "last_updated": "2026-05-17T09:03:44.000Z",
-    "last_updated_url": "https://github.com/hotio/nzbhydra2/actions/runs/25986602142",
+    "last_updated": "2026-05-20T16:25:00.000Z",
+    "last_updated_url": "https://github.com/hotio/nzbhydra2/actions/runs/26175695615",
     "tags": [
       "",
       "testing",
-      "testing-bf09ac4",
+      "testing-779ef5f",
       "testing-8.8.1",
       "testing-v8",
       "testing-v8.8",
