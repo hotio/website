@@ -17,16 +17,16 @@
     ]
   },
   "noblevpn": {
-    "commit_message": "update unrar to version 7.2.6",
-    "commit_sha": "d1d1c1c90767ebb5181a25add3e533e2cb02ac72",
+    "commit_message": "Modified: packages.txt",
+    "commit_sha": "22d5537d4e2bf918e8bf7bda34d6faeedbd1fa5b",
     "description": "Ubuntu 24.04",
     "hide": false,
-    "last_updated": "2026-05-17T08:45:58.000Z",
-    "last_updated_url": "https://github.com/hotio/base/actions/runs/25986232576",
+    "last_updated": "2026-05-20T13:29:24.000Z",
+    "last_updated_url": "https://github.com/hotio/base/actions/runs/26165748622",
     "tags": [
       "",
       "noblevpn",
-      "noblevpn-d1d1c1c",
+      "noblevpn-22d5537",
       "",
       "",
       "",
