@@ -1,15 +1,15 @@
 {
   "nightly": {
-    "commit_message": "Modified: meta.json",
-    "commit_sha": "be1a980a24c4da03e61f9dbe3543c5264fe5f839",
+    "commit_message": "Modified: packages.txt",
+    "commit_sha": "bc827c0a284dbb0a6b1517bbd7191346f16bcd9e",
     "description": "Every commit to develop",
     "hide": false,
-    "last_updated": "2026-05-21T12:19:48.000Z",
-    "last_updated_url": "https://github.com/hotio/seerr/actions/runs/26225507437",
+    "last_updated": "2026-05-24T14:27:06.000Z",
+    "last_updated_url": "https://github.com/hotio/seerr/actions/runs/26363873814",
     "tags": [
       "",
       "nightly",
-      "nightly-be1a980",
+      "nightly-bc827c0",
       "nightly-32169d9051166d0e44baca53744f2b826573a121",
       "",
       "",
