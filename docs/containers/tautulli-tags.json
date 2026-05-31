@@ -1,15 +1,15 @@
 {
   "release": {
-    "commit_message": "Version, Upstream or Packages update",
-    "commit_sha": "ea0bcbdf00f918735ff62b0c9be3e3acf03435a3",
+    "commit_message": "Modified: packages.txt",
+    "commit_sha": "9c8c7ae5dc9186e8a73778f46db426f9ffdd1fc2",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-05-17T09:36:11.000Z",
-    "last_updated_url": "https://github.com/hotio/tautulli/actions/runs/25987270579",
+    "last_updated": "2026-05-31T11:23:36.000Z",
+    "last_updated_url": "https://github.com/hotio/tautulli/actions/runs/26711245863",
     "tags": [
       "latest",
       "release",
-      "release-ea0bcbd",
+      "release-9c8c7ae",
       "release-2.17.1",
       "release-v2",
       "release-v2.17",
