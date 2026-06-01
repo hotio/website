@@ -34,17 +34,17 @@
     ]
   },
   "testing": {
-    "commit_message": "Version, Upstream or Packages update",
-    "commit_sha": "bbcf375d815decb4bde782df4f884276364df4e3",
+    "commit_message": "Modified: meta.json",
+    "commit_sha": "9ff0b641f858676a50e3d063504dc61711e5e74b",
     "description": "develop",
     "hide": false,
-    "last_updated": "2026-05-17T09:02:10.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/25986568185",
+    "last_updated": "2026-06-01T09:22:13.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/26746350710",
     "tags": [
       "",
       "testing",
-      "testing-bbcf375",
-      "testing-6.2.0.10390",
+      "testing-9ff0b64",
+      "testing-6.2.1.10437",
       "",
       "",
       ""
