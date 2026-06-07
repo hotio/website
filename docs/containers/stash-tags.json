@@ -1,16 +1,16 @@
 {
   "nightly": {
-    "commit_message": "Modified: packages.txt",
-    "commit_sha": "11ca1f45b1c747d1809db5c24bc1750967692bf3",
+    "commit_message": "Modified: meta.json",
+    "commit_sha": "90b940b15023c3abd53a7fd15b173beee709f596",
     "description": "Unstable",
     "hide": false,
-    "last_updated": "2026-06-06T15:04:06.000Z",
-    "last_updated_url": "https://github.com/hotio/stash/actions/runs/27065718771",
+    "last_updated": "2026-06-07T02:11:15.000Z",
+    "last_updated_url": "https://github.com/hotio/stash/actions/runs/27080044202",
     "tags": [
       "",
       "nightly",
-      "nightly-11ca1f4",
-      "nightly-58f8b1719621f6e1bd71bd29cd5d536e04372e71",
+      "nightly-90b940b",
+      "nightly-c39e1657aeb87bcde4fdcafc5cef96dcca3c4316",
       "",
       "",
       ""
