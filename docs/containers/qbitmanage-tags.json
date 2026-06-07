@@ -18,19 +18,19 @@
   },
   "release": {
     "commit_message": "Modified: meta.json",
-    "commit_sha": "fdffdcb54515fff2447846b3cc33735bbe3bba1b",
+    "commit_sha": "aea0dd1dbcaea05cd02a07eec639f1e48264fda9",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-05-30T15:02:22.000Z",
-    "last_updated_url": "https://github.com/hotio/qbitmanage/actions/runs/26687060841",
+    "last_updated": "2026-06-07T22:59:26.000Z",
+    "last_updated_url": "https://github.com/hotio/qbitmanage/actions/runs/27107409096",
     "tags": [
       "latest",
       "release",
-      "release-fdffdcb",
-      "release-4.8.0",
+      "release-aea0dd1",
+      "release-4.8.1",
       "release-v4",
       "release-v4.8",
-      "release-v4.8.0"
+      "release-v4.8.1"
     ]
   }
 }
