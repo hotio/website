@@ -1,15 +1,15 @@
 {
   "alpinevpn": {
-    "commit_message": "update unrar version to 7.2.6",
-    "commit_sha": "663c831b6822a969d8824b5455605881e63c2ba2",
+    "commit_message": "Modified: packages.txt",
+    "commit_sha": "f409dc1d7868b93b68de13775f825cc0900bfffd",
     "description": "Alpine 3.23",
     "hide": false,
-    "last_updated": "2026-05-17T08:45:05.000Z",
-    "last_updated_url": "https://github.com/hotio/base/actions/runs/25986215318",
+    "last_updated": "2026-06-10T10:47:22.000Z",
+    "last_updated_url": "https://github.com/hotio/base/actions/runs/27270961641",
     "tags": [
       "",
       "alpinevpn",
-      "alpinevpn-663c831",
+      "alpinevpn-f409dc1",
       "",
       "",
       "",
