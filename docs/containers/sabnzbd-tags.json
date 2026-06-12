@@ -1,16 +1,16 @@
 {
   "nightly": {
     "commit_message": "Modified: meta.json",
-    "commit_sha": "91dc6129a5bdf75dfbae3b88bfc6184ead2f4107",
+    "commit_sha": "0beb1e1312a30af309e2ea972b31d743803c057b",
     "description": "Every commit to develop",
     "hide": false,
-    "last_updated": "2026-06-10T13:36:56.000Z",
-    "last_updated_url": "https://github.com/hotio/sabnzbd/actions/runs/27280226096",
+    "last_updated": "2026-06-11T14:35:21.000Z",
+    "last_updated_url": "https://github.com/hotio/sabnzbd/actions/runs/27354556217",
     "tags": [
       "",
       "nightly",
-      "nightly-91dc612",
-      "nightly-45aafe07744f12852e3731bd99e9f72064c47998",
+      "nightly-0beb1e1",
+      "nightly-777db2015828fca63582d21b0e756fae21c1d80e",
       "",
       "",
       ""
@@ -18,36 +18,36 @@
   },
   "release": {
     "commit_message": "Modified: meta.json",
-    "commit_sha": "b9b02190bdad5c1cb5a1c9f439eb4d0c5236057f",
+    "commit_sha": "a0ab641838975e084f5308d638d56e590ba97b58",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-06-10T13:36:55.000Z",
-    "last_updated_url": "https://github.com/hotio/sabnzbd/actions/runs/27280225359",
+    "last_updated": "2026-06-11T14:35:22.000Z",
+    "last_updated_url": "https://github.com/hotio/sabnzbd/actions/runs/27354554271",
     "tags": [
       "latest",
       "release",
-      "release-b9b0219",
-      "release-5.0.3",
+      "release-a0ab641",
+      "release-5.0.4",
       "release-v5",
       "release-v5.0",
-      "release-v5.0.3"
+      "release-v5.0.4"
     ]
   },
   "testing": {
     "commit_message": "Modified: meta.json",
-    "commit_sha": "2703dc28bdbac36a8721d614baa0393addc4f30b",
+    "commit_sha": "40b258ed9792f66f6fbd60178369606253b3e84c",
     "description": "Pre-releases",
     "hide": false,
-    "last_updated": "2026-06-10T13:36:54.000Z",
-    "last_updated_url": "https://github.com/hotio/sabnzbd/actions/runs/27280224072",
+    "last_updated": "2026-06-11T14:35:21.000Z",
+    "last_updated_url": "https://github.com/hotio/sabnzbd/actions/runs/27354554352",
     "tags": [
       "",
       "testing",
-      "testing-2703dc2",
-      "testing-5.0.4RC1",
-      "",
-      "",
-      ""
+      "testing-40b258e",
+      "testing-5.0.4",
+      "testing-v5",
+      "testing-v5.0",
+      "testing-v5.0.4"
     ]
   }
 }
