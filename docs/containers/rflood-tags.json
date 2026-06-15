@@ -1,15 +1,15 @@
 {
   "release": {
-    "commit_message": "Modified: meta.json",
-    "commit_sha": "ec48efa893394754431b1d038886d7dd1b14b898",
+    "commit_message": "disable deprecated command for default rtorrent.rc",
+    "commit_sha": "df790bc27798ccbdc7251876de3384e09b143310",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-06-14T09:20:10.000Z",
-    "last_updated_url": "https://github.com/hotio/rflood/actions/runs/27494449601",
+    "last_updated": "2026-06-15T10:53:57.000Z",
+    "last_updated_url": "https://github.com/hotio/rflood/actions/runs/27541363841",
     "tags": [
       "latest",
       "release",
-      "release-ec48efa",
+      "release-df790bc",
       "release-0.16.14",
       "release-v0",
       "release-v0.16",
