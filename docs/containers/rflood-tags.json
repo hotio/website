@@ -1,15 +1,15 @@
 {
   "release": {
-    "commit_message": "cleanup default rtorrent.rc",
-    "commit_sha": "7c475ff87e3bfbcfe52c1128334280bb73ad6032",
+    "commit_message": "Modified: meta.json",
+    "commit_sha": "d41c150624ca7f97aadb65d9d999b7759ed40a21",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-06-15T12:41:50.000Z",
-    "last_updated_url": "https://github.com/hotio/rflood/actions/runs/27546954262",
+    "last_updated": "2026-06-20T13:42:11.000Z",
+    "last_updated_url": "https://github.com/hotio/rflood/actions/runs/27872922096",
     "tags": [
       "latest",
       "release",
-      "release-7c475ff",
+      "release-d41c150",
       "release-0.16.14",
       "release-v0",
       "release-v0.16",
