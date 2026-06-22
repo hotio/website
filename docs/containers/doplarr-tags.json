@@ -1,19 +1,19 @@
 {
   "release": {
-    "commit_message": "migrate to doplarr_rs",
-    "commit_sha": "16f288b08267e10b94a0fae5b79df1455479025f",
+    "commit_message": "fix versioning",
+    "commit_sha": "a45954259c7c6839ff7ce8bb33eb79ccd2816880",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-06-22T06:34:52.000Z",
-    "last_updated_url": "https://github.com/hotio/doplarr/actions/runs/27934246261",
+    "last_updated": "2026-06-22T06:56:15.000Z",
+    "last_updated_url": "https://github.com/hotio/doplarr/actions/runs/27935151959",
     "tags": [
       "latest",
       "release",
-      "release-16f288b",
-      "release-3.8.0",
-      "release-v3",
-      "release-v3.8",
-      "release-v3.8.0"
+      "release-a459542",
+      "release-4.2.0",
+      "release-v4",
+      "release-v4.2",
+      "release-v4.2.0"
     ]
   }
 }
