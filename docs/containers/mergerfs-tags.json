@@ -1,15 +1,15 @@
 {
   "release": {
-    "commit_message": "Version, Upstream or Packages update",
-    "commit_sha": "e22b2b5c68274742aac3ffe3824a3a8c596968d7",
+    "commit_message": "Modified: meta.json",
+    "commit_sha": "177fab20fd020d133873cad4543f88e92e716ffb",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-05-17T09:27:01.000Z",
-    "last_updated_url": "https://github.com/hotio/mergerfs/actions/runs/25987079124",
+    "last_updated": "2026-06-22T22:01:42.000Z",
+    "last_updated_url": "https://github.com/hotio/mergerfs/actions/runs/27986987870",
     "tags": [
       "latest",
       "release",
-      "release-e22b2b5",
+      "release-177fab2",
       "release-2.42.0",
       "release-v2",
       "release-v2.42",
