@@ -18,8 +18,8 @@ title: hotio/base
       </tr>
     </thead>
     <tbody id="tags-table-body">
-<tr><td><div id="tag23198" onclick="CopyToClipboard('tag23198');return false;" class="tag-decoration">alpinevpn</div><div id="tag9943" onclick="CopyToClipboard('tag9943');return false;" class="tag-decoration">alpinevpn-5b8d5ef</div></td><td>Alpine 3.23</td><td><a href="https://github.com/hotio/base/commit/5b8d5efb443308ab511f041a3d8107ee657d32a5" target="_blank">Modified: meta.json</a></td><td><a href="https://github.com/hotio/base/actions/runs/27981927904" target="_blank">2026-06-22 20:29:59</a></td></tr>
-<tr><td><div id="tag21935" onclick="CopyToClipboard('tag21935');return false;" class="tag-decoration">noblevpn</div><div id="tag28760" onclick="CopyToClipboard('tag28760');return false;" class="tag-decoration">noblevpn-17acf77</div></td><td>Ubuntu 24.04</td><td><a href="https://github.com/hotio/base/commit/17acf7745ddc3a0e0bcc47d7a99ff695a06d0d51" target="_blank">Modified: packages.txt</a></td><td><a href="https://github.com/hotio/base/actions/runs/28112216015" target="_blank">2026-06-24 16:05:33</a></td></tr>
+<tr><td><div id="tag14387" onclick="CopyToClipboard('tag14387');return false;" class="tag-decoration">alpinevpn</div><div id="tag10190" onclick="CopyToClipboard('tag10190');return false;" class="tag-decoration">alpinevpn-5b8d5ef</div></td><td>Alpine 3.23</td><td><a href="https://github.com/hotio/base/commit/5b8d5efb443308ab511f041a3d8107ee657d32a5" target="_blank">Modified: meta.json</a></td><td><a href="https://github.com/hotio/base/actions/runs/27981927904" target="_blank">2026-06-22 20:29:59</a></td></tr>
+<tr><td><div id="tag15894" onclick="CopyToClipboard('tag15894');return false;" class="tag-decoration">noblevpn</div><div id="tag2775" onclick="CopyToClipboard('tag2775');return false;" class="tag-decoration">noblevpn-01a1e1e</div></td><td>Ubuntu 24.04</td><td><a href="https://github.com/hotio/base/commit/01a1e1e0bd529d669dd4681a604d43f8bb989ba1" target="_blank">Modified: packages.txt</a></td><td><a href="https://github.com/hotio/base/actions/runs/28203877054" target="_blank">2026-06-25 22:14:25</a></td></tr>
 </tbody>
   </table>
 </div>
