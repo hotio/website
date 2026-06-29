@@ -1,15 +1,15 @@
 {
   "release": {
-    "commit_message": "Modified: packages.txt",
-    "commit_sha": "1dc85a2d1312bea89db7f4c02d206dab8413f30e",
+    "commit_message": "Modified: meta.json",
+    "commit_sha": "52e2978e12985aacc7f42f49555126c3d953eb9b",
     "description": "",
     "hide": false,
-    "last_updated": "2026-06-23T19:05:56.000Z",
-    "last_updated_url": "https://github.com/hotio/cloudflareddns/actions/runs/28050172421",
+    "last_updated": "2026-06-29T17:30:15.000Z",
+    "last_updated_url": "https://github.com/hotio/cloudflareddns/actions/runs/28390734863",
     "tags": [
       "latest",
       "release",
-      "release-1dc85a2",
+      "release-52e2978",
       "",
       "",
       "",
