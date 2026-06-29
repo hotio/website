@@ -1,14 +1,14 @@
 {
   "v2": {
     "commit_message": "Modified: meta.json",
-    "commit_sha": "a514428a53cc1c33b0acbc573e101f6122bb5afb",
+    "commit_sha": "b4cafd068010be73de87e6dea8491badfba85189",
     "description": "v2",
-    "last_updated": "2026-06-22T22:29:49.000Z",
-    "last_updated_url": "https://github.com/hotio/whisparr/actions/runs/27988390033",
+    "last_updated": "2026-06-29T18:56:47.000Z",
+    "last_updated_url": "https://github.com/hotio/whisparr/actions/runs/28395539195",
     "tags": [
       "latest",
       "v2",
-      "v2-a514428",
+      "v2-b4cafd0",
       "v2-2.2.0-release.108",
       "v2-v2",
       "v2-v2.2",
