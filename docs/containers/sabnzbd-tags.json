@@ -1,16 +1,16 @@
 {
   "nightly": {
     "commit_message": "Modified: meta.json",
-    "commit_sha": "e63920dccca9072c2bfd54e7804ecdba770d32c9",
+    "commit_sha": "dffd530810e50655c0b156c3117e7ae7defab303",
     "description": "Every commit to develop",
     "hide": false,
-    "last_updated": "2026-07-03T09:56:57.000Z",
-    "last_updated_url": "https://github.com/hotio/sabnzbd/actions/runs/28653057528",
+    "last_updated": "2026-07-03T12:10:40.000Z",
+    "last_updated_url": "https://github.com/hotio/sabnzbd/actions/runs/28659672645",
     "tags": [
       "",
       "nightly",
-      "nightly-e63920d",
-      "nightly-2e202eca23ab946c339e92d85e2deb3ffd173aec",
+      "nightly-dffd530",
+      "nightly-ef8df5b57822ca5366d4d21c81c9545a23c53c3f",
       "",
       "",
       ""
