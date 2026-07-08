@@ -17,16 +17,16 @@
     ]
   },
   "release": {
-    "commit_message": "Modified: packages.txt",
-    "commit_sha": "4c4483a9197c0ebaae8dbecf47c3b70a621c41c2",
+    "commit_message": "Modified: meta.json",
+    "commit_sha": "15f3cb1fb3f442564e48ef424d2a818af11dd50a",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-07-06T13:53:06.000Z",
-    "last_updated_url": "https://github.com/hotio/unpackerr/actions/runs/28796719491",
+    "last_updated": "2026-07-08T21:15:59.000Z",
+    "last_updated_url": "https://github.com/hotio/unpackerr/actions/runs/28976298256",
     "tags": [
       "latest",
       "release",
-      "release-4c4483a",
+      "release-15f3cb1",
       "release-0.15.2",
       "release-v0",
       "release-v0.15",
