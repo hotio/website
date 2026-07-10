@@ -35,16 +35,16 @@
   },
   "testing": {
     "commit_message": "Modified: meta.json",
-    "commit_sha": "cf0a578ef88972156a7992220e742ce8df13ec9f",
+    "commit_sha": "79fbc9be834befb47221d04189d62edbc13501f9",
     "description": "Pre-releases",
     "hide": false,
-    "last_updated": "2026-07-08T21:06:05.000Z",
-    "last_updated_url": "https://github.com/hotio/sabnzbd/actions/runs/28975719325",
+    "last_updated": "2026-07-10T14:23:11.000Z",
+    "last_updated_url": "https://github.com/hotio/sabnzbd/actions/runs/29099614759",
     "tags": [
       "",
       "testing",
-      "testing-cf0a578",
-      "testing-5.1.0Beta2",
+      "testing-79fbc9b",
+      "testing-5.1.0Beta3",
       "",
       "",
       ""
