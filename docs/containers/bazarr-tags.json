@@ -1,19 +1,19 @@
 {
   "nightly": {
     "commit_message": "Modified: meta.json",
-    "commit_sha": "9071fa4dbde6f395f8cf5f578822066821443231",
+    "commit_sha": "158c71f3e4252389c2f6b1d8ea332a9b4f6ff72b",
     "description": "Pre-releases",
     "hide": false,
-    "last_updated": "2026-07-08T22:09:17.000Z",
-    "last_updated_url": "https://github.com/hotio/bazarr/actions/runs/28979199787",
+    "last_updated": "2026-07-12T09:03:55.000Z",
+    "last_updated_url": "https://github.com/hotio/bazarr/actions/runs/29186856182",
     "tags": [
       "",
       "nightly",
-      "nightly-9071fa4",
-      "nightly-1.6.0",
+      "nightly-158c71f",
+      "nightly-1.6.1-beta.0",
       "nightly-v1",
       "nightly-v1.6",
-      "nightly-v1.6.0"
+      "nightly-v1.6.1"
     ]
   },
   "release": {
