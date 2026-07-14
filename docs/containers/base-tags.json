@@ -17,16 +17,16 @@
     ]
   },
   "noblevpn": {
-    "commit_message": "rollback s6 and halt auto update",
-    "commit_sha": "8432352ff4a80216798501211f1ef71f62c5e825",
+    "commit_message": "Modified: packages.txt",
+    "commit_sha": "b36e04c506a56dfc53ff86794721ceb0801c6350",
     "description": "Ubuntu 24.04",
     "hide": false,
-    "last_updated": "2026-07-14T18:02:16.000Z",
-    "last_updated_url": "https://github.com/hotio/base/actions/runs/29356237279",
+    "last_updated": "2026-07-14T20:02:28.000Z",
+    "last_updated_url": "https://github.com/hotio/base/actions/runs/29364148449",
     "tags": [
       "",
       "noblevpn",
-      "noblevpn-8432352",
+      "noblevpn-b36e04c",
       "",
       "",
       "",
