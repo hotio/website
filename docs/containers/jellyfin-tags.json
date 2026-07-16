@@ -1,15 +1,15 @@
 {
   "nightly": {
     "commit_message": "Modified: meta.json",
-    "commit_sha": "5acbb309f0efdb9ca4994a673669d1001c4f58ab",
+    "commit_sha": "428df5feb17100febe33e8bc1365858dad011422",
     "description": "Unstable",
     "hide": false,
-    "last_updated": "2026-07-14T20:54:22.000Z",
-    "last_updated_url": "https://github.com/hotio/jellyfin/actions/runs/29367525542",
+    "last_updated": "2026-07-16T21:00:47.000Z",
+    "last_updated_url": "https://github.com/hotio/jellyfin/actions/runs/29534390538",
     "tags": [
       "",
       "nightly",
-      "nightly-5acbb30",
+      "nightly-428df5f",
       "nightly-2026071308",
       "",
       "",
