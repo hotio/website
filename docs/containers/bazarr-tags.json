@@ -1,15 +1,15 @@
 {
   "nightly": {
-    "commit_message": "fix s6 changes",
-    "commit_sha": "5b057972900febd7596f52543b0cbf012325c3be",
+    "commit_message": "Modified: packages.txt",
+    "commit_sha": "32eb92d2bcb582d3d1e71448d395e999630baaf6",
     "description": "Pre-releases",
     "hide": false,
-    "last_updated": "2026-07-19T09:05:23.000Z",
-    "last_updated_url": "https://github.com/hotio/bazarr/actions/runs/29680962316",
+    "last_updated": "2026-07-19T14:58:08.000Z",
+    "last_updated_url": "https://github.com/hotio/bazarr/actions/runs/29691881584",
     "tags": [
       "",
       "nightly",
-      "nightly-5b05797",
+      "nightly-32eb92d",
       "nightly-1.6.1-beta.5",
       "nightly-v1",
       "nightly-v1.6",
