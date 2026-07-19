@@ -17,16 +17,16 @@
     ]
   },
   "release": {
-    "commit_message": "Modified: meta.json",
-    "commit_sha": "0867037072e8d681654cea8aa8c33ba4852a5941",
+    "commit_message": "fix s6 changes",
+    "commit_sha": "61719030848aa8c34b1332e7834d22bde227aa61",
     "description": "master",
     "hide": false,
-    "last_updated": "2026-07-14T19:13:02.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/29360976005",
+    "last_updated": "2026-07-19T09:17:59.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/29681328937",
     "tags": [
       "latest",
       "release",
-      "release-0867037",
+      "release-6171903",
       "release-6.3.0.10514",
       "",
       "",
