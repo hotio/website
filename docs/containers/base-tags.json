@@ -1,15 +1,15 @@
 {
   "alpinevpn": {
-    "commit_message": "rollback s6 and halt auto update",
-    "commit_sha": "e0c79e1a9190d647c97bdb96d18e47d3d504a987",
+    "commit_message": "update s6",
+    "commit_sha": "ed7529d7a96d4e5e673c434b41b3905d612666ad",
     "description": "Alpine 3.23",
     "hide": false,
-    "last_updated": "2026-07-14T18:01:21.000Z",
-    "last_updated_url": "https://github.com/hotio/base/actions/runs/29356173783",
+    "last_updated": "2026-07-19T08:47:59.000Z",
+    "last_updated_url": "https://github.com/hotio/base/actions/runs/29680442074",
     "tags": [
       "",
       "alpinevpn",
-      "alpinevpn-e0c79e1",
+      "alpinevpn-ed7529d",
       "",
       "",
       "",
