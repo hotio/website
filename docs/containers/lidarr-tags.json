@@ -17,16 +17,16 @@
     ]
   },
   "release": {
-    "commit_message": "fix s6 changes",
-    "commit_sha": "7eac03afdeadc7d5c52fb1efc29379a1bd13aaaf",
+    "commit_message": "Modified: packages.txt",
+    "commit_sha": "a0965b4a704779d6a1986887ccbd677310f5de9d",
     "description": "master",
     "hide": false,
-    "last_updated": "2026-07-19T09:12:39.000Z",
-    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/29681171691",
+    "last_updated": "2026-07-19T15:02:55.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/29692048296",
     "tags": [
       "latest",
       "release",
-      "release-7eac03a",
+      "release-a0965b4",
       "release-3.1.0.4875",
       "",
       "",
