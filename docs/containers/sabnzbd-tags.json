@@ -17,16 +17,16 @@
     ]
   },
   "release": {
-    "commit_message": "Modified: meta.json",
-    "commit_sha": "a654991219ca33c9c90afb07e02a79ab463d3f09",
+    "commit_message": "fix s6 changes",
+    "commit_sha": "978af833492b92a953e44626fc2254899644e902",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-07-14T20:09:59.000Z",
-    "last_updated_url": "https://github.com/hotio/sabnzbd/actions/runs/29364644895",
+    "last_updated": "2026-07-19T09:19:40.000Z",
+    "last_updated_url": "https://github.com/hotio/sabnzbd/actions/runs/29681376820",
     "tags": [
       "latest",
       "release",
-      "release-a654991",
+      "release-978af83",
       "release-5.0.4",
       "release-v5",
       "release-v5.0",
