@@ -17,16 +17,16 @@
     ]
   },
   "release": {
-    "commit_message": "fix s6 changes",
-    "commit_sha": "aadefa4570734a1d7cac7689602df5df854d7f35",
+    "commit_message": "Modified: packages.txt",
+    "commit_sha": "6d4915ca37d3bb0d9a20767e0efe6dec6460995d",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-07-19T09:02:30.000Z",
-    "last_updated_url": "https://github.com/hotio/bazarr/actions/runs/29680876649",
+    "last_updated": "2026-07-19T14:58:10.000Z",
+    "last_updated_url": "https://github.com/hotio/bazarr/actions/runs/29691882661",
     "tags": [
       "latest",
       "release",
-      "release-aadefa4",
+      "release-6d4915c",
       "release-1.6.0",
       "release-v1",
       "release-v1.6",
