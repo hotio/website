@@ -17,16 +17,16 @@
     ]
   },
   "release": {
-    "commit_message": "Modified: meta.json",
-    "commit_sha": "e7b13bca299cfd2c08424ccfcf2c139cb9a0da63",
+    "commit_message": "fix s6 changes",
+    "commit_sha": "63b1d214c15778b9fe9b25c2615de71147e8a034",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-07-14T20:12:22.000Z",
-    "last_updated_url": "https://github.com/hotio/autoscan/actions/runs/29364805514",
+    "last_updated": "2026-07-19T08:54:27.000Z",
+    "last_updated_url": "https://github.com/hotio/autoscan/actions/runs/29680631194",
     "tags": [
       "latest",
       "release",
-      "release-e7b13bc",
+      "release-63b1d21",
       "release-1.4.0",
       "release-v1",
       "release-v1.4",
