@@ -1,15 +1,15 @@
 {
   "release": {
-    "commit_message": "fix s6 changes",
-    "commit_sha": "f75f9c38954e14afa41e58937c5d0a3da87114cb",
+    "commit_message": "Modified: meta.json",
+    "commit_sha": "47dff6871464ea239a5b61ff10a270467918ab55",
     "description": "Stable",
     "hide": false,
-    "last_updated": "2026-07-19T09:15:01.000Z",
-    "last_updated_url": "https://github.com/hotio/plex/actions/runs/29681242873",
+    "last_updated": "2026-07-20T20:36:44.000Z",
+    "last_updated_url": "https://github.com/hotio/plex/actions/runs/29776848951",
     "tags": [
       "latest",
       "release",
-      "release-f75f9c3",
+      "release-47dff68",
       "release-1.43.3.10828-00f62d37d",
       "",
       "",
