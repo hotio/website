@@ -1,16 +1,16 @@
 {
   "nightly": {
-    "commit_message": "fix s6 changes",
-    "commit_sha": "805892cef9e33883c44395b6e1e7090e0df51466",
+    "commit_message": "Modified: meta.json",
+    "commit_sha": "c3ab6758400272a753a12e614dd303561a20e009",
     "description": "Every commit to develop",
     "hide": false,
-    "last_updated": "2026-07-19T09:16:59.000Z",
-    "last_updated_url": "https://github.com/hotio/qbitmanage/actions/runs/29681301584",
+    "last_updated": "2026-07-20T02:28:35.000Z",
+    "last_updated_url": "https://github.com/hotio/qbitmanage/actions/runs/29712655521",
     "tags": [
       "",
       "nightly",
-      "nightly-805892c",
-      "nightly-67ef76d658268184be4306992098ffb32373ea2a",
+      "nightly-c3ab675",
+      "nightly-208b9cd3d04129128d66bed56d0b9fb57e9306a0",
       "",
       "",
       ""
