@@ -1,19 +1,19 @@
 {
   "release": {
-    "commit_message": "fix s6 changes",
-    "commit_sha": "5592384e1ad10720277c5f031ec2185fc59948ef",
+    "commit_message": "Modified: meta.json",
+    "commit_sha": "320bf02c963e108dcf932f19cba2610142e411ac",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-07-19T09:10:34.000Z",
-    "last_updated_url": "https://github.com/hotio/jackett/actions/runs/29681111392",
+    "last_updated": "2026-07-20T06:08:37.000Z",
+    "last_updated_url": "https://github.com/hotio/jackett/actions/runs/29720820291",
     "tags": [
       "latest",
       "release",
-      "release-5592384",
-      "release-0.24.2237",
+      "release-320bf02",
+      "release-0.24.2246",
       "release-v0",
       "release-v0.24",
-      "release-v0.24.2237"
+      "release-v0.24.2246"
     ]
   },
   "testing": {
