@@ -17,16 +17,16 @@
     ]
   },
   "testing": {
-    "commit_message": "fix s6 changes",
-    "commit_sha": "13679230ba2027c68e2f411741bfbcd8f2b57cf0",
+    "commit_message": "Modified: meta.json",
+    "commit_sha": "fb43358e78ff03b8e8bdb985e75553ea47474c4c",
     "description": "Latest",
     "hide": false,
-    "last_updated": "2026-07-19T09:09:19.000Z",
-    "last_updated_url": "https://github.com/hotio/duplicacy/actions/runs/29681075435",
+    "last_updated": "2026-07-28T16:02:57.000Z",
+    "last_updated_url": "https://github.com/hotio/duplicacy/actions/runs/30376379148",
     "tags": [
       "",
       "testing",
-      "testing-1367923",
+      "testing-fb43358",
       "testing-1.8.3",
       "testing-v1",
       "testing-v1.8",
