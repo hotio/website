@@ -1,15 +1,15 @@
 {
   "release": {
-    "commit_message": "fix s6 changes",
-    "commit_sha": "9bdc1aeb7ae65b4bd5a01c81763652287baadf3e",
+    "commit_message": "Modified: meta.json",
+    "commit_sha": "24ebdad0e6d4cbe81eb47a3725a5ffe91e1923bf",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-07-19T09:17:47.000Z",
-    "last_updated_url": "https://github.com/hotio/qui/actions/runs/29681323600",
+    "last_updated": "2026-07-28T16:43:31.000Z",
+    "last_updated_url": "https://github.com/hotio/qui/actions/runs/30379595766",
     "tags": [
       "latest",
       "release",
-      "release-9bdc1ae",
+      "release-24ebdad",
       "release-1.23.0",
       "release-v1",
       "release-v1.23",
