@@ -18,19 +18,19 @@
   },
   "release": {
     "commit_message": "Modified: meta.json",
-    "commit_sha": "ade58c698bc3e6aabb4f48eba70a2973af202ac3",
+    "commit_sha": "33d172f167189d527e9e4cd5f110d9534b35a53b",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-07-28T16:44:17.000Z",
-    "last_updated_url": "https://github.com/hotio/seerr/actions/runs/30379655590",
+    "last_updated": "2026-07-30T11:11:16.000Z",
+    "last_updated_url": "https://github.com/hotio/seerr/actions/runs/30537578784",
     "tags": [
       "latest",
       "release",
-      "release-ade58c6",
-      "release-3.4.0",
+      "release-33d172f",
+      "release-3.4.1",
       "release-v3",
       "release-v3.4",
-      "release-v3.4.0"
+      "release-v3.4.1"
     ]
   }
 }
