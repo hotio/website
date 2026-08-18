@@ -34,16 +34,16 @@
     ]
   },
   "testing": {
-    "commit_message": "Modified: packages.txt",
-    "commit_sha": "8c2990c2e79dc74d6e1ca46d6d2ece5de7f461f6",
+    "commit_message": "Modified: meta.json",
+    "commit_sha": "40662574bcb3790ab7ab76a8d963e874ba5ed001",
     "description": "develop",
     "hide": false,
-    "last_updated": "2026-08-17T17:17:32.000Z",
-    "last_updated_url": "https://github.com/hotio/prowlarr/actions/runs/32049675108",
+    "last_updated": "2026-08-18T14:22:17.000Z",
+    "last_updated_url": "https://github.com/hotio/prowlarr/actions/runs/32147916916",
     "tags": [
       "",
       "testing",
-      "testing-8c2990c",
+      "testing-4066257",
       "testing-2.6.1.5509",
       "",
       "",
