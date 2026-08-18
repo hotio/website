@@ -1,15 +1,15 @@
 {
   "release": {
     "commit_message": "Modified: meta.json",
-    "commit_sha": "17be1a4cbe04b057c5e0ecc7e39e2d93f97ba12c",
+    "commit_sha": "751666fcbcb5ae2f8c9077c6021cdcad0edc5420",
     "description": "Stable",
     "hide": false,
-    "last_updated": "2026-08-15T08:21:32.000Z",
-    "last_updated_url": "https://github.com/hotio/duplicacy/actions/runs/31874284223",
+    "last_updated": "2026-08-18T13:38:08.000Z",
+    "last_updated_url": "https://github.com/hotio/duplicacy/actions/runs/32143511429",
     "tags": [
       "latest",
       "release",
-      "release-17be1a4",
+      "release-751666f",
       "release-1.8.3",
       "release-v1",
       "release-v1.8",
