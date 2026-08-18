@@ -17,16 +17,16 @@
     ]
   },
   "release": {
-    "commit_message": "Modified: packages.txt",
-    "commit_sha": "77c379f82f4bb0ddf4691dcb8caae49918b7ed6a",
+    "commit_message": "Modified: meta.json",
+    "commit_sha": "8b5fa1133985b29bf95bd23d636e5769ea54f5ff",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-08-17T13:42:36.000Z",
-    "last_updated_url": "https://github.com/hotio/seerr/actions/runs/32036366049",
+    "last_updated": "2026-08-18T13:46:16.000Z",
+    "last_updated_url": "https://github.com/hotio/seerr/actions/runs/32144302748",
     "tags": [
       "latest",
       "release",
-      "release-77c379f",
+      "release-8b5fa11",
       "release-3.4.1",
       "release-v3",
       "release-v3.4",
