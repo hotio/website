@@ -17,16 +17,16 @@
     ]
   },
   "release": {
-    "commit_message": "Modified: meta.json",
-    "commit_sha": "64d47b641a8dae471c849bf77bb6ce2890d08edd",
+    "commit_message": "Modified: packages.txt",
+    "commit_sha": "9e992ea1f9230a920bd60c9f47a4eea9208dd59c",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-08-18T23:10:38.000Z",
-    "last_updated_url": "https://github.com/hotio/stash/actions/runs/32196045081",
+    "last_updated": "2026-08-19T15:18:46.000Z",
+    "last_updated_url": "https://github.com/hotio/stash/actions/runs/32269292237",
     "tags": [
       "latest",
       "release",
-      "release-64d47b6",
+      "release-9e992ea",
       "release-0.31.1",
       "release-v0",
       "release-v0.31",
