@@ -17,15 +17,15 @@
   },
   "v2-develop": {
     "commit_message": "Modified: meta.json",
-    "commit_sha": "6ec4ecf4e3116211563cab10a4674df5e5787ba3",
+    "commit_sha": "cf4e8dc5514767f5ec0c0b029ecddf1db738736f",
     "description": "v2-develop",
-    "last_updated": "2026-08-25T21:16:08.000Z",
-    "last_updated_url": "https://github.com/hotio/whisparr/actions/runs/32900091539",
+    "last_updated": "2026-08-25T22:13:47.000Z",
+    "last_updated_url": "https://github.com/hotio/whisparr/actions/runs/32905126171",
     "tags": [
       "",
       "v2-develop",
-      "v2-develop-6ec4ecf",
-      "v2-develop-2.2.0-develop.179",
+      "v2-develop-cf4e8dc",
+      "v2-develop-2.2.0-develop.183",
       "v2-develop-v2",
       "v2-develop-v2.2",
       "v2-develop-v2.2.0"
