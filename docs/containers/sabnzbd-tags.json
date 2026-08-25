@@ -18,19 +18,19 @@
   },
   "release": {
     "commit_message": "Modified: meta.json",
-    "commit_sha": "a5cc15e20c8afb8fa435dc7d82c514d53d8db142",
+    "commit_sha": "78674c77dfa11fda625a1d89e3d2fc74494ac63d",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-08-20T14:34:01.000Z",
-    "last_updated_url": "https://github.com/hotio/sabnzbd/actions/runs/32380904002",
+    "last_updated": "2026-08-25T14:42:22.000Z",
+    "last_updated_url": "https://github.com/hotio/sabnzbd/actions/runs/32861180549",
     "tags": [
       "latest",
       "release",
-      "release-a5cc15e",
-      "release-5.1.1",
+      "release-78674c7",
+      "release-5.1.2",
       "release-v5",
       "release-v5.1",
-      "release-v5.1.1"
+      "release-v5.1.2"
     ]
   },
   "testing": {
