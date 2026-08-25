@@ -18,19 +18,19 @@
   },
   "testing": {
     "commit_message": "Modified: meta.json",
-    "commit_sha": "9b9d68d93f30f378d375a8c9add879de9b1c62dd",
+    "commit_sha": "37fab401787963b113f3f970deeb8f7e4b8dc1e1",
     "description": "Pre-releases",
     "hide": false,
-    "last_updated": "2026-08-20T03:35:02.000Z",
-    "last_updated_url": "https://github.com/hotio/tautulli/actions/runs/32328760155",
+    "last_updated": "2026-08-25T16:21:14.000Z",
+    "last_updated_url": "https://github.com/hotio/tautulli/actions/runs/32871458010",
     "tags": [
       "",
       "testing",
-      "testing-9b9d68d",
-      "testing-2.17.2",
+      "testing-37fab40",
+      "testing-2.18.0",
       "testing-v2",
-      "testing-v2.17",
-      "testing-v2.17.2"
+      "testing-v2.18",
+      "testing-v2.18.0"
     ]
   }
 }
