@@ -18,7 +18,7 @@ title: hotio/cloudflareddns
       </tr>
     </thead>
     <tbody id="tags-table-body">
-<tr><td><div class="tag-decoration-latest">latest</div><div id="tag21025" onclick="CopyToClipboard('tag21025');return false;" class="tag-decoration">release</div><div id="tag27651" onclick="CopyToClipboard('tag27651');return false;" class="tag-decoration">release-8629c29</div></td><td></td><td><a href="https://github.com/hotio/cloudflareddns/commit/8629c29e11046718803adb0c4b37c0a702d52db4" target="_blank">Modified: meta.json</a></td><td><a href="https://github.com/hotio/cloudflareddns/actions/runs/32386139114" target="_blank">2026-08-20 15:26:20</a></td></tr>
+<tr><td><div class="tag-decoration-latest">latest</div><div id="tag18277" onclick="CopyToClipboard('tag18277');return false;" class="tag-decoration">release</div><div id="tag25338" onclick="CopyToClipboard('tag25338');return false;" class="tag-decoration">release-791ca8a</div></td><td></td><td><a href="https://github.com/hotio/cloudflareddns/commit/791ca8a70a6630d69d604d5fb9a64a53c3fd7b4b" target="_blank">Modified: meta.json</a></td><td><a href="https://github.com/hotio/cloudflareddns/actions/runs/32916754843" target="_blank">2026-08-26 00:51:42</a></td></tr>
 </tbody>
   </table>
 </div>
