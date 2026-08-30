@@ -1,16 +1,16 @@
 {
   "nightly": {
     "commit_message": "Modified: meta.json",
-    "commit_sha": "4a6e95e056f13fbedf9d57114c5a940a162d55cf",
+    "commit_sha": "7f0e916e0c88c7ef52762c389e0a52f245238653",
     "description": "nightly",
     "hide": false,
-    "last_updated": "2026-08-26T01:45:42.000Z",
-    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/32920190969",
+    "last_updated": "2026-08-30T00:02:09.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/33282354609",
     "tags": [
       "",
       "nightly",
-      "nightly-4a6e95e",
-      "nightly-3.1.4.5029",
+      "nightly-7f0e916",
+      "nightly-3.1.4.5035",
       "",
       "",
       ""
