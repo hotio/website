@@ -105,7 +105,6 @@ nav:
     - containers/mergerfs.md
     - containers/nzbget.md
     - containers/nzbhydra2.md
-    - containers/overseerr.md
     - containers/plex.md
     - containers/prowlarr.md
     - containers/qbitmanage.md
