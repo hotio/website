@@ -2,7 +2,6 @@
 hide:
   - toc
 title: hotio/slskd
-status: new
 ---
 
 [:octicons-mark-github-16: GitHub](https://github.com/hotio/slskd){ class="header-links" target="_blank" rel="noopener" }  
