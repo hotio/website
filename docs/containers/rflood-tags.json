@@ -1,15 +1,15 @@
 {
   "release": {
     "commit_message": "Modified: meta.json",
-    "commit_sha": "62d806007b6cefeb21eae8a3d87042d5acd2ddea",
+    "commit_sha": "f76a7219058c2089a127cdd86eb5bc887e63c502",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-09-01T10:50:11.000Z",
-    "last_updated_url": "https://github.com/hotio/rflood/actions/runs/33499428020",
+    "last_updated": "2026-09-01T15:19:46.000Z",
+    "last_updated_url": "https://github.com/hotio/rflood/actions/runs/33525059912",
     "tags": [
       "latest",
       "release",
-      "release-62d8060",
+      "release-f76a721",
       "release-0.16.21",
       "release-v0",
       "release-v0.16",
