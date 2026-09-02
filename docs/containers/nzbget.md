@@ -20,7 +20,7 @@ title: hotio/nzbget
       </tr>
     </thead>
     <tbody id="tags-table-body">
-<tr><td><div class="tag-decoration-latest">latest</div><div id="tag14058" onclick="CopyToClipboard('tag14058');return false;" class="tag-decoration">release</div><div id="tag28659" onclick="CopyToClipboard('tag28659');return false;" class="tag-decoration">release-94d7a54</div><div id="tag32286" onclick="CopyToClipboard('tag32286');return false;" class="tag-decoration">release-26.3</div></td><td>Releases</td><td><a href="https://github.com/hotio/nzbget/commit/94d7a54847660eab6cabd45e6503cdf4d76b0801" target="_blank">Modified: meta.json</a></td><td><a href="https://github.com/hotio/nzbget/actions/runs/33510722078" target="_blank">2026-09-01 12:59:10</a></td></tr>
+<tr><td><div class="tag-decoration-latest">latest</div><div id="tag31981" onclick="CopyToClipboard('tag31981');return false;" class="tag-decoration">release</div><div id="tag8168" onclick="CopyToClipboard('tag8168');return false;" class="tag-decoration">release-9f0b975</div><div id="tag3984" onclick="CopyToClipboard('tag3984');return false;" class="tag-decoration">release-26.3</div></td><td>Releases</td><td><a href="https://github.com/hotio/nzbget/commit/9f0b9753f5406e4d99313682bc8b795d534513fd" target="_blank">Modified: meta.json</a></td><td><a href="https://github.com/hotio/nzbget/actions/runs/33576848664" target="_blank">2026-09-02 00:48:41</a></td></tr>
 </tbody>
   </table>
 </div>
