@@ -1,15 +1,15 @@
 {
   "release": {
     "commit_message": "Modified: meta.json",
-    "commit_sha": "412271b789f5f2e94c3e8a566f6bd9f58b4cc5e1",
+    "commit_sha": "647d2b1ad75fd5a4f519d09f9e740a213c9e9dfc",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-09-02T06:35:50.000Z",
-    "last_updated_url": "https://github.com/hotio/doplarr/actions/runs/33599558853",
+    "last_updated": "2026-09-04T21:08:32.000Z",
+    "last_updated_url": "https://github.com/hotio/doplarr/actions/runs/33919692528",
     "tags": [
       "latest",
       "release",
-      "release-412271b",
+      "release-647d2b1",
       "release-4.6.0",
       "release-v4",
       "release-v4.6",
