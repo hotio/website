@@ -35,16 +35,16 @@
   },
   "testing": {
     "commit_message": "Modified: meta.json",
-    "commit_sha": "c7e36b56be9006003ff98b33b51477c27f3f614e",
+    "commit_sha": "ce3b95d06a52f126b70314ace49b9313d6581236",
     "description": "develop",
     "hide": false,
-    "last_updated": "2026-09-10T14:45:23.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/34491155114",
+    "last_updated": "2026-09-14T17:33:05.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/34875435206",
     "tags": [
       "",
       "testing",
-      "testing-c7e36b5",
-      "testing-6.4.3.10645",
+      "testing-ce3b95d",
+      "testing-6.4.4.10684",
       "",
       "",
       ""
