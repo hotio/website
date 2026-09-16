@@ -18,16 +18,16 @@
   },
   "release": {
     "commit_message": "Modified: meta.json",
-    "commit_sha": "b86a2df24cdf4aaf85f33d5e259b66a269b2e0b7",
+    "commit_sha": "cf04b3dcd6d5cbe31c75a8ad92bb7bfae145e3ce",
     "description": "master",
     "hide": false,
-    "last_updated": "2026-09-15T08:08:41.000Z",
-    "last_updated_url": "https://github.com/hotio/prowlarr/actions/runs/34945361941",
+    "last_updated": "2026-09-16T20:37:05.000Z",
+    "last_updated_url": "https://github.com/hotio/prowlarr/actions/runs/35147629114",
     "tags": [
       "latest",
       "release",
-      "release-b86a2df",
-      "release-2.5.2.5491",
+      "release-cf04b3d",
+      "release-2.6.5.5623",
       "",
       "",
       ""
