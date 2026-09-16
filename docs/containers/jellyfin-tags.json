@@ -17,16 +17,16 @@
     ]
   },
   "release": {
-    "commit_message": "Modified: packages.txt",
-    "commit_sha": "eb4f95fa1c5d472f2b871f070d06fc78d97c3a85",
+    "commit_message": "Modified: meta.json",
+    "commit_sha": "93e0adf19d0a75f1520ac7a0ca00378d2a646344",
     "description": "Stable",
     "hide": false,
-    "last_updated": "2026-09-15T10:51:28.000Z",
-    "last_updated_url": "https://github.com/hotio/jellyfin/actions/runs/34960188481",
+    "last_updated": "2026-09-16T10:40:30.000Z",
+    "last_updated_url": "https://github.com/hotio/jellyfin/actions/runs/35086256609",
     "tags": [
       "latest",
       "release",
-      "release-eb4f95f",
+      "release-93e0adf",
       "release-12.1",
       "",
       "",
