@@ -1,15 +1,15 @@
 {
   "alpinevpn": {
-    "commit_message": "Modified: packages.txt",
-    "commit_sha": "d75cbb9bce7b00493684f7fb029fdd6a7b170cbd",
+    "commit_message": "Modified: meta.json",
+    "commit_sha": "00975757ca866a5c1d382c1fda7c6bfa41ba904d",
     "description": "Alpine 3.23",
     "hide": false,
-    "last_updated": "2026-09-17T17:47:04.000Z",
-    "last_updated_url": "https://github.com/hotio/base/actions/runs/35254831651",
+    "last_updated": "2026-09-18T01:50:16.000Z",
+    "last_updated_url": "https://github.com/hotio/base/actions/runs/35296929573",
     "tags": [
       "",
       "alpinevpn",
-      "alpinevpn-d75cbb9",
+      "alpinevpn-0097575",
       "",
       "",
       "",
