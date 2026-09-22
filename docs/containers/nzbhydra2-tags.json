@@ -18,19 +18,19 @@
   },
   "testing": {
     "commit_message": "Modified: meta.json",
-    "commit_sha": "ec094e368c939740e9b09a3588b856130157d8c9",
+    "commit_sha": "4ba51d2a7410a403c9c76dce1c07bbdf903ea56b",
     "description": "Pre-releases",
     "hide": false,
-    "last_updated": "2026-09-22T07:18:20.000Z",
-    "last_updated_url": "https://github.com/hotio/nzbhydra2/actions/runs/35698942097",
+    "last_updated": "2026-09-22T17:56:06.000Z",
+    "last_updated_url": "https://github.com/hotio/nzbhydra2/actions/runs/35763872700",
     "tags": [
       "",
       "testing",
-      "testing-ec094e3",
-      "testing-9.0.3",
+      "testing-4ba51d2",
+      "testing-9.0.4",
       "testing-v9",
       "testing-v9.0",
-      "testing-v9.0.3"
+      "testing-v9.0.4"
     ]
   }
 }
