@@ -1,15 +1,15 @@
 {
   "release": {
     "commit_message": "Modified: meta.json",
-    "commit_sha": "7fd897985118c70e053be86ac51ad52312b1193f",
+    "commit_sha": "4611a6dbcae147d5a7af49ab05cbe0a9b6f8e76e",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-09-18T18:40:30.000Z",
-    "last_updated_url": "https://github.com/hotio/tautulli/actions/runs/35381558844",
+    "last_updated": "2026-09-22T06:54:11.000Z",
+    "last_updated_url": "https://github.com/hotio/tautulli/actions/runs/35696961504",
     "tags": [
       "latest",
       "release",
-      "release-7fd8979",
+      "release-4611a6d",
       "release-2.18.1",
       "release-v2",
       "release-v2.18",
