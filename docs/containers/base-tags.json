@@ -1,15 +1,15 @@
 {
   "alpinevpn": {
-    "commit_message": "use MTU from wg conf file",
-    "commit_sha": "f0a9b4f3d022d930068c83d1af71cd5357ad709e",
+    "commit_message": "Modified: packages.txt",
+    "commit_sha": "52645b0d5fb1a581e192ae418d0e7392adcb20f5",
     "description": "Alpine 3.23",
     "hide": false,
-    "last_updated": "2026-09-22T06:12:59.000Z",
-    "last_updated_url": "https://github.com/hotio/base/actions/runs/35693853556",
+    "last_updated": "2026-09-24T00:04:20.000Z",
+    "last_updated_url": "https://github.com/hotio/base/actions/runs/35936684766",
     "tags": [
       "",
       "alpinevpn",
-      "alpinevpn-f0a9b4f",
+      "alpinevpn-52645b0",
       "",
       "",
       "",
