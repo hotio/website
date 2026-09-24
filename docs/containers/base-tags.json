@@ -17,16 +17,16 @@
     ]
   },
   "noblevpn": {
-    "commit_message": "use MTU from wg conf file",
-    "commit_sha": "8960618c55b9a212316604e1170236c0d15d61d9",
+    "commit_message": "Modified: packages.txt",
+    "commit_sha": "96be0afdc53949461fd1df7fe3ca9943c1270ed1",
     "description": "Ubuntu 24.04",
     "hide": false,
-    "last_updated": "2026-09-22T06:13:22.000Z",
-    "last_updated_url": "https://github.com/hotio/base/actions/runs/35693882912",
+    "last_updated": "2026-09-24T15:33:40.000Z",
+    "last_updated_url": "https://github.com/hotio/base/actions/runs/36021101718",
     "tags": [
       "",
       "noblevpn",
-      "noblevpn-8960618",
+      "noblevpn-96be0af",
       "",
       "",
       "",
