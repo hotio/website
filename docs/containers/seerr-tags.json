@@ -1,15 +1,15 @@
 {
   "nightly": {
-    "commit_message": "use fixed pnpm version",
-    "commit_sha": "bd5c884c28bbabcbf014e086dab96f66cc0bc715",
+    "commit_message": "Modified: meta.json",
+    "commit_sha": "9c81630a2f999f822f222825624d914a68bc2496",
     "description": "Every commit to develop",
     "hide": false,
-    "last_updated": "2026-09-30T06:53:47.000Z",
-    "last_updated_url": "https://github.com/hotio/seerr/actions/runs/36680670577",
+    "last_updated": "2026-09-30T18:58:12.000Z",
+    "last_updated_url": "https://github.com/hotio/seerr/actions/runs/36762360583",
     "tags": [
       "",
       "nightly",
-      "nightly-bd5c884",
+      "nightly-9c81630",
       "nightly-e9590629b8215676a352ec2413d7c8ee7e6974df",
       "",
       "",
