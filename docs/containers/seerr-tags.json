@@ -17,16 +17,16 @@
     ]
   },
   "release": {
-    "commit_message": "Modified: meta.json",
-    "commit_sha": "20410e6f6a6afd132d3e3abc4f503bcd64adb5e1",
+    "commit_message": "Merge pull request #2 from saltydk/patch-1\n\nUse the upstream pnpm version",
+    "commit_sha": "f7170ae0f84a8f8a0c349aeefa47604523ba2abd",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-09-28T00:27:26.000Z",
-    "last_updated_url": "https://github.com/hotio/seerr/actions/runs/36362292209",
+    "last_updated": "2026-09-30T02:30:45.000Z",
+    "last_updated_url": "https://github.com/hotio/seerr/actions/runs/36660187360",
     "tags": [
       "latest",
       "release",
-      "release-20410e6",
+      "release-f7170ae",
       "release-3.5.0",
       "release-v3",
       "release-v3.5",
