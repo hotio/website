@@ -1,15 +1,15 @@
 {
   "release": {
     "commit_message": "Modified: meta.json",
-    "commit_sha": "0d7430dbb0e39913c4c630671035eeedf6408d8d",
+    "commit_sha": "88dbb0c8b1653981aa46da2a25537d7d36a26428",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-09-24T01:11:30.000Z",
-    "last_updated_url": "https://github.com/hotio/caddy/actions/runs/35941831424",
+    "last_updated": "2026-09-30T16:46:31.000Z",
+    "last_updated_url": "https://github.com/hotio/caddy/actions/runs/36746668472",
     "tags": [
       "latest",
       "release",
-      "release-0d7430d",
+      "release-88dbb0c",
       "release-2.11.4",
       "release-v2",
       "release-v2.11",
