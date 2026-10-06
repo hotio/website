@@ -1,15 +1,15 @@
 {
   "release": {
     "commit_message": "Modified: meta.json",
-    "commit_sha": "603d13b330e9ccef855d5f63e73c807254e293d5",
+    "commit_sha": "ba1ed521b1bebd97e3912185c23c0c6033f2dcce",
     "description": "Stable",
     "hide": false,
-    "last_updated": "2026-10-02T13:45:49.000Z",
-    "last_updated_url": "https://github.com/hotio/plex/actions/runs/37015169378",
+    "last_updated": "2026-10-06T07:26:52.000Z",
+    "last_updated_url": "https://github.com/hotio/plex/actions/runs/37429717868",
     "tags": [
       "latest",
       "release",
-      "release-603d13b",
+      "release-ba1ed52",
       "release-1.43.4.10903-e5521bd8c",
       "",
       "",
