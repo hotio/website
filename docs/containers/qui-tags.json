@@ -1,15 +1,15 @@
 {
   "release": {
     "commit_message": "Modified: meta.json",
-    "commit_sha": "eccfd39c98abe5bff037c1baf394ebcf0a6b36c5",
+    "commit_sha": "34e85caf863002adea03bec2e86968609ea0150d",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-10-06T16:36:39.000Z",
-    "last_updated_url": "https://github.com/hotio/qui/actions/runs/37497060470",
+    "last_updated": "2026-10-07T01:17:29.000Z",
+    "last_updated_url": "https://github.com/hotio/qui/actions/runs/37556356266",
     "tags": [
       "latest",
       "release",
-      "release-eccfd39",
+      "release-34e85ca",
       "release-1.30.0",
       "release-v1",
       "release-v1.30",
