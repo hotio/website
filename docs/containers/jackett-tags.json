@@ -18,19 +18,19 @@
   },
   "testing": {
     "commit_message": "Modified: meta.json",
-    "commit_sha": "7ac0c5fbae9cd5433fa75a09f45054ae80697144",
+    "commit_sha": "abba502ca5901f189d8ebbbdca5d086b653d8b3b",
     "description": "Pre-releases",
     "hide": false,
-    "last_updated": "2026-10-16T07:43:39.000Z",
-    "last_updated_url": "https://github.com/hotio/jackett/actions/runs/38869055186",
+    "last_updated": "2026-10-17T07:21:41.000Z",
+    "last_updated_url": "https://github.com/hotio/jackett/actions/runs/39013344618",
     "tags": [
       "",
       "testing",
-      "testing-7ac0c5f",
-      "testing-0.24.2864",
+      "testing-abba502",
+      "testing-0.24.2865",
       "testing-v0",
       "testing-v0.24",
-      "testing-v0.24.2864"
+      "testing-v0.24.2865"
     ]
   }
 }
