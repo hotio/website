@@ -1,19 +1,19 @@
 {
   "release": {
     "commit_message": "Modified: meta.json",
-    "commit_sha": "38d8ebce234f3c9dcccc2ba71e9956a28972eafc",
+    "commit_sha": "dfe5a990ef39357890e106b8efdb8686cdeb9ce5",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-10-18T15:00:17.000Z",
-    "last_updated_url": "https://github.com/hotio/qbittorrent/actions/runs/39138506463",
+    "last_updated": "2026-10-20T15:25:01.000Z",
+    "last_updated_url": "https://github.com/hotio/qbittorrent/actions/runs/39448194779",
     "tags": [
       "latest",
       "release",
-      "release-38d8ebc",
-      "release-5.2.4",
+      "release-dfe5a99",
+      "release-5.3.0",
       "release-v5",
-      "release-v5.2",
-      "release-v5.2.4"
+      "release-v5.3",
+      "release-v5.3.0"
     ]
   }
 }
