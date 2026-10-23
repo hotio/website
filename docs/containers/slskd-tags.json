@@ -17,19 +17,19 @@
   },
   "release": {
     "commit_message": "Modified: meta.json",
-    "commit_sha": "a5ccbe0e32594cfcd0934ef3f6bbdce20c27d800",
+    "commit_sha": "d7bea38a41fb2d44055e124737058a448f4369cd",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-10-21T23:57:59.000Z",
-    "last_updated_url": "https://github.com/hotio/slskd/actions/runs/39696758582",
+    "last_updated": "2026-10-23T04:29:53.000Z",
+    "last_updated_url": "https://github.com/hotio/slskd/actions/runs/39900631968",
     "tags": [
       "latest",
       "release",
-      "release-a5ccbe0",
-      "release-0.26.1",
+      "release-d7bea38",
+      "release-0.26.2",
       "release-v0",
       "release-v0.26",
-      "release-v0.26.1"
+      "release-v0.26.2"
     ]
   }
 }
