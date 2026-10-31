@@ -1,16 +1,16 @@
 {
   "nightly": {
     "commit_message": "Modified: meta.json",
-    "commit_sha": "1e7dc8b8d873f17e823bdf62ec028cb4cbfd62f6",
+    "commit_sha": "2e150bf93bf96123bb3a418520aa88158ffd81c7",
     "description": "nightly",
     "hide": false,
-    "last_updated": "2026-10-30T21:21:05.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/41130395961",
+    "last_updated": "2026-10-31T23:00:04.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/41250622740",
     "tags": [
       "",
       "nightly",
-      "nightly-1e7dc8b",
-      "nightly-7.0.1.10844",
+      "nightly-2e150bf",
+      "nightly-7.0.1.10849",
       "",
       "",
       ""
