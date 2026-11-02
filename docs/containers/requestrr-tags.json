@@ -1,15 +1,15 @@
 {
   "release": {
     "commit_message": "Modified: meta.json",
-    "commit_sha": "1c6cec1c407ac1a101bfe5d488d27ba1c597a742",
+    "commit_sha": "8506d8d9ce23d02296a7b95942a73f779f38a30f",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-10-27T19:05:16.000Z",
-    "last_updated_url": "https://github.com/hotio/requestrr/actions/runs/40565910228",
+    "last_updated": "2026-11-02T21:05:53.000Z",
+    "last_updated_url": "https://github.com/hotio/requestrr/actions/runs/41525203385",
     "tags": [
       "latest",
       "release",
-      "release-1c6cec1",
+      "release-8506d8d",
       "release-2.1.10",
       "release-v2",
       "release-v2.1",
