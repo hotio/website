@@ -1,15 +1,15 @@
 {
   "release": {
     "commit_message": "Modified: meta.json",
-    "commit_sha": "3b7272397da1f9273b293415381ae8fd805d076b",
+    "commit_sha": "170b573e39cf883fc4d18a736d2153d5d6815edb",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-11-02T11:52:57.000Z",
-    "last_updated_url": "https://github.com/hotio/jackett/actions/runs/41440267653",
+    "last_updated": "2026-11-02T21:10:02.000Z",
+    "last_updated_url": "https://github.com/hotio/jackett/actions/runs/41525844082",
     "tags": [
       "latest",
       "release",
-      "release-3b72723",
+      "release-170b573",
       "release-0.24.2994",
       "release-v0",
       "release-v0.24",
