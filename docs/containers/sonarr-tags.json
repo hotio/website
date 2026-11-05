@@ -1,15 +1,15 @@
 {
   "nightly": {
     "commit_message": "Modified: meta.json",
-    "commit_sha": "10836c0a1a5e480c910fa6bf8f6162ee0718bf2e",
+    "commit_sha": "06cea0e6c2bbbcf734ca6ebb27bf7fcc0ef6e3b3",
     "description": "develop/v5-nightly",
     "hide": false,
-    "last_updated": "2026-11-04T18:24:28.000Z",
-    "last_updated_url": "https://github.com/hotio/sonarr/actions/runs/41886853797",
+    "last_updated": "2026-11-05T22:29:49.000Z",
+    "last_updated_url": "https://github.com/hotio/sonarr/actions/runs/42121973877",
     "tags": [
       "",
       "nightly",
-      "nightly-10836c0",
+      "nightly-06cea0e",
       "nightly-5.0.0.2941",
       "",
       "",
