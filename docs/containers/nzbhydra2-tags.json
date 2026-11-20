@@ -1,15 +1,15 @@
 {
   "release": {
     "commit_message": "Modified: meta.json",
-    "commit_sha": "7088a377bb54908ed05496768ac0927ef9322664",
+    "commit_sha": "b69986e4634870dd5b65105f50aaaa2bfe45c76d",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-11-20T09:40:01.000Z",
-    "last_updated_url": "https://github.com/hotio/nzbhydra2/actions/runs/44712655637",
+    "last_updated": "2026-11-20T18:17:54.000Z",
+    "last_updated_url": "https://github.com/hotio/nzbhydra2/actions/runs/44791440749",
     "tags": [
       "latest",
       "release",
-      "release-7088a37",
+      "release-b69986e",
       "release-9.3.3",
       "release-v9",
       "release-v9.3",
