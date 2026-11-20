@@ -20,7 +20,7 @@ title: hotio/plex
       </tr>
     </thead>
     <tbody id="tags-table-body">
-<tr><td><div class="tag-decoration-latest">latest</div><div id="tag19772" onclick="CopyToClipboard('tag19772');return false;" class="tag-decoration">release</div><div id="tag15649" onclick="CopyToClipboard('tag15649');return false;" class="tag-decoration">release-5c234ff</div><div id="tag31434" onclick="CopyToClipboard('tag31434');return false;" class="tag-decoration">release-1.43.5.11079-b3b13e506</div></td><td>Stable</td><td><a href="https://github.com/hotio/plex/commit/5c234ff876005af2bffb21c52f9cc9219418e48f" target="_blank">Modified: meta.json</a></td><td><a href="https://github.com/hotio/plex/actions/runs/44726451965" target="_blank">2026-11-20 11:17:56</a></td></tr>
+<tr><td><div class="tag-decoration-latest">latest</div><div id="tag18635" onclick="CopyToClipboard('tag18635');return false;" class="tag-decoration">release</div><div id="tag537" onclick="CopyToClipboard('tag537');return false;" class="tag-decoration">release-0188ead</div><div id="tag22691" onclick="CopyToClipboard('tag22691');return false;" class="tag-decoration">release-1.43.5.11079-b3b13e506</div></td><td>Stable</td><td><a href="https://github.com/hotio/plex/commit/0188ead43567a61ffa57afb94fa272f4e7c41a33" target="_blank">Modified: meta.json</a></td><td><a href="https://github.com/hotio/plex/actions/runs/44806547392" target="_blank">2026-11-20 19:54:51</a></td></tr>
 </tbody>
   </table>
 </div>
