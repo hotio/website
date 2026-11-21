@@ -1,16 +1,16 @@
 {
   "nightly": {
-    "commit_message": "Modified: meta.json, packages.txt",
-    "commit_sha": "36de51f55db2397392b3ff827eff5a4e2eae7b3a",
+    "commit_message": "Modified: meta.json",
+    "commit_sha": "cbdad0d550d9fc8f442c0e5dcfbc5bb61f21bf73",
     "description": "Every commit to develop",
     "hide": false,
-    "last_updated": "2026-11-21T03:42:23.000Z",
-    "last_updated_url": "https://github.com/hotio/qbitmanage/actions/runs/44862492175",
+    "last_updated": "2026-11-21T18:54:41.000Z",
+    "last_updated_url": "https://github.com/hotio/qbitmanage/actions/runs/44938075301",
     "tags": [
       "",
       "nightly",
-      "nightly-36de51f",
-      "nightly-77daad37810e7e2572c5b45fb42a19f1ff62196d",
+      "nightly-cbdad0d",
+      "nightly-11fb913deb1e529ecd2f4e23ab94998d47a08147",
       "",
       "",
       ""
