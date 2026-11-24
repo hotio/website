@@ -1,15 +1,15 @@
 {
   "nightly": {
     "commit_message": "Modified: meta.json",
-    "commit_sha": "6d4265d1fe455778517d4c1ecf0b5c66e5117c68",
+    "commit_sha": "7bea661ede705c050e4d7f08ea5b7c4a96ffa9aa",
     "description": "Canary releases",
-    "last_updated": "2026-11-24T06:53:38.000Z",
-    "last_updated_url": "https://github.com/hotio/slskd/actions/runs/45343838732",
+    "last_updated": "2026-11-24T18:48:03.000Z",
+    "last_updated_url": "https://github.com/hotio/slskd/actions/runs/45463412114",
     "tags": [
       "",
       "nightly",
-      "nightly-6d4265d",
-      "nightly-0.26.2.65534-02f7849e",
+      "nightly-7bea661",
+      "nightly-0.26.2.65534-f4accbf9",
       "",
       "",
       ""
