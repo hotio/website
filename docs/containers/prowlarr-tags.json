@@ -1,15 +1,15 @@
 {
   "nightly": {
     "commit_message": "Modified: meta.json",
-    "commit_sha": "93c1f7c5bf1acf4c3e9f77b1aa0245d0447f7f72",
+    "commit_sha": "2e021874e66d2d9ece0cc0efb670cf60f1204f90",
     "description": "nightly",
     "hide": false,
-    "last_updated": "2026-11-23T03:27:23.000Z",
-    "last_updated_url": "https://github.com/hotio/prowlarr/actions/runs/45106088633",
+    "last_updated": "2026-11-24T01:21:44.000Z",
+    "last_updated_url": "https://github.com/hotio/prowlarr/actions/runs/45304481578",
     "tags": [
       "",
       "nightly",
-      "nightly-93c1f7c",
+      "nightly-2e02187",
       "nightly-3.1.0.5797",
       "",
       "",
