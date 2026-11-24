@@ -1,15 +1,15 @@
 {
   "nightly": {
     "commit_message": "Modified: meta.json",
-    "commit_sha": "2a105052878b5ffb6465b6340f67ce465b70966f",
+    "commit_sha": "d5c4eb3ddbdc53c1d3ac81e38228bf26c148aa40",
     "description": "Every commit to master",
     "hide": false,
-    "last_updated": "2026-11-24T08:47:41.000Z",
-    "last_updated_url": "https://github.com/hotio/autoscan/actions/runs/45359241914",
+    "last_updated": "2026-11-24T19:59:23.000Z",
+    "last_updated_url": "https://github.com/hotio/autoscan/actions/runs/45476001358",
     "tags": [
       "",
       "nightly",
-      "nightly-2a10505",
+      "nightly-d5c4eb3",
       "nightly-1d41f4b47ede7531ecc24944bfcaf88db10c2ba7",
       "",
       "",
