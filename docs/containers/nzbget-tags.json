@@ -1,15 +1,15 @@
 {
   "release": {
     "commit_message": "Modified: meta.json",
-    "commit_sha": "4cb1b8a274c6974f79c386c62635d5fe03426043",
+    "commit_sha": "bbfccd40d22435e0a507235ef74d48c8a8785577",
     "description": "Releases",
     "hide": false,
-    "last_updated": "2026-11-25T02:54:38.000Z",
-    "last_updated_url": "https://github.com/hotio/nzbget/actions/runs/45536269049",
+    "last_updated": "2026-11-26T03:54:04.000Z",
+    "last_updated_url": "https://github.com/hotio/nzbget/actions/runs/45751808900",
     "tags": [
       "latest",
       "release",
-      "release-4cb1b8a",
+      "release-bbfccd4",
       "release-26.3",
       "",
       "",
