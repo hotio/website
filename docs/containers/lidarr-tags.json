@@ -34,16 +34,16 @@
     ]
   },
   "testing": {
-    "commit_message": "Modified: meta.json",
-    "commit_sha": "57565d114ed381700531c2b4101c4ee34a97dbb4",
+    "commit_message": "Modified: packages.txt",
+    "commit_sha": "0299e1dfb20a7be1a218f569aab9f839a855b90f",
     "description": "develop",
     "hide": false,
-    "last_updated": "2026-11-26T04:51:15.000Z",
-    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/45757820134",
+    "last_updated": "2026-11-27T18:01:12.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/46046271333",
     "tags": [
       "",
       "testing",
-      "testing-57565d1",
+      "testing-0299e1d",
       "testing-3.2.1.5196",
       "",
       "",
